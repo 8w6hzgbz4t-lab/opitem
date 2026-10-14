@@ -1,0 +1,19 @@
+{
+  "source_place": "StealAnOPItem_62_Alpha.rbxlx",
+  "output_place": "StealAnOPItem_63_DetailedArt.rbxlx",
+  "source_sha256": "e910b41a26cd47a634afa3fc02fc9e062e9fe36938d2463042a3935335b919f7",
+  "output_sha256": "666cb824abab2aaf340a423a1c2d9b2e64d731fbb3eef4feb4f79bf65f11d18a",
+  "original_objects_preserved": 228,
+  "original_catalog_items_preserved": 42,
+  "total_collectibles": 46,
+  "native_session_groups_passed_per_version": 6,
+  "catalog_assertions_passed": 2556,
+  "entrance_assertions_passed": 43,
+  "carry_snapshot_client_render_and_label_checks": "passed using actual module code with offline Roblox API harness",
+  "geometry_checks": "all 46 item builders passed budgets, finite geometry, parent assignment, scale, rotated placement and collision consistency",
+  "world_generation": "actual World.build passed; 4656 static world parts; eight bases with eight slots each",
+  "pokemon_probability_before": 0.13809,
+  "pokemon_probability_after": 0.07614,
+  "studio_multiplayer_tested": false,
+  "published": false
+}
