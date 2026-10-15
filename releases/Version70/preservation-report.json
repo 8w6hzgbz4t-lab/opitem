@@ -1,0 +1,22 @@
+{
+  "baseline": "StealAnOPItem_69_ArtAndLotus.rbxlx",
+  "baseline_sha256": "4e1273b0e62ed6b57595a6842ee40e2e4a0a938f8afc41c23c7868f1d6423e4e",
+  "output": "StealAnOPItem_70_SliferAndItems.rbxlx",
+  "output_sha256": "334e213f3d138f49a180c0c0ecd4b69c39ab753d862899e4dc6886d05d37591a",
+  "original_objects_preserved": 286,
+  "total_objects": 287,
+  "modified_sources": [
+    "ArtChecks.lua",
+    "Client.lua",
+    "DetailedArt/EnhancedScene.lua",
+    "DetailedArt/NewCollectibles.lua",
+    "FreeModels/NintendoItems.lua"
+  ],
+  "added_modules": [
+    "DetailedArt/SliferArt.lua"
+  ],
+  "original_properties_preserved_except_listed_sources": true,
+  "gameplay_catalog_stats_and_puzzle_preserved": true,
+  "studio_playtest_performed": false,
+  "published_to_roblox": false
+}

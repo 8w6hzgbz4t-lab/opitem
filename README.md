@@ -1,17 +1,17 @@
 # Steal An OP Item
 
-The latest cloud-built model update is **version 64**, based on the preserved version 63 game.
+The latest cloud-built update is **version 70**, based directly on the user's uploaded version 69 game.
 
-- Ready-to-open game: `releases/StealAnOPItem_64_FreeModels.rbxlx`.
-- Complete free source/model pack: `releases/FreeRobloxModels_Complete.zip`.
-- Item and decoration previews: `releases/FreeRobloxModels/NewItems.png` and `NewDecorations.png`.
-- Full scope and import instructions: `releases/FreeRobloxModels/README.md`.
-- Terminal Codex handoff: `releases/FREE_MODELS_HANDOFF.md`.
+- Ready-to-open game: `releases/StealAnOPItem_70_SliferAndItems.rbxlx`.
+- Complete source handoff: `releases/Version70_SourceAndGame.zip`.
+- Item previews: `releases/Version70Items/New19Items.png` and `All65Items.png`.
+- Scope, preservation and validation: `releases/Version70/README.md`.
+- Terminal Codex handoff: `releases/VERSION_70_HANDOFF.md`.
 
-The new models are actual native Roblox geometry and require no Meshy subscription, API key or model asset IDs. Version 64 has 63 buyable catalog entries, preserves the Millennium Puzzle and original item stats, and integrates improved scenery plus a flying Ho-Oh.
+All 65 actual catalog models were audited, including the 19 newer collectibles. Krabby Patty, Black Lotus and Death Note received focused detail improvements. Animated Slifer now occupies its former statue site, with detailed geometry and client motion. Ra, the Millennium Puzzle, item stats, IDs and Version 69 gameplay remain unchanged.
 
-This is the model/visual update. The separate power/HUD/spawn rebalance and Infinity collection reward prompt still requires its gameplay implementation. The exact Squidward meme artwork remains reference-dependent; its finished empty frame is provided separately.
+The models use native Roblox geometry and require no Meshy subscription, API key or external model asset IDs. The eight-power system and Infinity Stone rewards already present in Version 69 are preserved.
 
-Open the `.rbxlx` in Roblox Studio and press Play. Offline geometry, catalog, transaction, flight and preservation checks pass. Live Studio visual/performance and multiplayer checks remain required. Nothing has been published to Roblox. Main is unchanged; handoffs are on `codex/version-63-handoff`.
+Open the `.rbxlx` in Roblox Studio and press Play. Offline geometry, catalog, transaction, animation, full-world and preservation checks pass. Live Studio visual/performance and multiplayer checks remain required. Nothing has been published to Roblox. Main is unchanged; handoffs are on `codex/version-63-handoff`.
 
-The earlier version 63 game and source archive remain in `releases/`; its notes are retained in `docs/version63-notes.md`. The old `meshy/` folder is an optional API workflow and is not required by the free model release.
+Earlier releases remain available in `releases/`. The original Version 69 upload is preserved in `roblox/original/`, and the editable Version 70 sources are in `roblox/v70-game/`. The old `meshy/` folder is an optional API workflow and is not required.

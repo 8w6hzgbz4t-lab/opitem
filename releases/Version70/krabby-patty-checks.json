@@ -1,0 +1,13 @@
+{
+  "parts": 181,
+  "budget": 240,
+  "dimensions": [
+    3.40179857314,
+    2.78857221343,
+    3.40179857314
+  ],
+  "surfaceFittedSeeds": 33,
+  "attachedSeeds": true,
+  "allOtherBuildersUnchanged": true,
+  "recorderChecks": "finite geometry, part budget, parent assignment, scaling, rotated placement, collision consistency"
+}
