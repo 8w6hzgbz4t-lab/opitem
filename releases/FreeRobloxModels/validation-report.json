@@ -1,0 +1,30 @@
+{
+  "release": "version64_free_native_models",
+  "catalog_items": 63,
+  "new_buyable_items": 17,
+  "original_item_records_preserved": 46,
+  "base_version63_objects_preserved": 242,
+  "native_requested_assets": 33,
+  "complete_bird_extra_export": true,
+  "total_model_exports": 34,
+  "geometry_catalog_flight_assertions_passed": 64441,
+  "native_catalog_transaction_assertions_passed": 64087,
+  "original_session_groups_passed": 6,
+  "world_static_parts": 8943,
+  "paid_services_required": false,
+  "external_model_ids_required": false,
+  "pending_reference_assets": [
+    "squidward_force_of_despair_painting"
+  ],
+  "studio_tested": false,
+  "published_to_roblox": false,
+  "place_sha256": "4e774cf6d1a1cb2ee1a85a96941927f8f4941df0106a29b0f70f10c00252cfc6",
+  "deferred_gameplay": [
+    "eight-power rebalance and VFX",
+    "HUD resizing",
+    "weapon spawn reduction",
+    "Rare/Epic boost",
+    "conveyor speed change",
+    "Infinity Stone progression and comet event"
+  ]
+}

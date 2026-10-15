@@ -1,0 +1,576 @@
+[
+  {
+    "key": "detailed_workbench",
+    "name": "Detailed workbench",
+    "family": "WorkshopBuildings",
+    "role": "decoration",
+    "existing_item_id": null,
+    "part_budget": 320,
+    "align_base": true,
+    "reference_required": false,
+    "parts": 165,
+    "size": [
+      10.68,
+      5.935,
+      4.22
+    ],
+    "status": "built"
+  },
+  {
+    "key": "power_console",
+    "name": "Power selection and upgrade console",
+    "family": "WorkshopBuildings",
+    "role": "decoration",
+    "existing_item_id": null,
+    "part_budget": 280,
+    "align_base": true,
+    "reference_required": false,
+    "parts": 92,
+    "size": [
+      6.5,
+      6.65,
+      4.01973812839
+    ],
+    "status": "built"
+  },
+  {
+    "key": "clash_crown_tower",
+    "name": "Clash Royale crown tower",
+    "family": "WorkshopBuildings",
+    "role": "decoration",
+    "existing_item_id": null,
+    "part_budget": 500,
+    "align_base": true,
+    "reference_required": false,
+    "parts": 342,
+    "size": [
+      15,
+      33.228,
+      15
+    ],
+    "status": "built"
+  },
+  {
+    "key": "blue_shell",
+    "name": "Mario Kart Blue Shell",
+    "family": "NintendoItems",
+    "role": "item",
+    "existing_item_id": "item05",
+    "part_budget": 240,
+    "align_base": true,
+    "reference_required": false,
+    "parts": 151,
+    "size": [
+      5.45886215841,
+      2.8037006457,
+      2.72889386656
+    ],
+    "status": "built"
+  },
+  {
+    "key": "kirby_sword",
+    "name": "Kirby Sword",
+    "family": "NintendoItems",
+    "role": "item",
+    "existing_item_id": null,
+    "part_budget": 240,
+    "align_base": true,
+    "reference_required": false,
+    "parts": 107,
+    "size": [
+      2.14,
+      5.06751630312,
+      0.63
+    ],
+    "status": "built"
+  },
+  {
+    "key": "golden_spatula",
+    "name": "SpongeBob Golden Spatula",
+    "family": "NintendoItems",
+    "role": "item",
+    "existing_item_id": null,
+    "part_budget": 240,
+    "align_base": true,
+    "reference_required": false,
+    "parts": 95,
+    "size": [
+      1.595,
+      4.52330086477,
+      0.4075
+    ],
+    "status": "built"
+  },
+  {
+    "key": "krabby_patty",
+    "name": "Krabby Patty",
+    "family": "NintendoItems",
+    "role": "item",
+    "existing_item_id": null,
+    "part_budget": 240,
+    "align_base": true,
+    "reference_required": false,
+    "parts": 103,
+    "size": [
+      3.2,
+      2.71794585116,
+      3.17081204267
+    ],
+    "status": "built"
+  },
+  {
+    "key": "gary_shell",
+    "name": "Gary Shell",
+    "family": "NintendoItems",
+    "role": "item",
+    "existing_item_id": null,
+    "part_budget": 240,
+    "align_base": true,
+    "reference_required": false,
+    "parts": 111,
+    "size": [
+      3.13333017323,
+      3.13342148602,
+      2.16456113285
+    ],
+    "status": "built"
+  },
+  {
+    "key": "super_star",
+    "name": "Mario Super Star",
+    "family": "NintendoItems",
+    "role": "item",
+    "existing_item_id": null,
+    "part_budget": 240,
+    "align_base": true,
+    "reference_required": false,
+    "parts": 86,
+    "size": [
+      3.3180995039,
+      3.20962074788,
+      0.816775243702
+    ],
+    "status": "built"
+  },
+  {
+    "key": "fire_flower",
+    "name": "Mario Fire Flower",
+    "family": "NintendoItems",
+    "role": "item",
+    "existing_item_id": null,
+    "part_budget": 240,
+    "align_base": true,
+    "reference_required": false,
+    "parts": 60,
+    "size": [
+      2.52841323059,
+      3.89,
+      1.147
+    ],
+    "status": "built"
+  },
+  {
+    "key": "hylian_shield",
+    "name": "Hylian Shield",
+    "family": "NintendoItems",
+    "role": "item",
+    "existing_item_id": null,
+    "part_budget": 240,
+    "align_base": true,
+    "reference_required": false,
+    "parts": 102,
+    "size": [
+      3.70797776613,
+      4.35989274105,
+      1.09785280738
+    ],
+    "status": "built"
+  },
+  {
+    "key": "companion_cube",
+    "name": "Portal Companion Cube",
+    "family": "RelicItems",
+    "role": "item",
+    "existing_item_id": null,
+    "part_budget": 240,
+    "align_base": true,
+    "reference_required": false,
+    "parts": 234,
+    "size": [
+      4.115,
+      4.115,
+      4.115
+    ],
+    "status": "built"
+  },
+  {
+    "key": "proton_pack",
+    "name": "Ghostbusters Proton Pack",
+    "family": "RelicItems",
+    "role": "item",
+    "existing_item_id": null,
+    "part_budget": 240,
+    "align_base": true,
+    "reference_required": false,
+    "parts": 193,
+    "size": [
+      3.47699957526,
+      4.73309348948,
+      1.84191753695
+    ],
+    "status": "built"
+  },
+  {
+    "key": "infinity_space",
+    "name": "Space Stone",
+    "family": "RelicItems",
+    "role": "item",
+    "existing_item_id": null,
+    "part_budget": 240,
+    "align_base": true,
+    "reference_required": false,
+    "parts": 163,
+    "size": [
+      2.61544183335,
+      2.41590492626,
+      2.08654885891
+    ],
+    "status": "built"
+  },
+  {
+    "key": "infinity_mind",
+    "name": "Mind Stone",
+    "family": "RelicItems",
+    "role": "item",
+    "existing_item_id": null,
+    "part_budget": 240,
+    "align_base": true,
+    "reference_required": false,
+    "parts": 163,
+    "size": [
+      1.99196955226,
+      2.82695785203,
+      1.47214831223
+    ],
+    "status": "built"
+  },
+  {
+    "key": "infinity_reality",
+    "name": "Reality Stone",
+    "family": "RelicItems",
+    "role": "item",
+    "existing_item_id": null,
+    "part_budget": 240,
+    "align_base": true,
+    "reference_required": false,
+    "parts": 143,
+    "size": [
+      2.40461418275,
+      2.7433351482,
+      1.5959958432
+    ],
+    "status": "built"
+  },
+  {
+    "key": "infinity_power",
+    "name": "Power Stone",
+    "family": "RelicItems",
+    "role": "item",
+    "existing_item_id": null,
+    "part_budget": 240,
+    "align_base": true,
+    "reference_required": false,
+    "parts": 123,
+    "size": [
+      2.51394054382,
+      2.48919924339,
+      2.19621488568
+    ],
+    "status": "built"
+  },
+  {
+    "key": "infinity_time",
+    "name": "Time Stone",
+    "family": "RelicItems",
+    "role": "item",
+    "existing_item_id": null,
+    "part_budget": 240,
+    "align_base": true,
+    "reference_required": false,
+    "parts": 204,
+    "size": [
+      2.34008305964,
+      2.38535852906,
+      1.81240983342
+    ],
+    "status": "built"
+  },
+  {
+    "key": "infinity_soul",
+    "name": "Soul Stone",
+    "family": "RelicItems",
+    "role": "item",
+    "existing_item_id": null,
+    "part_budget": 240,
+    "align_base": true,
+    "reference_required": false,
+    "parts": 163,
+    "size": [
+      2.17998547281,
+      2.68536515101,
+      1.72293733942
+    ],
+    "status": "built"
+  },
+  {
+    "key": "pekka",
+    "name": "Clash Royale P.E.K.K.A",
+    "family": "WarriorModels",
+    "role": "item",
+    "existing_item_id": null,
+    "part_budget": 240,
+    "align_base": true,
+    "reference_required": false,
+    "parts": 147,
+    "size": [
+      3.54302781483,
+      5.29399103767,
+      1.315
+    ],
+    "status": "built"
+  },
+  {
+    "key": "mega_knight",
+    "name": "Clash Royale Mega Knight",
+    "family": "WarriorModels",
+    "role": "item",
+    "existing_item_id": null,
+    "part_budget": 240,
+    "align_base": true,
+    "reference_required": false,
+    "parts": 156,
+    "size": [
+      3.38058426966,
+      4.655,
+      1.35582964518
+    ],
+    "status": "built"
+  },
+  {
+    "key": "dragon_balls",
+    "name": "Seven Dragon Balls collectible set",
+    "family": "ExtraItems",
+    "role": "item",
+    "existing_item_id": "item43",
+    "part_budget": 240,
+    "align_base": true,
+    "reference_required": false,
+    "parts": 164,
+    "size": [
+      3.16,
+      2.87,
+      1.05
+    ],
+    "status": "built"
+  },
+  {
+    "key": "winged_dragon_ra",
+    "name": "The Winged Dragon of Ra monument",
+    "family": "WarriorModels",
+    "role": "decoration",
+    "existing_item_id": null,
+    "part_budget": 500,
+    "align_base": true,
+    "reference_required": false,
+    "parts": 348,
+    "size": [
+      32.4403754408,
+      20.8006291484,
+      13.8627684054
+    ],
+    "status": "built"
+  },
+  {
+    "key": "obelisk_tormentor",
+    "name": "Obelisk the Tormentor monument",
+    "family": "WarriorModels",
+    "role": "decoration",
+    "existing_item_id": null,
+    "part_budget": 500,
+    "align_base": true,
+    "reference_required": false,
+    "parts": 289,
+    "size": [
+      12.63,
+      22.9084003454,
+      5.21670164341
+    ],
+    "status": "built"
+  },
+  {
+    "key": "mtg_black_lotus_card",
+    "name": "Detailed Magic card decoration",
+    "family": "CardDecor",
+    "role": "decoration",
+    "existing_item_id": null,
+    "part_budget": 500,
+    "align_base": true,
+    "reference_required": false,
+    "parts": 224,
+    "size": [
+      16,
+      23,
+      2.705
+    ],
+    "status": "built"
+  },
+  {
+    "key": "mirror_force_card",
+    "name": "Mirror Force card surrounding energy planet",
+    "family": "CardDecor",
+    "role": "decoration",
+    "existing_item_id": null,
+    "part_budget": 500,
+    "align_base": true,
+    "reference_required": false,
+    "parts": 254,
+    "size": [
+      32,
+      47,
+      2.76
+    ],
+    "status": "built"
+  },
+  {
+    "key": "squidward_force_of_despair_painting",
+    "name": "Squidward Force of Despair meme painting",
+    "family": "CardDecor",
+    "role": "decoration",
+    "existing_item_id": null,
+    "part_budget": 240,
+    "align_base": true,
+    "reference_required": true,
+    "parts": 46,
+    "size": [
+      13.6,
+      17.34,
+      1.455
+    ],
+    "status": "frame_ready_reference_needed"
+  },
+  {
+    "key": "exodia_spellbinding_circle_chains",
+    "name": "Exodia Spellbinding Circle and chains",
+    "family": "CardDecor",
+    "role": "decoration",
+    "existing_item_id": null,
+    "part_budget": 700,
+    "align_base": false,
+    "reference_required": false,
+    "parts": 587,
+    "size": [
+      40.5,
+      40.5,
+      3.48464548247
+    ],
+    "status": "built"
+  },
+  {
+    "key": "hooh_bell_tower",
+    "name": "Ho-Oh Bell Tower",
+    "family": "WorkshopBuildings",
+    "role": "decoration",
+    "existing_item_id": null,
+    "part_budget": 700,
+    "align_base": true,
+    "reference_required": false,
+    "parts": 642,
+    "size": [
+      23,
+      43.5,
+      25.25
+    ],
+    "status": "built"
+  },
+  {
+    "key": "hooh_body",
+    "name": "Ho-Oh body and head",
+    "family": "HoOhModel",
+    "role": "decoration",
+    "existing_item_id": null,
+    "part_budget": 240,
+    "align_base": false,
+    "reference_required": false,
+    "parts": 184,
+    "size": [
+      2.92,
+      5.7833028267,
+      3.43480478752
+    ],
+    "status": "built"
+  },
+  {
+    "key": "hooh_wing_left",
+    "name": "Ho-Oh left wing",
+    "family": "HoOhModel",
+    "role": "decoration",
+    "existing_item_id": null,
+    "part_budget": 240,
+    "align_base": false,
+    "reference_required": false,
+    "parts": 172,
+    "size": [
+      7.52095966538,
+      1.51527502595,
+      4.61609902896
+    ],
+    "status": "built"
+  },
+  {
+    "key": "hooh_wing_right",
+    "name": "Ho-Oh right wing",
+    "family": "HoOhModel",
+    "role": "decoration",
+    "existing_item_id": null,
+    "part_budget": 240,
+    "align_base": false,
+    "reference_required": false,
+    "parts": 172,
+    "size": [
+      7.52095966538,
+      1.51527502595,
+      4.61609902896
+    ],
+    "status": "built"
+  },
+  {
+    "key": "hooh_tail",
+    "name": "Ho-Oh tail-feather fan",
+    "family": "HoOhModel",
+    "role": "decoration",
+    "existing_item_id": null,
+    "part_budget": 240,
+    "align_base": false,
+    "reference_required": false,
+    "parts": 97,
+    "size": [
+      4.93404422308,
+      1.00539934979,
+      5.7188940404
+    ],
+    "status": "built"
+  },
+  {
+    "key": "hooh_complete",
+    "name": "Ho-Oh Complete Bird",
+    "role": "decoration",
+    "reference_required": false,
+    "parts": 622,
+    "size": [
+      16.2868955881,
+      5.7833028267,
+      8.31652993279
+    ],
+    "status": "built"
+  }
+]

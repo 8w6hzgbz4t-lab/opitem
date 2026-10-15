@@ -1,0 +1,332 @@
+[
+  {
+    "key": "detailed_workbench",
+    "name": "Detailed workbench",
+    "family": "WorkshopBuildings",
+    "role": "decoration",
+    "existing_item_id": null,
+    "part_budget": 320,
+    "align_base": true,
+    "reference_required": false
+  },
+  {
+    "key": "power_console",
+    "name": "Power selection and upgrade console",
+    "family": "WorkshopBuildings",
+    "role": "decoration",
+    "existing_item_id": null,
+    "part_budget": 280,
+    "align_base": true,
+    "reference_required": false
+  },
+  {
+    "key": "clash_crown_tower",
+    "name": "Clash Royale crown tower",
+    "family": "WorkshopBuildings",
+    "role": "decoration",
+    "existing_item_id": null,
+    "part_budget": 500,
+    "align_base": true,
+    "reference_required": false
+  },
+  {
+    "key": "blue_shell",
+    "name": "Mario Kart Blue Shell",
+    "family": "NintendoItems",
+    "role": "item",
+    "existing_item_id": "item05",
+    "part_budget": 240,
+    "align_base": true,
+    "reference_required": false
+  },
+  {
+    "key": "kirby_sword",
+    "name": "Kirby Sword",
+    "family": "NintendoItems",
+    "role": "item",
+    "existing_item_id": null,
+    "part_budget": 240,
+    "align_base": true,
+    "reference_required": false
+  },
+  {
+    "key": "golden_spatula",
+    "name": "SpongeBob Golden Spatula",
+    "family": "NintendoItems",
+    "role": "item",
+    "existing_item_id": null,
+    "part_budget": 240,
+    "align_base": true,
+    "reference_required": false
+  },
+  {
+    "key": "krabby_patty",
+    "name": "Krabby Patty",
+    "family": "NintendoItems",
+    "role": "item",
+    "existing_item_id": null,
+    "part_budget": 240,
+    "align_base": true,
+    "reference_required": false
+  },
+  {
+    "key": "gary_shell",
+    "name": "Gary Shell",
+    "family": "NintendoItems",
+    "role": "item",
+    "existing_item_id": null,
+    "part_budget": 240,
+    "align_base": true,
+    "reference_required": false
+  },
+  {
+    "key": "super_star",
+    "name": "Mario Super Star",
+    "family": "NintendoItems",
+    "role": "item",
+    "existing_item_id": null,
+    "part_budget": 240,
+    "align_base": true,
+    "reference_required": false
+  },
+  {
+    "key": "fire_flower",
+    "name": "Mario Fire Flower",
+    "family": "NintendoItems",
+    "role": "item",
+    "existing_item_id": null,
+    "part_budget": 240,
+    "align_base": true,
+    "reference_required": false
+  },
+  {
+    "key": "hylian_shield",
+    "name": "Hylian Shield",
+    "family": "NintendoItems",
+    "role": "item",
+    "existing_item_id": null,
+    "part_budget": 240,
+    "align_base": true,
+    "reference_required": false
+  },
+  {
+    "key": "companion_cube",
+    "name": "Portal Companion Cube",
+    "family": "RelicItems",
+    "role": "item",
+    "existing_item_id": null,
+    "part_budget": 240,
+    "align_base": true,
+    "reference_required": false
+  },
+  {
+    "key": "proton_pack",
+    "name": "Ghostbusters Proton Pack",
+    "family": "RelicItems",
+    "role": "item",
+    "existing_item_id": null,
+    "part_budget": 240,
+    "align_base": true,
+    "reference_required": false
+  },
+  {
+    "key": "infinity_space",
+    "name": "Space Stone",
+    "family": "RelicItems",
+    "role": "item",
+    "existing_item_id": null,
+    "part_budget": 240,
+    "align_base": true,
+    "reference_required": false
+  },
+  {
+    "key": "infinity_mind",
+    "name": "Mind Stone",
+    "family": "RelicItems",
+    "role": "item",
+    "existing_item_id": null,
+    "part_budget": 240,
+    "align_base": true,
+    "reference_required": false
+  },
+  {
+    "key": "infinity_reality",
+    "name": "Reality Stone",
+    "family": "RelicItems",
+    "role": "item",
+    "existing_item_id": null,
+    "part_budget": 240,
+    "align_base": true,
+    "reference_required": false
+  },
+  {
+    "key": "infinity_power",
+    "name": "Power Stone",
+    "family": "RelicItems",
+    "role": "item",
+    "existing_item_id": null,
+    "part_budget": 240,
+    "align_base": true,
+    "reference_required": false
+  },
+  {
+    "key": "infinity_time",
+    "name": "Time Stone",
+    "family": "RelicItems",
+    "role": "item",
+    "existing_item_id": null,
+    "part_budget": 240,
+    "align_base": true,
+    "reference_required": false
+  },
+  {
+    "key": "infinity_soul",
+    "name": "Soul Stone",
+    "family": "RelicItems",
+    "role": "item",
+    "existing_item_id": null,
+    "part_budget": 240,
+    "align_base": true,
+    "reference_required": false
+  },
+  {
+    "key": "pekka",
+    "name": "Clash Royale P.E.K.K.A",
+    "family": "WarriorModels",
+    "role": "item",
+    "existing_item_id": null,
+    "part_budget": 240,
+    "align_base": true,
+    "reference_required": false
+  },
+  {
+    "key": "mega_knight",
+    "name": "Clash Royale Mega Knight",
+    "family": "WarriorModels",
+    "role": "item",
+    "existing_item_id": null,
+    "part_budget": 240,
+    "align_base": true,
+    "reference_required": false
+  },
+  {
+    "key": "dragon_balls",
+    "name": "Seven Dragon Balls collectible set",
+    "family": "ExtraItems",
+    "role": "item",
+    "existing_item_id": "item43",
+    "part_budget": 240,
+    "align_base": true,
+    "reference_required": false
+  },
+  {
+    "key": "winged_dragon_ra",
+    "name": "The Winged Dragon of Ra monument",
+    "family": "WarriorModels",
+    "role": "decoration",
+    "existing_item_id": null,
+    "part_budget": 500,
+    "align_base": true,
+    "reference_required": false
+  },
+  {
+    "key": "obelisk_tormentor",
+    "name": "Obelisk the Tormentor monument",
+    "family": "WarriorModels",
+    "role": "decoration",
+    "existing_item_id": null,
+    "part_budget": 500,
+    "align_base": true,
+    "reference_required": false
+  },
+  {
+    "key": "mtg_black_lotus_card",
+    "name": "Detailed Magic card decoration",
+    "family": "CardDecor",
+    "role": "decoration",
+    "existing_item_id": null,
+    "part_budget": 500,
+    "align_base": true,
+    "reference_required": false
+  },
+  {
+    "key": "mirror_force_card",
+    "name": "Mirror Force card surrounding energy planet",
+    "family": "CardDecor",
+    "role": "decoration",
+    "existing_item_id": null,
+    "part_budget": 500,
+    "align_base": true,
+    "reference_required": false
+  },
+  {
+    "key": "squidward_force_of_despair_painting",
+    "name": "Squidward Force of Despair meme painting",
+    "family": "CardDecor",
+    "role": "decoration",
+    "existing_item_id": null,
+    "part_budget": 240,
+    "align_base": true,
+    "reference_required": true
+  },
+  {
+    "key": "exodia_spellbinding_circle_chains",
+    "name": "Exodia Spellbinding Circle and chains",
+    "family": "CardDecor",
+    "role": "decoration",
+    "existing_item_id": null,
+    "part_budget": 700,
+    "align_base": false,
+    "reference_required": false
+  },
+  {
+    "key": "hooh_bell_tower",
+    "name": "Ho-Oh Bell Tower",
+    "family": "WorkshopBuildings",
+    "role": "decoration",
+    "existing_item_id": null,
+    "part_budget": 700,
+    "align_base": true,
+    "reference_required": false
+  },
+  {
+    "key": "hooh_body",
+    "name": "Ho-Oh body and head",
+    "family": "HoOhModel",
+    "role": "decoration",
+    "existing_item_id": null,
+    "part_budget": 240,
+    "align_base": false,
+    "reference_required": false
+  },
+  {
+    "key": "hooh_wing_left",
+    "name": "Ho-Oh left wing",
+    "family": "HoOhModel",
+    "role": "decoration",
+    "existing_item_id": null,
+    "part_budget": 240,
+    "align_base": false,
+    "reference_required": false
+  },
+  {
+    "key": "hooh_wing_right",
+    "name": "Ho-Oh right wing",
+    "family": "HoOhModel",
+    "role": "decoration",
+    "existing_item_id": null,
+    "part_budget": 240,
+    "align_base": false,
+    "reference_required": false
+  },
+  {
+    "key": "hooh_tail",
+    "name": "Ho-Oh tail-feather fan",
+    "family": "HoOhModel",
+    "role": "decoration",
+    "existing_item_id": null,
+    "part_budget": 240,
+    "align_base": false,
+    "reference_required": false
+  }
+]
