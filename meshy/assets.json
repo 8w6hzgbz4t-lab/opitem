@@ -1,0 +1,1817 @@
+{
+  "schema_version": 1,
+  "project": "Steal An OP Item",
+  "package_purpose": "Meshy generation briefs for the requested post-v63 visual update. These are prompts and import specifications, not generated meshes.",
+  "status": "not_generated",
+  "provenance": {
+    "requests": "Latest user visual-update and Infinity Stone/Ho-Oh additions, followed by the explicit request to make the designs with Meshy AI.",
+    "catalog_source": "docs/art-catalog.json, inspected in the shared repository while preparing this manifest.",
+    "generated_by": "Codex prepared text specifications only. No Meshy API calls, downloads, or mesh-generation jobs are represented by this file.",
+    "known_catalog_scope": "The inspected catalog contains item01 through item46. P.E.K.K.A and Mega Knight art builders exist, but no corresponding ID is established by that file."
+  },
+  "counts": {
+    "asset_records": 33,
+    "item_records": 19,
+    "decoration_records": 14,
+    "new_catalog_items_requested": 15,
+    "existing_catalog_items_with_known_ids": 2,
+    "exact_reference_required": 1,
+    "not_generated": 33
+  },
+  "global_style": "Create one production-ready stylized PBR game asset for a Roblox collectible arena. Use a deliberate, recognizable silhouette, layered solid geometry, crisp bevels, readable color blocks, and detailed craftsmanship comparable to an ornate gold Millennium Puzzle. Make details readable at normal third-person camera distance. Use clean UVs and an efficient atlas. Keep the object isolated, centered, and complete on every visible side. ",
+  "mesh_pipeline": {
+    "preferred_format": "GLB with textures; FBX with separate texture images if GLB import fails.",
+    "mesh_coordinates": "Map final imports to Roblox +Y up and -Z forward. Do not assume raw exporter axes already match.",
+    "material_policy": "Use a small material count and efficient atlases. Keep alpha blending off unless demonstrably required.",
+    "roblox_pbr": "Map approved PBR textures through SurfaceAppearance. Confirm MetalnessMap and RoughnessMap channels after import.",
+    "triangle_budgets": "Per assembled asset targets, not per submesh. Actual output must be inspected and decimated if needed.",
+    "budget_policy": "Prefer silhouette and large physical detail over tiny hidden geometry. Use normal maps for small grooves. Large scenery gets up to 18,000 triangles.",
+    "text_policy": "Use SurfaceGui, BillboardGui, decals, or approved image assets for text, card symbols, screens, and exact artwork. Do not depend on generated lettering.",
+    "animation_policy": "Static Meshy output is not automatically a working bird rig. Keep Ho-Oh body, wings, and tail separate, fit pivots in Blender or Studio, and build a real Roblox animation assembly.",
+    "security_policy": "No API credentials belong in this manifest, prompts, game files, or source control.",
+    "prompt_policy": "Each prompt is a complete Meshy-ready brief of at most 600 characters. Full art direction remains in design_brief. negative_prompt is metadata only; do not send it as an unsupported API field."
+  },
+  "gameplay_outside_mesh_generation": [
+    "Catalog IDs and balanced stats, rarity weights, sword/axe/pickaxe spawn reductions, conveyor speed, ownership, death persistence, purchases, theft, and collection are game-code changes.",
+    "The eight power definitions, cooldowns, server validation, shield hit handling, and attack particles/trails are game-code and Roblox VFX work.",
+    "The Infinity Stone level reward and comet celebration need once-only server-controlled logic and a legitimate client event.",
+    "HUD size, label size, card text overlays, rainbows, and clearing old white-ball scenery are Roblox layout/integration changes.",
+    "The Meshy prompts do not imply any of those systems are implemented."
+  ],
+  "assets": [
+    {
+      "asset_key": "detailed_workbench",
+      "name": "Detailed workbench",
+      "role": "decoration",
+      "status": "not_generated",
+      "existing_item_id": null,
+      "new_catalog_item_requested": false,
+      "generation_mode": "text_to_3d",
+      "needs_reference": false,
+      "reference_status": "optional_accuracy_reference_not_supplied",
+      "prompt": "Stylized PBR Roblox game asset, crisp layered solid geometry and clean UVs. Sturdy crafting workbench: thick dark wood top, beveled steel corners, four braced legs, drawers with handles, lower shelf, vise, tidy tool rack, two hand tools, rolled blueprint, warm gold trim. Keep the front work area accessible and a clean recessed label panel. Clearly a detailed bench, never a solid block. Isolated complete object. No words, watermark, ground plane or random floating pieces.",
+      "target_triangle_budget": 9000,
+      "texture_target_px": 2048,
+      "materials": {
+        "pbr": true,
+        "base_color": true,
+        "normal": true,
+        "roughness": true,
+        "metallic": true,
+        "emissive": "separate map only where the brief requests glow; keep Roblox glow subtle"
+      },
+      "deliverables": [
+        "textured GLB",
+        "FBX if available",
+        "base-color and PBR texture images"
+      ],
+      "import": {
+        "roblox_up_axis": "+Y",
+        "roblox_forward_axis": "-Z",
+        "pivot": "bottom center; base at local Y=0",
+        "intended_dimensions_studs": [
+          10,
+          6,
+          5
+        ],
+        "transform": "Apply object scale and rotation before export. Verify dimensions in Roblox Studio.",
+        "collision": "Use simple invisible Roblox collision parts where required. Do not use detailed mesh collision for decorative assets."
+      },
+      "roblox_overlays": [],
+      "assembly_components": [
+        "one mesh with a small number of material slots"
+      ],
+      "notes": [
+        "Replace only the old workbench visual. Preserve its gameplay instance, prompt, and accessible interaction position."
+      ],
+      "id": "detailed_workbench",
+      "key": "detailed_workbench",
+      "design_brief": "Create one production-ready stylized PBR game asset for a Roblox collectible arena. Use a deliberate, recognizable silhouette, layered solid geometry, crisp bevels, readable color blocks, and detailed craftsmanship comparable to an ornate gold Millennium Puzzle. Make details readable at normal third-person camera distance. Use clean UVs and an efficient atlas. Keep the object isolated, centered, and complete on every visible side. Build a complete functional-looking crafting workbench with a thick dark wood top, beveled metal corner caps, four sturdy braced legs, drawers with handles, a lower shelf, a vise, a small orderly tool rack, two visible hand tools, a rolled blueprint, and restrained warm gold trim. Keep the player-facing center of the work surface clear. Add one clean recessed rectangle for a label. The silhouette must clearly read as a workbench rather than a solid box. Avoid placeholder cubes, featureless blobs, melted shapes, paper-thin structural parts, random floating pieces, unwanted ground planes, studio rooms, pedestals unless requested, baked directional shadows, illegible lettering, watermarks, and duplicate objects. Do not generate scripts, collision cages, particle effects, or user-interface panels. Reserve flat clean areas for any requested Roblox text overlays; do not bake words into the texture.",
+      "negative_prompt": "Metadata only, not a separate supported API parameter: placeholder blocks; melted geometry; illegible text; paper-thin structural walls; random detached pieces; baked directional shadows; unwanted bases or scenery.",
+      "target_polycount": 9000,
+      "texture_prompt": "Stylized PBR game material. Rich readable colors, crisp edges, subtle wear, clean atlas, physically plausible metal and roughness. Use the color details in the generation prompt. No words, watermark, baked shadow or photorealistic background.",
+      "reference_required": false
+    },
+    {
+      "asset_key": "power_console",
+      "name": "Power selection and upgrade console",
+      "role": "decoration",
+      "status": "not_generated",
+      "existing_item_id": null,
+      "new_catalog_item_requested": false,
+      "generation_mode": "text_to_3d",
+      "needs_reference": false,
+      "reference_status": "optional_accuracy_reference_not_supplied",
+      "prompt": "Stylized PBR Roblox game asset, crisp layered solid geometry and clean UVs. Compact futuristic power console with sloped face, angular frame, recessed blank dark screen, exactly eight physical selection buttons, hood, vents, gold trim and subtle blue-violet light strips. Open braced base and approachable front. Leave screen flat for Roblox UI; do not bake text. Isolated complete object. No words, watermark, ground plane or random floating pieces.",
+      "target_triangle_budget": 8000,
+      "texture_target_px": 2048,
+      "materials": {
+        "pbr": true,
+        "base_color": true,
+        "normal": true,
+        "roughness": true,
+        "metallic": true,
+        "emissive": "separate map only where the brief requests glow; keep Roblox glow subtle"
+      },
+      "deliverables": [
+        "textured GLB",
+        "FBX if available",
+        "base-color and PBR texture images"
+      ],
+      "import": {
+        "roblox_up_axis": "+Y",
+        "roblox_forward_axis": "-Z",
+        "pivot": "bottom center; base at local Y=0",
+        "intended_dimensions_studs": [
+          7,
+          6,
+          4
+        ],
+        "transform": "Apply object scale and rotation before export. Verify dimensions in Roblox Studio.",
+        "collision": "Use simple invisible Roblox collision parts where required. Do not use detailed mesh collision for decorative assets."
+      },
+      "roblox_overlays": [
+        "Screen contents and all text are Roblox SurfaceGui elements."
+      ],
+      "assembly_components": [
+        "one mesh with a small number of material slots"
+      ],
+      "notes": [
+        "Eight physical buttons are decoration. Power selection and validation remain server-controlled."
+      ],
+      "id": "power_console",
+      "key": "power_console",
+      "design_brief": "Create one production-ready stylized PBR game asset for a Roblox collectible arena. Use a deliberate, recognizable silhouette, layered solid geometry, crisp bevels, readable color blocks, and detailed craftsmanship comparable to an ornate gold Millennium Puzzle. Make details readable at normal third-person camera distance. Use clean UVs and an efficient atlas. Keep the object isolated, centered, and complete on every visible side. Build a compact futuristic power console with a sloped control face, an angular reinforced frame, a recessed dark screen, eight clean physical selection buttons, a small protective hood, side vents, gold trim, and neat blue-violet emissive strips. Keep the front approachable and add an empty rectangular screen surface that can accept a Roblox SurfaceGui. Use a distinct readable console silhouette with an open base and visible legs rather than a blank block. Avoid placeholder cubes, featureless blobs, melted shapes, paper-thin structural parts, random floating pieces, unwanted ground planes, studio rooms, pedestals unless requested, baked directional shadows, illegible lettering, watermarks, and duplicate objects. Do not generate scripts, collision cages, particle effects, or user-interface panels. Reserve flat clean areas for any requested Roblox text overlays; do not bake words into the texture.",
+      "negative_prompt": "Metadata only, not a separate supported API parameter: placeholder blocks; melted geometry; illegible text; paper-thin structural walls; random detached pieces; baked directional shadows; unwanted bases or scenery.",
+      "target_polycount": 8000,
+      "texture_prompt": "Stylized PBR game material. Rich readable colors, crisp edges, subtle wear, clean atlas, physically plausible metal and roughness. Use the color details in the generation prompt. No words, watermark, baked shadow or photorealistic background.",
+      "reference_required": false
+    },
+    {
+      "asset_key": "clash_crown_tower",
+      "name": "Clash Royale crown tower",
+      "role": "decoration",
+      "status": "not_generated",
+      "existing_item_id": null,
+      "new_catalog_item_requested": false,
+      "generation_mode": "text_to_3d",
+      "needs_reference": false,
+      "reference_status": "optional_accuracy_reference_not_supplied",
+      "prompt": "Stylized PBR Roblox game asset, crisp layered solid geometry and clean UVs. Recognizable Clash Royale crown tower: tall square stone tower, sculpted stone courses, battlements, heavy wood braces, dark arch doorway, large blue banners with raised gold crown emblems, blue roof cap, gold corners and prominent three-point crown crest. Finish all sides. No character or firing effect. Isolated complete object. No words, watermark, ground plane or random floating pieces.",
+      "target_triangle_budget": 16000,
+      "texture_target_px": 2048,
+      "materials": {
+        "pbr": true,
+        "base_color": true,
+        "normal": true,
+        "roughness": true,
+        "metallic": true,
+        "emissive": "separate map only where the brief requests glow; keep Roblox glow subtle"
+      },
+      "deliverables": [
+        "textured GLB",
+        "FBX if available",
+        "base-color and PBR texture images"
+      ],
+      "import": {
+        "roblox_up_axis": "+Y",
+        "roblox_forward_axis": "-Z",
+        "pivot": "bottom center; base at local Y=0",
+        "intended_dimensions_studs": [
+          14,
+          33,
+          14
+        ],
+        "transform": "Apply object scale and rotation before export. Verify dimensions in Roblox Studio.",
+        "collision": "Use simple invisible Roblox collision parts where required. Do not use detailed mesh collision for decorative assets."
+      },
+      "roblox_overlays": [],
+      "assembly_components": [
+        "one mesh with a small number of material slots"
+      ],
+      "notes": [
+        "Position above perimeter wall height. Decorative tower only; existing boundaries remain solid and navigable."
+      ],
+      "id": "clash_crown_tower",
+      "key": "clash_crown_tower",
+      "design_brief": "Create one production-ready stylized PBR game asset for a Roblox collectible arena. Use a deliberate, recognizable silhouette, layered solid geometry, crisp bevels, readable color blocks, and detailed craftsmanship comparable to an ornate gold Millennium Puzzle. Make details readable at normal third-person camera distance. Use clean UVs and an efficient atlas. Keep the object isolated, centered, and complete on every visible side. Build a recognizable Clash Royale crown tower: a tall chunky square stone tower with sculpted individual stone courses, projecting battlements, heavy timber braces, a dark arched entrance, blue fabric banners with large raised gold crown emblems, a blue upper roof cap, gold corner details, and a large three-point crown crest facing forward. Make the crown emblem and blue banner readable from across an arena. Finish the rear and sides with matching stone and wood details. No characters and no cannon firing effects. Avoid placeholder cubes, featureless blobs, melted shapes, paper-thin structural parts, random floating pieces, unwanted ground planes, studio rooms, pedestals unless requested, baked directional shadows, illegible lettering, watermarks, and duplicate objects. Do not generate scripts, collision cages, particle effects, or user-interface panels. Reserve flat clean areas for any requested Roblox text overlays; do not bake words into the texture.",
+      "negative_prompt": "Metadata only, not a separate supported API parameter: placeholder blocks; melted geometry; illegible text; paper-thin structural walls; random detached pieces; baked directional shadows; unwanted bases or scenery.",
+      "target_polycount": 16000,
+      "texture_prompt": "Stylized PBR game material. Rich readable colors, crisp edges, subtle wear, clean atlas, physically plausible metal and roughness. Use the color details in the generation prompt. No words, watermark, baked shadow or photorealistic background.",
+      "reference_required": false
+    },
+    {
+      "asset_key": "blue_shell",
+      "name": "Mario Kart Blue Shell",
+      "role": "item",
+      "status": "not_generated",
+      "existing_item_id": "item05",
+      "new_catalog_item_requested": false,
+      "generation_mode": "text_to_3d",
+      "needs_reference": false,
+      "reference_status": "optional_accuracy_reference_not_supplied",
+      "prompt": "Stylized PBR Roblox game asset, crisp layered solid geometry and clean UVs. Mario Kart Blue Shell with vivid cobalt domed segmented shell, thick ivory rim, pale segmented underside, five prominent sharp white spikes and two raised white feathered wings. Strong wing silhouette, clear front and rear, readable blue body and crisp toy-like finish. Isolated complete object. No words, watermark, ground plane or random floating pieces.",
+      "target_triangle_budget": 6500,
+      "texture_target_px": 1024,
+      "materials": {
+        "pbr": true,
+        "base_color": true,
+        "normal": true,
+        "roughness": true,
+        "metallic": true,
+        "emissive": "separate map only where the brief requests glow; keep Roblox glow subtle"
+      },
+      "deliverables": [
+        "textured GLB",
+        "FBX if available",
+        "base-color and PBR texture images"
+      ],
+      "import": {
+        "roblox_up_axis": "+Y",
+        "roblox_forward_axis": "-Z",
+        "pivot": "bottom center for display; preserve a named optional carry socket above the center",
+        "intended_dimensions_studs": [
+          4.8,
+          3.4,
+          3.3
+        ],
+        "transform": "Apply object scale and rotation before export. Verify dimensions in Roblox Studio.",
+        "collision": "Use simple invisible Roblox collision parts where required. Do not use detailed mesh collision for decorative assets."
+      },
+      "roblox_overlays": [],
+      "assembly_components": [
+        "one mesh with a small number of material slots"
+      ],
+      "notes": [],
+      "id": "blue_shell",
+      "key": "blue_shell",
+      "design_brief": "Create one production-ready stylized PBR game asset for a Roblox collectible arena. Use a deliberate, recognizable silhouette, layered solid geometry, crisp bevels, readable color blocks, and detailed craftsmanship comparable to an ornate gold Millennium Puzzle. Make details readable at normal third-person camera distance. Use clean UVs and an efficient atlas. Keep the object isolated, centered, and complete on every visible side. Create the Mario Kart winged Blue Shell with a vivid cobalt-blue domed carapace, clean segmented shell panels, a thick ivory rim, a pale segmented underside, five large sharp white shell spikes, and a symmetrical pair of raised white feathered wings. Give the shell a clear front and back, visible depth under the rim, and a rounded but crisp toy-like finish. Keep the blue shell body dominant and the wing silhouette visible from a distance. Avoid placeholder cubes, featureless blobs, melted shapes, paper-thin structural parts, random floating pieces, unwanted ground planes, studio rooms, pedestals unless requested, baked directional shadows, illegible lettering, watermarks, and duplicate objects. Do not generate scripts, collision cages, particle effects, or user-interface panels. Reserve flat clean areas for any requested Roblox text overlays; do not bake words into the texture.",
+      "negative_prompt": "Metadata only, not a separate supported API parameter: placeholder blocks; melted geometry; illegible text; paper-thin structural walls; random detached pieces; baked directional shadows; unwanted bases or scenery.",
+      "target_polycount": 6500,
+      "texture_prompt": "Stylized PBR game material. Rich readable colors, crisp edges, subtle wear, clean atlas, physically plausible metal and roughness. Use the color details in the generation prompt. No words, watermark, baked shadow or photorealistic background.",
+      "reference_required": false
+    },
+    {
+      "asset_key": "kirby_sword",
+      "name": "Kirby Sword",
+      "role": "item",
+      "status": "not_generated",
+      "existing_item_id": null,
+      "new_catalog_item_requested": true,
+      "generation_mode": "text_to_3d",
+      "needs_reference": false,
+      "reference_status": "optional_accuracy_reference_not_supplied",
+      "prompt": "Stylized PBR Roblox game asset, crisp layered solid geometry and clean UVs. Kirby Sword ability sword, no character: broad silver blade with sharp point and clean beveled cutting edges, compact bright gold crossguard with soft outward points, blue grip, blue pommel and small blue guard inset. Cheerful rounded hilt, genuinely sharp blade. Not Meta Knight Galaxia; no sheath or stand. Isolated complete object. No words, watermark, ground plane or random floating pieces.",
+      "target_triangle_budget": 4500,
+      "texture_target_px": 1024,
+      "materials": {
+        "pbr": true,
+        "base_color": true,
+        "normal": true,
+        "roughness": true,
+        "metallic": true,
+        "emissive": "separate map only where the brief requests glow; keep Roblox glow subtle"
+      },
+      "deliverables": [
+        "textured GLB",
+        "FBX if available",
+        "base-color and PBR texture images"
+      ],
+      "import": {
+        "roblox_up_axis": "+Y",
+        "roblox_forward_axis": "-Z",
+        "pivot": "center of grip for optional hand attachment; also record a bottom display pivot",
+        "intended_dimensions_studs": [
+          2.2,
+          5.2,
+          0.6
+        ],
+        "transform": "Apply object scale and rotation before export. Verify dimensions in Roblox Studio.",
+        "collision": "Use simple invisible Roblox collision parts where required. Do not use detailed mesh collision for decorative assets."
+      },
+      "roblox_overlays": [],
+      "assembly_components": [
+        "one mesh with a small number of material slots"
+      ],
+      "notes": [
+        "Use a trusted Kirby Sword reference for final likeness if one becomes available; do not confuse this with Meta Knight's Galaxia."
+      ],
+      "id": "kirby_sword",
+      "key": "kirby_sword",
+      "design_brief": "Create one production-ready stylized PBR game asset for a Roblox collectible arena. Use a deliberate, recognizable silhouette, layered solid geometry, crisp bevels, readable color blocks, and detailed craftsmanship comparable to an ornate gold Millennium Puzzle. Make details readable at normal third-person camera distance. Use clean UVs and an efficient atlas. Keep the object isolated, centered, and complete on every visible side. Create Kirby's recognizable Sword ability sword as a single collectible weapon: a broad shiny silver blade with a clean sharp point and beveled cutting edges, a compact bright gold crossguard with soft outward points, a vivid blue grip, a blue pommel, and a small blue inset in the guard. Keep the cheerful rounded guard design while the blade remains distinctly sharp. No Kirby character, hand, scabbard, pedestal, or effects. Avoid placeholder cubes, featureless blobs, melted shapes, paper-thin structural parts, random floating pieces, unwanted ground planes, studio rooms, pedestals unless requested, baked directional shadows, illegible lettering, watermarks, and duplicate objects. Do not generate scripts, collision cages, particle effects, or user-interface panels. Reserve flat clean areas for any requested Roblox text overlays; do not bake words into the texture.",
+      "negative_prompt": "Metadata only, not a separate supported API parameter: placeholder blocks; melted geometry; illegible text; paper-thin structural walls; random detached pieces; baked directional shadows; unwanted bases or scenery.",
+      "target_polycount": 4500,
+      "texture_prompt": "Stylized PBR game material. Rich readable colors, crisp edges, subtle wear, clean atlas, physically plausible metal and roughness. Use the color details in the generation prompt. No words, watermark, baked shadow or photorealistic background.",
+      "reference_required": false
+    },
+    {
+      "asset_key": "golden_spatula",
+      "name": "SpongeBob Golden Spatula",
+      "role": "item",
+      "status": "not_generated",
+      "existing_item_id": null,
+      "new_catalog_item_requested": true,
+      "generation_mode": "text_to_3d",
+      "needs_reference": false,
+      "reference_status": "optional_accuracy_reference_not_supplied",
+      "prompt": "Stylized PBR Roblox game asset, crisp layered solid geometry and clean UVs. SpongeBob Golden Spatula: polished broad gold turner head with four real rectangular slots, tapered gold neck, dark brown sculpted handle, gold end caps and small hanging loop. Thin practical profile, rounded bevels, rich gold metal. No hand, character or stand. Isolated complete object. No words, watermark, ground plane or random floating pieces.",
+      "target_triangle_budget": 4000,
+      "texture_target_px": 1024,
+      "materials": {
+        "pbr": true,
+        "base_color": true,
+        "normal": true,
+        "roughness": true,
+        "metallic": true,
+        "emissive": "separate map only where the brief requests glow; keep Roblox glow subtle"
+      },
+      "deliverables": [
+        "textured GLB",
+        "FBX if available",
+        "base-color and PBR texture images"
+      ],
+      "import": {
+        "roblox_up_axis": "+Y",
+        "roblox_forward_axis": "-Z",
+        "pivot": "bottom center for display; preserve a named optional carry socket above the center",
+        "intended_dimensions_studs": [
+          1.8,
+          4.7,
+          0.5
+        ],
+        "transform": "Apply object scale and rotation before export. Verify dimensions in Roblox Studio.",
+        "collision": "Use simple invisible Roblox collision parts where required. Do not use detailed mesh collision for decorative assets."
+      },
+      "roblox_overlays": [],
+      "assembly_components": [
+        "one mesh with a small number of material slots"
+      ],
+      "notes": [],
+      "id": "golden_spatula",
+      "key": "golden_spatula",
+      "design_brief": "Create one production-ready stylized PBR game asset for a Roblox collectible arena. Use a deliberate, recognizable silhouette, layered solid geometry, crisp bevels, readable color blocks, and detailed craftsmanship comparable to an ornate gold Millennium Puzzle. Make details readable at normal third-person camera distance. Use clean UVs and an efficient atlas. Keep the object isolated, centered, and complete on every visible side. Build a polished Golden Spatula from SpongeBob with a broad gold slotted turner head, four clearly cut rectangular slots, a tapered gold neck, a sculpted dark brown grip with gold end caps, and a small hanging loop. Use rounded bevels and rich readable metallic gold while retaining a thin practical spatula profile. Avoid placeholder cubes, featureless blobs, melted shapes, paper-thin structural parts, random floating pieces, unwanted ground planes, studio rooms, pedestals unless requested, baked directional shadows, illegible lettering, watermarks, and duplicate objects. Do not generate scripts, collision cages, particle effects, or user-interface panels. Reserve flat clean areas for any requested Roblox text overlays; do not bake words into the texture.",
+      "negative_prompt": "Metadata only, not a separate supported API parameter: placeholder blocks; melted geometry; illegible text; paper-thin structural walls; random detached pieces; baked directional shadows; unwanted bases or scenery.",
+      "target_polycount": 4000,
+      "texture_prompt": "Stylized PBR game material. Rich readable colors, crisp edges, subtle wear, clean atlas, physically plausible metal and roughness. Use the color details in the generation prompt. No words, watermark, baked shadow or photorealistic background.",
+      "reference_required": false
+    },
+    {
+      "asset_key": "krabby_patty",
+      "name": "Krabby Patty",
+      "role": "item",
+      "status": "not_generated",
+      "existing_item_id": null,
+      "new_catalog_item_requested": true,
+      "generation_mode": "text_to_3d",
+      "needs_reference": false,
+      "reference_status": "optional_accuracy_reference_not_supplied",
+      "prompt": "Stylized PBR Roblox game asset, crisp layered solid geometry and clean UVs. Recognizable cartoon Krabby Patty: golden sesame bun, wavy green lettuce, red tomato slices, white onion rings, pickle chips, folded yellow cheese, thick browned beef patty and warm bottom bun. Distinct slightly oversized appetizing layers, clean surfaces, modeled sesame seeds. No plate or wrapper. Isolated complete object. No words, watermark, ground plane or random floating pieces.",
+      "target_triangle_budget": 6500,
+      "texture_target_px": 1024,
+      "materials": {
+        "pbr": true,
+        "base_color": true,
+        "normal": true,
+        "roughness": true,
+        "metallic": true,
+        "emissive": "separate map only where the brief requests glow; keep Roblox glow subtle"
+      },
+      "deliverables": [
+        "textured GLB",
+        "FBX if available",
+        "base-color and PBR texture images"
+      ],
+      "import": {
+        "roblox_up_axis": "+Y",
+        "roblox_forward_axis": "-Z",
+        "pivot": "bottom center for display; preserve a named optional carry socket above the center",
+        "intended_dimensions_studs": [
+          3.5,
+          2.7,
+          3.5
+        ],
+        "transform": "Apply object scale and rotation before export. Verify dimensions in Roblox Studio.",
+        "collision": "Use simple invisible Roblox collision parts where required. Do not use detailed mesh collision for decorative assets."
+      },
+      "roblox_overlays": [],
+      "assembly_components": [
+        "one mesh with a small number of material slots"
+      ],
+      "notes": [],
+      "id": "krabby_patty",
+      "key": "krabby_patty",
+      "design_brief": "Create one production-ready stylized PBR game asset for a Roblox collectible arena. Use a deliberate, recognizable silhouette, layered solid geometry, crisp bevels, readable color blocks, and detailed craftsmanship comparable to an ornate gold Millennium Puzzle. Make details readable at normal third-person camera distance. Use clean UVs and an efficient atlas. Keep the object isolated, centered, and complete on every visible side. Create a recognizable cartoon Krabby Patty collectible: a golden sesame-seed top bun, wavy green lettuce, two bright red tomato slices, white onion rings, visible pickle chips, a folded yellow cheese slice, a thick textured browned patty, and a warm bottom bun. Make the food layers distinct and slightly oversized, with sesame seeds modeled sparingly and clean appetizing surfaces. No plate or wrapper. Avoid placeholder cubes, featureless blobs, melted shapes, paper-thin structural parts, random floating pieces, unwanted ground planes, studio rooms, pedestals unless requested, baked directional shadows, illegible lettering, watermarks, and duplicate objects. Do not generate scripts, collision cages, particle effects, or user-interface panels. Reserve flat clean areas for any requested Roblox text overlays; do not bake words into the texture.",
+      "negative_prompt": "Metadata only, not a separate supported API parameter: placeholder blocks; melted geometry; illegible text; paper-thin structural walls; random detached pieces; baked directional shadows; unwanted bases or scenery.",
+      "target_polycount": 6500,
+      "texture_prompt": "Stylized PBR game material. Rich readable colors, crisp edges, subtle wear, clean atlas, physically plausible metal and roughness. Use the color details in the generation prompt. No words, watermark, baked shadow or photorealistic background.",
+      "reference_required": false
+    },
+    {
+      "asset_key": "gary_shell",
+      "name": "Gary Shell",
+      "role": "item",
+      "status": "not_generated",
+      "existing_item_id": null,
+      "new_catalog_item_requested": true,
+      "generation_mode": "text_to_3d",
+      "needs_reference": false,
+      "reference_status": "optional_accuracy_reference_not_supplied",
+      "prompt": "Stylized PBR Roblox game asset, crisp layered solid geometry and clean UVs. Gary the snail empty shell from SpongeBob: rounded pink conical shell, deep red spiral, violet-blue spots, rolled opening lip and dark hollow inner recess with a real finished inner surface. Solid dimensional shell only. No snail body, eyes, face or slime. Isolated complete object. No words, watermark, ground plane or random floating pieces.",
+      "target_triangle_budget": 5000,
+      "texture_target_px": 1024,
+      "materials": {
+        "pbr": true,
+        "base_color": true,
+        "normal": true,
+        "roughness": true,
+        "metallic": true,
+        "emissive": "separate map only where the brief requests glow; keep Roblox glow subtle"
+      },
+      "deliverables": [
+        "textured GLB",
+        "FBX if available",
+        "base-color and PBR texture images"
+      ],
+      "import": {
+        "roblox_up_axis": "+Y",
+        "roblox_forward_axis": "-Z",
+        "pivot": "bottom center for display; preserve a named optional carry socket above the center",
+        "intended_dimensions_studs": [
+          3.4,
+          3.2,
+          2.7
+        ],
+        "transform": "Apply object scale and rotation before export. Verify dimensions in Roblox Studio.",
+        "collision": "Use simple invisible Roblox collision parts where required. Do not use detailed mesh collision for decorative assets."
+      },
+      "roblox_overlays": [],
+      "assembly_components": [
+        "one mesh with a small number of material slots"
+      ],
+      "notes": [],
+      "id": "gary_shell",
+      "key": "gary_shell",
+      "design_brief": "Create one production-ready stylized PBR game asset for a Roblox collectible arena. Use a deliberate, recognizable silhouette, layered solid geometry, crisp bevels, readable color blocks, and detailed craftsmanship comparable to an ornate gold Millennium Puzzle. Make details readable at normal third-person camera distance. Use clean UVs and an efficient atlas. Keep the object isolated, centered, and complete on every visible side. Create Gary the snail's empty shell from SpongeBob as a standalone collectible. Use a rounded pink conical shell with the familiar deep red spiral marking and a row of violet-blue spots. Give the opening a rolled shell lip, a real dark hollow recess, and a clean solid inner shell surface. Show only the shell: no snail body, eyes, slime trail, or face. Avoid placeholder cubes, featureless blobs, melted shapes, paper-thin structural parts, random floating pieces, unwanted ground planes, studio rooms, pedestals unless requested, baked directional shadows, illegible lettering, watermarks, and duplicate objects. Do not generate scripts, collision cages, particle effects, or user-interface panels. Reserve flat clean areas for any requested Roblox text overlays; do not bake words into the texture.",
+      "negative_prompt": "Metadata only, not a separate supported API parameter: placeholder blocks; melted geometry; illegible text; paper-thin structural walls; random detached pieces; baked directional shadows; unwanted bases or scenery.",
+      "target_polycount": 5000,
+      "texture_prompt": "Stylized PBR game material. Rich readable colors, crisp edges, subtle wear, clean atlas, physically plausible metal and roughness. Use the color details in the generation prompt. No words, watermark, baked shadow or photorealistic background.",
+      "reference_required": false
+    },
+    {
+      "asset_key": "super_star",
+      "name": "Mario Super Star",
+      "role": "item",
+      "status": "not_generated",
+      "existing_item_id": null,
+      "new_catalog_item_requested": true,
+      "generation_mode": "text_to_3d",
+      "needs_reference": false,
+      "reference_status": "optional_accuracy_reference_not_supplied",
+      "prompt": "Stylized PBR Roblox game asset, crisp layered solid geometry and clean UVs. Mario Super Star: five broad evenly spaced rounded points, plump thick extruded gold-yellow body, smooth bevels, two vertical inset black oval eyes on the front only, subtly darker edges and minimal glow. Solid recognizable star. No face mouth, scene or loose sparkles. Isolated complete object. No words, watermark, ground plane or random floating pieces.",
+      "target_triangle_budget": 3500,
+      "texture_target_px": 1024,
+      "materials": {
+        "pbr": true,
+        "base_color": true,
+        "normal": true,
+        "roughness": true,
+        "metallic": true,
+        "emissive": "separate map only where the brief requests glow; keep Roblox glow subtle"
+      },
+      "deliverables": [
+        "textured GLB",
+        "FBX if available",
+        "base-color and PBR texture images"
+      ],
+      "import": {
+        "roblox_up_axis": "+Y",
+        "roblox_forward_axis": "-Z",
+        "pivot": "bottom center for display; preserve a named optional carry socket above the center",
+        "intended_dimensions_studs": [
+          3.4,
+          3.3,
+          1.1
+        ],
+        "transform": "Apply object scale and rotation before export. Verify dimensions in Roblox Studio.",
+        "collision": "Use simple invisible Roblox collision parts where required. Do not use detailed mesh collision for decorative assets."
+      },
+      "roblox_overlays": [],
+      "assembly_components": [
+        "one mesh with a small number of material slots"
+      ],
+      "notes": [],
+      "id": "super_star",
+      "key": "super_star",
+      "design_brief": "Create one production-ready stylized PBR game asset for a Roblox collectible arena. Use a deliberate, recognizable silhouette, layered solid geometry, crisp bevels, readable color blocks, and detailed craftsmanship comparable to an ornate gold Millennium Puzzle. Make details readable at normal third-person camera distance. Use clean UVs and an efficient atlas. Keep the object isolated, centered, and complete on every visible side. Create a Mario Super Star collectible with five evenly spaced broad rounded points, a plump extruded golden body, smooth deliberate bevels, and two vertical black oval eyes inset slightly into the front face. Use warm bright yellow-gold with a subtly darker edge; a very restrained emissive accent is acceptable. Keep the eyes on the front only and make the star thick enough to read as a solid object. Avoid placeholder cubes, featureless blobs, melted shapes, paper-thin structural parts, random floating pieces, unwanted ground planes, studio rooms, pedestals unless requested, baked directional shadows, illegible lettering, watermarks, and duplicate objects. Do not generate scripts, collision cages, particle effects, or user-interface panels. Reserve flat clean areas for any requested Roblox text overlays; do not bake words into the texture.",
+      "negative_prompt": "Metadata only, not a separate supported API parameter: placeholder blocks; melted geometry; illegible text; paper-thin structural walls; random detached pieces; baked directional shadows; unwanted bases or scenery.",
+      "target_polycount": 3500,
+      "texture_prompt": "Stylized PBR game material. Rich readable colors, crisp edges, subtle wear, clean atlas, physically plausible metal and roughness. Use the color details in the generation prompt. No words, watermark, baked shadow or photorealistic background.",
+      "reference_required": false
+    },
+    {
+      "asset_key": "fire_flower",
+      "name": "Mario Fire Flower",
+      "role": "item",
+      "status": "not_generated",
+      "existing_item_id": null,
+      "new_catalog_item_requested": true,
+      "generation_mode": "text_to_3d",
+      "needs_reference": false,
+      "reference_status": "optional_accuracy_reference_not_supplied",
+      "prompt": "Stylized PBR Roblox game asset, crisp layered solid geometry and clean UVs. Mario Fire Flower: oval bloom with red outer petal ring, orange middle ring, yellow face with two vertical black eyes, short curved green stem and two broad green leaves. Distinct sculpted color bands and a cheerful dimensional silhouette. No pot, dirt or fire particles. Isolated complete object. No words, watermark, ground plane or random floating pieces.",
+      "target_triangle_budget": 4500,
+      "texture_target_px": 1024,
+      "materials": {
+        "pbr": true,
+        "base_color": true,
+        "normal": true,
+        "roughness": true,
+        "metallic": true,
+        "emissive": "separate map only where the brief requests glow; keep Roblox glow subtle"
+      },
+      "deliverables": [
+        "textured GLB",
+        "FBX if available",
+        "base-color and PBR texture images"
+      ],
+      "import": {
+        "roblox_up_axis": "+Y",
+        "roblox_forward_axis": "-Z",
+        "pivot": "bottom center for display; preserve a named optional carry socket above the center",
+        "intended_dimensions_studs": [
+          3.1,
+          4.0,
+          1.4
+        ],
+        "transform": "Apply object scale and rotation before export. Verify dimensions in Roblox Studio.",
+        "collision": "Use simple invisible Roblox collision parts where required. Do not use detailed mesh collision for decorative assets."
+      },
+      "roblox_overlays": [],
+      "assembly_components": [
+        "one mesh with a small number of material slots"
+      ],
+      "notes": [],
+      "id": "fire_flower",
+      "key": "fire_flower",
+      "design_brief": "Create one production-ready stylized PBR game asset for a Roblox collectible arena. Use a deliberate, recognizable silhouette, layered solid geometry, crisp bevels, readable color blocks, and detailed craftsmanship comparable to an ornate gold Millennium Puzzle. Make details readable at normal third-person camera distance. Use clean UVs and an efficient atlas. Keep the object isolated, centered, and complete on every visible side. Create a Mario Fire Flower collectible. Use an oval bloom with a red outer petal ring, orange middle ring, bright yellow face, two vertical black eyes, a short curved green stem, and two broad green leaves. Make each color band and leaf a clean sculpted solid form, with a cheerful iconic silhouette and visible depth. No pot, fire particles, dirt clump, or surrounding scene. Avoid placeholder cubes, featureless blobs, melted shapes, paper-thin structural parts, random floating pieces, unwanted ground planes, studio rooms, pedestals unless requested, baked directional shadows, illegible lettering, watermarks, and duplicate objects. Do not generate scripts, collision cages, particle effects, or user-interface panels. Reserve flat clean areas for any requested Roblox text overlays; do not bake words into the texture.",
+      "negative_prompt": "Metadata only, not a separate supported API parameter: placeholder blocks; melted geometry; illegible text; paper-thin structural walls; random detached pieces; baked directional shadows; unwanted bases or scenery.",
+      "target_polycount": 4500,
+      "texture_prompt": "Stylized PBR game material. Rich readable colors, crisp edges, subtle wear, clean atlas, physically plausible metal and roughness. Use the color details in the generation prompt. No words, watermark, baked shadow or photorealistic background.",
+      "reference_required": false
+    },
+    {
+      "asset_key": "hylian_shield",
+      "name": "Hylian Shield",
+      "role": "item",
+      "status": "not_generated",
+      "existing_item_id": null,
+      "new_catalog_item_requested": true,
+      "generation_mode": "text_to_3d",
+      "needs_reference": false,
+      "reference_status": "optional_accuracy_reference_not_supplied",
+      "prompt": "Stylized PBR Roblox game asset, crisp layered solid geometry and clean UVs. Hylian Shield with long pointed blue face, thick beveled silver border, raised red bird crest, gold Triforce, sculpted silver corner flourishes and visible rivets. Finish rear with sturdy grip and leather arm strap. Crisp raised heraldry, slight edge wear. No sword or display stand. Isolated complete object. No words, watermark, ground plane or random floating pieces.",
+      "target_triangle_budget": 7000,
+      "texture_target_px": 1024,
+      "materials": {
+        "pbr": true,
+        "base_color": true,
+        "normal": true,
+        "roughness": true,
+        "metallic": true,
+        "emissive": "separate map only where the brief requests glow; keep Roblox glow subtle"
+      },
+      "deliverables": [
+        "textured GLB",
+        "FBX if available",
+        "base-color and PBR texture images"
+      ],
+      "import": {
+        "roblox_up_axis": "+Y",
+        "roblox_forward_axis": "-Z",
+        "pivot": "shield center, front toward -Z; separate carry grip socket at rear",
+        "intended_dimensions_studs": [
+          3.3,
+          4.6,
+          0.9
+        ],
+        "transform": "Apply object scale and rotation before export. Verify dimensions in Roblox Studio.",
+        "collision": "Use simple invisible Roblox collision parts where required. Do not use detailed mesh collision for decorative assets."
+      },
+      "roblox_overlays": [],
+      "assembly_components": [
+        "one mesh with a small number of material slots"
+      ],
+      "notes": [],
+      "id": "hylian_shield",
+      "key": "hylian_shield",
+      "design_brief": "Create one production-ready stylized PBR game asset for a Roblox collectible arena. Use a deliberate, recognizable silhouette, layered solid geometry, crisp bevels, readable color blocks, and detailed craftsmanship comparable to an ornate gold Millennium Puzzle. Make details readable at normal third-person camera distance. Use clean UVs and an efficient atlas. Keep the object isolated, centered, and complete on every visible side. Create a detailed Hylian Shield collectible with its familiar long pointed blue face, thick beveled silver border, raised red bird crest, gold Triforce emblem, sculpted silver corner flourishes, visible rivets, and a finished rear with a sturdy hand grip and leather forearm strap. Keep the blue face clean and the raised heraldic shapes crisp, with subtle restrained wear at metal edges. No sword. Avoid placeholder cubes, featureless blobs, melted shapes, paper-thin structural parts, random floating pieces, unwanted ground planes, studio rooms, pedestals unless requested, baked directional shadows, illegible lettering, watermarks, and duplicate objects. Do not generate scripts, collision cages, particle effects, or user-interface panels. Reserve flat clean areas for any requested Roblox text overlays; do not bake words into the texture.",
+      "negative_prompt": "Metadata only, not a separate supported API parameter: placeholder blocks; melted geometry; illegible text; paper-thin structural walls; random detached pieces; baked directional shadows; unwanted bases or scenery.",
+      "target_polycount": 7000,
+      "texture_prompt": "Stylized PBR game material. Rich readable colors, crisp edges, subtle wear, clean atlas, physically plausible metal and roughness. Use the color details in the generation prompt. No words, watermark, baked shadow or photorealistic background.",
+      "reference_required": false
+    },
+    {
+      "asset_key": "companion_cube",
+      "name": "Portal Companion Cube",
+      "role": "item",
+      "status": "not_generated",
+      "existing_item_id": null,
+      "new_catalog_item_requested": true,
+      "generation_mode": "text_to_3d",
+      "needs_reference": false,
+      "reference_status": "optional_accuracy_reference_not_supplied",
+      "prompt": "Stylized PBR Roblox game asset, crisp layered solid geometry and clean UVs. Portal Weighted Companion Cube: six finished faces, pale gray beveled mechanical body, dark recessed seams, robust corner blocks, circular face plates, pink heart emblems and pink accent strips. Layered mechanical panel depth, iconic cube silhouette. No words, arms, room or ground. Isolated complete object. No words, watermark, ground plane or random floating pieces.",
+      "target_triangle_budget": 6000,
+      "texture_target_px": 1024,
+      "materials": {
+        "pbr": true,
+        "base_color": true,
+        "normal": true,
+        "roughness": true,
+        "metallic": true,
+        "emissive": "separate map only where the brief requests glow; keep Roblox glow subtle"
+      },
+      "deliverables": [
+        "textured GLB",
+        "FBX if available",
+        "base-color and PBR texture images"
+      ],
+      "import": {
+        "roblox_up_axis": "+Y",
+        "roblox_forward_axis": "-Z",
+        "pivot": "bottom center for display; preserve a named optional carry socket above the center",
+        "intended_dimensions_studs": [
+          3.2,
+          3.2,
+          3.2
+        ],
+        "transform": "Apply object scale and rotation before export. Verify dimensions in Roblox Studio.",
+        "collision": "Use simple invisible Roblox collision parts where required. Do not use detailed mesh collision for decorative assets."
+      },
+      "roblox_overlays": [],
+      "assembly_components": [
+        "one mesh with a small number of material slots"
+      ],
+      "notes": [],
+      "id": "companion_cube",
+      "key": "companion_cube",
+      "design_brief": "Create one production-ready stylized PBR game asset for a Roblox collectible arena. Use a deliberate, recognizable silhouette, layered solid geometry, crisp bevels, readable color blocks, and detailed craftsmanship comparable to an ornate gold Millennium Puzzle. Make details readable at normal third-person camera distance. Use clean UVs and an efficient atlas. Keep the object isolated, centered, and complete on every visible side. Create the Portal Weighted Companion Cube with six finished faces, a pale gray beveled mechanical body, dark recessed panel seams, sturdy corner blocks, circular face plates, and crisp pink heart emblems. Add fine mechanical panel depth and pink accent strips while preserving the iconic readable cube silhouette. No text, Aperture logo, arms, damage, or ground plane. Avoid placeholder cubes, featureless blobs, melted shapes, paper-thin structural parts, random floating pieces, unwanted ground planes, studio rooms, pedestals unless requested, baked directional shadows, illegible lettering, watermarks, and duplicate objects. Do not generate scripts, collision cages, particle effects, or user-interface panels. Reserve flat clean areas for any requested Roblox text overlays; do not bake words into the texture.",
+      "negative_prompt": "Metadata only, not a separate supported API parameter: placeholder blocks; melted geometry; illegible text; paper-thin structural walls; random detached pieces; baked directional shadows; unwanted bases or scenery.",
+      "target_polycount": 6000,
+      "texture_prompt": "Stylized PBR game material. Rich readable colors, crisp edges, subtle wear, clean atlas, physically plausible metal and roughness. Use the color details in the generation prompt. No words, watermark, baked shadow or photorealistic background.",
+      "reference_required": false
+    },
+    {
+      "asset_key": "proton_pack",
+      "name": "Ghostbusters Proton Pack",
+      "role": "item",
+      "status": "not_generated",
+      "existing_item_id": null,
+      "new_catalog_item_requested": true,
+      "generation_mode": "text_to_3d",
+      "needs_reference": false,
+      "reference_status": "optional_accuracy_reference_not_supplied",
+      "prompt": "Stylized PBR Roblox game asset, crisp layered solid geometry and clean UVs. Ghostbusters proton pack: blackened metal backpack, circular cyclotron with four red windows, upper equipment boxes, distinct red/blue cables, ribbed hoses, brass fittings and side-mounted neutrona wand. Finished rear straps and layered worn mechanics. Blank label panels. No wearer or beam. Isolated complete object. No words, watermark, ground plane or random floating pieces.",
+      "target_triangle_budget": 8000,
+      "texture_target_px": 2048,
+      "materials": {
+        "pbr": true,
+        "base_color": true,
+        "normal": true,
+        "roughness": true,
+        "metallic": true,
+        "emissive": "separate map only where the brief requests glow; keep Roblox glow subtle"
+      },
+      "deliverables": [
+        "textured GLB",
+        "FBX if available",
+        "base-color and PBR texture images"
+      ],
+      "import": {
+        "roblox_up_axis": "+Y",
+        "roblox_forward_axis": "-Z",
+        "pivot": "bottom center for display; preserve a named optional carry socket above the center",
+        "intended_dimensions_studs": [
+          3.4,
+          4.6,
+          1.8
+        ],
+        "transform": "Apply object scale and rotation before export. Verify dimensions in Roblox Studio.",
+        "collision": "Use simple invisible Roblox collision parts where required. Do not use detailed mesh collision for decorative assets."
+      },
+      "roblox_overlays": [
+        "Any warning labels are applied as Roblox overlays."
+      ],
+      "assembly_components": [
+        "one mesh with a small number of material slots"
+      ],
+      "notes": [],
+      "id": "proton_pack",
+      "key": "proton_pack",
+      "design_brief": "Create one production-ready stylized PBR game asset for a Roblox collectible arena. Use a deliberate, recognizable silhouette, layered solid geometry, crisp bevels, readable color blocks, and detailed craftsmanship comparable to an ornate gold Millennium Puzzle. Make details readable at normal third-person camera distance. Use clean UVs and an efficient atlas. Keep the object isolated, centered, and complete on every visible side. Create a recognizable Ghostbusters proton pack collectible: a worn dark metal backpack frame, a large circular cyclotron housing with four red circular windows, upper equipment boxes, distinct red and blue cables, ribbed hoses, small brass fittings, and a side-mounted neutrona wand with its handle and barrel visible. Keep the silhouette compact and readable. Add believable layered mechanical depth, soft edge wear, and finished rear straps. Reserve small clean panels for Roblox warning-label overlays. No energy beam or wearer. Avoid placeholder cubes, featureless blobs, melted shapes, paper-thin structural parts, random floating pieces, unwanted ground planes, studio rooms, pedestals unless requested, baked directional shadows, illegible lettering, watermarks, and duplicate objects. Do not generate scripts, collision cages, particle effects, or user-interface panels. Reserve flat clean areas for any requested Roblox text overlays; do not bake words into the texture.",
+      "negative_prompt": "Metadata only, not a separate supported API parameter: placeholder blocks; melted geometry; illegible text; paper-thin structural walls; random detached pieces; baked directional shadows; unwanted bases or scenery.",
+      "target_polycount": 8000,
+      "texture_prompt": "Stylized PBR game material. Rich readable colors, crisp edges, subtle wear, clean atlas, physically plausible metal and roughness. Use the color details in the generation prompt. No words, watermark, baked shadow or photorealistic background.",
+      "reference_required": false
+    },
+    {
+      "asset_key": "infinity_space",
+      "name": "Space Stone",
+      "role": "item",
+      "status": "not_generated",
+      "existing_item_id": null,
+      "new_catalog_item_requested": true,
+      "generation_mode": "text_to_3d",
+      "needs_reference": false,
+      "reference_status": "optional_accuracy_reference_not_supplied",
+      "prompt": "Stylized PBR Roblox game asset, crisp layered solid geometry and clean UVs. One Legendary Infinity Space Stone: deep electric blue irregular short rectangular crystal prism, clipped corners and bright inner blue core. Crisp beveled facets, subtle inner glow and rich solid readable color. Match the six-stone material family. No gauntlet, mount, casing, necklace or other stone. Isolated complete object. No words, watermark, ground plane or random floating pieces.",
+      "target_triangle_budget": 3500,
+      "texture_target_px": 1024,
+      "materials": {
+        "pbr": true,
+        "base_color": true,
+        "normal": true,
+        "roughness": true,
+        "metallic": true,
+        "emissive": "separate map only where the brief requests glow; keep Roblox glow subtle"
+      },
+      "deliverables": [
+        "textured GLB",
+        "FBX if available",
+        "base-color and PBR texture images"
+      ],
+      "import": {
+        "roblox_up_axis": "+Y",
+        "roblox_forward_axis": "-Z",
+        "pivot": "bottom center for display; preserve a named optional carry socket above the center",
+        "intended_dimensions_studs": [
+          1.6,
+          2.1,
+          1.4
+        ],
+        "transform": "Apply object scale and rotation before export. Verify dimensions in Roblox Studio.",
+        "collision": "Use simple invisible Roblox collision parts where required. Do not use detailed mesh collision for decorative assets."
+      },
+      "roblox_overlays": [],
+      "assembly_components": [
+        "one mesh with a small number of material slots"
+      ],
+      "notes": [
+        "Requested rarity: Legendary. Generate a separate mesh and catalog record for this stone.",
+        "Five different deposited stone types trigger the requested progression event. Duplicate stones do not count as different types.",
+        "Collection logic, ownership, and once-only reward validation must be implemented in game code, outside Meshy."
+      ],
+      "id": "infinity_space",
+      "key": "infinity_space",
+      "design_brief": "Create one production-ready stylized PBR game asset for a Roblox collectible arena. Use a deliberate, recognizable silhouette, layered solid geometry, crisp bevels, readable color blocks, and detailed craftsmanship comparable to an ornate gold Millennium Puzzle. Make details readable at normal third-person camera distance. Use clean UVs and an efficient atlas. Keep the object isolated, centered, and complete on every visible side. Create the Space Stone from the Infinity Stones as one standalone Legendary collectible. Use deep electric blue and an irregular short rectangular crystalline prism with clipped corners and a bright inner blue core. Use a stylized gemstone surface with crisp beveled facets, a subtle emissive inner core, convincing roughness variation, and readable reflective highlights. Make the whole stone solid and richly colored rather than a transparent empty glass shell. Do not include the Infinity Gauntlet, a necklace, casing, mount, orbiting fragments, or other stones. Match the material and detail family of the other five Infinity Stones, while preserving this stone's distinct silhouette. Avoid placeholder cubes, featureless blobs, melted shapes, paper-thin structural parts, random floating pieces, unwanted ground planes, studio rooms, pedestals unless requested, baked directional shadows, illegible lettering, watermarks, and duplicate objects. Do not generate scripts, collision cages, particle effects, or user-interface panels. Reserve flat clean areas for any requested Roblox text overlays; do not bake words into the texture.",
+      "negative_prompt": "Metadata only, not a separate supported API parameter: placeholder blocks; melted geometry; illegible text; paper-thin structural walls; random detached pieces; baked directional shadows; unwanted bases or scenery.",
+      "target_polycount": 3500,
+      "texture_prompt": "Stylized PBR game material. Rich readable colors, crisp edges, subtle wear, clean atlas, physically plausible metal and roughness. Use the color details in the generation prompt. No words, watermark, baked shadow or photorealistic background.",
+      "reference_required": false
+    },
+    {
+      "asset_key": "infinity_mind",
+      "name": "Mind Stone",
+      "role": "item",
+      "status": "not_generated",
+      "existing_item_id": null,
+      "new_catalog_item_requested": true,
+      "generation_mode": "text_to_3d",
+      "needs_reference": false,
+      "reference_status": "optional_accuracy_reference_not_supplied",
+      "prompt": "Stylized PBR Roblox game asset, crisp layered solid geometry and clean UVs. One Legendary Infinity Mind Stone: golden-yellow elongated tapered oval crystal, pointed lower end, broad faceted front and fine stepped facets. Crisp beveled planes, subtle inner glow and rich solid readable color. Match the six-stone material family. No gauntlet, mount, casing, necklace or other stone. Isolated complete object. No words, watermark, ground plane or random floating pieces.",
+      "target_triangle_budget": 3500,
+      "texture_target_px": 1024,
+      "materials": {
+        "pbr": true,
+        "base_color": true,
+        "normal": true,
+        "roughness": true,
+        "metallic": true,
+        "emissive": "separate map only where the brief requests glow; keep Roblox glow subtle"
+      },
+      "deliverables": [
+        "textured GLB",
+        "FBX if available",
+        "base-color and PBR texture images"
+      ],
+      "import": {
+        "roblox_up_axis": "+Y",
+        "roblox_forward_axis": "-Z",
+        "pivot": "bottom center for display; preserve a named optional carry socket above the center",
+        "intended_dimensions_studs": [
+          1.6,
+          2.1,
+          1.4
+        ],
+        "transform": "Apply object scale and rotation before export. Verify dimensions in Roblox Studio.",
+        "collision": "Use simple invisible Roblox collision parts where required. Do not use detailed mesh collision for decorative assets."
+      },
+      "roblox_overlays": [],
+      "assembly_components": [
+        "one mesh with a small number of material slots"
+      ],
+      "notes": [
+        "Requested rarity: Legendary. Generate a separate mesh and catalog record for this stone.",
+        "Five different deposited stone types trigger the requested progression event. Duplicate stones do not count as different types.",
+        "Collection logic, ownership, and once-only reward validation must be implemented in game code, outside Meshy."
+      ],
+      "id": "infinity_mind",
+      "key": "infinity_mind",
+      "design_brief": "Create one production-ready stylized PBR game asset for a Roblox collectible arena. Use a deliberate, recognizable silhouette, layered solid geometry, crisp bevels, readable color blocks, and detailed craftsmanship comparable to an ornate gold Millennium Puzzle. Make details readable at normal third-person camera distance. Use clean UVs and an efficient atlas. Keep the object isolated, centered, and complete on every visible side. Create the Mind Stone from the Infinity Stones as one standalone Legendary collectible. Use warm golden yellow and an elongated tapered oval crystal with a pointed lower end, a broad faceted front, and fine natural facet steps. Use a stylized gemstone surface with crisp beveled facets, a subtle emissive inner core, convincing roughness variation, and readable reflective highlights. Make the whole stone solid and richly colored rather than a transparent empty glass shell. Do not include the Infinity Gauntlet, a necklace, casing, mount, orbiting fragments, or other stones. Match the material and detail family of the other five Infinity Stones, while preserving this stone's distinct silhouette. Avoid placeholder cubes, featureless blobs, melted shapes, paper-thin structural parts, random floating pieces, unwanted ground planes, studio rooms, pedestals unless requested, baked directional shadows, illegible lettering, watermarks, and duplicate objects. Do not generate scripts, collision cages, particle effects, or user-interface panels. Reserve flat clean areas for any requested Roblox text overlays; do not bake words into the texture.",
+      "negative_prompt": "Metadata only, not a separate supported API parameter: placeholder blocks; melted geometry; illegible text; paper-thin structural walls; random detached pieces; baked directional shadows; unwanted bases or scenery.",
+      "target_polycount": 3500,
+      "texture_prompt": "Stylized PBR game material. Rich readable colors, crisp edges, subtle wear, clean atlas, physically plausible metal and roughness. Use the color details in the generation prompt. No words, watermark, baked shadow or photorealistic background.",
+      "reference_required": false
+    },
+    {
+      "asset_key": "infinity_reality",
+      "name": "Reality Stone",
+      "role": "item",
+      "status": "not_generated",
+      "existing_item_id": null,
+      "new_catalog_item_requested": true,
+      "generation_mode": "text_to_3d",
+      "needs_reference": false,
+      "reference_status": "optional_accuracy_reference_not_supplied",
+      "prompt": "Stylized PBR Roblox game asset, crisp layered solid geometry and clean UVs. One Legendary Infinity Reality Stone: deep ruby-red asymmetrical angular crystal, flattened front, jagged shoulder and rich red internal depth. Crisp beveled facets and subtle inner glow, solid readable color. Match the six-stone material family. No gauntlet, mount, casing, necklace or other stone. Isolated complete object. No words, watermark, ground plane or random floating pieces.",
+      "target_triangle_budget": 3500,
+      "texture_target_px": 1024,
+      "materials": {
+        "pbr": true,
+        "base_color": true,
+        "normal": true,
+        "roughness": true,
+        "metallic": true,
+        "emissive": "separate map only where the brief requests glow; keep Roblox glow subtle"
+      },
+      "deliverables": [
+        "textured GLB",
+        "FBX if available",
+        "base-color and PBR texture images"
+      ],
+      "import": {
+        "roblox_up_axis": "+Y",
+        "roblox_forward_axis": "-Z",
+        "pivot": "bottom center for display; preserve a named optional carry socket above the center",
+        "intended_dimensions_studs": [
+          1.6,
+          2.1,
+          1.4
+        ],
+        "transform": "Apply object scale and rotation before export. Verify dimensions in Roblox Studio.",
+        "collision": "Use simple invisible Roblox collision parts where required. Do not use detailed mesh collision for decorative assets."
+      },
+      "roblox_overlays": [],
+      "assembly_components": [
+        "one mesh with a small number of material slots"
+      ],
+      "notes": [
+        "Requested rarity: Legendary. Generate a separate mesh and catalog record for this stone.",
+        "Five different deposited stone types trigger the requested progression event. Duplicate stones do not count as different types.",
+        "Collection logic, ownership, and once-only reward validation must be implemented in game code, outside Meshy."
+      ],
+      "id": "infinity_reality",
+      "key": "infinity_reality",
+      "design_brief": "Create one production-ready stylized PBR game asset for a Roblox collectible arena. Use a deliberate, recognizable silhouette, layered solid geometry, crisp bevels, readable color blocks, and detailed craftsmanship comparable to an ornate gold Millennium Puzzle. Make details readable at normal third-person camera distance. Use clean UVs and an efficient atlas. Keep the object isolated, centered, and complete on every visible side. Create the Reality Stone from the Infinity Stones as one standalone Legendary collectible. Use deep ruby red and a broad asymmetrical angular crystal with a flattened front, one jagged shoulder, and rich red internal depth. Use a stylized gemstone surface with crisp beveled facets, a subtle emissive inner core, convincing roughness variation, and readable reflective highlights. Make the whole stone solid and richly colored rather than a transparent empty glass shell. Do not include the Infinity Gauntlet, a necklace, casing, mount, orbiting fragments, or other stones. Match the material and detail family of the other five Infinity Stones, while preserving this stone's distinct silhouette. Avoid placeholder cubes, featureless blobs, melted shapes, paper-thin structural parts, random floating pieces, unwanted ground planes, studio rooms, pedestals unless requested, baked directional shadows, illegible lettering, watermarks, and duplicate objects. Do not generate scripts, collision cages, particle effects, or user-interface panels. Reserve flat clean areas for any requested Roblox text overlays; do not bake words into the texture.",
+      "negative_prompt": "Metadata only, not a separate supported API parameter: placeholder blocks; melted geometry; illegible text; paper-thin structural walls; random detached pieces; baked directional shadows; unwanted bases or scenery.",
+      "target_polycount": 3500,
+      "texture_prompt": "Stylized PBR game material. Rich readable colors, crisp edges, subtle wear, clean atlas, physically plausible metal and roughness. Use the color details in the generation prompt. No words, watermark, baked shadow or photorealistic background.",
+      "reference_required": false
+    },
+    {
+      "asset_key": "infinity_power",
+      "name": "Power Stone",
+      "role": "item",
+      "status": "not_generated",
+      "existing_item_id": null,
+      "new_catalog_item_requested": true,
+      "generation_mode": "text_to_3d",
+      "needs_reference": false,
+      "reference_status": "optional_accuracy_reference_not_supplied",
+      "prompt": "Stylized PBR Roblox game asset, crisp layered solid geometry and clean UVs. One Legendary Infinity Power Stone: saturated violet compact rugged crystal with a peaked crown, broad planes and smaller contrasting facets. Crisp beveled planes, subtle inner glow and rich solid color. Match the six-stone material family. No gauntlet, mount, casing, necklace or other stone. Isolated complete object. No words, watermark, ground plane or random floating pieces.",
+      "target_triangle_budget": 3500,
+      "texture_target_px": 1024,
+      "materials": {
+        "pbr": true,
+        "base_color": true,
+        "normal": true,
+        "roughness": true,
+        "metallic": true,
+        "emissive": "separate map only where the brief requests glow; keep Roblox glow subtle"
+      },
+      "deliverables": [
+        "textured GLB",
+        "FBX if available",
+        "base-color and PBR texture images"
+      ],
+      "import": {
+        "roblox_up_axis": "+Y",
+        "roblox_forward_axis": "-Z",
+        "pivot": "bottom center for display; preserve a named optional carry socket above the center",
+        "intended_dimensions_studs": [
+          1.6,
+          2.1,
+          1.4
+        ],
+        "transform": "Apply object scale and rotation before export. Verify dimensions in Roblox Studio.",
+        "collision": "Use simple invisible Roblox collision parts where required. Do not use detailed mesh collision for decorative assets."
+      },
+      "roblox_overlays": [],
+      "assembly_components": [
+        "one mesh with a small number of material slots"
+      ],
+      "notes": [
+        "Requested rarity: Legendary. Generate a separate mesh and catalog record for this stone.",
+        "Five different deposited stone types trigger the requested progression event. Duplicate stones do not count as different types.",
+        "Collection logic, ownership, and once-only reward validation must be implemented in game code, outside Meshy."
+      ],
+      "id": "infinity_power",
+      "key": "infinity_power",
+      "design_brief": "Create one production-ready stylized PBR game asset for a Roblox collectible arena. Use a deliberate, recognizable silhouette, layered solid geometry, crisp bevels, readable color blocks, and detailed craftsmanship comparable to an ornate gold Millennium Puzzle. Make details readable at normal third-person camera distance. Use clean UVs and an efficient atlas. Keep the object isolated, centered, and complete on every visible side. Create the Power Stone from the Infinity Stones as one standalone Legendary collectible. Use saturated violet purple and a compact rugged multi-faceted crystal with a raised peaked crown and contrasting broad and small facets. Use a stylized gemstone surface with crisp beveled facets, a subtle emissive inner core, convincing roughness variation, and readable reflective highlights. Make the whole stone solid and richly colored rather than a transparent empty glass shell. Do not include the Infinity Gauntlet, a necklace, casing, mount, orbiting fragments, or other stones. Match the material and detail family of the other five Infinity Stones, while preserving this stone's distinct silhouette. Avoid placeholder cubes, featureless blobs, melted shapes, paper-thin structural parts, random floating pieces, unwanted ground planes, studio rooms, pedestals unless requested, baked directional shadows, illegible lettering, watermarks, and duplicate objects. Do not generate scripts, collision cages, particle effects, or user-interface panels. Reserve flat clean areas for any requested Roblox text overlays; do not bake words into the texture.",
+      "negative_prompt": "Metadata only, not a separate supported API parameter: placeholder blocks; melted geometry; illegible text; paper-thin structural walls; random detached pieces; baked directional shadows; unwanted bases or scenery.",
+      "target_polycount": 3500,
+      "texture_prompt": "Stylized PBR game material. Rich readable colors, crisp edges, subtle wear, clean atlas, physically plausible metal and roughness. Use the color details in the generation prompt. No words, watermark, baked shadow or photorealistic background.",
+      "reference_required": false
+    },
+    {
+      "asset_key": "infinity_time",
+      "name": "Time Stone",
+      "role": "item",
+      "status": "not_generated",
+      "existing_item_id": null,
+      "new_catalog_item_requested": true,
+      "generation_mode": "text_to_3d",
+      "needs_reference": false,
+      "reference_status": "optional_accuracy_reference_not_supplied",
+      "prompt": "Stylized PBR Roblox game asset, crisp layered solid geometry and clean UVs. One Legendary Infinity Time Stone: emerald-green tall slender gem, sharp upper crown, tapered base and crisp emerald-cut planes. Clean bevels, subtle inner glow and rich solid readable color. Match the six-stone material family. No gauntlet, mount, casing, necklace or other stone. Isolated complete object. No words, watermark, ground plane or random floating pieces.",
+      "target_triangle_budget": 3500,
+      "texture_target_px": 1024,
+      "materials": {
+        "pbr": true,
+        "base_color": true,
+        "normal": true,
+        "roughness": true,
+        "metallic": true,
+        "emissive": "separate map only where the brief requests glow; keep Roblox glow subtle"
+      },
+      "deliverables": [
+        "textured GLB",
+        "FBX if available",
+        "base-color and PBR texture images"
+      ],
+      "import": {
+        "roblox_up_axis": "+Y",
+        "roblox_forward_axis": "-Z",
+        "pivot": "bottom center for display; preserve a named optional carry socket above the center",
+        "intended_dimensions_studs": [
+          1.6,
+          2.1,
+          1.4
+        ],
+        "transform": "Apply object scale and rotation before export. Verify dimensions in Roblox Studio.",
+        "collision": "Use simple invisible Roblox collision parts where required. Do not use detailed mesh collision for decorative assets."
+      },
+      "roblox_overlays": [],
+      "assembly_components": [
+        "one mesh with a small number of material slots"
+      ],
+      "notes": [
+        "Requested rarity: Legendary. Generate a separate mesh and catalog record for this stone.",
+        "Five different deposited stone types trigger the requested progression event. Duplicate stones do not count as different types.",
+        "Collection logic, ownership, and once-only reward validation must be implemented in game code, outside Meshy."
+      ],
+      "id": "infinity_time",
+      "key": "infinity_time",
+      "design_brief": "Create one production-ready stylized PBR game asset for a Roblox collectible arena. Use a deliberate, recognizable silhouette, layered solid geometry, crisp bevels, readable color blocks, and detailed craftsmanship comparable to an ornate gold Millennium Puzzle. Make details readable at normal third-person camera distance. Use clean UVs and an efficient atlas. Keep the object isolated, centered, and complete on every visible side. Create the Time Stone from the Infinity Stones as one standalone Legendary collectible. Use bright emerald green and a tall slender faceted gem with a sharp upper crown, tapered base, and crisp emerald-cut planes. Use a stylized gemstone surface with crisp beveled facets, a subtle emissive inner core, convincing roughness variation, and readable reflective highlights. Make the whole stone solid and richly colored rather than a transparent empty glass shell. Do not include the Infinity Gauntlet, a necklace, casing, mount, orbiting fragments, or other stones. Match the material and detail family of the other five Infinity Stones, while preserving this stone's distinct silhouette. Avoid placeholder cubes, featureless blobs, melted shapes, paper-thin structural parts, random floating pieces, unwanted ground planes, studio rooms, pedestals unless requested, baked directional shadows, illegible lettering, watermarks, and duplicate objects. Do not generate scripts, collision cages, particle effects, or user-interface panels. Reserve flat clean areas for any requested Roblox text overlays; do not bake words into the texture.",
+      "negative_prompt": "Metadata only, not a separate supported API parameter: placeholder blocks; melted geometry; illegible text; paper-thin structural walls; random detached pieces; baked directional shadows; unwanted bases or scenery.",
+      "target_polycount": 3500,
+      "texture_prompt": "Stylized PBR game material. Rich readable colors, crisp edges, subtle wear, clean atlas, physically plausible metal and roughness. Use the color details in the generation prompt. No words, watermark, baked shadow or photorealistic background.",
+      "reference_required": false
+    },
+    {
+      "asset_key": "infinity_soul",
+      "name": "Soul Stone",
+      "role": "item",
+      "status": "not_generated",
+      "existing_item_id": null,
+      "new_catalog_item_requested": true,
+      "generation_mode": "text_to_3d",
+      "needs_reference": false,
+      "reference_status": "optional_accuracy_reference_not_supplied",
+      "prompt": "Stylized PBR Roblox game asset, crisp layered solid geometry and clean UVs. One Legendary Infinity Soul Stone: amber-orange angular teardrop crystal, broad upper crown, narrow lower tip and warm internal depth. Crisp bevels, subtle inner glow and rich solid readable color. Match the six-stone material family. No gauntlet, mount, casing, necklace or other stone. Isolated complete object. No words, watermark, ground plane or random floating pieces.",
+      "target_triangle_budget": 3500,
+      "texture_target_px": 1024,
+      "materials": {
+        "pbr": true,
+        "base_color": true,
+        "normal": true,
+        "roughness": true,
+        "metallic": true,
+        "emissive": "separate map only where the brief requests glow; keep Roblox glow subtle"
+      },
+      "deliverables": [
+        "textured GLB",
+        "FBX if available",
+        "base-color and PBR texture images"
+      ],
+      "import": {
+        "roblox_up_axis": "+Y",
+        "roblox_forward_axis": "-Z",
+        "pivot": "bottom center for display; preserve a named optional carry socket above the center",
+        "intended_dimensions_studs": [
+          1.6,
+          2.1,
+          1.4
+        ],
+        "transform": "Apply object scale and rotation before export. Verify dimensions in Roblox Studio.",
+        "collision": "Use simple invisible Roblox collision parts where required. Do not use detailed mesh collision for decorative assets."
+      },
+      "roblox_overlays": [],
+      "assembly_components": [
+        "one mesh with a small number of material slots"
+      ],
+      "notes": [
+        "Requested rarity: Legendary. Generate a separate mesh and catalog record for this stone.",
+        "Five different deposited stone types trigger the requested progression event. Duplicate stones do not count as different types.",
+        "Collection logic, ownership, and once-only reward validation must be implemented in game code, outside Meshy."
+      ],
+      "id": "infinity_soul",
+      "key": "infinity_soul",
+      "design_brief": "Create one production-ready stylized PBR game asset for a Roblox collectible arena. Use a deliberate, recognizable silhouette, layered solid geometry, crisp bevels, readable color blocks, and detailed craftsmanship comparable to an ornate gold Millennium Puzzle. Make details readable at normal third-person camera distance. Use clean UVs and an efficient atlas. Keep the object isolated, centered, and complete on every visible side. Create the Soul Stone from the Infinity Stones as one standalone Legendary collectible. Use glowing amber orange and a rounded teardrop-like angular crystal with a broad upper crown, a narrow lower tip, and warm internal amber depth. Use a stylized gemstone surface with crisp beveled facets, a subtle emissive inner core, convincing roughness variation, and readable reflective highlights. Make the whole stone solid and richly colored rather than a transparent empty glass shell. Do not include the Infinity Gauntlet, a necklace, casing, mount, orbiting fragments, or other stones. Match the material and detail family of the other five Infinity Stones, while preserving this stone's distinct silhouette. Avoid placeholder cubes, featureless blobs, melted shapes, paper-thin structural parts, random floating pieces, unwanted ground planes, studio rooms, pedestals unless requested, baked directional shadows, illegible lettering, watermarks, and duplicate objects. Do not generate scripts, collision cages, particle effects, or user-interface panels. Reserve flat clean areas for any requested Roblox text overlays; do not bake words into the texture.",
+      "negative_prompt": "Metadata only, not a separate supported API parameter: placeholder blocks; melted geometry; illegible text; paper-thin structural walls; random detached pieces; baked directional shadows; unwanted bases or scenery.",
+      "target_polycount": 3500,
+      "texture_prompt": "Stylized PBR game material. Rich readable colors, crisp edges, subtle wear, clean atlas, physically plausible metal and roughness. Use the color details in the generation prompt. No words, watermark, baked shadow or photorealistic background.",
+      "reference_required": false
+    },
+    {
+      "asset_key": "pekka",
+      "name": "Clash Royale P.E.K.K.A",
+      "role": "item",
+      "status": "not_generated",
+      "existing_item_id": null,
+      "new_catalog_item_requested": false,
+      "generation_mode": "text_to_3d",
+      "needs_reference": false,
+      "reference_status": "optional_accuracy_reference_not_supplied",
+      "prompt": "Stylized PBR Roblox game asset, crisp layered solid geometry and clean UVs. Clash Royale P.E.K.K.A collectible: heavy dark-violet segmented armor, broad helmet, two sweeping purple horns, magenta eye slits, oversized pauldrons, articulated gauntlets and boots, one massive sword. Crisp layered blue-violet steel, visible joints. Stable neutral pose, sword close to body. No pedestal or scene. Isolated complete object. No words, watermark, ground plane or random floating pieces.",
+      "target_triangle_budget": 8000,
+      "texture_target_px": 2048,
+      "materials": {
+        "pbr": true,
+        "base_color": true,
+        "normal": true,
+        "roughness": true,
+        "metallic": true,
+        "emissive": "separate map only where the brief requests glow; keep Roblox glow subtle"
+      },
+      "deliverables": [
+        "textured GLB",
+        "FBX if available",
+        "base-color and PBR texture images"
+      ],
+      "import": {
+        "roblox_up_axis": "+Y",
+        "roblox_forward_axis": "-Z",
+        "pivot": "bottom center for display; preserve a named optional carry socket above the center",
+        "intended_dimensions_studs": [
+          3.7,
+          5.1,
+          2.8
+        ],
+        "transform": "Apply object scale and rotation before export. Verify dimensions in Roblox Studio.",
+        "collision": "Use simple invisible Roblox collision parts where required. Do not use detailed mesh collision for decorative assets."
+      },
+      "roblox_overlays": [],
+      "assembly_components": [
+        "one mesh with a small number of material slots"
+      ],
+      "notes": [
+        "Existing art builder supports model key pekka, but docs/art-catalog.json does not establish an active catalog ID. Resolve the current catalog before assigning any new ID.",
+        "Visual upgrade must not create a duplicate if P.E.K.K.A is already cataloged. This is a collectible model, not a live NPC."
+      ],
+      "id": "pekka",
+      "key": "pekka",
+      "design_brief": "Create one production-ready stylized PBR game asset for a Roblox collectible arena. Use a deliberate, recognizable silhouette, layered solid geometry, crisp bevels, readable color blocks, and detailed craftsmanship comparable to an ornate gold Millennium Puzzle. Make details readable at normal third-person camera distance. Use clean UVs and an efficient atlas. Keep the object isolated, centered, and complete on every visible side. Create a collectible P.E.K.K.A armored figure recognizable from Clash Royale: heavy dark violet segmented armor, a broad angular helmet with two sweeping purple horns, glowing magenta eye slits, oversized pauldrons, thick articulated gauntlets and boots, and one large heavy sword. Use sharp clean armor layers, visible joints, blue-violet steel highlights, and restrained magenta accents. Use a stable neutral display pose with all limbs visible and the sword angled close to the body. No base or surrounding battlefield. Avoid placeholder cubes, featureless blobs, melted shapes, paper-thin structural parts, random floating pieces, unwanted ground planes, studio rooms, pedestals unless requested, baked directional shadows, illegible lettering, watermarks, and duplicate objects. Do not generate scripts, collision cages, particle effects, or user-interface panels. Reserve flat clean areas for any requested Roblox text overlays; do not bake words into the texture.",
+      "negative_prompt": "Metadata only, not a separate supported API parameter: placeholder blocks; melted geometry; illegible text; paper-thin structural walls; random detached pieces; baked directional shadows; unwanted bases or scenery.",
+      "target_polycount": 8000,
+      "texture_prompt": "Stylized PBR game material. Rich readable colors, crisp edges, subtle wear, clean atlas, physically plausible metal and roughness. Use the color details in the generation prompt. No words, watermark, baked shadow or photorealistic background.",
+      "reference_required": false
+    },
+    {
+      "asset_key": "mega_knight",
+      "name": "Clash Royale Mega Knight",
+      "role": "item",
+      "status": "not_generated",
+      "existing_item_id": null,
+      "new_catalog_item_requested": false,
+      "generation_mode": "text_to_3d",
+      "needs_reference": false,
+      "reference_status": "optional_accuracy_reference_not_supplied",
+      "prompt": "Stylized PBR Roblox game asset, crisp layered solid geometry and clean UVs. Clash Royale Mega Knight collectible: wide heavy dark steel helmet, narrow eye opening, broad layered pauldrons, thick chest armor, brown belt, powerful armored legs and two huge round spiked fist gauntlets. Visible joints and gold fasteners. Compact neutral pose with both fists visible. No pedestal or fire. Isolated complete object. No words, watermark, ground plane or random floating pieces.",
+      "target_triangle_budget": 8000,
+      "texture_target_px": 2048,
+      "materials": {
+        "pbr": true,
+        "base_color": true,
+        "normal": true,
+        "roughness": true,
+        "metallic": true,
+        "emissive": "separate map only where the brief requests glow; keep Roblox glow subtle"
+      },
+      "deliverables": [
+        "textured GLB",
+        "FBX if available",
+        "base-color and PBR texture images"
+      ],
+      "import": {
+        "roblox_up_axis": "+Y",
+        "roblox_forward_axis": "-Z",
+        "pivot": "bottom center for display; preserve a named optional carry socket above the center",
+        "intended_dimensions_studs": [
+          4.2,
+          5.1,
+          3.0
+        ],
+        "transform": "Apply object scale and rotation before export. Verify dimensions in Roblox Studio.",
+        "collision": "Use simple invisible Roblox collision parts where required. Do not use detailed mesh collision for decorative assets."
+      },
+      "roblox_overlays": [],
+      "assembly_components": [
+        "one mesh with a small number of material slots"
+      ],
+      "notes": [
+        "Existing art builder supports model key megaknight, but docs/art-catalog.json does not establish an active catalog ID. Resolve the current catalog before assigning any new ID.",
+        "Visual upgrade must not create a duplicate if Mega Knight is already cataloged. This is a collectible model, not a live NPC."
+      ],
+      "id": "mega_knight",
+      "key": "mega_knight",
+      "design_brief": "Create one production-ready stylized PBR game asset for a Roblox collectible arena. Use a deliberate, recognizable silhouette, layered solid geometry, crisp bevels, readable color blocks, and detailed craftsmanship comparable to an ornate gold Millennium Puzzle. Make details readable at normal third-person camera distance. Use clean UVs and an efficient atlas. Keep the object isolated, centered, and complete on every visible side. Create a collectible Mega Knight armored figure recognizable from Clash Royale: a wide heavy blackened-steel helmet with a narrow eye opening, very broad layered pauldrons, thick chest plate, brown belt, powerful armored legs, and two oversized round spiked metal fist gauntlets. Add visible panel joins, restrained gold fasteners, worn steel bevels, and dark leather underlayers. Use a compact stable neutral display pose with both spiked fists clearly visible. No pedestal, fire, or battlefield. Avoid placeholder cubes, featureless blobs, melted shapes, paper-thin structural parts, random floating pieces, unwanted ground planes, studio rooms, pedestals unless requested, baked directional shadows, illegible lettering, watermarks, and duplicate objects. Do not generate scripts, collision cages, particle effects, or user-interface panels. Reserve flat clean areas for any requested Roblox text overlays; do not bake words into the texture.",
+      "negative_prompt": "Metadata only, not a separate supported API parameter: placeholder blocks; melted geometry; illegible text; paper-thin structural walls; random detached pieces; baked directional shadows; unwanted bases or scenery.",
+      "target_polycount": 8000,
+      "texture_prompt": "Stylized PBR game material. Rich readable colors, crisp edges, subtle wear, clean atlas, physically plausible metal and roughness. Use the color details in the generation prompt. No words, watermark, baked shadow or photorealistic background.",
+      "reference_required": false
+    },
+    {
+      "asset_key": "dragon_balls",
+      "name": "Seven Dragon Balls collectible set",
+      "role": "item",
+      "status": "not_generated",
+      "existing_item_id": "item43",
+      "new_catalog_item_requested": false,
+      "generation_mode": "text_to_3d",
+      "needs_reference": false,
+      "reference_status": "optional_accuracy_reference_not_supplied",
+      "prompt": "Stylized PBR Roblox game asset, crisp layered solid geometry and clean UVs. Exactly seven orange Dragon Balls grouped as one compact two-level collectible. Rich amber spheres with crisp red five-point stars: exactly 1,2,3,4,5,6,7 stars on the respective balls. All counts readable from front three-quarter view. Solid rich color, subtle depth. Separate named balls. No eighth ball or dragon. Isolated complete object. No words, watermark, ground plane or random floating pieces.",
+      "target_triangle_budget": 7500,
+      "texture_target_px": 1024,
+      "materials": {
+        "pbr": true,
+        "base_color": true,
+        "normal": true,
+        "roughness": true,
+        "metallic": true,
+        "emissive": "separate map only where the brief requests glow; keep Roblox glow subtle"
+      },
+      "deliverables": [
+        "textured GLB",
+        "FBX if available",
+        "base-color and PBR texture images"
+      ],
+      "import": {
+        "roblox_up_axis": "+Y",
+        "roblox_forward_axis": "-Z",
+        "pivot": "bottom center for display; preserve a named optional carry socket above the center",
+        "intended_dimensions_studs": [
+          4.0,
+          2.6,
+          3.0
+        ],
+        "transform": "Apply object scale and rotation before export. Verify dimensions in Roblox Studio.",
+        "collision": "Use simple invisible Roblox collision parts where required. Do not use detailed mesh collision for decorative assets."
+      },
+      "roblox_overlays": [],
+      "assembly_components": [
+        "seven separate named sphere meshes: Ball_1_Star through Ball_7_Stars; grouped as one collectible"
+      ],
+      "notes": [
+        "Validate the number of balls and each star count manually. AI generation may need clean red-star decals or geometry added after export.",
+        "Preserve item43 as one seven-ball set; do not create seven extra catalog IDs."
+      ],
+      "id": "dragon_balls",
+      "key": "dragon_balls",
+      "design_brief": "Create one production-ready stylized PBR game asset for a Roblox collectible arena. Use a deliberate, recognizable silhouette, layered solid geometry, crisp bevels, readable color blocks, and detailed craftsmanship comparable to an ornate gold Millennium Puzzle. Make details readable at normal third-person camera distance. Use clean UVs and an efficient atlas. Keep the object isolated, centered, and complete on every visible side. Create one collectible set containing exactly seven orange Dragon Balls in a compact two-level cluster. Each ball is a smooth amber-orange sphere with rich translucent-looking depth but a solid readable surface. Give the seven balls exactly one, two, three, four, five, six, and seven red five-pointed stars respectively. Make every star count visible from the front three-quarter view. Use crisp stars lying on the sphere surfaces, subtle highlight variation, and a stable compact overall silhouette. No dragon, pedestal, lettering, or extra eighth ball. Avoid placeholder cubes, featureless blobs, melted shapes, paper-thin structural parts, random floating pieces, unwanted ground planes, studio rooms, pedestals unless requested, baked directional shadows, illegible lettering, watermarks, and duplicate objects. Do not generate scripts, collision cages, particle effects, or user-interface panels. Reserve flat clean areas for any requested Roblox text overlays; do not bake words into the texture.",
+      "negative_prompt": "Metadata only, not a separate supported API parameter: placeholder blocks; melted geometry; illegible text; paper-thin structural walls; random detached pieces; baked directional shadows; unwanted bases or scenery.",
+      "target_polycount": 7500,
+      "texture_prompt": "Stylized PBR game material. Rich readable colors, crisp edges, subtle wear, clean atlas, physically plausible metal and roughness. Use the color details in the generation prompt. No words, watermark, baked shadow or photorealistic background.",
+      "reference_required": false
+    },
+    {
+      "asset_key": "winged_dragon_ra",
+      "name": "The Winged Dragon of Ra monument",
+      "role": "decoration",
+      "status": "not_generated",
+      "existing_item_id": null,
+      "new_catalog_item_requested": false,
+      "generation_mode": "text_to_3d",
+      "needs_reference": false,
+      "reference_status": "optional_accuracy_reference_not_supplied",
+      "prompt": "Stylized PBR Roblox game asset, crisp layered solid geometry and clean UVs. Monumental Winged Dragon of Ra: gold avian-dragon head, sharp beak-like snout, tall crown crest, red eyes, armored neck, broad chest with red central jewel, two huge raised wings of layered gold blade feathers, powerful legs, curled talons and segmented tail. Egyptian panel detail, dark gold seams. Face visible. Isolated complete object. No words, watermark, ground plane or random floating pieces.",
+      "target_triangle_budget": 18000,
+      "texture_target_px": 2048,
+      "materials": {
+        "pbr": true,
+        "base_color": true,
+        "normal": true,
+        "roughness": true,
+        "metallic": true,
+        "emissive": "separate map only where the brief requests glow; keep Roblox glow subtle"
+      },
+      "deliverables": [
+        "textured GLB",
+        "FBX if available",
+        "base-color and PBR texture images"
+      ],
+      "import": {
+        "roblox_up_axis": "+Y",
+        "roblox_forward_axis": "-Z",
+        "pivot": "bottom center; base at local Y=0",
+        "intended_dimensions_studs": [
+          41,
+          32,
+          17
+        ],
+        "transform": "Apply object scale and rotation before export. Verify dimensions in Roblox Studio.",
+        "collision": "Use simple invisible Roblox collision parts where required. Do not use detailed mesh collision for decorative assets."
+      },
+      "roblox_overlays": [],
+      "assembly_components": [
+        "one mesh with a small number of material slots"
+      ],
+      "notes": [
+        "Compare head, chest, wing shape, and golden body proportions against an approved reference before accepting the mesh.",
+        "Mount above the walls without obstructing playable space. Static decoration; use simple support collision if necessary."
+      ],
+      "id": "winged_dragon_ra",
+      "key": "winged_dragon_ra",
+      "design_brief": "Create one production-ready stylized PBR game asset for a Roblox collectible arena. Use a deliberate, recognizable silhouette, layered solid geometry, crisp bevels, readable color blocks, and detailed craftsmanship comparable to an ornate gold Millennium Puzzle. Make details readable at normal third-person camera distance. Use clean UVs and an efficient atlas. Keep the object isolated, centered, and complete on every visible side. Create a monumental Winged Dragon of Ra statue with an imposing golden avian-dragon head, a long sharp beak-like snout, a tall crown crest, luminous red eyes, a segmented armored neck, a broad chest with a circular red chest jewel, two enormous raised wings made from layered gold blade-like feathers, long articulated legs, curled talons, and a tapered segmented tail. Use ornate Egyptian-inspired panel lines and rich gold with dark recessed seams. Create a symmetrical dominant wing silhouette that remains recognizable from across a large arena. Use a compact stone mounting plinth only where needed for the feet. No other characters or scenery. Avoid placeholder cubes, featureless blobs, melted shapes, paper-thin structural parts, random floating pieces, unwanted ground planes, studio rooms, pedestals unless requested, baked directional shadows, illegible lettering, watermarks, and duplicate objects. Do not generate scripts, collision cages, particle effects, or user-interface panels. Reserve flat clean areas for any requested Roblox text overlays; do not bake words into the texture.",
+      "negative_prompt": "Metadata only, not a separate supported API parameter: placeholder blocks; melted geometry; illegible text; paper-thin structural walls; random detached pieces; baked directional shadows; unwanted bases or scenery.",
+      "target_polycount": 18000,
+      "texture_prompt": "Stylized PBR game material. Rich readable colors, crisp edges, subtle wear, clean atlas, physically plausible metal and roughness. Use the color details in the generation prompt. No words, watermark, baked shadow or photorealistic background.",
+      "reference_required": false
+    },
+    {
+      "asset_key": "obelisk_tormentor",
+      "name": "Obelisk the Tormentor monument",
+      "role": "decoration",
+      "status": "not_generated",
+      "existing_item_id": null,
+      "new_catalog_item_requested": false,
+      "generation_mode": "text_to_3d",
+      "needs_reference": false,
+      "reference_status": "optional_accuracy_reference_not_supplied",
+      "prompt": "Stylized PBR Roblox game asset, crisp layered solid geometry and clean UVs. Monumental Obelisk the Tormentor: colossal muscular blue armored body, tall severe horned crown, angular face with red eyes, thick neck, layered ribs and abdominal plates, huge squared fists, broad layered shoulders, powerful armored legs. Deep blue with bright edges and dark grooves. Upright chest, fists forward. No wings. Isolated complete object. No words, watermark, ground plane or random floating pieces.",
+      "target_triangle_budget": 17000,
+      "texture_target_px": 2048,
+      "materials": {
+        "pbr": true,
+        "base_color": true,
+        "normal": true,
+        "roughness": true,
+        "metallic": true,
+        "emissive": "separate map only where the brief requests glow; keep Roblox glow subtle"
+      },
+      "deliverables": [
+        "textured GLB",
+        "FBX if available",
+        "base-color and PBR texture images"
+      ],
+      "import": {
+        "roblox_up_axis": "+Y",
+        "roblox_forward_axis": "-Z",
+        "pivot": "bottom center; base at local Y=0",
+        "intended_dimensions_studs": [
+          25,
+          38,
+          17
+        ],
+        "transform": "Apply object scale and rotation before export. Verify dimensions in Roblox Studio.",
+        "collision": "Use simple invisible Roblox collision parts where required. Do not use detailed mesh collision for decorative assets."
+      },
+      "roblox_overlays": [],
+      "assembly_components": [
+        "one mesh with a small number of material slots"
+      ],
+      "notes": [
+        "Mount where the upper body and face remain visible above the walls. Preserve front viewing clearance."
+      ],
+      "id": "obelisk_tormentor",
+      "key": "obelisk_tormentor",
+      "design_brief": "Create one production-ready stylized PBR game asset for a Roblox collectible arena. Use a deliberate, recognizable silhouette, layered solid geometry, crisp bevels, readable color blocks, and detailed craftsmanship comparable to an ornate gold Millennium Puzzle. Make details readable at normal third-person camera distance. Use clean UVs and an efficient atlas. Keep the object isolated, centered, and complete on every visible side. Create a monumental Obelisk the Tormentor statue with a colossal muscular blue armored body, a tall severe horned crown, a broad angular face with red eyes, a thick armored neck, layered rib and abdominal plates, enormous squared fists, wide layered shoulder armor, powerful legs, and sharply defined knee and foot armor. Use deep blue stone-metal surfaces, brighter blue raised edges, and dark grooves that emphasize the recognizable anatomy. Pose both fists slightly forward with the chest upright and the face visible from the arena. Use a low plain mounting plinth only if needed. No wings, human clothing, extra characters, or effects. Avoid placeholder cubes, featureless blobs, melted shapes, paper-thin structural parts, random floating pieces, unwanted ground planes, studio rooms, pedestals unless requested, baked directional shadows, illegible lettering, watermarks, and duplicate objects. Do not generate scripts, collision cages, particle effects, or user-interface panels. Reserve flat clean areas for any requested Roblox text overlays; do not bake words into the texture.",
+      "negative_prompt": "Metadata only, not a separate supported API parameter: placeholder blocks; melted geometry; illegible text; paper-thin structural walls; random detached pieces; baked directional shadows; unwanted bases or scenery.",
+      "target_polycount": 17000,
+      "texture_prompt": "Stylized PBR game material. Rich readable colors, crisp edges, subtle wear, clean atlas, physically plausible metal and roughness. Use the color details in the generation prompt. No words, watermark, baked shadow or photorealistic background.",
+      "reference_required": false
+    },
+    {
+      "asset_key": "mtg_black_lotus_card",
+      "name": "Detailed Magic card decoration",
+      "role": "decoration",
+      "status": "not_generated",
+      "existing_item_id": null,
+      "new_catalog_item_requested": false,
+      "generation_mode": "text_to_3d",
+      "needs_reference": false,
+      "reference_status": "optional_accuracy_reference_not_supplied",
+      "prompt": "Stylized PBR Roblox game asset, crisp layered solid geometry and clean UVs. Portrait Black Lotus Magic card display: dark outer border, blank title bar, large inset art window, blank type strip and blank cream rules panel. Within art window sculpt a shallow black-violet lotus with gold center, curled dark leaves and misty garden relief. Thin display support. All art stays inside card. No baked text. Isolated complete object. No words, watermark, ground plane or random floating pieces.",
+      "target_triangle_budget": 11000,
+      "texture_target_px": 2048,
+      "materials": {
+        "pbr": true,
+        "base_color": true,
+        "normal": true,
+        "roughness": true,
+        "metallic": true,
+        "emissive": "separate map only where the brief requests glow; keep Roblox glow subtle"
+      },
+      "deliverables": [
+        "textured GLB",
+        "FBX if available",
+        "base-color and PBR texture images"
+      ],
+      "import": {
+        "roblox_up_axis": "+Y",
+        "roblox_forward_axis": "-Z",
+        "pivot": "bottom center; base at local Y=0",
+        "intended_dimensions_studs": [
+          16,
+          23,
+          1.5
+        ],
+        "transform": "Apply object scale and rotation before export. Verify dimensions in Roblox Studio.",
+        "collision": "Use simple invisible Roblox collision parts where required. Do not use detailed mesh collision for decorative assets."
+      },
+      "roblox_overlays": [
+        "Title: Black Lotus.",
+        "Mana cost, type line, rules text, and any card symbols must be added as approved Roblox images/text overlays; do not rely on AI-baked typography."
+      ],
+      "assembly_components": [
+        "one mesh with a small number of material slots"
+      ],
+      "notes": [
+        "This is scenery only. Do not add a new buyable Magic card item without a separate request."
+      ],
+      "id": "mtg_black_lotus_card",
+      "key": "mtg_black_lotus_card",
+      "design_brief": "Create one production-ready stylized PBR game asset for a Roblox collectible arena. Use a deliberate, recognizable silhouette, layered solid geometry, crisp bevels, readable color blocks, and detailed craftsmanship comparable to an ornate gold Millennium Puzzle. Make details readable at normal third-person camera distance. Use clean UVs and an efficient atlas. Keep the object isolated, centered, and complete on every visible side. Create one large freestanding portrait trading-card display celebrating Black Lotus. Use a recognizable Magic card composition: a dark outer border, a clean title bar at top, a large inset upper artwork window, a thin type strip, and a lower rules-text panel. Sculpt an elegant black lotus flower with layered near-black violet petals, a gold center, curled green-black leaves, and a softly colored misty garden relief inside the artwork window. Keep the lotus relief shallow and contained within the card edges. Add subtle weathered card stock and a thin polished display support. Leave title, type, mana, and rules surfaces flat and empty for accurate Roblox overlays. Finish the back cleanly. Avoid placeholder cubes, featureless blobs, melted shapes, paper-thin structural parts, random floating pieces, unwanted ground planes, studio rooms, pedestals unless requested, baked directional shadows, illegible lettering, watermarks, and duplicate objects. Do not generate scripts, collision cages, particle effects, or user-interface panels. Reserve flat clean areas for any requested Roblox text overlays; do not bake words into the texture.",
+      "negative_prompt": "Metadata only, not a separate supported API parameter: placeholder blocks; melted geometry; illegible text; paper-thin structural walls; random detached pieces; baked directional shadows; unwanted bases or scenery.",
+      "target_polycount": 11000,
+      "texture_prompt": "Stylized PBR game material. Rich readable colors, crisp edges, subtle wear, clean atlas, physically plausible metal and roughness. Use the color details in the generation prompt. No words, watermark, baked shadow or photorealistic background.",
+      "reference_required": false
+    },
+    {
+      "asset_key": "mirror_force_card",
+      "name": "Mirror Force card surrounding energy planet",
+      "role": "decoration",
+      "status": "not_generated",
+      "existing_item_id": null,
+      "new_catalog_item_requested": false,
+      "generation_mode": "text_to_3d",
+      "needs_reference": false,
+      "reference_status": "optional_accuracy_reference_not_supplied",
+      "prompt": "Stylized PBR Roblox game asset, crisp layered solid geometry and clean UVs. Huge portrait Mirror Force Yu-Gi-Oh trap-card display: magenta frame, blank title bar, narrow type strip, inset rectangular art window and cream rules panel. Inside art: blue-violet reflective energy shield curving around a planet-like core, mirrored rays, central burst and contained shards. Entire planet inside card. No baked text. Isolated complete object. No words, watermark, ground plane or random floating pieces.",
+      "target_triangle_budget": 14000,
+      "texture_target_px": 2048,
+      "materials": {
+        "pbr": true,
+        "base_color": true,
+        "normal": true,
+        "roughness": true,
+        "metallic": true,
+        "emissive": "separate map only where the brief requests glow; keep Roblox glow subtle"
+      },
+      "deliverables": [
+        "textured GLB",
+        "FBX if available",
+        "base-color and PBR texture images"
+      ],
+      "import": {
+        "roblox_up_axis": "+Y",
+        "roblox_forward_axis": "-Z",
+        "pivot": "bottom center; base at local Y=0",
+        "intended_dimensions_studs": [
+          32,
+          47,
+          3.5
+        ],
+        "transform": "Apply object scale and rotation before export. Verify dimensions in Roblox Studio.",
+        "collision": "Use simple invisible Roblox collision parts where required. Do not use detailed mesh collision for decorative assets."
+      },
+      "roblox_overlays": [
+        "Title: Mirror Force.",
+        "Trap-card label, trap icon, and description are Roblox text or approved image overlays."
+      ],
+      "assembly_components": [
+        "one mesh with a small number of material slots"
+      ],
+      "notes": [
+        "Keep rainbow geometry, rainbow particles, and other scenery outside the complete card sightline.",
+        "This is a stylized scene based on Mirror Force. Use an approved card reference if exact artwork matching is required."
+      ],
+      "id": "mirror_force_card",
+      "key": "mirror_force_card",
+      "design_brief": "Create one production-ready stylized PBR game asset for a Roblox collectible arena. Use a deliberate, recognizable silhouette, layered solid geometry, crisp bevels, readable color blocks, and detailed craftsmanship comparable to an ornate gold Millennium Puzzle. Make details readable at normal third-person camera distance. Use clean UVs and an efficient atlas. Keep the object isolated, centered, and complete on every visible side. Create a very large portrait Yu-Gi-Oh Mirror Force trap-card display with a vivid magenta-purple outer frame, a clearly separated top title bar, a narrow category strip, a large rectangular inset artwork window, and a cream lower description panel. Within the artwork window create a shallow blue-violet cosmic energy relief: a curved reflective shield arc around a spherical planet-like core, radiant mirrored streaks, a bright central reflection burst, and a few contained crystalline shards. Keep the entire spherical core and energy artwork inside the rectangular card artwork window. The finished object must clearly read as a complete trap card containing the energy planet, not an isolated planet or ring. Leave the title, type labels, card emblem area, and rules text blank for exact Roblox overlays. Use polished magenta edging, dimensional inset bevels, and a finished neutral card back. Avoid placeholder cubes, featureless blobs, melted shapes, paper-thin structural parts, random floating pieces, unwanted ground planes, studio rooms, pedestals unless requested, baked directional shadows, illegible lettering, watermarks, and duplicate objects. Do not generate scripts, collision cages, particle effects, or user-interface panels. Reserve flat clean areas for any requested Roblox text overlays; do not bake words into the texture.",
+      "negative_prompt": "Metadata only, not a separate supported API parameter: placeholder blocks; melted geometry; illegible text; paper-thin structural walls; random detached pieces; baked directional shadows; unwanted bases or scenery.",
+      "target_polycount": 14000,
+      "texture_prompt": "Stylized PBR game material. Rich readable colors, crisp edges, subtle wear, clean atlas, physically plausible metal and roughness. Use the color details in the generation prompt. No words, watermark, baked shadow or photorealistic background.",
+      "reference_required": false
+    },
+    {
+      "asset_key": "squidward_force_of_despair_painting",
+      "name": "Squidward Force of Despair meme painting",
+      "role": "decoration",
+      "status": "not_generated",
+      "existing_item_id": null,
+      "new_catalog_item_requested": false,
+      "generation_mode": "reference_required",
+      "needs_reference": true,
+      "reference_status": "missing_exact_user_reference",
+      "prompt": "Stylized PBR Roblox game asset, crisp layered solid geometry and clean UVs. REFERENCE REQUIRED: use the exact supplied Squidward Force of Despair meme image as a flat canvas texture. Preserve subject, expression, composition and crop. Simple slightly worn wood painting frame, inset canvas and hidden wall hanger. Standalone painting only. No Magic card border, mana symbols, rules text or invented replacement image. Isolated complete object. No words, watermark, ground plane or random floating pieces.",
+      "target_triangle_budget": 3500,
+      "texture_target_px": 2048,
+      "materials": {
+        "pbr": true,
+        "base_color": true,
+        "normal": true,
+        "roughness": true,
+        "metallic": true,
+        "emissive": "separate map only where the brief requests glow; keep Roblox glow subtle"
+      },
+      "deliverables": [
+        "textured GLB",
+        "FBX if available",
+        "base-color and PBR texture images"
+      ],
+      "import": {
+        "roblox_up_axis": "+Y",
+        "roblox_forward_axis": "-Z",
+        "pivot": "bottom center; base at local Y=0",
+        "intended_dimensions_studs": [
+          13,
+          16,
+          1.0
+        ],
+        "transform": "Apply object scale and rotation before export. Verify dimensions in Roblox Studio.",
+        "collision": "Use simple invisible Roblox collision parts where required. Do not use detailed mesh collision for decorative assets."
+      },
+      "roblox_overlays": [],
+      "assembly_components": [
+        "simple frame mesh",
+        "flat canvas surface with the user-approved image texture"
+      ],
+      "notes": [
+        "BLOCKED REFERENCE: the conversation supplies a description but no exact artwork image. Request the image while continuing other assets.",
+        "Prefer a clean reusable frame mesh plus the approved image as a Roblox texture. Do not ask a 3D model generator to redraw the meme when a flat image is the intended result."
+      ],
+      "id": "squidward_force_of_despair_painting",
+      "key": "squidward_force_of_despair_painting",
+      "design_brief": "Create one production-ready stylized PBR game asset for a Roblox collectible arena. Use a deliberate, recognizable silhouette, layered solid geometry, crisp bevels, readable color blocks, and detailed craftsmanship comparable to an ornate gold Millennium Puzzle. Make details readable at normal third-person camera distance. Use clean UVs and an efficient atlas. Keep the object isolated, centered, and complete on every visible side. Create a framed painting display using the exact user-provided Squidward Force of Despair meme artwork as the image reference. Preserve that reference's subject, composition, colors, expression, and cropping. Use a tasteful slightly worn painted wood frame, a thin inset canvas surface, and a small discreet wall hanger. The image must read as a standalone painting. Do not add trading-card borders, mana symbols, rules text, or invented replacement meme artwork. The exact image reference is required before generation. If it is missing, do not fabricate the image. Avoid placeholder cubes, featureless blobs, melted shapes, paper-thin structural parts, random floating pieces, unwanted ground planes, studio rooms, pedestals unless requested, baked directional shadows, illegible lettering, watermarks, and duplicate objects. Do not generate scripts, collision cages, particle effects, or user-interface panels. Reserve flat clean areas for any requested Roblox text overlays; do not bake words into the texture.",
+      "negative_prompt": "Metadata only, not a separate supported API parameter: placeholder blocks; melted geometry; illegible text; paper-thin structural walls; random detached pieces; baked directional shadows; unwanted bases or scenery.",
+      "target_polycount": 3500,
+      "texture_prompt": "Stylized PBR game material. Rich readable colors, crisp edges, subtle wear, clean atlas, physically plausible metal and roughness. Use the color details in the generation prompt. No words, watermark, baked shadow or photorealistic background.",
+      "reference_required": true
+    },
+    {
+      "asset_key": "exodia_spellbinding_circle_chains",
+      "name": "Exodia Spellbinding Circle and chains",
+      "role": "decoration",
+      "status": "not_generated",
+      "existing_item_id": null,
+      "new_catalog_item_requested": false,
+      "generation_mode": "text_to_3d",
+      "needs_reference": false,
+      "reference_status": "optional_accuracy_reference_not_supplied",
+      "prompt": "Stylized PBR Roblox game asset, crisp layered solid geometry and clean UVs. Separate Spellbinding Circle backdrop for existing Exodia: violet metal outer circle, three geometric rings, central six-point star from two interlocking triangles and magenta emissive inlays. Four heavy chains with alternating oval links curve from ring to forearm/torso cuffs. Keep face opening clear. No extra Exodia or baked words. Isolated complete object. No words, watermark, ground plane or random floating pieces.",
+      "target_triangle_budget": 16000,
+      "texture_target_px": 2048,
+      "materials": {
+        "pbr": true,
+        "base_color": true,
+        "normal": true,
+        "roughness": true,
+        "metallic": true,
+        "emissive": "separate map only where the brief requests glow; keep Roblox glow subtle"
+      },
+      "deliverables": [
+        "textured GLB",
+        "FBX if available",
+        "base-color and PBR texture images"
+      ],
+      "import": {
+        "roblox_up_axis": "+Y",
+        "roblox_forward_axis": "-Z",
+        "pivot": "center of the vertical circle; front -Z",
+        "intended_dimensions_studs": [
+          40,
+          40,
+          8
+        ],
+        "transform": "Apply object scale and rotation before export. Verify dimensions in Roblox Studio.",
+        "collision": "Use simple invisible Roblox collision parts where required. Do not use detailed mesh collision for decorative assets."
+      },
+      "roblox_overlays": [],
+      "assembly_components": [
+        "Circle_Backdrop",
+        "Chain_LeftArm",
+        "Chain_RightArm",
+        "Chain_LeftTorso",
+        "Chain_RightTorso",
+        "four adjustable cuff ends"
+      ],
+      "notes": [
+        "Fit chains and cuff endpoints to the existing Exodia model after import. AI cannot infer exact existing statue coordinates.",
+        "Keep the detailed original face and statue unchanged. Glow is an accent, not an opaque effect that hides geometry."
+      ],
+      "id": "exodia_spellbinding_circle_chains",
+      "key": "exodia_spellbinding_circle_chains",
+      "design_brief": "Create one production-ready stylized PBR game asset for a Roblox collectible arena. Use a deliberate, recognizable silhouette, layered solid geometry, crisp bevels, readable color blocks, and detailed craftsmanship comparable to an ornate gold Millennium Puzzle. Make details readable at normal third-person camera distance. Use clean UVs and an efficient atlas. Keep the object isolated, centered, and complete on every visible side. Create a separate monumental Spellbinding Circle backdrop and physical chain assembly for an existing Exodia statue. Use a large thin circular magical sigil with an outer ring, three nested geometric rings, angular radial markings, a central six-point star made from two interlocking triangles, and ornate small geometric motifs. Use violet-purple metal edging with controlled pink-violet emissive inlays. Add four visibly interlocking heavy chain runs from ring anchor points toward the two forearm cuffs and the two torso cuffs. Each chain must have clear alternating oval links and a readable suspended curve. Keep the central face area open and keep all chains below or beside Exodia's face. Do not generate another Exodia statue. Do not bake lettering or invented readable words into the sigil. Avoid placeholder cubes, featureless blobs, melted shapes, paper-thin structural parts, random floating pieces, unwanted ground planes, studio rooms, pedestals unless requested, baked directional shadows, illegible lettering, watermarks, and duplicate objects. Do not generate scripts, collision cages, particle effects, or user-interface panels. Reserve flat clean areas for any requested Roblox text overlays; do not bake words into the texture.",
+      "negative_prompt": "Metadata only, not a separate supported API parameter: placeholder blocks; melted geometry; illegible text; paper-thin structural walls; random detached pieces; baked directional shadows; unwanted bases or scenery.",
+      "target_polycount": 16000,
+      "texture_prompt": "Stylized PBR game material. Rich readable colors, crisp edges, subtle wear, clean atlas, physically plausible metal and roughness. Use the color details in the generation prompt. No words, watermark, baked shadow or photorealistic background.",
+      "reference_required": false
+    },
+    {
+      "asset_key": "hooh_bell_tower",
+      "name": "Ho-Oh Bell Tower",
+      "role": "decoration",
+      "status": "not_generated",
+      "existing_item_id": null,
+      "new_catalog_item_requested": false,
+      "generation_mode": "text_to_3d",
+      "needs_reference": false,
+      "reference_status": "optional_accuracy_reference_not_supplied",
+      "prompt": "Stylized PBR Roblox game asset, crisp layered solid geometry and clean UVs. Ornate Ho-Oh Bell Tower pagoda: five diminishing curved roofs, upturned tiled eaves, green-blue ceramic tiles, red-brown timber columns, ivory panels, gold ridges, carved railings and visible bronze bell in an open upper pavilion. Stone foundation and broad steps. Keep bird exit clear. No bird baked into tower. Isolated complete object. No words, watermark, ground plane or random floating pieces.",
+      "target_triangle_budget": 18000,
+      "texture_target_px": 2048,
+      "materials": {
+        "pbr": true,
+        "base_color": true,
+        "normal": true,
+        "roughness": true,
+        "metallic": true,
+        "emissive": "separate map only where the brief requests glow; keep Roblox glow subtle"
+      },
+      "deliverables": [
+        "textured GLB",
+        "FBX if available",
+        "base-color and PBR texture images"
+      ],
+      "import": {
+        "roblox_up_axis": "+Y",
+        "roblox_forward_axis": "-Z",
+        "pivot": "bottom center; base at local Y=0",
+        "intended_dimensions_studs": [
+          20,
+          42,
+          20
+        ],
+        "transform": "Apply object scale and rotation before export. Verify dimensions in Roblox Studio.",
+        "collision": "Use simple invisible Roblox collision parts where required. Do not use detailed mesh collision for decorative assets."
+      },
+      "roblox_overlays": [],
+      "assembly_components": [
+        "tower structure",
+        "bronze bell and hanger",
+        "optional simple separate foundation and steps"
+      ],
+      "notes": [
+        "Keep Ho-Oh as a separate animated asset. Flight must remain clear of roof corners and above the perimeter walls."
+      ],
+      "id": "hooh_bell_tower",
+      "key": "hooh_bell_tower",
+      "design_brief": "Create one production-ready stylized PBR game asset for a Roblox collectible arena. Use a deliberate, recognizable silhouette, layered solid geometry, crisp bevels, readable color blocks, and detailed craftsmanship comparable to an ornate gold Millennium Puzzle. Make details readable at normal third-person camera distance. Use clean UVs and an efficient atlas. Keep the object isolated, centered, and complete on every visible side. Create an ornate Pokémon Bell Tower pagoda with five progressively smaller tiered roofs, gracefully curved upturned eaves, dark green-blue roof tiles, red-brown timber columns and crossbeams, ivory plaster panels, gold ridge caps and finials, a visible large bronze bell in the open upper pavilion, and carved wood balustrades. Add a raised stone foundation, broad welcoming stairs, small stone lanterns, and restrained red-gold accents. Keep the upper bell pavilion open on all sides so a flying bird can visibly depart from it. Use attractive detailed timber and ceramic materials. No bird baked into the tower, no floating clouds, and no surrounding landscape. Avoid placeholder cubes, featureless blobs, melted shapes, paper-thin structural parts, random floating pieces, unwanted ground planes, studio rooms, pedestals unless requested, baked directional shadows, illegible lettering, watermarks, and duplicate objects. Do not generate scripts, collision cages, particle effects, or user-interface panels. Reserve flat clean areas for any requested Roblox text overlays; do not bake words into the texture.",
+      "negative_prompt": "Metadata only, not a separate supported API parameter: placeholder blocks; melted geometry; illegible text; paper-thin structural walls; random detached pieces; baked directional shadows; unwanted bases or scenery.",
+      "target_polycount": 18000,
+      "texture_prompt": "Stylized PBR game material. Rich readable colors, crisp edges, subtle wear, clean atlas, physically plausible metal and roughness. Use the color details in the generation prompt. No words, watermark, baked shadow or photorealistic background.",
+      "reference_required": false
+    },
+    {
+      "asset_key": "hooh_body",
+      "name": "Ho-Oh body and head",
+      "role": "decoration",
+      "status": "not_generated",
+      "existing_item_id": null,
+      "new_catalog_item_requested": false,
+      "generation_mode": "text_to_3d",
+      "needs_reference": false,
+      "reference_status": "optional_accuracy_reference_not_supplied",
+      "prompt": "Stylized PBR Roblox game asset, crisp layered solid geometry and clean UVs. Only Ho-Oh body, head and tucked legs for a modular flying bird: proud red-orange chest, white belly, tall three-point yellow crest, gold hooked beak, teal-green neck accents, dark expressive eyes and gold talons. Layered feathers, clean left/right wing sockets and rear tail socket. No wings, tail, pedestal or effects. Isolated complete object. No words, watermark, ground plane or random floating pieces.",
+      "target_triangle_budget": 6500,
+      "texture_target_px": 2048,
+      "materials": {
+        "pbr": true,
+        "base_color": true,
+        "normal": true,
+        "roughness": true,
+        "metallic": true,
+        "emissive": "separate map only where the brief requests glow; keep Roblox glow subtle"
+      },
+      "deliverables": [
+        "textured GLB",
+        "FBX if available",
+        "base-color and PBR texture images"
+      ],
+      "import": {
+        "roblox_up_axis": "+Y",
+        "roblox_forward_axis": "-Z",
+        "pivot": "center of mass; front -Z; shoulders and tail sockets must be documented",
+        "intended_dimensions_studs": [
+          4.7,
+          5.5,
+          8.0
+        ],
+        "transform": "Apply object scale and rotation before export. Verify dimensions in Roblox Studio.",
+        "collision": "Use simple invisible Roblox collision parts where required. Do not use detailed mesh collision for decorative assets."
+      },
+      "roblox_overlays": [],
+      "assembly_components": [
+        "Body_Head_Legs mesh",
+        "left shoulder socket",
+        "right shoulder socket",
+        "tail socket"
+      ],
+      "notes": [
+        "This is not a claim of an existing animation rig. Meshy text-to-3D output must be inspected and fitted before wing animation.",
+        "Use the same approved Ho-Oh reference for the body and all feather assets."
+      ],
+      "id": "hooh_body",
+      "key": "hooh_body",
+      "design_brief": "Create one production-ready stylized PBR game asset for a Roblox collectible arena. Use a deliberate, recognizable silhouette, layered solid geometry, crisp bevels, readable color blocks, and detailed craftsmanship comparable to an ornate gold Millennium Puzzle. Make details readable at normal third-person camera distance. Use clean UVs and an efficient atlas. Keep the object isolated, centered, and complete on every visible side. Create only the central body, head, and legs of the Pokémon Ho-Oh for a modular flying display. Use a proud red-orange avian body, white underbelly, a tall three-point yellow crest, a golden hooked beak, dark teal-green neck accents, clear expressive dark eyes with light eye markings, and tucked golden talons. Sculpt layered feathers along the chest and neck with a smooth clean readable silhouette. Leave flat clean wing attachment sockets on both shoulders and a clean tail attachment socket at the rear. Do not include wings or tail feathers; those are separate matching assets. No ground, pedestal, flames, or clouds. Avoid placeholder cubes, featureless blobs, melted shapes, paper-thin structural parts, random floating pieces, unwanted ground planes, studio rooms, pedestals unless requested, baked directional shadows, illegible lettering, watermarks, and duplicate objects. Do not generate scripts, collision cages, particle effects, or user-interface panels. Reserve flat clean areas for any requested Roblox text overlays; do not bake words into the texture.",
+      "negative_prompt": "Metadata only, not a separate supported API parameter: placeholder blocks; melted geometry; illegible text; paper-thin structural walls; random detached pieces; baked directional shadows; unwanted bases or scenery.",
+      "target_polycount": 6500,
+      "texture_prompt": "Stylized PBR game material. Rich readable colors, crisp edges, subtle wear, clean atlas, physically plausible metal and roughness. Use the color details in the generation prompt. No words, watermark, baked shadow or photorealistic background.",
+      "reference_required": false
+    },
+    {
+      "asset_key": "hooh_wing_left",
+      "name": "Ho-Oh left wing",
+      "role": "decoration",
+      "status": "not_generated",
+      "existing_item_id": null,
+      "new_catalog_item_requested": false,
+      "generation_mode": "text_to_3d",
+      "needs_reference": false,
+      "reference_status": "optional_accuracy_reference_not_supplied",
+      "prompt": "Stylized PBR Roblox game asset, crisp layered solid geometry and clean UVs. Only Ho-Oh left wing, separate rigid mesh. Broad layered feather fan: red-orange upper coverts, green band, cream secondary feathers and golden tips. Finish top/underside, compact clean shoulder socket at origin. Extend toward -X, bird faces -Z. Match right wing silhouette. No body, other wing, loose feathers or tail. Isolated complete object. No words, watermark, ground plane or random floating pieces.",
+      "target_triangle_budget": 5500,
+      "texture_target_px": 2048,
+      "materials": {
+        "pbr": true,
+        "base_color": true,
+        "normal": true,
+        "roughness": true,
+        "metallic": true,
+        "emissive": "separate map only where the brief requests glow; keep Roblox glow subtle"
+      },
+      "deliverables": [
+        "textured GLB",
+        "FBX if available",
+        "base-color and PBR texture images"
+      ],
+      "import": {
+        "roblox_up_axis": "+Y",
+        "roblox_forward_axis": "-Z",
+        "pivot": "left shoulder hinge at local origin; wing extends along -X with bird forward -Z",
+        "intended_dimensions_studs": [
+          9.0,
+          2.0,
+          6.0
+        ],
+        "transform": "Apply object scale and rotation before export. Verify dimensions in Roblox Studio.",
+        "collision": "Use simple invisible Roblox collision parts where required. Do not use detailed mesh collision for decorative assets."
+      },
+      "roblox_overlays": [],
+      "assembly_components": [
+        "Left_Wing rigid mesh"
+      ],
+      "notes": [
+        "Keep this wing a distinct mesh so a Roblox Motor6D or scripted local visual hinge can animate it.",
+        "A text prompt does not guarantee a correct pivot or mirror match. Prefer duplicating and mirroring the approved wing in Blender, then correct asymmetric textures."
+      ],
+      "id": "hooh_wing_left",
+      "key": "hooh_wing_left",
+      "design_brief": "Create one production-ready stylized PBR game asset for a Roblox collectible arena. Use a deliberate, recognizable silhouette, layered solid geometry, crisp bevels, readable color blocks, and detailed craftsmanship comparable to an ornate gold Millennium Puzzle. Make details readable at normal third-person camera distance. Use clean UVs and an efficient atlas. Keep the object isolated, centered, and complete on every visible side. Create only the left wing of Pokémon Ho-Oh as a separate animation-ready rigid mesh. Use a broad fan of individually readable long primary feathers with red-orange upper coverts, a green band, creamy white secondary areas, and warm golden-yellow feather tips. Give the wing a strong layered feather silhouette, sufficient thickness, and finished top and underside surfaces. Keep the shoulder attachment end clean and compact. The wing must extend outward from the bird's left shoulder and match the complementary wing in shape and feather pattern. Do not generate a bird body, second wing, tail, pedestal, or detached feathers. Avoid placeholder cubes, featureless blobs, melted shapes, paper-thin structural parts, random floating pieces, unwanted ground planes, studio rooms, pedestals unless requested, baked directional shadows, illegible lettering, watermarks, and duplicate objects. Do not generate scripts, collision cages, particle effects, or user-interface panels. Reserve flat clean areas for any requested Roblox text overlays; do not bake words into the texture.",
+      "negative_prompt": "Metadata only, not a separate supported API parameter: placeholder blocks; melted geometry; illegible text; paper-thin structural walls; random detached pieces; baked directional shadows; unwanted bases or scenery.",
+      "target_polycount": 5500,
+      "texture_prompt": "Stylized PBR game material. Rich readable colors, crisp edges, subtle wear, clean atlas, physically plausible metal and roughness. Use the color details in the generation prompt. No words, watermark, baked shadow or photorealistic background.",
+      "reference_required": false
+    },
+    {
+      "asset_key": "hooh_wing_right",
+      "name": "Ho-Oh right wing",
+      "role": "decoration",
+      "status": "not_generated",
+      "existing_item_id": null,
+      "new_catalog_item_requested": false,
+      "generation_mode": "text_to_3d",
+      "needs_reference": false,
+      "reference_status": "optional_accuracy_reference_not_supplied",
+      "prompt": "Stylized PBR Roblox game asset, crisp layered solid geometry and clean UVs. Only Ho-Oh right wing, separate rigid mesh. Broad layered feather fan: red-orange upper coverts, green band, cream secondary feathers and golden tips. Finish top/underside, compact clean shoulder socket at origin. Extend toward +X, bird faces -Z. Match left wing silhouette. No body, other wing, loose feathers or tail. Isolated complete object. No words, watermark, ground plane or random floating pieces.",
+      "target_triangle_budget": 5500,
+      "texture_target_px": 2048,
+      "materials": {
+        "pbr": true,
+        "base_color": true,
+        "normal": true,
+        "roughness": true,
+        "metallic": true,
+        "emissive": "separate map only where the brief requests glow; keep Roblox glow subtle"
+      },
+      "deliverables": [
+        "textured GLB",
+        "FBX if available",
+        "base-color and PBR texture images"
+      ],
+      "import": {
+        "roblox_up_axis": "+Y",
+        "roblox_forward_axis": "-Z",
+        "pivot": "right shoulder hinge at local origin; wing extends along +X with bird forward -Z",
+        "intended_dimensions_studs": [
+          9.0,
+          2.0,
+          6.0
+        ],
+        "transform": "Apply object scale and rotation before export. Verify dimensions in Roblox Studio.",
+        "collision": "Use simple invisible Roblox collision parts where required. Do not use detailed mesh collision for decorative assets."
+      },
+      "roblox_overlays": [],
+      "assembly_components": [
+        "Right_Wing rigid mesh"
+      ],
+      "notes": [
+        "Keep this wing a distinct mesh so a Roblox Motor6D or scripted local visual hinge can animate it.",
+        "A text prompt does not guarantee a correct pivot or mirror match. Prefer duplicating and mirroring the approved wing in Blender, then correct asymmetric textures."
+      ],
+      "id": "hooh_wing_right",
+      "key": "hooh_wing_right",
+      "design_brief": "Create one production-ready stylized PBR game asset for a Roblox collectible arena. Use a deliberate, recognizable silhouette, layered solid geometry, crisp bevels, readable color blocks, and detailed craftsmanship comparable to an ornate gold Millennium Puzzle. Make details readable at normal third-person camera distance. Use clean UVs and an efficient atlas. Keep the object isolated, centered, and complete on every visible side. Create only the right wing of Pokémon Ho-Oh as a separate animation-ready rigid mesh. Use a broad fan of individually readable long primary feathers with red-orange upper coverts, a green band, creamy white secondary areas, and warm golden-yellow feather tips. Give the wing a strong layered feather silhouette, sufficient thickness, and finished top and underside surfaces. Keep the shoulder attachment end clean and compact. The wing must extend outward from the bird's right shoulder and match the complementary wing in shape and feather pattern. Do not generate a bird body, second wing, tail, pedestal, or detached feathers. Avoid placeholder cubes, featureless blobs, melted shapes, paper-thin structural parts, random floating pieces, unwanted ground planes, studio rooms, pedestals unless requested, baked directional shadows, illegible lettering, watermarks, and duplicate objects. Do not generate scripts, collision cages, particle effects, or user-interface panels. Reserve flat clean areas for any requested Roblox text overlays; do not bake words into the texture.",
+      "negative_prompt": "Metadata only, not a separate supported API parameter: placeholder blocks; melted geometry; illegible text; paper-thin structural walls; random detached pieces; baked directional shadows; unwanted bases or scenery.",
+      "target_polycount": 5500,
+      "texture_prompt": "Stylized PBR game material. Rich readable colors, crisp edges, subtle wear, clean atlas, physically plausible metal and roughness. Use the color details in the generation prompt. No words, watermark, baked shadow or photorealistic background.",
+      "reference_required": false
+    },
+    {
+      "asset_key": "hooh_tail",
+      "name": "Ho-Oh tail-feather fan",
+      "role": "decoration",
+      "status": "not_generated",
+      "existing_item_id": null,
+      "new_catalog_item_requested": false,
+      "generation_mode": "text_to_3d",
+      "needs_reference": false,
+      "reference_status": "optional_accuracy_reference_not_supplied",
+      "prompt": "Stylized PBR Roblox game asset, crisp layered solid geometry and clean UVs. Only Ho-Oh long tail-feather fan as a separate mesh: seven elegant overlapping golden-yellow feathers, orange roots, pale highlights and distinct layered edges. Join all roots at one compact socket at origin; fan extends +Z while bird faces -Z. Finish underside. No body, wings, loose feathers or effects. Isolated complete object. No words, watermark, ground plane or random floating pieces.",
+      "target_triangle_budget": 4000,
+      "texture_target_px": 1024,
+      "materials": {
+        "pbr": true,
+        "base_color": true,
+        "normal": true,
+        "roughness": true,
+        "metallic": true,
+        "emissive": "separate map only where the brief requests glow; keep Roblox glow subtle"
+      },
+      "deliverables": [
+        "textured GLB",
+        "FBX if available",
+        "base-color and PBR texture images"
+      ],
+      "import": {
+        "roblox_up_axis": "+Y",
+        "roblox_forward_axis": "-Z",
+        "pivot": "tail root at local origin; tail extends toward +Z while bird faces -Z",
+        "intended_dimensions_studs": [
+          5.3,
+          1.0,
+          9.0
+        ],
+        "transform": "Apply object scale and rotation before export. Verify dimensions in Roblox Studio.",
+        "collision": "Use simple invisible Roblox collision parts where required. Do not use detailed mesh collision for decorative assets."
+      },
+      "roblox_overlays": [],
+      "assembly_components": [
+        "Tail_Fan mesh"
+      ],
+      "notes": [
+        "Attach to the body tail socket and animate with a restrained sway. Do not let the tail intersect tower roofs."
+      ],
+      "id": "hooh_tail",
+      "key": "hooh_tail",
+      "design_brief": "Create one production-ready stylized PBR game asset for a Roblox collectible arena. Use a deliberate, recognizable silhouette, layered solid geometry, crisp bevels, readable color blocks, and detailed craftsmanship comparable to an ornate gold Millennium Puzzle. Make details readable at normal third-person camera distance. Use clean UVs and an efficient atlas. Keep the object isolated, centered, and complete on every visible side. Create only Ho-Oh's long golden tail-feather fan as one modular game asset. Use seven long elegant overlapping warm golden-yellow feathers with distinct layered edges, subtle orange roots, soft pale highlights, and a slightly fanned rainbow-bird silhouette. Keep all feather roots joined at one compact attachment area and make the underside finished. Do not generate a bird body, wings, loose feathers, ground, or effects. Avoid placeholder cubes, featureless blobs, melted shapes, paper-thin structural parts, random floating pieces, unwanted ground planes, studio rooms, pedestals unless requested, baked directional shadows, illegible lettering, watermarks, and duplicate objects. Do not generate scripts, collision cages, particle effects, or user-interface panels. Reserve flat clean areas for any requested Roblox text overlays; do not bake words into the texture.",
+      "negative_prompt": "Metadata only, not a separate supported API parameter: placeholder blocks; melted geometry; illegible text; paper-thin structural walls; random detached pieces; baked directional shadows; unwanted bases or scenery.",
+      "target_polycount": 4000,
+      "texture_prompt": "Stylized PBR game material. Rich readable colors, crisp edges, subtle wear, clean atlas, physically plausible metal and roughness. Use the color details in the generation prompt. No words, watermark, baked shadow or photorealistic background.",
+      "reference_required": false
+    }
+  ]
+}
