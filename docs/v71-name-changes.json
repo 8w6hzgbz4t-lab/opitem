@@ -1,0 +1,159 @@
+{
+  "changes": [
+    {
+      "id": "item03",
+      "old": "The One Ring",
+      "new": "The One Ring (LOTR)"
+    },
+    {
+      "id": "item04",
+      "old": "Green Chaos Emerald",
+      "new": "Sonic's Green Chaos Emerald"
+    },
+    {
+      "id": "item06",
+      "old": "Buster Sword",
+      "new": "Cloud's Buster Sword"
+    },
+    {
+      "id": "item10",
+      "old": "Mjölnir",
+      "new": "Thor's Mjölnir"
+    },
+    {
+      "id": "item12",
+      "old": "Master Ball",
+      "new": "Pokémon Master Ball"
+    },
+    {
+      "id": "item17",
+      "old": "Jellyfishing Net",
+      "new": "SpongeBob's Jellyfishing Net"
+    },
+    {
+      "id": "item20",
+      "old": "Poke Ball",
+      "new": "Poké Ball"
+    },
+    {
+      "id": "item21",
+      "old": "Thunder Evolution Stone",
+      "new": "Pokémon Thunder Stone"
+    },
+    {
+      "id": "item22",
+      "old": "Rainbow Legendary Feather",
+      "new": "Ho-Oh's Rainbow Wing"
+    },
+    {
+      "id": "item24",
+      "old": "Duel Disk",
+      "new": "Yu-Gi-Oh! Duel Disk"
+    },
+    {
+      "id": "item31",
+      "old": "Enchanted Diamond Pickaxe",
+      "new": "Minecraft Enchanted Diamond Pickaxe"
+    },
+    {
+      "id": "item32",
+      "old": "End Crystal",
+      "new": "Minecraft End Crystal"
+    },
+    {
+      "id": "item33",
+      "old": "Command Block",
+      "new": "Minecraft Command Block"
+    },
+    {
+      "id": "item34",
+      "old": "Sting",
+      "new": "Bilbo's Sting"
+    },
+    {
+      "id": "item36",
+      "old": "Dwarven Treasure",
+      "new": "The Hobbit Dwarven Treasure"
+    },
+    {
+      "id": "item37",
+      "old": "Emerald Materia",
+      "new": "Final Fantasy Green Materia"
+    },
+    {
+      "id": "item38",
+      "old": "Revolver Gunblade",
+      "new": "Squall's Revolver Gunblade"
+    },
+    {
+      "id": "item39",
+      "old": "Fire Evolution Stone",
+      "new": "Pokémon Fire Stone"
+    },
+    {
+      "id": "item40",
+      "old": "Water Evolution Stone",
+      "new": "Pokémon Water Stone"
+    },
+    {
+      "id": "golden_spatula",
+      "old": "Golden Spatula",
+      "new": "SpongeBob's Golden Spatula"
+    },
+    {
+      "id": "gary_shell",
+      "old": "Gary's Shell",
+      "new": "Gary the Snail's Shell"
+    },
+    {
+      "id": "super_star",
+      "old": "Super Star",
+      "new": "Super Mario Super Star"
+    },
+    {
+      "id": "fire_flower",
+      "old": "Fire Flower",
+      "new": "Super Mario Fire Flower"
+    },
+    {
+      "id": "space_stone",
+      "old": "Space Stone",
+      "new": "Marvel Space Stone"
+    },
+    {
+      "id": "mind_stone",
+      "old": "Mind Stone",
+      "new": "Marvel Mind Stone"
+    },
+    {
+      "id": "reality_stone",
+      "old": "Reality Stone",
+      "new": "Marvel Reality Stone"
+    },
+    {
+      "id": "power_stone",
+      "old": "Power Stone",
+      "new": "Marvel Power Stone"
+    },
+    {
+      "id": "time_stone",
+      "old": "Time Stone",
+      "new": "Marvel Time Stone"
+    },
+    {
+      "id": "soul_stone",
+      "old": "Soul Stone",
+      "new": "Marvel Soul Stone"
+    },
+    {
+      "id": "mega_knight",
+      "old": "Mega Knight",
+      "new": "Clash Royale Mega Knight"
+    },
+    {
+      "id": "black_lotus",
+      "old": "Black Lotus",
+      "new": "MTG Black Lotus"
+    }
+  ]
+}

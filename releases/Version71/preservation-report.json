@@ -1,0 +1,28 @@
+{
+  "baseline": "StealAnOPItem_70_SliferAndItems.rbxlx",
+  "baseline_sha256": "334e213f3d138f49a180c0c0ecd4b69c39ab753d862899e4dc6886d05d37591a",
+  "output": "StealAnOPItem_71_SecretFormulaAndRa.rbxlx",
+  "output_sha256": "1cad4ecb86a1b76c76b754d0c2f69633682dca3d0452a62f8616e52e1451c7b7",
+  "original_objects_preserved": 287,
+  "total_objects": 288,
+  "modified_sources": [
+    "ArtChecks.lua",
+    "Catalog.lua",
+    "DetailedArt/EnhancedScene.lua",
+    "ExpandedCatalog.lua",
+    "FreeModels/Assets.lua",
+    "FreeModels/FreeModels.lua",
+    "FreeModels/Labels.lua",
+    "FreeModels/NintendoItems.lua",
+    "FreeModels/WarriorModels.lua",
+    "ModelFactory.lua"
+  ],
+  "added_modules": [
+    "FreeModels/SecretFormula.lua"
+  ],
+  "original_properties_preserved_except_listed_sources": true,
+  "gameplay_code_and_puzzle_preserved": true,
+  "catalog_display_names_and_one_new_item_changed": true,
+  "studio_playtest_performed": false,
+  "published_to_roblox": false
+}

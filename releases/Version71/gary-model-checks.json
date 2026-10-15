@@ -1,0 +1,29 @@
+{
+  "asset": "gary_shell",
+  "parts": 238,
+  "partBudget": 240,
+  "bounds": {
+    "max": [
+      1.85633102966,
+      3.40140939949,
+      1.14574556194
+    ],
+    "min": [
+      -1.66,
+      0.04,
+      -1.08395335754
+    ],
+    "size": [
+      3.51633102966,
+      3.36140939949,
+      2.22969891948
+    ]
+  },
+  "sourceSHA256": "75fd4262be13b057e787e8ea13fff73dce4ab6379fc2523894229bb42afc3bdc",
+  "otherNintendoBuildersByteIdentical": true,
+  "bottomClearance": 0.04,
+  "finiteOrthogonalGeometry": true,
+  "noninteractiveAnchoredGeometry": true,
+  "scaleAndRotatedPivot": 1.7,
+  "studioPlaytest": false
+}
