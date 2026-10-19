@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "status": "passed",
+  "source": "/workspace/opitem/roblox/v74-game/AdminClient.lua",
+  "sourceSha256": "6bec291bdce3785332c7d2e0085d0ca4b661a50a86914d2d8efcc71b77a94dc9",
+  "testSha256": "0418e77b461635dff4496e470856d4f168e6957ea50ba5f46a68cba747dc5cde",
+  "assertions": 44,
+  "runtime": "official Luau CLI; offline GUI/event adapter",
+  "limitations": "Studio rendering, network transport and physics are not exercised."
+}

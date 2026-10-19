@@ -1,0 +1,22 @@
+{
+  "game": "StealAnOPItem_74_DeveloperMenu.rbxlx",
+  "game_sha256": "ccc38fb77676fbbd51268cfe24fbbeb87b728a5160d5c9cfa1b0047e6980169f",
+  "active_sources_compiled": 87,
+  "developer_username": "Goverment_cheesee",
+  "authorization": "Server resolves configured username with Roblox and compares the actual sender's numeric UserId; failed lookup denies access.",
+  "admin_assertions": 374,
+  "admin_authorized_command_dispatches": 152,
+  "admin_groups": 11,
+  "power_assertions": 596,
+  "power_groups": 13,
+  "client_behavior_assertions": 44,
+  "catalog_and_transaction_assertions": 7112,
+  "existing_session_groups_passed": 6,
+  "existing_regression_groups_passed": 13,
+  "all_original_objects_preserved": 293,
+  "all_69_item_models_stats_and_scenery_preserved": true,
+  "studio_playtest_performed": false,
+  "live_identity_lookup_performed_in_cloud": false,
+  "published_to_roblox": false,
+  "limitations": "Roblox API test doubles exercise production code; real account lookup and live Studio rendering, physics, performance and multiplayer require a Studio playtest."
+}
