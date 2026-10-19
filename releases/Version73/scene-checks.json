@@ -1,0 +1,56 @@
+{
+  "animated_slifer_retained": true,
+  "base_anchors_slots_and_spawn_positions_preserved": true,
+  "base_presentation_parts": 936,
+  "baseline_world_parts": 7802,
+  "checks": 59293,
+  "cosmetic_geometry_noninteractive": true,
+  "detailed_ra_and_other_landmarks_preserved": true,
+  "eight_bases_eight_slots_each": true,
+  "enhanced_scene_rebuild_idempotent": true,
+  "entrances_green_lines_belt_and_display_envelopes_clear": true,
+  "kaiba_tower_parts_removed": 63,
+  "legacy_cleanup_aliases": [
+    "godSlifer",
+    "SliferStatue",
+    "SliferTablet",
+    "SliferAroundKaibaTower",
+    "KaibaCorpTower",
+    "KaibaTower",
+    "KiabaTower"
+  ],
+  "nested_legacy_cleanup_tested": true,
+  "original_world_instance_properties_preserved_except_retired_kaiba_tower": true,
+  "plaza_presentation_parts": 237,
+  "preview_parts": 7740,
+  "rebuild_idempotent": true,
+  "retired_static_slifer_and_kaiba_aliases_absent": true,
+  "solid_roofs_perimeter_and_disposal_preserved": true,
+  "studio_rendering_physics_multiplayer_performance_tested": false,
+  "world_parts": 7739,
+  "changed_production_sources": [
+    "DetailedArt/EnhancedScene.lua"
+  ],
+  "verified_source_sha256": {
+    "DetailedArt/EnhancedScene.lua": "0bb5fa7ffdde8f8529edbaa96103a1b1d15c1e6f149bd14d209e6519f8872856",
+    "DetailedArt/SliferArt.lua": "6e7a147aa1c68fed4da9023b6c8a4a963802e9c9a49d6c18d59456c521f44cdb",
+    "Client.lua": "abf0726e160cb3979723ec547bbe2093a913117f49929b7359807fb12d15d428",
+    "World.lua": "7452f40b156f961a7ee5bd479363863e9296be7a717a140b9ccbdf544ed93a8b",
+    "Catalog.lua": "66a059fdf290d5771823431c91aec86dd5749bbe2715c0c701bb75ca0c62df32",
+    "ExpandedCatalog.lua": "73dbffba2c5e47f1ae906eb175d385b7231de95b4cd692407793f3362f77b663"
+  },
+  "test_harness": "tests/v72_presentation.lua adapted in /tmp/opitem-v73-scene-checks.lua to compare Version72 and Version73, excluding only removed KaibaCorpTower",
+  "actual_slifer_animation_test_passed": true,
+  "slifer_animation_command": "texlua tests/slifer_upgrade.lua roblox/v73-game",
+  "slifer_animation_checks": [
+    "315 noninteractive parts",
+    "single two-mouth head",
+    "38 connected coils",
+    "animated wings/head/body",
+    "36-second loop closes",
+    "reduced effects rests",
+    "distant culling",
+    "cleanup disconnects"
+  ],
+  "scene_check_command": "texlua /tmp/opitem-v73-scene-checks.lua"
+}

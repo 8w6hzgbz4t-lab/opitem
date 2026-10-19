@@ -1,0 +1,16 @@
+{
+  "game": "StealAnOPItem_73_SkylineCleanup.rbxlx",
+  "game_sha256": "983dae16779b512fd3e973f0d4038342b189b826bba86bf774f384718228155b",
+  "official_luau_active_sources_compiled": 87,
+  "session_test_groups_passed": 6,
+  "existing_regression_groups_passed": 13,
+  "catalog_and_transaction_assertions": 7112,
+  "scene_assertions": 59293,
+  "removed_tower_parts": 63,
+  "all_69_item_definitions_models_stats_and_gameplay_sources_preserved": true,
+  "all_original_293_place_objects_and_backups_preserved": true,
+  "only_active_changed_source": "DetailedArt/EnhancedScene.lua",
+  "studio_playtest_performed": false,
+  "published_to_roblox": false,
+  "game_check_command": "python tools/run_game_checks.py --root roblox/v73-game --baseline roblox/v71-game --check tests/v72_catalog.lua --luau /workspace/.cache/opitem-tools/luau"
+}
