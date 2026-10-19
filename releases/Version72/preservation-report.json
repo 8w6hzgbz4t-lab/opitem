@@ -1,0 +1,28 @@
+{
+  "baseline": "StealAnOPItem_71_SecretFormulaAndRa.rbxlx",
+  "baseline_sha256": "1cad4ecb86a1b76c76b754d0c2f69633682dca3d0452a62f8616e52e1451c7b7",
+  "output": "StealAnOPItem_72_CrossoverArt.rbxlx",
+  "output_sha256": "730caf1fe381a48928aac89e5b4df8df7e491aec897356bf2a00002d3064c9c5",
+  "original_objects_preserved": 288,
+  "total_objects": 293,
+  "modified_sources": [
+    "ArtChecks.lua",
+    "ExpandedCatalog.lua",
+    "FreeModels/Assets.lua",
+    "FreeModels/FreeModels.lua",
+    "ModelFactory.lua",
+    "World.lua"
+  ],
+  "added_modules": [
+    "DetailedArt/BasePolish.lua",
+    "DetailedArt/PlazaPolish.lua",
+    "FreeModels/AllSpark.lua",
+    "FreeModels/EnergonAxe.lua",
+    "FreeModels/MatrixLeadership.lua"
+  ],
+  "original_properties_preserved_except_listed_sources": true,
+  "gameplay_code_and_puzzle_preserved": true,
+  "previous_66_item_entries_preserved_and_three_added": true,
+  "studio_playtest_performed": false,
+  "published_to_roblox": false
+}

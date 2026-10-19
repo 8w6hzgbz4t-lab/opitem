@@ -1,0 +1,70 @@
+id,previous_name,current_name,rarity,changed
+item01,Minecraft Diamond Sword,Minecraft Diamond Sword,Common,False
+item02,Infinity Gauntlet,Infinity Gauntlet,Mythic,False
+item03,The One Ring (LOTR),The One Ring (LOTR),Legendary,False
+item04,Sonic's Green Chaos Emerald,Sonic's Green Chaos Emerald,Legendary,False
+item05,Mario Kart Blue Shell,Mario Kart Blue Shell,Uncommon,False
+item06,Cloud's Buster Sword,Cloud's Buster Sword,Rare,False
+item07,Portal Gun,Portal Gun,Rare,False
+item08,Millennium Puzzle,Millennium Puzzle,Epic,False
+item09,Halo Energy Sword,Halo Energy Sword,Rare,False
+item10,Thor's Mjölnir,Thor's Mjölnir,Legendary,False
+item11,Call of Duty Zombies Ray Gun,Call of Duty Zombies Ray Gun,Rare,False
+item12,Pokémon Master Ball,Pokémon Master Ball,Epic,False
+item13,Exodia — Five-Card Set,Exodia — Five-Card Set,Ethereal,False
+item14,Zeno's Button,Zeno's Button,Ethereal,False
+item15,Link's Master Sword,Link's Master Sword,Epic,False
+item16,Doom BFG 9000,Doom BFG 9000,Mythic,False
+item17,SpongeBob's Jellyfishing Net,SpongeBob's Jellyfishing Net,Common,False
+item18,LeBron's Face Mask,LeBron's Face Mask,Uncommon,False
+item19,Broly's Jewelry,Broly's Jewelry,Legendary,False
+item20,Poké Ball,Poké Ball,Common,False
+item21,Pokémon Thunder Stone,Pokémon Thunder Stone,Uncommon,False
+item22,Ho-Oh's Rainbow Wing,Ho-Oh's Rainbow Wing,Mythic,False
+item23,Millennium Rod,Millennium Rod,Epic,False
+item24,Yu-Gi-Oh! Duel Disk,Yu-Gi-Oh! Duel Disk,Rare,False
+item25,Exodia Head and Torso,Exodia Head and Torso,Mythic,False
+item26,Exodia Left Arm,Exodia Left Arm,Legendary,False
+item27,Exodia Right Arm,Exodia Right Arm,Legendary,False
+item28,Exodia Left Leg,Exodia Left Leg,Epic,False
+item29,Exodia Right Leg,Exodia Right Leg,Epic,False
+item30,Minecraft Diamond Axe,Minecraft Diamond Axe,Uncommon,False
+item31,Minecraft Enchanted Diamond Pickaxe,Minecraft Enchanted Diamond Pickaxe,Rare,False
+item32,Minecraft End Crystal,Minecraft End Crystal,Epic,False
+item33,Minecraft Command Block,Minecraft Command Block,Mythic,False
+item34,Bilbo's Sting,Bilbo's Sting,Rare,False
+item35,The Arkenstone,The Arkenstone,Legendary,False
+item36,The Hobbit Dwarven Treasure,The Hobbit Dwarven Treasure,Uncommon,False
+item37,Final Fantasy Green Materia,Final Fantasy Green Materia,Rare,False
+item38,Squall's Revolver Gunblade,Squall's Revolver Gunblade,Epic,False
+item39,Pokémon Fire Stone,Pokémon Fire Stone,Uncommon,False
+item40,Pokémon Water Stone,Pokémon Water Stone,Uncommon,False
+item41,Iron Man Armor Suit,Iron Man Armor Suit,Mythic,False
+item42,Triforce,Triforce,Mythic,False
+item43,Dragon Balls,Dragon Balls,Mythic,False
+item44,Yusei Fudo Red Duel Runner,Yusei Fudo Red Duel Runner,Epic,False
+item45,Freddy Fazbear Empty Suit,Freddy Fazbear Empty Suit,Rare,False
+item46,Golden Freddy Empty Suit,Golden Freddy Empty Suit,Legendary,False
+kirby_sword,Kirby's Sword,Kirby's Sword,Rare,False
+golden_spatula,SpongeBob's Golden Spatula,SpongeBob's Golden Spatula,Epic,False
+krabby_patty,Krabby Patty,Krabby Patty,Uncommon,False
+gary_shell,Gary the Snail's Shell,Gary the Snail's Shell,Rare,False
+super_star,Super Mario Super Star,Super Mario Super Star,Legendary,False
+fire_flower,Super Mario Fire Flower,Super Mario Fire Flower,Epic,False
+hylian_shield,Hylian Shield,Hylian Shield,Epic,False
+companion_cube,Portal Companion Cube,Portal Companion Cube,Rare,False
+proton_pack,Ghostbusters Proton Pack,Ghostbusters Proton Pack,Epic,False
+space_stone,Marvel Space Stone,Marvel Space Stone,Legendary,False
+mind_stone,Marvel Mind Stone,Marvel Mind Stone,Legendary,False
+reality_stone,Marvel Reality Stone,Marvel Reality Stone,Legendary,False
+power_stone,Marvel Power Stone,Marvel Power Stone,Legendary,False
+time_stone,Marvel Time Stone,Marvel Time Stone,Legendary,False
+soul_stone,Marvel Soul Stone,Marvel Soul Stone,Legendary,False
+pekka,P.E.K.K.A,P.E.K.K.A,Epic,False
+mega_knight,Clash Royale Mega Knight,Clash Royale Mega Knight,Epic,False
+black_lotus,MTG Black Lotus,MTG Black Lotus,Mythic,False
+death_note,Death Note,Death Note,Legendary,False
+krabby_patty_formula,Krabby Patty Secret Formula,Krabby Patty Secret Formula,Legendary,False
+transformers_allspark,,Transformers AllSpark,Mythic,True
+transformers_matrix,,Transformers Matrix of Leadership,Legendary,True
+optimus_energon_axe,,Optimus Prime Energon Axe,Epic,True

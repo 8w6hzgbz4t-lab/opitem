@@ -1,0 +1,98 @@
+[
+  {
+    "bounds": {
+      "max": [
+        1.595,
+        3.23,
+        1.5875
+      ],
+      "min": [
+        -1.595,
+        0.04,
+        -1.5875
+      ],
+      "size": [
+        3.19,
+        3.19,
+        3.175
+      ]
+    },
+    "catalog_model": "transformers_allspark",
+    "changed": false,
+    "colors": 7,
+    "distinct_details": 74,
+    "id": "transformers_allspark",
+    "materials": 2,
+    "name": "Transformers AllSpark",
+    "new": true,
+    "parts": 238,
+    "supplied_key": "transformers_allspark",
+    "text_overlays": 0,
+    "visible_parts": 237,
+    "geometry_sha256": "1d414610ed8963166ee5cbc579ddfbbea3eb531bd18c6f13d4d9f3eeb350cbce"
+  },
+  {
+    "bounds": {
+      "max": [
+        2.61292333533,
+        2.67,
+        0.405
+      ],
+      "min": [
+        -2.61292333533,
+        0.04,
+        -0.892605703448
+      ],
+      "size": [
+        5.22584667065,
+        2.63,
+        1.29760570345
+      ]
+    },
+    "catalog_model": "transformers_matrix",
+    "changed": false,
+    "colors": 17,
+    "distinct_details": 47,
+    "id": "transformers_matrix",
+    "materials": 2,
+    "name": "Transformers Matrix of Leadership",
+    "new": true,
+    "parts": 209,
+    "supplied_key": "transformers_matrix",
+    "text_overlays": 0,
+    "visible_parts": 208,
+    "geometry_sha256": "8c6decb84ae6c2216719f009bdb67bfae10f84d91a0ae7954c08100a26b15695"
+  },
+  {
+    "bounds": {
+      "max": [
+        2.02398387643,
+        6.48669594593,
+        0.695
+      ],
+      "min": [
+        -1.425,
+        0.04,
+        -0.695
+      ],
+      "size": [
+        3.44898387643,
+        6.44669594593,
+        1.39
+      ]
+    },
+    "catalog_model": "optimus_energon_axe",
+    "changed": false,
+    "colors": 10,
+    "distinct_details": 48,
+    "id": "optimus_energon_axe",
+    "materials": 2,
+    "name": "Optimus Prime Energon Axe",
+    "new": true,
+    "parts": 187,
+    "supplied_key": "optimus_energon_axe",
+    "text_overlays": 0,
+    "visible_parts": 186,
+    "geometry_sha256": "f00b3cde9499761b4ce1746c2b697e44fa7dcca27ee93107f875f831fff3fd0e"
+  }
+]
