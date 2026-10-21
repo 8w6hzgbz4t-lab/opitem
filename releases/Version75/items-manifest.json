@@ -1,0 +1,5089 @@
+{
+  "baseline": "/workspace/opitem/roblox/v74-game",
+  "baselineCatalog": [
+    {
+      "ability": "Diamond Sweep",
+      "category": "Relic",
+      "cooldown": 12,
+      "id": "item01",
+      "income": 3,
+      "itemType": "sword",
+      "model": "pixel",
+      "name": "Minecraft Diamond Sword",
+      "power": "pulse",
+      "price": 100,
+      "radius": 10,
+      "rarity": "Common",
+      "spawnWeight": 0.5,
+      "tier": 1,
+      "windup": 0.45
+    },
+    {
+      "ability": "Gravity Snap",
+      "category": "Relic",
+      "cooldown": 20,
+      "id": "item02",
+      "income": 1800,
+      "itemType": "collectible",
+      "model": "gauntlet",
+      "name": "Infinity Gauntlet",
+      "power": "pull",
+      "price": 180000,
+      "radius": 12,
+      "rarity": "Mythic",
+      "spawnWeight": 1,
+      "tier": 6,
+      "windup": 1.1
+    },
+    {
+      "ability": "Veil of Protection",
+      "category": "Relic",
+      "cooldown": 18,
+      "id": "item03",
+      "income": 700,
+      "itemType": "collectible",
+      "model": "oneRing",
+      "name": "The One Ring (LOTR)",
+      "power": "shield",
+      "price": 65000,
+      "radius": 3,
+      "rarity": "Legendary",
+      "spawnWeight": 1,
+      "tier": 5,
+      "windup": 0
+    },
+    {
+      "ability": "Chaos Burst",
+      "category": "Relic",
+      "cooldown": 15,
+      "id": "item04",
+      "income": 620,
+      "itemType": "collectible",
+      "model": "emerald",
+      "name": "Sonic's Green Chaos Emerald",
+      "power": "dash",
+      "price": 52000,
+      "radius": 1,
+      "rarity": "Legendary",
+      "spawnWeight": 1,
+      "tier": 5,
+      "windup": 0
+    },
+    {
+      "ability": "Spiny Shock",
+      "category": "Relic",
+      "cooldown": 14,
+      "id": "item05",
+      "income": 14,
+      "itemType": "collectible",
+      "model": "shell",
+      "name": "Mario Kart Blue Shell",
+      "power": "slow",
+      "price": 600,
+      "radius": 10,
+      "rarity": "Uncommon",
+      "spawnWeight": 1,
+      "tier": 2,
+      "windup": 0.7
+    },
+    {
+      "ability": "Braver",
+      "category": "Relic",
+      "cooldown": 15,
+      "id": "item06",
+      "income": 52,
+      "itemType": "sword",
+      "model": "buster",
+      "name": "Cloud's Buster Sword",
+      "power": "slam",
+      "price": 2800,
+      "radius": 12,
+      "rarity": "Rare",
+      "spawnWeight": 0.5,
+      "tier": 3,
+      "windup": 0.7
+    },
+    {
+      "ability": "Portal Surge",
+      "category": "Relic",
+      "cooldown": 14,
+      "id": "item07",
+      "income": 65,
+      "itemType": "collectible",
+      "model": "portalgun",
+      "name": "Portal Gun",
+      "power": "dash",
+      "price": 3600,
+      "radius": 1,
+      "rarity": "Rare",
+      "spawnWeight": 1,
+      "tier": 3,
+      "windup": 0
+    },
+    {
+      "ability": "Shadow Game",
+      "category": "Relic",
+      "cooldown": 18,
+      "id": "item08",
+      "income": 195,
+      "itemType": "collectible",
+      "model": "puzzle",
+      "name": "Millennium Puzzle",
+      "power": "shadow",
+      "price": 14000,
+      "radius": 11,
+      "rarity": "Epic",
+      "spawnWeight": 1,
+      "tier": 4,
+      "windup": 1.1
+    },
+    {
+      "ability": "Plasma Sweep",
+      "category": "Relic",
+      "cooldown": 12,
+      "id": "item09",
+      "income": 58,
+      "itemType": "sword",
+      "model": "energy",
+      "name": "Halo Energy Sword",
+      "power": "pulse",
+      "price": 3200,
+      "radius": 10,
+      "rarity": "Rare",
+      "spawnWeight": 0.5,
+      "tier": 3,
+      "windup": 0.45
+    },
+    {
+      "ability": "Thunderclap",
+      "category": "Relic",
+      "cooldown": 18,
+      "id": "item10",
+      "income": 550,
+      "itemType": "collectible",
+      "model": "hammer",
+      "name": "Thor's Mj\u00f6lnir",
+      "power": "slam",
+      "price": 45000,
+      "radius": 14,
+      "rarity": "Legendary",
+      "spawnWeight": 1,
+      "tier": 5,
+      "windup": 0.9
+    },
+    {
+      "ability": "Ray Burst",
+      "category": "Relic",
+      "cooldown": 14,
+      "id": "item11",
+      "income": 72,
+      "itemType": "collectible",
+      "model": "raygun",
+      "name": "Call of Duty Zombies Ray Gun",
+      "power": "pulse",
+      "price": 4000,
+      "radius": 12,
+      "rarity": "Rare",
+      "spawnWeight": 1,
+      "tier": 3,
+      "windup": 0.65
+    },
+    {
+      "ability": "Capture Field",
+      "category": "Relic",
+      "cooldown": 16,
+      "id": "item12",
+      "income": 220,
+      "itemType": "collectible",
+      "model": "masterball",
+      "name": "Pok\u00e9mon Master Ball",
+      "power": "slow",
+      "price": 16000,
+      "radius": 11,
+      "rarity": "Epic",
+      "spawnWeight": 0.2,
+      "tier": 4,
+      "windup": 0.8
+    },
+    {
+      "ability": "Forbidden Seal",
+      "category": "Relic",
+      "cooldown": 24,
+      "id": "item13",
+      "income": 6000,
+      "itemType": "collectible",
+      "model": "cards",
+      "name": "Exodia \u2014 Five-Card Set",
+      "power": "shadow",
+      "price": 800000,
+      "radius": 14,
+      "rarity": "Ethereal",
+      "spawnWeight": 1,
+      "tier": 7,
+      "windup": 1.4
+    },
+    {
+      "ability": "Erasure Pulse",
+      "category": "Relic",
+      "cooldown": 25,
+      "id": "item14",
+      "income": 7400,
+      "itemType": "collectible",
+      "model": "zenobutton",
+      "name": "Zeno's Button",
+      "power": "pulse",
+      "price": 1000000,
+      "radius": 14,
+      "rarity": "Ethereal",
+      "spawnWeight": 1,
+      "tier": 7,
+      "windup": 1.5
+    },
+    {
+      "ability": "Sacred Slash",
+      "category": "Relic",
+      "cooldown": 14,
+      "id": "item15",
+      "income": 175,
+      "itemType": "sword",
+      "model": "master",
+      "name": "Link's Master Sword",
+      "power": "pulse",
+      "price": 12000,
+      "radius": 12,
+      "rarity": "Epic",
+      "spawnWeight": 0.5,
+      "tier": 4,
+      "windup": 0.6
+    },
+    {
+      "ability": "BFG Wave",
+      "category": "Relic",
+      "cooldown": 22,
+      "id": "item16",
+      "income": 2100,
+      "itemType": "collectible",
+      "model": "bfg",
+      "name": "Doom BFG 9000",
+      "power": "pulse",
+      "price": 210000,
+      "radius": 14,
+      "rarity": "Mythic",
+      "spawnWeight": 1,
+      "tier": 6,
+      "windup": 1.2
+    },
+    {
+      "ability": "Jelly Snare",
+      "category": "Relic",
+      "cooldown": 15,
+      "id": "item17",
+      "income": 4,
+      "itemType": "collectible",
+      "model": "jellyNet",
+      "name": "SpongeBob's Jellyfishing Net",
+      "power": "slow",
+      "price": 180,
+      "radius": 9,
+      "rarity": "Common",
+      "spawnWeight": 1.2,
+      "tier": 1,
+      "windup": 0.65
+    },
+    {
+      "ability": "Court Guard",
+      "category": "Relic",
+      "cooldown": 20,
+      "id": "item18",
+      "income": 18,
+      "itemType": "collectible",
+      "model": "faceMask",
+      "name": "LeBron's Face Mask",
+      "power": "shield",
+      "price": 900,
+      "radius": 3,
+      "rarity": "Uncommon",
+      "spawnWeight": 1,
+      "tier": 2,
+      "windup": 0
+    },
+    {
+      "ability": "Emerald Resonance",
+      "category": "Relic",
+      "cooldown": 20,
+      "id": "item19",
+      "income": 640,
+      "itemType": "collectible",
+      "model": "brolyJewelry",
+      "name": "Broly's Jewelry",
+      "power": "pulse",
+      "price": 58000,
+      "radius": 12,
+      "rarity": "Legendary",
+      "spawnWeight": 0.8,
+      "tier": 5,
+      "windup": 0.9
+    },
+    {
+      "ability": "Capture Ripple",
+      "category": "Relic",
+      "cooldown": 15,
+      "id": "item20",
+      "income": 3,
+      "itemType": "collectible",
+      "model": "pokeBall",
+      "name": "Pok\u00e9 Ball",
+      "power": "slow",
+      "price": 120,
+      "radius": 8,
+      "rarity": "Common",
+      "spawnWeight": 0.26,
+      "tier": 1,
+      "windup": 0.6
+    },
+    {
+      "ability": "Spark Step",
+      "category": "Relic",
+      "cooldown": 17,
+      "id": "item21",
+      "income": 16,
+      "itemType": "collectible",
+      "model": "evolutionStone",
+      "name": "Pok\u00e9mon Thunder Stone",
+      "power": "dash",
+      "price": 750,
+      "radius": 1,
+      "rarity": "Uncommon",
+      "spawnWeight": 0.2,
+      "tier": 2,
+      "windup": 0
+    },
+    {
+      "ability": "Prismatic Ward",
+      "category": "Relic",
+      "cooldown": 22,
+      "id": "item22",
+      "income": 1900,
+      "itemType": "collectible",
+      "model": "legendFeather",
+      "name": "Ho-Oh's Rainbow Wing",
+      "power": "shield",
+      "price": 195000,
+      "radius": 3,
+      "rarity": "Mythic",
+      "spawnWeight": 0.13,
+      "tier": 6,
+      "windup": 0
+    },
+    {
+      "ability": "Ancient Command",
+      "category": "Relic",
+      "cooldown": 19,
+      "id": "item23",
+      "income": 180,
+      "itemType": "collectible",
+      "model": "millenniumRod",
+      "name": "Millennium Rod",
+      "power": "shadow",
+      "price": 13000,
+      "radius": 10,
+      "rarity": "Epic",
+      "spawnWeight": 1,
+      "tier": 4,
+      "windup": 1
+    },
+    {
+      "ability": "Duel Barrier",
+      "category": "Relic",
+      "cooldown": 18,
+      "id": "item24",
+      "income": 60,
+      "itemType": "collectible",
+      "model": "duelDisk",
+      "name": "Yu-Gi-Oh! Duel Disk",
+      "power": "shield",
+      "price": 3400,
+      "radius": 3,
+      "rarity": "Rare",
+      "spawnWeight": 1,
+      "tier": 3,
+      "windup": 0
+    },
+    {
+      "ability": "Guardian Seal",
+      "category": "Relic",
+      "cooldown": 22,
+      "id": "item25",
+      "income": 2100,
+      "itemType": "collectible",
+      "model": "exodiaHead",
+      "name": "Exodia Head and Torso",
+      "power": "shadow",
+      "price": 220000,
+      "radius": 12,
+      "rarity": "Mythic",
+      "spawnWeight": 0.55,
+      "tier": 6,
+      "windup": 1.1
+    },
+    {
+      "ability": "Sealed Grasp",
+      "category": "Relic",
+      "cooldown": 20,
+      "id": "item26",
+      "income": 610,
+      "itemType": "collectible",
+      "model": "exodiaLeftArm",
+      "name": "Exodia Left Arm",
+      "power": "pull",
+      "price": 56000,
+      "radius": 10,
+      "rarity": "Legendary",
+      "spawnWeight": 0.65,
+      "tier": 5,
+      "windup": 1
+    },
+    {
+      "ability": "Sealed Palm",
+      "category": "Relic",
+      "cooldown": 20,
+      "id": "item27",
+      "income": 610,
+      "itemType": "collectible",
+      "model": "exodiaRightArm",
+      "name": "Exodia Right Arm",
+      "power": "pulse",
+      "price": 56000,
+      "radius": 10,
+      "rarity": "Legendary",
+      "spawnWeight": 0.65,
+      "tier": 5,
+      "windup": 0.9
+    },
+    {
+      "ability": "Ancient Step",
+      "category": "Relic",
+      "cooldown": 18,
+      "id": "item28",
+      "income": 230,
+      "itemType": "collectible",
+      "model": "exodiaLeftLeg",
+      "name": "Exodia Left Leg",
+      "power": "slam",
+      "price": 17000,
+      "radius": 11,
+      "rarity": "Epic",
+      "spawnWeight": 0.8,
+      "tier": 4,
+      "windup": 0.8
+    },
+    {
+      "ability": "Guardian Stomp",
+      "category": "Relic",
+      "cooldown": 18,
+      "id": "item29",
+      "income": 230,
+      "itemType": "collectible",
+      "model": "exodiaRightLeg",
+      "name": "Exodia Right Leg",
+      "power": "slam",
+      "price": 17000,
+      "radius": 11,
+      "rarity": "Epic",
+      "spawnWeight": 0.8,
+      "tier": 4,
+      "windup": 0.8
+    },
+    {
+      "ability": "Diamond Chop",
+      "category": "Relic",
+      "cooldown": 16,
+      "id": "item30",
+      "income": 22,
+      "itemType": "axe",
+      "model": "diamondAxe",
+      "name": "Minecraft Diamond Axe",
+      "power": "slam",
+      "price": 1100,
+      "radius": 9,
+      "rarity": "Uncommon",
+      "spawnWeight": 0.5,
+      "tier": 2,
+      "windup": 0.7
+    },
+    {
+      "ability": "Enchanted Break",
+      "category": "Relic",
+      "cooldown": 17,
+      "id": "item31",
+      "income": 55,
+      "itemType": "pickaxe",
+      "model": "enchantedPickaxe",
+      "name": "Minecraft Enchanted Diamond Pickaxe",
+      "power": "pulse",
+      "price": 3100,
+      "radius": 10,
+      "rarity": "Rare",
+      "spawnWeight": 0.5,
+      "tier": 3,
+      "windup": 0.7
+    },
+    {
+      "ability": "Crystal Burst",
+      "category": "Relic",
+      "cooldown": 20,
+      "id": "item32",
+      "income": 250,
+      "itemType": "collectible",
+      "model": "endCrystal",
+      "name": "Minecraft End Crystal",
+      "power": "pulse",
+      "price": 18500,
+      "radius": 12,
+      "rarity": "Epic",
+      "spawnWeight": 0.85,
+      "tier": 4,
+      "windup": 1
+    },
+    {
+      "ability": "Bounded Command",
+      "category": "Relic",
+      "cooldown": 23,
+      "id": "item33",
+      "income": 2300,
+      "itemType": "collectible",
+      "model": "commandBlock",
+      "name": "Minecraft Command Block",
+      "power": "slow",
+      "price": 240000,
+      "radius": 12,
+      "rarity": "Mythic",
+      "spawnWeight": 0.55,
+      "tier": 6,
+      "windup": 1
+    },
+    {
+      "ability": "Blue Watch",
+      "category": "Relic",
+      "cooldown": 17,
+      "id": "item34",
+      "income": 67,
+      "itemType": "sword",
+      "model": "sting",
+      "name": "Bilbo's Sting",
+      "power": "pulse",
+      "price": 3800,
+      "radius": 10,
+      "rarity": "Rare",
+      "spawnWeight": 0.5,
+      "tier": 3,
+      "windup": 0.6
+    },
+    {
+      "ability": "Mountain Light",
+      "category": "Relic",
+      "cooldown": 20,
+      "id": "item35",
+      "income": 730,
+      "itemType": "collectible",
+      "model": "arkenstone",
+      "name": "The Arkenstone",
+      "power": "shield",
+      "price": 68000,
+      "radius": 3,
+      "rarity": "Legendary",
+      "spawnWeight": 0.8,
+      "tier": 5,
+      "windup": 0
+    },
+    {
+      "ability": "Treasury Ward",
+      "category": "Relic",
+      "cooldown": 20,
+      "id": "item36",
+      "income": 27,
+      "itemType": "collectible",
+      "model": "dwarfTreasure",
+      "name": "The Hobbit Dwarven Treasure",
+      "power": "shield",
+      "price": 1400,
+      "radius": 3,
+      "rarity": "Uncommon",
+      "spawnWeight": 1,
+      "tier": 2,
+      "windup": 0
+    },
+    {
+      "ability": "Lifestream Pull",
+      "category": "Relic",
+      "cooldown": 18,
+      "id": "item37",
+      "income": 74,
+      "itemType": "collectible",
+      "model": "materia",
+      "name": "Final Fantasy Green Materia",
+      "power": "pull",
+      "price": 4200,
+      "radius": 10,
+      "rarity": "Rare",
+      "spawnWeight": 1,
+      "tier": 3,
+      "windup": 0.9
+    },
+    {
+      "ability": "Steel Report",
+      "category": "Relic",
+      "cooldown": 18,
+      "id": "item38",
+      "income": 210,
+      "itemType": "sword",
+      "model": "gunblade",
+      "name": "Squall's Revolver Gunblade",
+      "power": "pulse",
+      "price": 15500,
+      "radius": 11,
+      "rarity": "Epic",
+      "spawnWeight": 0.45,
+      "tier": 4,
+      "windup": 0.8
+    },
+    {
+      "ability": "Ember Ripple",
+      "category": "Relic",
+      "cooldown": 17,
+      "id": "item39",
+      "income": 17,
+      "itemType": "collectible",
+      "model": "fireStone",
+      "name": "Pok\u00e9mon Fire Stone",
+      "power": "pulse",
+      "price": 800,
+      "radius": 9,
+      "rarity": "Uncommon",
+      "spawnWeight": 0.18,
+      "tier": 2,
+      "windup": 0.7
+    },
+    {
+      "ability": "Tide Ripple",
+      "category": "Relic",
+      "cooldown": 17,
+      "id": "item40",
+      "income": 19,
+      "itemType": "collectible",
+      "model": "waterStone",
+      "name": "Pok\u00e9mon Water Stone",
+      "power": "slow",
+      "price": 950,
+      "radius": 9,
+      "rarity": "Uncommon",
+      "spawnWeight": 0.18,
+      "tier": 2,
+      "windup": 0.7
+    },
+    {
+      "ability": "Reactor Guard",
+      "category": "Relic",
+      "cooldown": 22,
+      "id": "item41",
+      "income": 2350,
+      "itemType": "collectible",
+      "model": "ironArmor",
+      "name": "Iron Man Armor Suit",
+      "power": "shield",
+      "price": 250000,
+      "radius": 3,
+      "rarity": "Mythic",
+      "spawnWeight": 0.55,
+      "tier": 6,
+      "windup": 0
+    },
+    {
+      "ability": "Golden Resolve",
+      "category": "Relic",
+      "cooldown": 22,
+      "id": "item42",
+      "income": 2200,
+      "itemType": "collectible",
+      "model": "triforce",
+      "name": "Triforce",
+      "power": "shield",
+      "price": 230000,
+      "radius": 3,
+      "rarity": "Mythic",
+      "spawnWeight": 0.5,
+      "tier": 6,
+      "windup": 0
+    },
+    {
+      "ability": "Seven-Star Ward",
+      "category": "Relic",
+      "cooldown": 22,
+      "id": "item43",
+      "income": 2450,
+      "itemType": "collectible",
+      "model": "dragonballs",
+      "name": "Dragon Balls",
+      "power": "shield",
+      "price": 265000,
+      "radius": 3,
+      "rarity": "Mythic",
+      "spawnWeight": 0.5,
+      "tier": 6,
+      "windup": 0
+    },
+    {
+      "ability": "Turbo Start",
+      "category": "Relic",
+      "cooldown": 18,
+      "id": "item44",
+      "income": 225,
+      "itemType": "collectible",
+      "model": "duelrunner",
+      "name": "Yusei Fudo Red Duel Runner",
+      "power": "dash",
+      "price": 16500,
+      "radius": 1,
+      "rarity": "Epic",
+      "spawnWeight": 0.85,
+      "tier": 4,
+      "windup": 0
+    },
+    {
+      "ability": "Night Watch",
+      "category": "Relic",
+      "cooldown": 17,
+      "id": "item45",
+      "income": 70,
+      "itemType": "collectible",
+      "model": "freddysuit",
+      "name": "Freddy Fazbear Empty Suit",
+      "power": "slow",
+      "price": 3900,
+      "radius": 9,
+      "rarity": "Rare",
+      "spawnWeight": 1,
+      "tier": 3,
+      "windup": 0.7
+    },
+    {
+      "ability": "Golden Haunt",
+      "category": "Relic",
+      "cooldown": 20,
+      "id": "item46",
+      "income": 710,
+      "itemType": "collectible",
+      "model": "goldenfreddysuit",
+      "name": "Golden Freddy Empty Suit",
+      "power": "shadow",
+      "price": 66000,
+      "radius": 11,
+      "rarity": "Legendary",
+      "spawnWeight": 0.7,
+      "tier": 5,
+      "windup": 1
+    },
+    {
+      "ability": "Collectible",
+      "category": "Relic",
+      "cooldown": 4,
+      "id": "kirby_sword",
+      "income": 54,
+      "itemType": "sword",
+      "model": "kirbySword",
+      "name": "Kirby's Sword",
+      "power": "tag",
+      "price": 3000,
+      "radius": 7,
+      "rarity": "Rare",
+      "spawnWeight": 0.5,
+      "tier": 3,
+      "windup": 0.15
+    },
+    {
+      "ability": "Collectible",
+      "category": "Relic",
+      "cooldown": 4,
+      "id": "golden_spatula",
+      "income": 200,
+      "itemType": "collectible",
+      "model": "goldenSpatula",
+      "name": "SpongeBob's Golden Spatula",
+      "power": "tag",
+      "price": 14500,
+      "radius": 7,
+      "rarity": "Epic",
+      "spawnWeight": 1,
+      "tier": 4,
+      "windup": 0.15
+    },
+    {
+      "ability": "Collectible",
+      "category": "Relic",
+      "cooldown": 4,
+      "id": "krabby_patty",
+      "income": 18,
+      "itemType": "collectible",
+      "model": "krabbyPatty",
+      "name": "Krabby Patty",
+      "power": "tag",
+      "price": 850,
+      "radius": 7,
+      "rarity": "Uncommon",
+      "spawnWeight": 1,
+      "tier": 2,
+      "windup": 0.15
+    },
+    {
+      "ability": "Collectible",
+      "category": "Relic",
+      "cooldown": 4,
+      "id": "gary_shell",
+      "income": 53,
+      "itemType": "collectible",
+      "model": "garyShell",
+      "name": "Gary the Snail's Shell",
+      "power": "tag",
+      "price": 2900,
+      "radius": 7,
+      "rarity": "Rare",
+      "spawnWeight": 1,
+      "tier": 3,
+      "windup": 0.15
+    },
+    {
+      "ability": "Collectible",
+      "category": "Relic",
+      "cooldown": 4,
+      "id": "super_star",
+      "income": 660,
+      "itemType": "collectible",
+      "model": "superStar",
+      "name": "Super Mario Super Star",
+      "power": "tag",
+      "price": 60000,
+      "radius": 7,
+      "rarity": "Legendary",
+      "spawnWeight": 0.65,
+      "tier": 5,
+      "windup": 0.15
+    },
+    {
+      "ability": "Collectible",
+      "category": "Relic",
+      "cooldown": 4,
+      "id": "fire_flower",
+      "income": 205,
+      "itemType": "collectible",
+      "model": "fireFlower",
+      "name": "Super Mario Fire Flower",
+      "power": "tag",
+      "price": 15000,
+      "radius": 7,
+      "rarity": "Epic",
+      "spawnWeight": 1,
+      "tier": 4,
+      "windup": 0.15
+    },
+    {
+      "ability": "Collectible",
+      "category": "Relic",
+      "cooldown": 4,
+      "id": "hylian_shield",
+      "income": 215,
+      "itemType": "collectible",
+      "model": "hylianShield",
+      "name": "Hylian Shield",
+      "power": "tag",
+      "price": 16000,
+      "radius": 7,
+      "rarity": "Epic",
+      "spawnWeight": 1,
+      "tier": 4,
+      "windup": 0.15
+    },
+    {
+      "ability": "Collectible",
+      "category": "Relic",
+      "cooldown": 4,
+      "id": "companion_cube",
+      "income": 66,
+      "itemType": "collectible",
+      "model": "companionCube",
+      "name": "Portal Companion Cube",
+      "power": "tag",
+      "price": 3700,
+      "radius": 7,
+      "rarity": "Rare",
+      "spawnWeight": 1,
+      "tier": 3,
+      "windup": 0.15
+    },
+    {
+      "ability": "Collectible",
+      "category": "Relic",
+      "cooldown": 4,
+      "id": "proton_pack",
+      "income": 235,
+      "itemType": "collectible",
+      "model": "protonPack",
+      "name": "Ghostbusters Proton Pack",
+      "power": "tag",
+      "price": 17500,
+      "radius": 7,
+      "rarity": "Epic",
+      "spawnWeight": 1,
+      "tier": 4,
+      "windup": 0.15
+    },
+    {
+      "ability": "Collectible",
+      "category": "Relic",
+      "cooldown": 4,
+      "id": "space_stone",
+      "income": 620,
+      "infinityStone": true,
+      "itemType": "collectible",
+      "model": "spaceStone",
+      "name": "Marvel Space Stone",
+      "power": "tag",
+      "price": 54000,
+      "radius": 7,
+      "rarity": "Legendary",
+      "spawnWeight": 0.65,
+      "tier": 5,
+      "windup": 0.15
+    },
+    {
+      "ability": "Collectible",
+      "category": "Relic",
+      "cooldown": 4,
+      "id": "mind_stone",
+      "income": 640,
+      "infinityStone": true,
+      "itemType": "collectible",
+      "model": "mindStone",
+      "name": "Marvel Mind Stone",
+      "power": "tag",
+      "price": 57000,
+      "radius": 7,
+      "rarity": "Legendary",
+      "spawnWeight": 0.65,
+      "tier": 5,
+      "windup": 0.15
+    },
+    {
+      "ability": "Collectible",
+      "category": "Relic",
+      "cooldown": 4,
+      "id": "reality_stone",
+      "income": 655,
+      "infinityStone": true,
+      "itemType": "collectible",
+      "model": "realityStone",
+      "name": "Marvel Reality Stone",
+      "power": "tag",
+      "price": 59000,
+      "radius": 7,
+      "rarity": "Legendary",
+      "spawnWeight": 0.65,
+      "tier": 5,
+      "windup": 0.15
+    },
+    {
+      "ability": "Collectible",
+      "category": "Relic",
+      "cooldown": 4,
+      "id": "power_stone",
+      "income": 680,
+      "infinityStone": true,
+      "itemType": "collectible",
+      "model": "powerStone",
+      "name": "Marvel Power Stone",
+      "power": "tag",
+      "price": 62000,
+      "radius": 7,
+      "rarity": "Legendary",
+      "spawnWeight": 0.65,
+      "tier": 5,
+      "windup": 0.15
+    },
+    {
+      "ability": "Collectible",
+      "category": "Relic",
+      "cooldown": 4,
+      "id": "time_stone",
+      "income": 630,
+      "infinityStone": true,
+      "itemType": "collectible",
+      "model": "timeStone",
+      "name": "Marvel Time Stone",
+      "power": "tag",
+      "price": 56000,
+      "radius": 7,
+      "rarity": "Legendary",
+      "spawnWeight": 0.65,
+      "tier": 5,
+      "windup": 0.15
+    },
+    {
+      "ability": "Collectible",
+      "category": "Relic",
+      "cooldown": 4,
+      "id": "soul_stone",
+      "income": 650,
+      "infinityStone": true,
+      "itemType": "collectible",
+      "model": "soulStone",
+      "name": "Marvel Soul Stone",
+      "power": "tag",
+      "price": 58000,
+      "radius": 7,
+      "rarity": "Legendary",
+      "spawnWeight": 0.65,
+      "tier": 5,
+      "windup": 0.15
+    },
+    {
+      "ability": "Collectible",
+      "category": "Relic",
+      "cooldown": 4,
+      "id": "pekka",
+      "income": 255,
+      "itemType": "collectible",
+      "model": "pekka",
+      "name": "P.E.K.K.A",
+      "power": "tag",
+      "price": 19000,
+      "radius": 7,
+      "rarity": "Epic",
+      "spawnWeight": 1,
+      "tier": 4,
+      "windup": 0.15
+    },
+    {
+      "ability": "Collectible",
+      "category": "Relic",
+      "cooldown": 4,
+      "id": "mega_knight",
+      "income": 240,
+      "itemType": "collectible",
+      "model": "megaKnight",
+      "name": "Clash Royale Mega Knight",
+      "power": "tag",
+      "price": 18000,
+      "radius": 7,
+      "rarity": "Epic",
+      "spawnWeight": 1,
+      "tier": 4,
+      "windup": 0.15
+    },
+    {
+      "ability": "Collectible",
+      "category": "Relic",
+      "cooldown": 4,
+      "id": "black_lotus",
+      "income": 2100,
+      "itemType": "collectible",
+      "model": "blackLotusCollectible",
+      "name": "MTG Black Lotus",
+      "power": "tag",
+      "price": 220000,
+      "radius": 7,
+      "rarity": "Mythic",
+      "spawnWeight": 0.55,
+      "tier": 6,
+      "windup": 0.15
+    },
+    {
+      "ability": "Collectible",
+      "category": "Relic",
+      "cooldown": 4,
+      "id": "death_note",
+      "income": 675,
+      "itemType": "collectible",
+      "model": "deathNote",
+      "name": "Death Note",
+      "power": "tag",
+      "price": 61000,
+      "radius": 7,
+      "rarity": "Legendary",
+      "spawnWeight": 0.7,
+      "tier": 5,
+      "windup": 0.15
+    },
+    {
+      "ability": "Collectible",
+      "category": "Relic",
+      "cooldown": 4,
+      "id": "krabby_patty_formula",
+      "income": 700,
+      "itemType": "collectible",
+      "model": "krabby_patty_formula",
+      "name": "Krabby Patty Secret Formula",
+      "power": "tag",
+      "price": 65000,
+      "radius": 7,
+      "rarity": "Legendary",
+      "spawnWeight": 0.65,
+      "tier": 5,
+      "windup": 0.15
+    },
+    {
+      "ability": "Collectible",
+      "category": "Relic",
+      "cooldown": 4,
+      "id": "transformers_allspark",
+      "income": 2600,
+      "itemType": "collectible",
+      "model": "transformers_allspark",
+      "name": "Transformers AllSpark",
+      "power": "tag",
+      "price": 280000,
+      "radius": 7,
+      "rarity": "Mythic",
+      "spawnWeight": 0.5,
+      "tier": 6,
+      "windup": 0.15
+    },
+    {
+      "ability": "Collectible",
+      "category": "Relic",
+      "cooldown": 4,
+      "id": "transformers_matrix",
+      "income": 780,
+      "itemType": "collectible",
+      "model": "transformers_matrix",
+      "name": "Transformers Matrix of Leadership",
+      "power": "tag",
+      "price": 72000,
+      "radius": 7,
+      "rarity": "Legendary",
+      "spawnWeight": 0.65,
+      "tier": 5,
+      "windup": 0.15
+    },
+    {
+      "ability": "Collectible",
+      "category": "Relic",
+      "cooldown": 4,
+      "id": "optimus_energon_axe",
+      "income": 255,
+      "itemType": "axe",
+      "model": "optimus_energon_axe",
+      "name": "Optimus Prime Energon Axe",
+      "power": "tag",
+      "price": 19000,
+      "radius": 7,
+      "rarity": "Epic",
+      "spawnWeight": 0.5,
+      "tier": 4,
+      "windup": 0.15
+    }
+  ],
+  "catalog": [
+    {
+      "ability": "Diamond Sweep",
+      "category": "Relic",
+      "cooldown": 12,
+      "id": "item01",
+      "income": 3,
+      "itemType": "sword",
+      "model": "pixel",
+      "name": "Minecraft Diamond Sword",
+      "power": "pulse",
+      "price": 100,
+      "radius": 10,
+      "rarity": "Common",
+      "spawnWeight": 0.5,
+      "tier": 1,
+      "windup": 0.45
+    },
+    {
+      "ability": "Gravity Snap",
+      "category": "Relic",
+      "cooldown": 20,
+      "id": "item02",
+      "income": 1800,
+      "itemType": "collectible",
+      "model": "gauntlet",
+      "name": "Infinity Gauntlet",
+      "power": "pull",
+      "price": 180000,
+      "radius": 12,
+      "rarity": "Mythic",
+      "spawnWeight": 1,
+      "tier": 6,
+      "windup": 1.1
+    },
+    {
+      "ability": "Veil of Protection",
+      "category": "Relic",
+      "cooldown": 18,
+      "id": "item03",
+      "income": 700,
+      "itemType": "collectible",
+      "model": "oneRing",
+      "name": "The One Ring (LOTR)",
+      "power": "shield",
+      "price": 65000,
+      "radius": 3,
+      "rarity": "Legendary",
+      "spawnWeight": 1,
+      "tier": 5,
+      "windup": 0
+    },
+    {
+      "ability": "Chaos Burst",
+      "category": "Relic",
+      "cooldown": 15,
+      "id": "item04",
+      "income": 620,
+      "itemType": "collectible",
+      "model": "emerald",
+      "name": "Sonic's Green Chaos Emerald",
+      "power": "dash",
+      "price": 52000,
+      "radius": 1,
+      "rarity": "Legendary",
+      "spawnWeight": 1,
+      "tier": 5,
+      "windup": 0
+    },
+    {
+      "ability": "Spiny Shock",
+      "category": "Relic",
+      "cooldown": 14,
+      "id": "item05",
+      "income": 14,
+      "itemType": "collectible",
+      "model": "shell",
+      "name": "Mario Kart Blue Shell",
+      "power": "slow",
+      "price": 600,
+      "radius": 10,
+      "rarity": "Uncommon",
+      "spawnWeight": 1,
+      "tier": 2,
+      "windup": 0.7
+    },
+    {
+      "ability": "Braver",
+      "category": "Relic",
+      "cooldown": 15,
+      "id": "item06",
+      "income": 52,
+      "itemType": "sword",
+      "model": "buster",
+      "name": "Cloud's Buster Sword",
+      "power": "slam",
+      "price": 2800,
+      "radius": 12,
+      "rarity": "Rare",
+      "spawnWeight": 0.5,
+      "tier": 3,
+      "windup": 0.7
+    },
+    {
+      "ability": "Portal Surge",
+      "category": "Relic",
+      "cooldown": 14,
+      "id": "item07",
+      "income": 65,
+      "itemType": "collectible",
+      "model": "portalgun",
+      "name": "Portal Gun",
+      "power": "dash",
+      "price": 3600,
+      "radius": 1,
+      "rarity": "Rare",
+      "spawnWeight": 1,
+      "tier": 3,
+      "windup": 0
+    },
+    {
+      "ability": "Shadow Game",
+      "category": "Relic",
+      "cooldown": 18,
+      "id": "item08",
+      "income": 195,
+      "itemType": "collectible",
+      "model": "puzzle",
+      "name": "Millennium Puzzle",
+      "power": "shadow",
+      "price": 14000,
+      "radius": 11,
+      "rarity": "Epic",
+      "spawnWeight": 1,
+      "tier": 4,
+      "windup": 1.1
+    },
+    {
+      "ability": "Plasma Sweep",
+      "category": "Relic",
+      "cooldown": 12,
+      "id": "item09",
+      "income": 58,
+      "itemType": "sword",
+      "model": "energy",
+      "name": "Halo Energy Sword",
+      "power": "pulse",
+      "price": 3200,
+      "radius": 10,
+      "rarity": "Rare",
+      "spawnWeight": 0.5,
+      "tier": 3,
+      "windup": 0.45
+    },
+    {
+      "ability": "Thunderclap",
+      "category": "Relic",
+      "cooldown": 18,
+      "id": "item10",
+      "income": 550,
+      "itemType": "collectible",
+      "model": "hammer",
+      "name": "Thor's Mj\u00f6lnir",
+      "power": "slam",
+      "price": 45000,
+      "radius": 14,
+      "rarity": "Legendary",
+      "spawnWeight": 1,
+      "tier": 5,
+      "windup": 0.9
+    },
+    {
+      "ability": "Ray Burst",
+      "category": "Relic",
+      "cooldown": 14,
+      "id": "item11",
+      "income": 72,
+      "itemType": "collectible",
+      "model": "raygun",
+      "name": "Call of Duty Zombies Ray Gun",
+      "power": "pulse",
+      "price": 4000,
+      "radius": 12,
+      "rarity": "Rare",
+      "spawnWeight": 1,
+      "tier": 3,
+      "windup": 0.65
+    },
+    {
+      "ability": "Capture Field",
+      "category": "Relic",
+      "cooldown": 16,
+      "id": "item12",
+      "income": 220,
+      "itemType": "collectible",
+      "model": "masterball",
+      "name": "Pok\u00e9mon Master Ball",
+      "power": "slow",
+      "price": 16000,
+      "radius": 11,
+      "rarity": "Epic",
+      "spawnWeight": 0.2,
+      "tier": 4,
+      "windup": 0.8
+    },
+    {
+      "ability": "Forbidden Seal",
+      "category": "Relic",
+      "cooldown": 24,
+      "id": "item13",
+      "income": 6000,
+      "itemType": "collectible",
+      "model": "cards",
+      "name": "Exodia \u2014 Five-Card Set",
+      "power": "shadow",
+      "price": 800000,
+      "radius": 14,
+      "rarity": "Ethereal",
+      "spawnWeight": 1,
+      "tier": 7,
+      "windup": 1.4
+    },
+    {
+      "ability": "Erasure Pulse",
+      "category": "Relic",
+      "cooldown": 25,
+      "id": "item14",
+      "income": 7400,
+      "itemType": "collectible",
+      "model": "zenobutton",
+      "name": "Zeno's Button",
+      "power": "pulse",
+      "price": 1000000,
+      "radius": 14,
+      "rarity": "Ethereal",
+      "spawnWeight": 1,
+      "tier": 7,
+      "windup": 1.5
+    },
+    {
+      "ability": "Sacred Slash",
+      "category": "Relic",
+      "cooldown": 14,
+      "id": "item15",
+      "income": 175,
+      "itemType": "sword",
+      "model": "master",
+      "name": "Link's Master Sword",
+      "power": "pulse",
+      "price": 12000,
+      "radius": 12,
+      "rarity": "Epic",
+      "spawnWeight": 0.5,
+      "tier": 4,
+      "windup": 0.6
+    },
+    {
+      "ability": "BFG Wave",
+      "category": "Relic",
+      "cooldown": 22,
+      "id": "item16",
+      "income": 2100,
+      "itemType": "collectible",
+      "model": "bfg",
+      "name": "Doom BFG 9000",
+      "power": "pulse",
+      "price": 210000,
+      "radius": 14,
+      "rarity": "Mythic",
+      "spawnWeight": 1,
+      "tier": 6,
+      "windup": 1.2
+    },
+    {
+      "ability": "Jelly Snare",
+      "category": "Relic",
+      "cooldown": 15,
+      "id": "item17",
+      "income": 4,
+      "itemType": "collectible",
+      "model": "jellyNet",
+      "name": "SpongeBob's Jellyfishing Net",
+      "power": "slow",
+      "price": 180,
+      "radius": 9,
+      "rarity": "Common",
+      "spawnWeight": 1.2,
+      "tier": 1,
+      "windup": 0.65
+    },
+    {
+      "ability": "Court Guard",
+      "category": "Relic",
+      "cooldown": 20,
+      "id": "item18",
+      "income": 18,
+      "itemType": "collectible",
+      "model": "faceMask",
+      "name": "LeBron's Face Mask",
+      "power": "shield",
+      "price": 900,
+      "radius": 3,
+      "rarity": "Uncommon",
+      "spawnWeight": 1,
+      "tier": 2,
+      "windup": 0
+    },
+    {
+      "ability": "Emerald Resonance",
+      "category": "Relic",
+      "cooldown": 20,
+      "id": "item19",
+      "income": 640,
+      "itemType": "collectible",
+      "model": "brolyJewelry",
+      "name": "Broly's Jewelry",
+      "power": "pulse",
+      "price": 58000,
+      "radius": 12,
+      "rarity": "Legendary",
+      "spawnWeight": 0.8,
+      "tier": 5,
+      "windup": 0.9
+    },
+    {
+      "ability": "Capture Ripple",
+      "category": "Relic",
+      "cooldown": 15,
+      "id": "item20",
+      "income": 3,
+      "itemType": "collectible",
+      "model": "pokeBall",
+      "name": "Pok\u00e9 Ball",
+      "power": "slow",
+      "price": 120,
+      "radius": 8,
+      "rarity": "Common",
+      "spawnWeight": 0.26,
+      "tier": 1,
+      "windup": 0.6
+    },
+    {
+      "ability": "Spark Step",
+      "category": "Relic",
+      "cooldown": 17,
+      "id": "item21",
+      "income": 16,
+      "itemType": "collectible",
+      "model": "evolutionStone",
+      "name": "Pok\u00e9mon Thunder Stone",
+      "power": "dash",
+      "price": 750,
+      "radius": 1,
+      "rarity": "Uncommon",
+      "spawnWeight": 0.2,
+      "tier": 2,
+      "windup": 0
+    },
+    {
+      "ability": "Prismatic Ward",
+      "category": "Relic",
+      "cooldown": 22,
+      "id": "item22",
+      "income": 1900,
+      "itemType": "collectible",
+      "model": "legendFeather",
+      "name": "Ho-Oh's Rainbow Wing",
+      "power": "shield",
+      "price": 195000,
+      "radius": 3,
+      "rarity": "Mythic",
+      "spawnWeight": 0.13,
+      "tier": 6,
+      "windup": 0
+    },
+    {
+      "ability": "Ancient Command",
+      "category": "Relic",
+      "cooldown": 19,
+      "id": "item23",
+      "income": 180,
+      "itemType": "collectible",
+      "model": "millenniumRod",
+      "name": "Millennium Rod",
+      "power": "shadow",
+      "price": 13000,
+      "radius": 10,
+      "rarity": "Epic",
+      "spawnWeight": 1,
+      "tier": 4,
+      "windup": 1
+    },
+    {
+      "ability": "Duel Barrier",
+      "category": "Relic",
+      "cooldown": 18,
+      "id": "item24",
+      "income": 60,
+      "itemType": "collectible",
+      "model": "duelDisk",
+      "name": "Yu-Gi-Oh! Duel Disk",
+      "power": "shield",
+      "price": 3400,
+      "radius": 3,
+      "rarity": "Rare",
+      "spawnWeight": 1,
+      "tier": 3,
+      "windup": 0
+    },
+    {
+      "ability": "Guardian Seal",
+      "category": "Relic",
+      "cooldown": 22,
+      "id": "item25",
+      "income": 2100,
+      "itemType": "collectible",
+      "model": "exodiaHead",
+      "name": "Exodia Head and Torso",
+      "power": "shadow",
+      "price": 220000,
+      "radius": 12,
+      "rarity": "Mythic",
+      "spawnWeight": 0.55,
+      "tier": 6,
+      "windup": 1.1
+    },
+    {
+      "ability": "Sealed Grasp",
+      "category": "Relic",
+      "cooldown": 20,
+      "id": "item26",
+      "income": 610,
+      "itemType": "collectible",
+      "model": "exodiaLeftArm",
+      "name": "Exodia Left Arm",
+      "power": "pull",
+      "price": 56000,
+      "radius": 10,
+      "rarity": "Legendary",
+      "spawnWeight": 0.65,
+      "tier": 5,
+      "windup": 1
+    },
+    {
+      "ability": "Sealed Palm",
+      "category": "Relic",
+      "cooldown": 20,
+      "id": "item27",
+      "income": 610,
+      "itemType": "collectible",
+      "model": "exodiaRightArm",
+      "name": "Exodia Right Arm",
+      "power": "pulse",
+      "price": 56000,
+      "radius": 10,
+      "rarity": "Legendary",
+      "spawnWeight": 0.65,
+      "tier": 5,
+      "windup": 0.9
+    },
+    {
+      "ability": "Ancient Step",
+      "category": "Relic",
+      "cooldown": 18,
+      "id": "item28",
+      "income": 230,
+      "itemType": "collectible",
+      "model": "exodiaLeftLeg",
+      "name": "Exodia Left Leg",
+      "power": "slam",
+      "price": 17000,
+      "radius": 11,
+      "rarity": "Epic",
+      "spawnWeight": 0.8,
+      "tier": 4,
+      "windup": 0.8
+    },
+    {
+      "ability": "Guardian Stomp",
+      "category": "Relic",
+      "cooldown": 18,
+      "id": "item29",
+      "income": 230,
+      "itemType": "collectible",
+      "model": "exodiaRightLeg",
+      "name": "Exodia Right Leg",
+      "power": "slam",
+      "price": 17000,
+      "radius": 11,
+      "rarity": "Epic",
+      "spawnWeight": 0.8,
+      "tier": 4,
+      "windup": 0.8
+    },
+    {
+      "ability": "Diamond Chop",
+      "category": "Relic",
+      "cooldown": 16,
+      "id": "item30",
+      "income": 22,
+      "itemType": "axe",
+      "model": "diamondAxe",
+      "name": "Minecraft Diamond Axe",
+      "power": "slam",
+      "price": 1100,
+      "radius": 9,
+      "rarity": "Uncommon",
+      "spawnWeight": 0.5,
+      "tier": 2,
+      "windup": 0.7
+    },
+    {
+      "ability": "Enchanted Break",
+      "category": "Relic",
+      "cooldown": 17,
+      "id": "item31",
+      "income": 55,
+      "itemType": "pickaxe",
+      "model": "enchantedPickaxe",
+      "name": "Minecraft Enchanted Diamond Pickaxe",
+      "power": "pulse",
+      "price": 3100,
+      "radius": 10,
+      "rarity": "Rare",
+      "spawnWeight": 0.5,
+      "tier": 3,
+      "windup": 0.7
+    },
+    {
+      "ability": "Crystal Burst",
+      "category": "Relic",
+      "cooldown": 20,
+      "id": "item32",
+      "income": 250,
+      "itemType": "collectible",
+      "model": "endCrystal",
+      "name": "Minecraft End Crystal",
+      "power": "pulse",
+      "price": 18500,
+      "radius": 12,
+      "rarity": "Epic",
+      "spawnWeight": 0.85,
+      "tier": 4,
+      "windup": 1
+    },
+    {
+      "ability": "Bounded Command",
+      "category": "Relic",
+      "cooldown": 23,
+      "id": "item33",
+      "income": 2300,
+      "itemType": "collectible",
+      "model": "commandBlock",
+      "name": "Minecraft Command Block",
+      "power": "slow",
+      "price": 240000,
+      "radius": 12,
+      "rarity": "Mythic",
+      "spawnWeight": 0.55,
+      "tier": 6,
+      "windup": 1
+    },
+    {
+      "ability": "Blue Watch",
+      "category": "Relic",
+      "cooldown": 17,
+      "id": "item34",
+      "income": 67,
+      "itemType": "sword",
+      "model": "sting",
+      "name": "Bilbo's Sting",
+      "power": "pulse",
+      "price": 3800,
+      "radius": 10,
+      "rarity": "Rare",
+      "spawnWeight": 0.5,
+      "tier": 3,
+      "windup": 0.6
+    },
+    {
+      "ability": "Mountain Light",
+      "category": "Relic",
+      "cooldown": 20,
+      "id": "item35",
+      "income": 730,
+      "itemType": "collectible",
+      "model": "arkenstone",
+      "name": "The Arkenstone",
+      "power": "shield",
+      "price": 68000,
+      "radius": 3,
+      "rarity": "Legendary",
+      "spawnWeight": 0.8,
+      "tier": 5,
+      "windup": 0
+    },
+    {
+      "ability": "Treasury Ward",
+      "category": "Relic",
+      "cooldown": 20,
+      "id": "item36",
+      "income": 27,
+      "itemType": "collectible",
+      "model": "dwarfTreasure",
+      "name": "The Hobbit Dwarven Treasure",
+      "power": "shield",
+      "price": 1400,
+      "radius": 3,
+      "rarity": "Uncommon",
+      "spawnWeight": 1,
+      "tier": 2,
+      "windup": 0
+    },
+    {
+      "ability": "Lifestream Pull",
+      "category": "Relic",
+      "cooldown": 18,
+      "id": "item37",
+      "income": 74,
+      "itemType": "collectible",
+      "model": "materia",
+      "name": "Final Fantasy Green Materia",
+      "power": "pull",
+      "price": 4200,
+      "radius": 10,
+      "rarity": "Rare",
+      "spawnWeight": 1,
+      "tier": 3,
+      "windup": 0.9
+    },
+    {
+      "ability": "Steel Report",
+      "category": "Relic",
+      "cooldown": 18,
+      "id": "item38",
+      "income": 210,
+      "itemType": "sword",
+      "model": "gunblade",
+      "name": "Squall's Revolver Gunblade",
+      "power": "pulse",
+      "price": 15500,
+      "radius": 11,
+      "rarity": "Epic",
+      "spawnWeight": 0.45,
+      "tier": 4,
+      "windup": 0.8
+    },
+    {
+      "ability": "Ember Ripple",
+      "category": "Relic",
+      "cooldown": 17,
+      "id": "item39",
+      "income": 17,
+      "itemType": "collectible",
+      "model": "fireStone",
+      "name": "Pok\u00e9mon Fire Stone",
+      "power": "pulse",
+      "price": 800,
+      "radius": 9,
+      "rarity": "Uncommon",
+      "spawnWeight": 0.18,
+      "tier": 2,
+      "windup": 0.7
+    },
+    {
+      "ability": "Tide Ripple",
+      "category": "Relic",
+      "cooldown": 17,
+      "id": "item40",
+      "income": 19,
+      "itemType": "collectible",
+      "model": "waterStone",
+      "name": "Pok\u00e9mon Water Stone",
+      "power": "slow",
+      "price": 950,
+      "radius": 9,
+      "rarity": "Uncommon",
+      "spawnWeight": 0.18,
+      "tier": 2,
+      "windup": 0.7
+    },
+    {
+      "ability": "Reactor Guard",
+      "category": "Relic",
+      "cooldown": 22,
+      "id": "item41",
+      "income": 2350,
+      "itemType": "collectible",
+      "model": "ironArmor",
+      "name": "Iron Man Armor Suit",
+      "power": "shield",
+      "price": 250000,
+      "radius": 3,
+      "rarity": "Mythic",
+      "spawnWeight": 0.55,
+      "tier": 6,
+      "windup": 0
+    },
+    {
+      "ability": "Golden Resolve",
+      "category": "Relic",
+      "cooldown": 22,
+      "id": "item42",
+      "income": 2200,
+      "itemType": "collectible",
+      "model": "triforce",
+      "name": "Triforce",
+      "power": "shield",
+      "price": 230000,
+      "radius": 3,
+      "rarity": "Mythic",
+      "spawnWeight": 0.5,
+      "tier": 6,
+      "windup": 0
+    },
+    {
+      "ability": "Seven-Star Ward",
+      "category": "Relic",
+      "cooldown": 22,
+      "id": "item43",
+      "income": 2450,
+      "itemType": "collectible",
+      "model": "dragonballs",
+      "name": "Dragon Balls",
+      "power": "shield",
+      "price": 265000,
+      "radius": 3,
+      "rarity": "Mythic",
+      "spawnWeight": 0.5,
+      "tier": 6,
+      "windup": 0
+    },
+    {
+      "ability": "Turbo Start",
+      "category": "Relic",
+      "cooldown": 18,
+      "id": "item44",
+      "income": 225,
+      "itemType": "collectible",
+      "model": "duelrunner",
+      "name": "Yusei Fudo Red Duel Runner",
+      "power": "dash",
+      "price": 16500,
+      "radius": 1,
+      "rarity": "Epic",
+      "spawnWeight": 0.85,
+      "tier": 4,
+      "windup": 0
+    },
+    {
+      "ability": "Night Watch",
+      "category": "Relic",
+      "cooldown": 17,
+      "id": "item45",
+      "income": 70,
+      "itemType": "collectible",
+      "model": "freddysuit",
+      "name": "Freddy Fazbear Empty Suit",
+      "power": "slow",
+      "price": 3900,
+      "radius": 9,
+      "rarity": "Rare",
+      "spawnWeight": 1,
+      "tier": 3,
+      "windup": 0.7
+    },
+    {
+      "ability": "Golden Haunt",
+      "category": "Relic",
+      "cooldown": 20,
+      "id": "item46",
+      "income": 710,
+      "itemType": "collectible",
+      "model": "goldenfreddysuit",
+      "name": "Golden Freddy Empty Suit",
+      "power": "shadow",
+      "price": 66000,
+      "radius": 11,
+      "rarity": "Legendary",
+      "spawnWeight": 0.7,
+      "tier": 5,
+      "windup": 1
+    },
+    {
+      "ability": "Collectible",
+      "category": "Relic",
+      "cooldown": 4,
+      "id": "kirby_sword",
+      "income": 54,
+      "itemType": "sword",
+      "model": "kirbySword",
+      "name": "Kirby's Sword",
+      "power": "tag",
+      "price": 3000,
+      "radius": 7,
+      "rarity": "Rare",
+      "spawnWeight": 0.5,
+      "tier": 3,
+      "windup": 0.15
+    },
+    {
+      "ability": "Collectible",
+      "category": "Relic",
+      "cooldown": 4,
+      "id": "golden_spatula",
+      "income": 200,
+      "itemType": "collectible",
+      "model": "goldenSpatula",
+      "name": "SpongeBob's Golden Spatula",
+      "power": "tag",
+      "price": 14500,
+      "radius": 7,
+      "rarity": "Epic",
+      "spawnWeight": 1,
+      "tier": 4,
+      "windup": 0.15
+    },
+    {
+      "ability": "Collectible",
+      "category": "Relic",
+      "cooldown": 4,
+      "id": "krabby_patty",
+      "income": 18,
+      "itemType": "collectible",
+      "model": "krabbyPatty",
+      "name": "Krabby Patty",
+      "power": "tag",
+      "price": 850,
+      "radius": 7,
+      "rarity": "Uncommon",
+      "spawnWeight": 1,
+      "tier": 2,
+      "windup": 0.15
+    },
+    {
+      "ability": "Collectible",
+      "category": "Relic",
+      "cooldown": 4,
+      "id": "gary_shell",
+      "income": 53,
+      "itemType": "collectible",
+      "model": "garyShell",
+      "name": "Gary the Snail's Shell",
+      "power": "tag",
+      "price": 2900,
+      "radius": 7,
+      "rarity": "Rare",
+      "spawnWeight": 1,
+      "tier": 3,
+      "windup": 0.15
+    },
+    {
+      "ability": "Collectible",
+      "category": "Relic",
+      "cooldown": 4,
+      "id": "super_star",
+      "income": 660,
+      "itemType": "collectible",
+      "model": "superStar",
+      "name": "Super Mario Super Star",
+      "power": "tag",
+      "price": 60000,
+      "radius": 7,
+      "rarity": "Legendary",
+      "spawnWeight": 0.65,
+      "tier": 5,
+      "windup": 0.15
+    },
+    {
+      "ability": "Collectible",
+      "category": "Relic",
+      "cooldown": 4,
+      "id": "fire_flower",
+      "income": 205,
+      "itemType": "collectible",
+      "model": "fireFlower",
+      "name": "Super Mario Fire Flower",
+      "power": "tag",
+      "price": 15000,
+      "radius": 7,
+      "rarity": "Epic",
+      "spawnWeight": 1,
+      "tier": 4,
+      "windup": 0.15
+    },
+    {
+      "ability": "Collectible",
+      "category": "Relic",
+      "cooldown": 4,
+      "id": "hylian_shield",
+      "income": 215,
+      "itemType": "collectible",
+      "model": "hylianShield",
+      "name": "Hylian Shield",
+      "power": "tag",
+      "price": 16000,
+      "radius": 7,
+      "rarity": "Epic",
+      "spawnWeight": 1,
+      "tier": 4,
+      "windup": 0.15
+    },
+    {
+      "ability": "Collectible",
+      "category": "Relic",
+      "cooldown": 4,
+      "id": "companion_cube",
+      "income": 66,
+      "itemType": "collectible",
+      "model": "companionCube",
+      "name": "Portal Companion Cube",
+      "power": "tag",
+      "price": 3700,
+      "radius": 7,
+      "rarity": "Rare",
+      "spawnWeight": 1,
+      "tier": 3,
+      "windup": 0.15
+    },
+    {
+      "ability": "Collectible",
+      "category": "Relic",
+      "cooldown": 4,
+      "id": "proton_pack",
+      "income": 235,
+      "itemType": "collectible",
+      "model": "protonPack",
+      "name": "Ghostbusters Proton Pack",
+      "power": "tag",
+      "price": 17500,
+      "radius": 7,
+      "rarity": "Epic",
+      "spawnWeight": 1,
+      "tier": 4,
+      "windup": 0.15
+    },
+    {
+      "ability": "Collectible",
+      "category": "Relic",
+      "cooldown": 4,
+      "id": "space_stone",
+      "income": 620,
+      "infinityStone": true,
+      "itemType": "collectible",
+      "model": "spaceStone",
+      "name": "Marvel Space Stone",
+      "power": "tag",
+      "price": 54000,
+      "radius": 7,
+      "rarity": "Legendary",
+      "spawnWeight": 0.65,
+      "tier": 5,
+      "windup": 0.15
+    },
+    {
+      "ability": "Collectible",
+      "category": "Relic",
+      "cooldown": 4,
+      "id": "mind_stone",
+      "income": 640,
+      "infinityStone": true,
+      "itemType": "collectible",
+      "model": "mindStone",
+      "name": "Marvel Mind Stone",
+      "power": "tag",
+      "price": 57000,
+      "radius": 7,
+      "rarity": "Legendary",
+      "spawnWeight": 0.65,
+      "tier": 5,
+      "windup": 0.15
+    },
+    {
+      "ability": "Collectible",
+      "category": "Relic",
+      "cooldown": 4,
+      "id": "reality_stone",
+      "income": 655,
+      "infinityStone": true,
+      "itemType": "collectible",
+      "model": "realityStone",
+      "name": "Marvel Reality Stone",
+      "power": "tag",
+      "price": 59000,
+      "radius": 7,
+      "rarity": "Legendary",
+      "spawnWeight": 0.65,
+      "tier": 5,
+      "windup": 0.15
+    },
+    {
+      "ability": "Collectible",
+      "category": "Relic",
+      "cooldown": 4,
+      "id": "power_stone",
+      "income": 680,
+      "infinityStone": true,
+      "itemType": "collectible",
+      "model": "powerStone",
+      "name": "Marvel Power Stone",
+      "power": "tag",
+      "price": 62000,
+      "radius": 7,
+      "rarity": "Legendary",
+      "spawnWeight": 0.65,
+      "tier": 5,
+      "windup": 0.15
+    },
+    {
+      "ability": "Collectible",
+      "category": "Relic",
+      "cooldown": 4,
+      "id": "time_stone",
+      "income": 630,
+      "infinityStone": true,
+      "itemType": "collectible",
+      "model": "timeStone",
+      "name": "Marvel Time Stone",
+      "power": "tag",
+      "price": 56000,
+      "radius": 7,
+      "rarity": "Legendary",
+      "spawnWeight": 0.65,
+      "tier": 5,
+      "windup": 0.15
+    },
+    {
+      "ability": "Collectible",
+      "category": "Relic",
+      "cooldown": 4,
+      "id": "soul_stone",
+      "income": 650,
+      "infinityStone": true,
+      "itemType": "collectible",
+      "model": "soulStone",
+      "name": "Marvel Soul Stone",
+      "power": "tag",
+      "price": 58000,
+      "radius": 7,
+      "rarity": "Legendary",
+      "spawnWeight": 0.65,
+      "tier": 5,
+      "windup": 0.15
+    },
+    {
+      "ability": "Collectible",
+      "category": "Relic",
+      "cooldown": 4,
+      "id": "pekka",
+      "income": 255,
+      "itemType": "collectible",
+      "model": "pekka",
+      "name": "P.E.K.K.A",
+      "power": "tag",
+      "price": 19000,
+      "radius": 7,
+      "rarity": "Epic",
+      "spawnWeight": 1,
+      "tier": 4,
+      "windup": 0.15
+    },
+    {
+      "ability": "Collectible",
+      "category": "Relic",
+      "cooldown": 4,
+      "id": "mega_knight",
+      "income": 240,
+      "itemType": "collectible",
+      "model": "megaKnight",
+      "name": "Clash Royale Mega Knight",
+      "power": "tag",
+      "price": 18000,
+      "radius": 7,
+      "rarity": "Epic",
+      "spawnWeight": 1,
+      "tier": 4,
+      "windup": 0.15
+    },
+    {
+      "ability": "Collectible",
+      "category": "Relic",
+      "cooldown": 4,
+      "id": "black_lotus",
+      "income": 2100,
+      "itemType": "collectible",
+      "model": "blackLotusCollectible",
+      "name": "MTG Black Lotus",
+      "power": "tag",
+      "price": 220000,
+      "radius": 7,
+      "rarity": "Mythic",
+      "spawnWeight": 0.55,
+      "tier": 6,
+      "windup": 0.15
+    },
+    {
+      "ability": "Collectible",
+      "category": "Relic",
+      "cooldown": 4,
+      "id": "death_note",
+      "income": 675,
+      "itemType": "collectible",
+      "model": "deathNote",
+      "name": "Death Note",
+      "power": "tag",
+      "price": 61000,
+      "radius": 7,
+      "rarity": "Legendary",
+      "spawnWeight": 0.7,
+      "tier": 5,
+      "windup": 0.15
+    },
+    {
+      "ability": "Collectible",
+      "category": "Relic",
+      "cooldown": 4,
+      "id": "krabby_patty_formula",
+      "income": 700,
+      "itemType": "collectible",
+      "model": "krabby_patty_formula",
+      "name": "Krabby Patty Secret Formula",
+      "power": "tag",
+      "price": 65000,
+      "radius": 7,
+      "rarity": "Legendary",
+      "spawnWeight": 0.65,
+      "tier": 5,
+      "windup": 0.15
+    },
+    {
+      "ability": "Collectible",
+      "category": "Relic",
+      "cooldown": 4,
+      "id": "transformers_allspark",
+      "income": 2600,
+      "itemType": "collectible",
+      "model": "transformers_allspark",
+      "name": "Transformers AllSpark",
+      "power": "tag",
+      "price": 280000,
+      "radius": 7,
+      "rarity": "Mythic",
+      "spawnWeight": 0.5,
+      "tier": 6,
+      "windup": 0.15
+    },
+    {
+      "ability": "Collectible",
+      "category": "Relic",
+      "cooldown": 4,
+      "id": "transformers_matrix",
+      "income": 780,
+      "itemType": "collectible",
+      "model": "transformers_matrix",
+      "name": "Transformers Matrix of Leadership",
+      "power": "tag",
+      "price": 72000,
+      "radius": 7,
+      "rarity": "Legendary",
+      "spawnWeight": 0.65,
+      "tier": 5,
+      "windup": 0.15
+    },
+    {
+      "ability": "Collectible",
+      "category": "Relic",
+      "cooldown": 4,
+      "id": "optimus_energon_axe",
+      "income": 255,
+      "itemType": "axe",
+      "model": "optimus_energon_axe",
+      "name": "Optimus Prime Energon Axe",
+      "power": "tag",
+      "price": 19000,
+      "radius": 7,
+      "rarity": "Epic",
+      "spawnWeight": 0.5,
+      "tier": 4,
+      "windup": 0.15
+    },
+    {
+      "ability": "Collectible",
+      "category": "Relic",
+      "cooldown": 4,
+      "id": "stardust_dragon",
+      "income": 900,
+      "itemType": "collectible",
+      "model": "stardust_dragon",
+      "name": "Stardust Dragon",
+      "power": "tag",
+      "price": 85000,
+      "radius": 7,
+      "rarity": "Legendary",
+      "spawnWeight": 0.65,
+      "tier": 5,
+      "windup": 0.15
+    },
+    {
+      "ability": "Collectible",
+      "category": "Relic",
+      "cooldown": 4,
+      "id": "blue_eyes_white_dragon",
+      "income": 3100,
+      "itemType": "collectible",
+      "model": "blue_eyes_white_dragon",
+      "name": "Blue-Eyes White Dragon",
+      "power": "tag",
+      "price": 330000,
+      "radius": 7,
+      "rarity": "Mythic",
+      "spawnWeight": 0.5,
+      "tier": 6,
+      "windup": 0.15
+    },
+    {
+      "ability": "Collectible",
+      "category": "Relic",
+      "cooldown": 4,
+      "id": "michael_jackson_glove",
+      "income": 240,
+      "itemType": "collectible",
+      "model": "michael_jackson_glove",
+      "name": "Michael Jackson's Glove",
+      "power": "tag",
+      "price": 17500,
+      "radius": 7,
+      "rarity": "Epic",
+      "spawnWeight": 0.8,
+      "tier": 4,
+      "windup": 0.15
+    },
+    {
+      "ability": "Collectible",
+      "category": "Relic",
+      "cooldown": 4,
+      "id": "tungs_bat",
+      "income": 95,
+      "itemType": "collectible",
+      "model": "tungs_bat",
+      "name": "Tungs Bat",
+      "power": "tag",
+      "price": 5500,
+      "radius": 7,
+      "rarity": "Rare",
+      "spawnWeight": 0.7,
+      "tier": 3,
+      "windup": 0.15
+    },
+    {
+      "ability": "Collectible",
+      "category": "Relic",
+      "cooldown": 4,
+      "id": "moms_credit_card",
+      "income": 11000,
+      "itemType": "collectible",
+      "model": "moms_credit_card",
+      "name": "Moms Credit Card",
+      "power": "tag",
+      "price": 1500000,
+      "radius": 7,
+      "rarity": "Ethereal",
+      "spawnWeight": 0.5,
+      "tier": 7,
+      "windup": 0.15
+    },
+    {
+      "ability": "Collectible",
+      "category": "Relic",
+      "cooldown": 4,
+      "id": "sonic_gold_ring",
+      "income": 38,
+      "itemType": "collectible",
+      "model": "sonic_gold_ring",
+      "name": "Sonic's Golden Ring",
+      "power": "tag",
+      "price": 1800,
+      "radius": 7,
+      "rarity": "Uncommon",
+      "spawnWeight": 0.6,
+      "tier": 2,
+      "windup": 0.15
+    },
+    {
+      "ability": "Collectible",
+      "category": "Relic",
+      "cooldown": 4,
+      "id": "captain_america_shield",
+      "income": 1000,
+      "itemType": "collectible",
+      "model": "captain_america_shield",
+      "name": "Captain America's Shield",
+      "power": "tag",
+      "price": 95000,
+      "radius": 7,
+      "rarity": "Legendary",
+      "spawnWeight": 0.6,
+      "tier": 5,
+      "windup": 0.15
+    }
+  ],
+  "changedGeometry": {},
+  "checks": 290189,
+  "failures": {},
+  "items": [
+    {
+      "bounds": {
+        "max": [
+          0.8575,
+          4.3675,
+          0.15
+        ],
+        "min": [
+          -0.8575,
+          0.04,
+          -0.1775
+        ],
+        "size": [
+          1.715,
+          4.3275,
+          0.3275
+        ]
+      },
+      "catalog_model": "pixel",
+      "changed": false,
+      "colors": 9,
+      "distinct_details": 16,
+      "id": "item01",
+      "materials": 2,
+      "name": "Minecraft Diamond Sword",
+      "new": false,
+      "parts": 111,
+      "text_overlays": 0,
+      "visible_parts": 110,
+      "geometry_sha256": "c808029994352e0af14b16352f37fce4b2529aa70629e348fec30bf55be0b34f"
+    },
+    {
+      "bounds": {
+        "max": [
+          1.87582385033,
+          4.4,
+          0.6
+        ],
+        "min": [
+          -0.99,
+          0.04,
+          -0.8175
+        ],
+        "size": [
+          2.86582385033,
+          4.36,
+          1.4175
+        ]
+      },
+      "catalog_model": "gauntlet",
+      "changed": false,
+      "colors": 9,
+      "distinct_details": 33,
+      "id": "item02",
+      "materials": 2,
+      "name": "Infinity Gauntlet",
+      "new": false,
+      "parts": 153,
+      "text_overlays": 0,
+      "visible_parts": 152,
+      "geometry_sha256": "609467f2fe18fcb1161ec174c15f1f72fbc36db0445d656d0e7f298dc7a02fe9"
+    },
+    {
+      "bounds": {
+        "max": [
+          1.68384505629,
+          3.40769011257,
+          0.315
+        ],
+        "min": [
+          -1.68384505629,
+          0.04,
+          -0.351
+        ],
+        "size": [
+          3.36769011257,
+          3.36769011257,
+          0.666
+        ]
+      },
+      "catalog_model": "oneRing",
+      "changed": false,
+      "colors": 3,
+      "distinct_details": 5,
+      "id": "item03",
+      "materials": 1,
+      "name": "The One Ring (LOTR)",
+      "new": false,
+      "parts": 177,
+      "text_overlays": 0,
+      "visible_parts": 176,
+      "geometry_sha256": "4ff8e6c9884e2f1e45c00eebfbadfc769e1c411d0f77953943bf31d34e09a67f"
+    },
+    {
+      "bounds": {
+        "max": [
+          1.61150874568,
+          3.78189557484,
+          1.21376381799
+        ],
+        "min": [
+          -1.61150874568,
+          0.04,
+          -1.21376381799
+        ],
+        "size": [
+          3.22301749137,
+          3.74189557484,
+          2.42752763598
+        ]
+      },
+      "catalog_model": "emerald",
+      "changed": false,
+      "colors": 10,
+      "distinct_details": 15,
+      "id": "item04",
+      "materials": 3,
+      "name": "Sonic's Green Chaos Emerald",
+      "new": false,
+      "parts": 114,
+      "text_overlays": 0,
+      "visible_parts": 113,
+      "geometry_sha256": "39aee3636b39d1ced39c966cd58338a4987991ef5803f2ff9706468873995f1f"
+    },
+    {
+      "bounds": {
+        "max": [
+          2.7294310792,
+          2.8437006457,
+          1.36444693328
+        ],
+        "min": [
+          -2.7294310792,
+          0.04,
+          -1.36444693328
+        ],
+        "size": [
+          5.45886215841,
+          2.8037006457,
+          2.72889386656
+        ]
+      },
+      "catalog_model": "shell",
+      "changed": false,
+      "colors": 7,
+      "distinct_details": 22,
+      "id": "item05",
+      "materials": 1,
+      "name": "Mario Kart Blue Shell",
+      "new": false,
+      "parts": 151,
+      "supplied_key": "blue_shell",
+      "text_overlays": 0,
+      "visible_parts": 150,
+      "geometry_sha256": "5123c112b32a1c8d1a0238b4070e19b8e0f34fa574bd5f01144cd612093ccbe2"
+    },
+    {
+      "bounds": {
+        "max": [
+          1.15634435887,
+          4.64725788475,
+          0.247377780022
+        ],
+        "min": [
+          -0.828377757939,
+          0.04,
+          -0.2825
+        ],
+        "size": [
+          1.98472211681,
+          4.60725788475,
+          0.529877780022
+        ]
+      },
+      "catalog_model": "buster",
+      "changed": false,
+      "colors": 13,
+      "distinct_details": 39,
+      "id": "item06",
+      "materials": 2,
+      "name": "Cloud's Buster Sword",
+      "new": false,
+      "parts": 123,
+      "text_overlays": 0,
+      "visible_parts": 122,
+      "geometry_sha256": "29008640491e3d6811e4a1dbcff1e984e68c574023045a4a9ba804bf88e2a5b4"
+    },
+    {
+      "bounds": {
+        "max": [
+          0.808801085141,
+          2.77431315252,
+          1.82
+        ],
+        "min": [
+          -0.808801085141,
+          0.04,
+          -2.11713906764
+        ],
+        "size": [
+          1.61760217028,
+          2.73431315252,
+          3.93713906764
+        ]
+      },
+      "catalog_model": "portalgun",
+      "changed": false,
+      "colors": 5,
+      "distinct_details": 42,
+      "id": "item07",
+      "materials": 3,
+      "name": "Portal Gun",
+      "new": false,
+      "parts": 103,
+      "text_overlays": 0,
+      "visible_parts": 102,
+      "geometry_sha256": "b77b0b2c281f6222bf6700c02e154637377a80cc03b4218d1ac542c2efcc6d17"
+    },
+    {
+      "bounds": {
+        "max": [
+          1.57787196164,
+          4.96883815144,
+          1.57390913713
+        ],
+        "min": [
+          -1.57787196164,
+          0.018,
+          -1.57390913713
+        ],
+        "size": [
+          3.15574392328,
+          4.95083815144,
+          3.14781827425
+        ]
+      },
+      "catalog_model": "puzzle",
+      "changed": false,
+      "colors": 5,
+      "distinct_details": 25,
+      "id": "item08",
+      "materials": 1,
+      "name": "Millennium Puzzle",
+      "new": false,
+      "parts": 137,
+      "text_overlays": 0,
+      "visible_parts": 136,
+      "geometry_sha256": "c1a58d0f545cc218c96dacc2cfa50fda0349ed665c189fbed47f56d7b8d694be"
+    },
+    {
+      "bounds": {
+        "max": [
+          1.11993846154,
+          4.22590463826,
+          0.21
+        ],
+        "min": [
+          -1.11993846154,
+          0.04,
+          -0.233
+        ],
+        "size": [
+          2.23987692308,
+          4.18590463826,
+          0.443
+        ]
+      },
+      "catalog_model": "energy",
+      "changed": false,
+      "colors": 10,
+      "distinct_details": 28,
+      "id": "item09",
+      "materials": 2,
+      "name": "Halo Energy Sword",
+      "new": false,
+      "parts": 84,
+      "text_overlays": 0,
+      "visible_parts": 83,
+      "geometry_sha256": "0d5f5188530526ebfc145dab538ea71a74187a8a6e0df331d8fc12c564a7161e"
+    },
+    {
+      "bounds": {
+        "max": [
+          1.1525,
+          3.32295238049,
+          0.461
+        ],
+        "min": [
+          -1.1525,
+          0.04,
+          -0.461
+        ],
+        "size": [
+          2.305,
+          3.28295238049,
+          0.922
+        ]
+      },
+      "catalog_model": "hammer",
+      "changed": false,
+      "colors": 8,
+      "distinct_details": 27,
+      "id": "item10",
+      "materials": 2,
+      "name": "Thor's Mj\u00f6lnir",
+      "new": false,
+      "parts": 119,
+      "text_overlays": 0,
+      "visible_parts": 118,
+      "geometry_sha256": "3d31dbf126a491814a6b4edb3c64e14f2578aeedfe4116951b14769a70f65bfe"
+    },
+    {
+      "bounds": {
+        "max": [
+          0.526,
+          2.28066162056,
+          1.2275
+        ],
+        "min": [
+          -0.526,
+          0.04,
+          -1.7175
+        ],
+        "size": [
+          1.052,
+          2.24066162056,
+          2.945
+        ]
+      },
+      "catalog_model": "raygun",
+      "changed": false,
+      "colors": 6,
+      "distinct_details": 29,
+      "id": "item11",
+      "materials": 2,
+      "name": "Call of Duty Zombies Ray Gun",
+      "new": false,
+      "parts": 111,
+      "text_overlays": 0,
+      "visible_parts": 110,
+      "geometry_sha256": "098c4fc2da0cbb17226ac83b69f674b0d19c21f80df07193c483a9a39cb28e86"
+    },
+    {
+      "bounds": {
+        "max": [
+          1.509,
+          3.049,
+          1.509
+        ],
+        "min": [
+          -1.509,
+          0.04,
+          -1.7025
+        ],
+        "size": [
+          3.018,
+          3.009,
+          3.2115
+        ]
+      },
+      "catalog_model": "masterball",
+      "changed": false,
+      "colors": 6,
+      "distinct_details": 12,
+      "id": "item12",
+      "materials": 2,
+      "name": "Pok\u00e9mon Master Ball",
+      "new": false,
+      "parts": 113,
+      "text_overlays": 0,
+      "visible_parts": 112,
+      "geometry_sha256": "8f127c4ffc0e209b39f8d6bf10e74cef9296aff24d1ebdd68bc5cd163c2de9d4"
+    },
+    {
+      "bounds": {
+        "max": [
+          2.56647214117,
+          2.56192734204,
+          0.37
+        ],
+        "min": [
+          -2.56647214117,
+          0.04,
+          -0.35
+        ],
+        "size": [
+          5.13294428234,
+          2.52192734204,
+          0.72
+        ]
+      },
+      "catalog_model": "cards",
+      "changed": false,
+      "colors": 10,
+      "distinct_details": 49,
+      "id": "item13",
+      "materials": 2,
+      "name": "Exodia \u2014 Five-Card Set",
+      "new": false,
+      "parts": 113,
+      "text_overlays": 0,
+      "visible_parts": 112,
+      "geometry_sha256": "d334670cca98060c66d91b3ac7125a755a32a7a3d6b2cbbfd27e468a827ede2c"
+    },
+    {
+      "bounds": {
+        "max": [
+          1.0675,
+          4.185,
+          0.4
+        ],
+        "min": [
+          -1.0675,
+          0.04,
+          -0.815
+        ],
+        "size": [
+          2.135,
+          4.145,
+          1.215
+        ]
+      },
+      "catalog_model": "zenobutton",
+      "changed": false,
+      "colors": 15,
+      "distinct_details": 22,
+      "id": "item14",
+      "materials": 2,
+      "name": "Zeno's Button",
+      "new": false,
+      "parts": 53,
+      "text_overlays": 0,
+      "visible_parts": 52,
+      "geometry_sha256": "94ee67be105d7b5ce2f0b6b05e932e55a28dc1280f34bf9767130f015c93d024"
+    },
+    {
+      "bounds": {
+        "max": [
+          1.06036199095,
+          4.4195261017,
+          0.198038176402
+        ],
+        "min": [
+          -1.06036199095,
+          0.04,
+          -0.212
+        ],
+        "size": [
+          2.1207239819,
+          4.3795261017,
+          0.410038176402
+        ]
+      },
+      "catalog_model": "master",
+      "changed": false,
+      "colors": 11,
+      "distinct_details": 54,
+      "id": "item15",
+      "materials": 2,
+      "name": "Link's Master Sword",
+      "new": false,
+      "parts": 101,
+      "text_overlays": 0,
+      "visible_parts": 100,
+      "geometry_sha256": "ae069fce89d74e500e5fe27116b22ee73bb495edc2a992b21a5e375c0e384446"
+    },
+    {
+      "bounds": {
+        "max": [
+          1.0875,
+          3.01865357836,
+          1.7075
+        ],
+        "min": [
+          -1.0875,
+          0.04,
+          -1.65
+        ],
+        "size": [
+          2.175,
+          2.97865357836,
+          3.3575
+        ]
+      },
+      "catalog_model": "bfg",
+      "changed": false,
+      "colors": 5,
+      "distinct_details": 37,
+      "id": "item16",
+      "materials": 2,
+      "name": "Doom BFG 9000",
+      "new": false,
+      "parts": 115,
+      "text_overlays": 0,
+      "visible_parts": 114,
+      "geometry_sha256": "3542a154585278ccddf584d0c911e8847f9a17125ba03cb1f8165bbe1f59c4b9"
+    },
+    {
+      "bounds": {
+        "max": [
+          1.19205085522,
+          4.77705085522,
+          0.592135992528
+        ],
+        "min": [
+          -1.19205085522,
+          0.04,
+          -0.1035
+        ],
+        "size": [
+          2.38410171044,
+          4.73705085522,
+          0.695635992528
+        ]
+      },
+      "catalog_model": "jellyNet",
+      "changed": false,
+      "colors": 5,
+      "distinct_details": 13,
+      "id": "item17",
+      "materials": 2,
+      "name": "SpongeBob's Jellyfishing Net",
+      "new": false,
+      "parts": 133,
+      "text_overlays": 0,
+      "visible_parts": 132,
+      "geometry_sha256": "34cd69ef1cda079cc17f239c7c5b8a30e1dbe9c52d27150751f61fc3b00532ee"
+    },
+    {
+      "bounds": {
+        "max": [
+          1.15,
+          1.79591143662,
+          1.2675
+        ],
+        "min": [
+          -1.15,
+          0.04,
+          -0.685
+        ],
+        "size": [
+          2.3,
+          1.75591143662,
+          1.9525
+        ]
+      },
+      "catalog_model": "faceMask",
+      "changed": false,
+      "colors": 4,
+      "distinct_details": 41,
+      "id": "item18",
+      "materials": 2,
+      "name": "LeBron's Face Mask",
+      "new": false,
+      "parts": 78,
+      "text_overlays": 0,
+      "visible_parts": 77,
+      "geometry_sha256": "185ef2205caaeab55a73f87bcd444a6ce9f1eddf9fa10f1566e463dd1a592fb3"
+    },
+    {
+      "bounds": {
+        "max": [
+          1.79884711682,
+          3.71384711682,
+          0.175
+        ],
+        "min": [
+          -1.79884711682,
+          0.04,
+          -0.350433438315
+        ],
+        "size": [
+          3.59769423365,
+          3.67384711682,
+          0.525433438315
+        ]
+      },
+      "catalog_model": "brolyJewelry",
+      "changed": false,
+      "colors": 5,
+      "distinct_details": 14,
+      "id": "item19",
+      "materials": 1,
+      "name": "Broly's Jewelry",
+      "new": false,
+      "parts": 151,
+      "text_overlays": 0,
+      "visible_parts": 150,
+      "geometry_sha256": "44f1321a2e86accc58a1d45f93b0345b8db1e28328e550b0105b86e1bbc2c0db"
+    },
+    {
+      "bounds": {
+        "max": [
+          1.509,
+          3.049,
+          1.509
+        ],
+        "min": [
+          -1.509,
+          0.04,
+          -1.7025
+        ],
+        "size": [
+          3.018,
+          3.009,
+          3.2115
+        ]
+      },
+      "catalog_model": "pokeBall",
+      "changed": false,
+      "colors": 5,
+      "distinct_details": 11,
+      "id": "item20",
+      "materials": 2,
+      "name": "Pok\u00e9 Ball",
+      "new": false,
+      "parts": 89,
+      "text_overlays": 0,
+      "visible_parts": 88,
+      "geometry_sha256": "da54e9bb272890976c89fd01954064a3e7a2bfc0f6a171102e1dd2442f87b225"
+    },
+    {
+      "bounds": {
+        "max": [
+          1.27767133071,
+          3.84627317338,
+          0.883788065416
+        ],
+        "min": [
+          -1.27767133071,
+          0.04,
+          -0.883788065416
+        ],
+        "size": [
+          2.55534266141,
+          3.80627317338,
+          1.76757613083
+        ]
+      },
+      "catalog_model": "evolutionStone",
+      "changed": false,
+      "colors": 7,
+      "distinct_details": 15,
+      "id": "item21",
+      "materials": 1,
+      "name": "Pok\u00e9mon Thunder Stone",
+      "new": false,
+      "parts": 84,
+      "text_overlays": 0,
+      "visible_parts": 83,
+      "geometry_sha256": "aeec4f48774358c95bd5140f05cf4e6a0cebfd0ec4f6e87a5c5a0746a1417739"
+    },
+    {
+      "bounds": {
+        "max": [
+          0.988659483925,
+          3.98996577748,
+          0.09
+        ],
+        "min": [
+          -0.988659483925,
+          0.04,
+          -0.063
+        ],
+        "size": [
+          1.97731896785,
+          3.94996577748,
+          0.153
+        ]
+      },
+      "catalog_model": "legendFeather",
+      "changed": false,
+      "colors": 23,
+      "distinct_details": 13,
+      "id": "item22",
+      "materials": 2,
+      "name": "Ho-Oh's Rainbow Wing",
+      "new": false,
+      "parts": 158,
+      "text_overlays": 0,
+      "visible_parts": 157,
+      "geometry_sha256": "05bf98c850a6a55b13c2aa87d1752a5928d460099d36738b7e1c2be671326f24"
+    },
+    {
+      "bounds": {
+        "max": [
+          1.13095199547,
+          4.61768231822,
+          0.275
+        ],
+        "min": [
+          -1.13095199547,
+          0.04,
+          -0.45
+        ],
+        "size": [
+          2.26190399094,
+          4.57768231822,
+          0.725
+        ]
+      },
+      "catalog_model": "millenniumRod",
+      "changed": false,
+      "colors": 6,
+      "distinct_details": 23,
+      "id": "item23",
+      "materials": 1,
+      "name": "Millennium Rod",
+      "new": false,
+      "parts": 62,
+      "text_overlays": 0,
+      "visible_parts": 61,
+      "geometry_sha256": "7b7605a1757fc0dea141d5d4fb1c990b2524deac0bd3657635f33768d46e859b"
+    },
+    {
+      "bounds": {
+        "max": [
+          2.57233143411,
+          2.06898098672,
+          1.01998490856
+        ],
+        "min": [
+          -2.07992946363,
+          0.04,
+          -1.31581212668
+        ],
+        "size": [
+          4.65226089774,
+          2.02898098672,
+          2.33579703524
+        ]
+      },
+      "catalog_model": "duelDisk",
+      "changed": false,
+      "colors": 6,
+      "distinct_details": 26,
+      "id": "item24",
+      "materials": 2,
+      "name": "Yu-Gi-Oh! Duel Disk",
+      "new": false,
+      "parts": 112,
+      "text_overlays": 0,
+      "visible_parts": 111,
+      "geometry_sha256": "4ebf3ce599009a3bd0080c8b80c997ae69c9c2d2462165d3bf5a1389f4811ce2"
+    },
+    {
+      "bounds": {
+        "max": [
+          1.365,
+          4.00597380531,
+          0.52
+        ],
+        "min": [
+          -1.365,
+          0.04,
+          -0.870639824575
+        ],
+        "size": [
+          2.73,
+          3.96597380531,
+          1.39063982458
+        ]
+      },
+      "catalog_model": "exodiaHead",
+      "changed": false,
+      "colors": 7,
+      "distinct_details": 63,
+      "id": "item25",
+      "materials": 1,
+      "name": "Exodia Head and Torso",
+      "new": false,
+      "parts": 139,
+      "text_overlays": 0,
+      "visible_parts": 138,
+      "geometry_sha256": "2028548cb79df6009ad054e0113d45027799424d15b375a3b0e86ae4b0fcbd56"
+    },
+    {
+      "bounds": {
+        "max": [
+          0.51,
+          3.66,
+          0.48
+        ],
+        "min": [
+          -0.613161182987,
+          0.04,
+          -0.619449111825
+        ],
+        "size": [
+          1.12316118299,
+          3.62,
+          1.09944911183
+        ]
+      },
+      "catalog_model": "exodiaLeftArm",
+      "changed": false,
+      "colors": 6,
+      "distinct_details": 22,
+      "id": "item26",
+      "materials": 1,
+      "name": "Exodia Left Arm",
+      "new": false,
+      "parts": 66,
+      "text_overlays": 0,
+      "visible_parts": 65,
+      "geometry_sha256": "d15210900146a1a7eb5dcf374449f46561dff300ea16407c4590a854bfe1d042"
+    },
+    {
+      "bounds": {
+        "max": [
+          0.613161182987,
+          3.66,
+          0.48
+        ],
+        "min": [
+          -0.51,
+          0.04,
+          -0.619449111825
+        ],
+        "size": [
+          1.12316118299,
+          3.62,
+          1.09944911183
+        ]
+      },
+      "catalog_model": "exodiaRightArm",
+      "changed": false,
+      "colors": 6,
+      "distinct_details": 22,
+      "id": "item27",
+      "materials": 1,
+      "name": "Exodia Right Arm",
+      "new": false,
+      "parts": 66,
+      "text_overlays": 0,
+      "visible_parts": 65,
+      "geometry_sha256": "0513bc638a3a188df53eef4ac70110ae1a9b48240f44a424ba601fc0348641ff"
+    },
+    {
+      "bounds": {
+        "max": [
+          0.47,
+          3.7325,
+          0.47
+        ],
+        "min": [
+          -0.51,
+          0.04,
+          -0.8815
+        ],
+        "size": [
+          0.98,
+          3.6925,
+          1.3515
+        ]
+      },
+      "catalog_model": "exodiaLeftLeg",
+      "changed": false,
+      "colors": 6,
+      "distinct_details": 20,
+      "id": "item28",
+      "materials": 1,
+      "name": "Exodia Left Leg",
+      "new": false,
+      "parts": 47,
+      "text_overlays": 0,
+      "visible_parts": 46,
+      "geometry_sha256": "a342fae38b282cf6d915c9352aa28f251409b915d5f0cf3f25edb9e0bda483f0"
+    },
+    {
+      "bounds": {
+        "max": [
+          0.51,
+          3.7325,
+          0.47
+        ],
+        "min": [
+          -0.47,
+          0.04,
+          -0.8815
+        ],
+        "size": [
+          0.98,
+          3.6925,
+          1.3515
+        ]
+      },
+      "catalog_model": "exodiaRightLeg",
+      "changed": false,
+      "colors": 6,
+      "distinct_details": 20,
+      "id": "item29",
+      "materials": 1,
+      "name": "Exodia Right Leg",
+      "new": false,
+      "parts": 47,
+      "text_overlays": 0,
+      "visible_parts": 46,
+      "geometry_sha256": "92570ad3d237d338e25a44bb861aea7bb2e79b78852c1c4e7a509d7173446f78"
+    },
+    {
+      "bounds": {
+        "max": [
+          0.7,
+          3.4,
+          0.255
+        ],
+        "min": [
+          -0.74,
+          0.04,
+          -0.255
+        ],
+        "size": [
+          1.44,
+          3.36,
+          0.51
+        ]
+      },
+      "catalog_model": "diamondAxe",
+      "changed": false,
+      "colors": 8,
+      "distinct_details": 9,
+      "id": "item30",
+      "materials": 2,
+      "name": "Minecraft Diamond Axe",
+      "new": false,
+      "parts": 72,
+      "text_overlays": 0,
+      "visible_parts": 71,
+      "geometry_sha256": "94fc9a7a6e96dc42accf017ddf8c5bf6e09ede248d08263b8cad147a6007d818"
+    },
+    {
+      "bounds": {
+        "max": [
+          1.38,
+          2.98,
+          0.155
+        ],
+        "min": [
+          -1.38,
+          0.04,
+          -0.189
+        ],
+        "size": [
+          2.76,
+          2.94,
+          0.344
+        ]
+      },
+      "catalog_model": "enchantedPickaxe",
+      "changed": false,
+      "colors": 7,
+      "distinct_details": 14,
+      "id": "item31",
+      "materials": 2,
+      "name": "Minecraft Enchanted Diamond Pickaxe",
+      "new": false,
+      "parts": 76,
+      "text_overlays": 0,
+      "visible_parts": 75,
+      "geometry_sha256": "9d25225ec917f17dc7040adbfabb71856c6c89033929dae2ecd4eeb0ce0fee7d"
+    },
+    {
+      "bounds": {
+        "max": [
+          1.72955627485,
+          3.9575,
+          1.72955627485
+        ],
+        "min": [
+          -1.72955627485,
+          0.04,
+          -1.72955627485
+        ],
+        "size": [
+          3.4591125497,
+          3.9175,
+          3.4591125497
+        ]
+      },
+      "catalog_model": "endCrystal",
+      "changed": false,
+      "colors": 15,
+      "distinct_details": 26,
+      "id": "item32",
+      "materials": 4,
+      "name": "Minecraft End Crystal",
+      "new": false,
+      "parts": 89,
+      "text_overlays": 0,
+      "visible_parts": 88,
+      "geometry_sha256": "17bbbb1ac283dbc9523aee8e591c4e33976b7dbc09d608fcf9241ad51e617bd8"
+    },
+    {
+      "bounds": {
+        "max": [
+          1.6355,
+          3.311,
+          1.6355
+        ],
+        "min": [
+          -1.6355,
+          0.04,
+          -1.6355
+        ],
+        "size": [
+          3.271,
+          3.271,
+          3.271
+        ]
+      },
+      "catalog_model": "commandBlock",
+      "changed": false,
+      "colors": 8,
+      "distinct_details": 18,
+      "id": "item33",
+      "materials": 2,
+      "name": "Minecraft Command Block",
+      "new": false,
+      "parts": 134,
+      "text_overlays": 0,
+      "visible_parts": 133,
+      "geometry_sha256": "5ae320aab2a7620b9dc81c3c05817a9c4e529904b347a20722108b1622f2a320"
+    },
+    {
+      "bounds": {
+        "max": [
+          0.726567652586,
+          3.89173840134,
+          0.198602571269
+        ],
+        "min": [
+          -0.726567652586,
+          0.04,
+          -0.198602571269
+        ],
+        "size": [
+          1.45313530517,
+          3.85173840134,
+          0.397205142538
+        ]
+      },
+      "catalog_model": "sting",
+      "changed": false,
+      "colors": 9,
+      "distinct_details": 23,
+      "id": "item34",
+      "materials": 3,
+      "name": "Bilbo's Sting",
+      "new": false,
+      "parts": 115,
+      "text_overlays": 0,
+      "visible_parts": 114,
+      "geometry_sha256": "8113b84f703cc47cc5b562ab3097a933befb367a094c9d929bcf2eaa612a2dba"
+    },
+    {
+      "bounds": {
+        "max": [
+          1.38168523491,
+          3.46422768099,
+          1.08390426664
+        ],
+        "min": [
+          -1.38168523491,
+          0.04,
+          -1.08390426664
+        ],
+        "size": [
+          2.76337046982,
+          3.42422768099,
+          2.16780853328
+        ]
+      },
+      "catalog_model": "arkenstone",
+      "changed": false,
+      "colors": 8,
+      "distinct_details": 9,
+      "id": "item35",
+      "materials": 3,
+      "name": "The Arkenstone",
+      "new": false,
+      "parts": 148,
+      "text_overlays": 0,
+      "visible_parts": 147,
+      "geometry_sha256": "8720c64d3e985c6acb0963a6f339b45ebbf4223245c0bee7296873b00de465e9"
+    },
+    {
+      "bounds": {
+        "max": [
+          1.37,
+          2.70906368094,
+          1.018
+        ],
+        "min": [
+          -1.37,
+          0.04,
+          -1.049
+        ],
+        "size": [
+          2.74,
+          2.66906368094,
+          2.067
+        ]
+      },
+      "catalog_model": "dwarfTreasure",
+      "changed": false,
+      "colors": 12,
+      "distinct_details": 37,
+      "id": "item36",
+      "materials": 3,
+      "name": "The Hobbit Dwarven Treasure",
+      "new": false,
+      "parts": 130,
+      "text_overlays": 0,
+      "visible_parts": 129,
+      "geometry_sha256": "cb14827393379d3b82e379873b6eb384e6c47bedb532a45e2ef3c21cb267b578"
+    },
+    {
+      "bounds": {
+        "max": [
+          1.16004563454,
+          3.31,
+          1.15
+        ],
+        "min": [
+          -1.16004563454,
+          0.04,
+          -1.15
+        ],
+        "size": [
+          2.32009126908,
+          3.27,
+          2.3
+        ]
+      },
+      "catalog_model": "materia",
+      "changed": false,
+      "colors": 8,
+      "distinct_details": 11,
+      "id": "item37",
+      "materials": 3,
+      "name": "Final Fantasy Green Materia",
+      "new": false,
+      "parts": 66,
+      "text_overlays": 0,
+      "visible_parts": 65,
+      "geometry_sha256": "c568ace9e53bbb9be3e382b293f27cfdbe1a10f3518ad4f4d4643a2fd6cbb2a1"
+    },
+    {
+      "bounds": {
+        "max": [
+          0.65,
+          4.72298797443,
+          0.321
+        ],
+        "min": [
+          -0.745,
+          0.04,
+          -0.321
+        ],
+        "size": [
+          1.395,
+          4.68298797443,
+          0.642
+        ]
+      },
+      "catalog_model": "gunblade",
+      "changed": false,
+      "colors": 11,
+      "distinct_details": 58,
+      "id": "item38",
+      "materials": 2,
+      "name": "Squall's Revolver Gunblade",
+      "new": false,
+      "parts": 169,
+      "text_overlays": 0,
+      "visible_parts": 168,
+      "geometry_sha256": "0e2d966603a4beed76e0db416d0f6703b973907148a47b759d8ca2bb88da9921"
+    },
+    {
+      "bounds": {
+        "max": [
+          1.27767133071,
+          3.84627317338,
+          0.883788065416
+        ],
+        "min": [
+          -1.27767133071,
+          0.04,
+          -0.883788065416
+        ],
+        "size": [
+          2.55534266141,
+          3.80627317338,
+          1.76757613083
+        ]
+      },
+      "catalog_model": "fireStone",
+      "changed": false,
+      "colors": 8,
+      "distinct_details": 19,
+      "id": "item39",
+      "materials": 1,
+      "name": "Pok\u00e9mon Fire Stone",
+      "new": false,
+      "parts": 85,
+      "text_overlays": 0,
+      "visible_parts": 84,
+      "geometry_sha256": "67ad2e040b46374d21671310c7fbe032fa9cbf1f3b99376798791ab93d0cd1a7"
+    },
+    {
+      "bounds": {
+        "max": [
+          1.27767133071,
+          3.84627317338,
+          0.883788065416
+        ],
+        "min": [
+          -1.27767133071,
+          0.04,
+          -0.883788065416
+        ],
+        "size": [
+          2.55534266141,
+          3.80627317338,
+          1.76757613083
+        ]
+      },
+      "catalog_model": "waterStone",
+      "changed": false,
+      "colors": 7,
+      "distinct_details": 16,
+      "id": "item40",
+      "materials": 1,
+      "name": "Pok\u00e9mon Water Stone",
+      "new": false,
+      "parts": 82,
+      "text_overlays": 0,
+      "visible_parts": 81,
+      "geometry_sha256": "eae239345b1bf8ab16832938dc8c47b6d4a16cf0c7399ac9791818f630a48ee6"
+    },
+    {
+      "bounds": {
+        "max": [
+          1.105,
+          4.04,
+          0.42
+        ],
+        "min": [
+          -1.105,
+          0.04,
+          -0.5275
+        ],
+        "size": [
+          2.21,
+          4,
+          0.9475
+        ]
+      },
+      "catalog_model": "ironArmor",
+      "changed": false,
+      "colors": 7,
+      "distinct_details": 82,
+      "id": "item41",
+      "materials": 2,
+      "name": "Iron Man Armor Suit",
+      "new": false,
+      "parts": 96,
+      "text_overlays": 0,
+      "visible_parts": 95,
+      "geometry_sha256": "8c4a21061ed27cff7cf8e5f5085a6997d61a49d76f07ee3a7db538ce98a38385"
+    },
+    {
+      "bounds": {
+        "max": [
+          1.66379922285,
+          3.0667869141,
+          0.14
+        ],
+        "min": [
+          -1.66379922285,
+          0.04,
+          -0.2275
+        ],
+        "size": [
+          3.3275984457,
+          3.0267869141,
+          0.3675
+        ]
+      },
+      "catalog_model": "triforce",
+      "changed": false,
+      "colors": 4,
+      "distinct_details": 7,
+      "id": "item42",
+      "materials": 1,
+      "name": "Triforce",
+      "new": false,
+      "parts": 52,
+      "text_overlays": 0,
+      "visible_parts": 51,
+      "geometry_sha256": "9e68732d87e38d15930c6daab3f2d7483d1cc42e75673ec8e66f36e2400f37ba"
+    },
+    {
+      "bounds": {
+        "max": [
+          1.58,
+          2.91,
+          0.605
+        ],
+        "min": [
+          -1.58,
+          0.04,
+          -0.445
+        ],
+        "size": [
+          3.16,
+          2.87,
+          1.05
+        ]
+      },
+      "catalog_model": "dragonballs",
+      "changed": false,
+      "colors": 5,
+      "distinct_details": 6,
+      "id": "item43",
+      "materials": 3,
+      "name": "Dragon Balls",
+      "new": false,
+      "parts": 164,
+      "supplied_key": "dragon_balls",
+      "text_overlays": 0,
+      "visible_parts": 163,
+      "geometry_sha256": "d3da79510269c0eedd6ddfcc36e47e6d42fa076c8063644ad879d156f0e4f595"
+    },
+    {
+      "bounds": {
+        "max": [
+          0.725848596505,
+          1.97158381764,
+          2.208
+        ],
+        "min": [
+          -0.725848596505,
+          0.04,
+          -2.5445
+        ],
+        "size": [
+          1.45169719301,
+          1.93158381764,
+          4.7525
+        ]
+      },
+      "catalog_model": "duelrunner",
+      "changed": false,
+      "colors": 10,
+      "distinct_details": 61,
+      "id": "item44",
+      "materials": 4,
+      "name": "Yusei Fudo Red Duel Runner",
+      "new": false,
+      "parts": 156,
+      "text_overlays": 0,
+      "visible_parts": 155,
+      "geometry_sha256": "623c6873b0cfa958aaa83a9a4302e1363b1e15ecf966b81e033d9fbc33bef2be"
+    },
+    {
+      "bounds": {
+        "max": [
+          1.12,
+          4.13,
+          0.55
+        ],
+        "min": [
+          -1.12,
+          0.04,
+          -0.72
+        ],
+        "size": [
+          2.24,
+          4.09,
+          1.27
+        ]
+      },
+      "catalog_model": "freddysuit",
+      "changed": false,
+      "colors": 5,
+      "distinct_details": 61,
+      "id": "item45",
+      "materials": 1,
+      "name": "Freddy Fazbear Empty Suit",
+      "new": false,
+      "parts": 117,
+      "text_overlays": 0,
+      "visible_parts": 116,
+      "geometry_sha256": "32d118dd099feea057a5b8afddb8099ef20aaeb0796a3ad40724253b68b54bf8"
+    },
+    {
+      "bounds": {
+        "max": [
+          1.12,
+          3.46,
+          0.55
+        ],
+        "min": [
+          -1.12,
+          0.04,
+          -1.275
+        ],
+        "size": [
+          2.24,
+          3.42,
+          1.825
+        ]
+      },
+      "catalog_model": "goldenfreddysuit",
+      "changed": false,
+      "colors": 5,
+      "distinct_details": 59,
+      "id": "item46",
+      "materials": 1,
+      "name": "Golden Freddy Empty Suit",
+      "new": false,
+      "parts": 115,
+      "text_overlays": 0,
+      "visible_parts": 114,
+      "geometry_sha256": "876d43427c6907a80470cce73f167668da92262bb57592b3fbf368cbd7c31440"
+    },
+    {
+      "bounds": {
+        "max": [
+          1.07,
+          5.10751630312,
+          0.315
+        ],
+        "min": [
+          -1.07,
+          0.04,
+          -0.315
+        ],
+        "size": [
+          2.14,
+          5.06751630312,
+          0.63
+        ]
+      },
+      "catalog_model": "kirbySword",
+      "changed": false,
+      "colors": 11,
+      "distinct_details": 48,
+      "id": "kirby_sword",
+      "materials": 2,
+      "name": "Kirby's Sword",
+      "new": false,
+      "parts": 107,
+      "supplied_key": "kirby_sword",
+      "text_overlays": 0,
+      "visible_parts": 106,
+      "geometry_sha256": "2a9d2600dde1497e227f2729b9d3b2f75f83dcd87cef79f1eb8c0a78afd5d8f9"
+    },
+    {
+      "bounds": {
+        "max": [
+          0.7975,
+          4.56330086477,
+          0.28
+        ],
+        "min": [
+          -0.7975,
+          0.04,
+          -0.1275
+        ],
+        "size": [
+          1.595,
+          4.52330086477,
+          0.4075
+        ]
+      },
+      "catalog_model": "goldenSpatula",
+      "changed": false,
+      "colors": 5,
+      "distinct_details": 24,
+      "id": "golden_spatula",
+      "materials": 2,
+      "name": "SpongeBob's Golden Spatula",
+      "new": false,
+      "parts": 95,
+      "supplied_key": "golden_spatula",
+      "text_overlays": 0,
+      "visible_parts": 94,
+      "geometry_sha256": "31a1b874e1d80fb33bbc40117fcdb43a7f1fd19f292bc33be0f3226ad8a0e736"
+    },
+    {
+      "bounds": {
+        "max": [
+          1.70089928657,
+          2.82857221343,
+          1.70089928657
+        ],
+        "min": [
+          -1.70089928657,
+          0.04,
+          -1.70089928657
+        ],
+        "size": [
+          3.40179857314,
+          2.78857221343,
+          3.40179857314
+        ]
+      },
+      "catalog_model": "krabbyPatty",
+      "changed": false,
+      "colors": 21,
+      "distinct_details": 41,
+      "id": "krabby_patty",
+      "materials": 1,
+      "name": "Krabby Patty",
+      "new": false,
+      "parts": 181,
+      "supplied_key": "krabby_patty",
+      "text_overlays": 0,
+      "visible_parts": 180,
+      "geometry_sha256": "a18950175f18529de4842209d86c7e7fda5e7208026b9eaf2f2e3153a05af5cc"
+    },
+    {
+      "bounds": {
+        "max": [
+          1.85633102966,
+          3.40140939949,
+          1.14574556194
+        ],
+        "min": [
+          -1.66,
+          0.04,
+          -1.08395335754
+        ],
+        "size": [
+          3.51633102966,
+          3.36140939949,
+          2.22969891948
+        ]
+      },
+      "catalog_model": "garyShell",
+      "changed": false,
+      "colors": 12,
+      "distinct_details": 13,
+      "id": "gary_shell",
+      "materials": 1,
+      "name": "Gary the Snail's Shell",
+      "new": false,
+      "parts": 238,
+      "supplied_key": "gary_shell",
+      "text_overlays": 0,
+      "visible_parts": 237,
+      "geometry_sha256": "c0e5078acbbfedaaf9506db185dad4063c29eae35723af90335b54f3e8d8a3e1"
+    },
+    {
+      "bounds": {
+        "max": [
+          1.65904975195,
+          3.24962074788,
+          0.366275243702
+        ],
+        "min": [
+          -1.65904975195,
+          0.04,
+          -0.4505
+        ],
+        "size": [
+          3.3180995039,
+          3.20962074788,
+          0.816775243702
+        ]
+      },
+      "catalog_model": "superStar",
+      "changed": false,
+      "colors": 5,
+      "distinct_details": 13,
+      "id": "super_star",
+      "materials": 2,
+      "name": "Super Mario Super Star",
+      "new": false,
+      "parts": 86,
+      "supplied_key": "super_star",
+      "text_overlays": 0,
+      "visible_parts": 85,
+      "geometry_sha256": "7bf34a792841dda1e5e61448ca01725b9a3d32e2fd07f7dec09054606274c592"
+    },
+    {
+      "bounds": {
+        "max": [
+          1.23958043332,
+          3.93,
+          0.65
+        ],
+        "min": [
+          -1.28883279727,
+          0.04,
+          -0.497
+        ],
+        "size": [
+          2.52841323059,
+          3.89,
+          1.147
+        ]
+      },
+      "catalog_model": "fireFlower",
+      "changed": false,
+      "colors": 9,
+      "distinct_details": 31,
+      "id": "fire_flower",
+      "materials": 1,
+      "name": "Super Mario Fire Flower",
+      "new": false,
+      "parts": 60,
+      "supplied_key": "fire_flower",
+      "text_overlays": 0,
+      "visible_parts": 59,
+      "geometry_sha256": "22ecf209576faac86cfd9acee63eca21ae9db34325755ea4f5156f453de7b898"
+    },
+    {
+      "bounds": {
+        "max": [
+          1.85398888307,
+          4.39989274105,
+          0.667948349019
+        ],
+        "min": [
+          -1.85398888307,
+          0.04,
+          -0.429904458356
+        ],
+        "size": [
+          3.70797776613,
+          4.35989274105,
+          1.09785280738
+        ]
+      },
+      "catalog_model": "hylianShield",
+      "changed": false,
+      "colors": 9,
+      "distinct_details": 35,
+      "id": "hylian_shield",
+      "materials": 2,
+      "name": "Hylian Shield",
+      "new": false,
+      "parts": 102,
+      "supplied_key": "hylian_shield",
+      "text_overlays": 0,
+      "visible_parts": 101,
+      "geometry_sha256": "715ae8dd5f1c796e1b2a6ad342b80f249893d86f810a23f50ff95d935b0fc804"
+    },
+    {
+      "bounds": {
+        "max": [
+          2.0575,
+          4.155,
+          2.0575
+        ],
+        "min": [
+          -2.0575,
+          0.04,
+          -2.0575
+        ],
+        "size": [
+          4.115,
+          4.115,
+          4.115
+        ]
+      },
+      "catalog_model": "companionCube",
+      "changed": false,
+      "colors": 7,
+      "distinct_details": 18,
+      "id": "companion_cube",
+      "materials": 2,
+      "name": "Portal Companion Cube",
+      "new": false,
+      "parts": 234,
+      "supplied_key": "companion_cube",
+      "text_overlays": 0,
+      "visible_parts": 233,
+      "geometry_sha256": "9c62ed7e74b3451eb6c08fa209852ffd2aa7d5d5290bd441c6a5278b6635d8eb"
+    },
+    {
+      "bounds": {
+        "max": [
+          2.14139356372,
+          4.77309348948,
+          0.844441295054
+        ],
+        "min": [
+          -1.33560601154,
+          0.04,
+          -0.997476241896
+        ],
+        "size": [
+          3.47699957526,
+          4.73309348948,
+          1.84191753695
+        ]
+      },
+      "catalog_model": "protonPack",
+      "changed": false,
+      "colors": 8,
+      "distinct_details": 41,
+      "id": "proton_pack",
+      "materials": 3,
+      "name": "Ghostbusters Proton Pack",
+      "new": false,
+      "parts": 193,
+      "supplied_key": "proton_pack",
+      "text_overlays": 0,
+      "visible_parts": 192,
+      "geometry_sha256": "d73db48c854b40682a227abde8aa5003e94dbdf60abb432fa038fd2b8c765195"
+    },
+    {
+      "bounds": {
+        "max": [
+          1.30772091668,
+          2.45590492626,
+          1.04327442946
+        ],
+        "min": [
+          -1.30772091668,
+          0.04,
+          -1.04327442946
+        ],
+        "size": [
+          2.61544183335,
+          2.41590492626,
+          2.08654885891
+        ]
+      },
+      "catalog_model": "spaceStone",
+      "changed": false,
+      "colors": 15,
+      "distinct_details": 7,
+      "id": "space_stone",
+      "materials": 3,
+      "name": "Marvel Space Stone",
+      "new": false,
+      "parts": 163,
+      "supplied_key": "infinity_space",
+      "text_overlays": 0,
+      "visible_parts": 162,
+      "geometry_sha256": "f76fea5f0a6ba92f1debc126047162392dcee5b26f8f88b6814f8466661b452f"
+    },
+    {
+      "bounds": {
+        "max": [
+          0.995984776129,
+          2.86695785203,
+          0.736074156114
+        ],
+        "min": [
+          -0.995984776129,
+          0.04,
+          -0.736074156114
+        ],
+        "size": [
+          1.99196955226,
+          2.82695785203,
+          1.47214831223
+        ]
+      },
+      "catalog_model": "mindStone",
+      "changed": false,
+      "colors": 15,
+      "distinct_details": 7,
+      "id": "mind_stone",
+      "materials": 3,
+      "name": "Marvel Mind Stone",
+      "new": false,
+      "parts": 163,
+      "supplied_key": "infinity_mind",
+      "text_overlays": 0,
+      "visible_parts": 162,
+      "geometry_sha256": "6fa3b139e1e77bfcde41fb0064a6c292518b8da6c908844114071524b5dae064"
+    },
+    {
+      "bounds": {
+        "max": [
+          1.37809873154,
+          2.7833351482,
+          0.762306108261
+        ],
+        "min": [
+          -1.02651545121,
+          0.04,
+          -0.833689734941
+        ],
+        "size": [
+          2.40461418275,
+          2.7433351482,
+          1.5959958432
+        ]
+      },
+      "catalog_model": "realityStone",
+      "changed": false,
+      "colors": 15,
+      "distinct_details": 7,
+      "id": "reality_stone",
+      "materials": 3,
+      "name": "Marvel Reality Stone",
+      "new": false,
+      "parts": 143,
+      "supplied_key": "infinity_reality",
+      "text_overlays": 0,
+      "visible_parts": 142,
+      "geometry_sha256": "23c84064fc89abdd3894bd95790cc11d5f45c0049d664f52769416a2fb8021e3"
+    },
+    {
+      "bounds": {
+        "max": [
+          1.25697027191,
+          2.52919924339,
+          1.09810744284
+        ],
+        "min": [
+          -1.25697027191,
+          0.04,
+          -1.09810744284
+        ],
+        "size": [
+          2.51394054382,
+          2.48919924339,
+          2.19621488568
+        ]
+      },
+      "catalog_model": "powerStone",
+      "changed": false,
+      "colors": 15,
+      "distinct_details": 7,
+      "id": "power_stone",
+      "materials": 3,
+      "name": "Marvel Power Stone",
+      "new": false,
+      "parts": 123,
+      "supplied_key": "infinity_power",
+      "text_overlays": 0,
+      "visible_parts": 122,
+      "geometry_sha256": "af8c9a439049ecd522f6319eb287fa432beb70ecbbe63bef39bab490565c54a7"
+    },
+    {
+      "bounds": {
+        "max": [
+          1.17004152982,
+          2.42535852906,
+          0.906204916711
+        ],
+        "min": [
+          -1.17004152982,
+          0.04,
+          -0.906204916711
+        ],
+        "size": [
+          2.34008305964,
+          2.38535852906,
+          1.81240983342
+        ]
+      },
+      "catalog_model": "timeStone",
+      "changed": false,
+      "colors": 15,
+      "distinct_details": 7,
+      "id": "time_stone",
+      "materials": 3,
+      "name": "Marvel Time Stone",
+      "new": false,
+      "parts": 204,
+      "supplied_key": "infinity_time",
+      "text_overlays": 0,
+      "visible_parts": 203,
+      "geometry_sha256": "f9ee1b03fc86a3fe7a50fe6983da4a4d2cf46698e366cc3c6aeb01d8b2587e17"
+    },
+    {
+      "bounds": {
+        "max": [
+          1.08999273641,
+          2.72536515101,
+          0.861468669709
+        ],
+        "min": [
+          -1.08999273641,
+          0.04,
+          -0.861468669709
+        ],
+        "size": [
+          2.17998547281,
+          2.68536515101,
+          1.72293733942
+        ]
+      },
+      "catalog_model": "soulStone",
+      "changed": false,
+      "colors": 15,
+      "distinct_details": 7,
+      "id": "soul_stone",
+      "materials": 3,
+      "name": "Marvel Soul Stone",
+      "new": false,
+      "parts": 163,
+      "supplied_key": "infinity_soul",
+      "text_overlays": 0,
+      "visible_parts": 162,
+      "geometry_sha256": "4994f0186a825b1086db14ca8f89101fbee3f687ba33ff6f19811f130278a2de"
+    },
+    {
+      "bounds": {
+        "max": [
+          1.48302781483,
+          5.33399103767,
+          0.565
+        ],
+        "min": [
+          -2.06,
+          0.04,
+          -0.75
+        ],
+        "size": [
+          3.54302781483,
+          5.29399103767,
+          1.315
+        ]
+      },
+      "catalog_model": "pekka",
+      "changed": false,
+      "colors": 10,
+      "distinct_details": 122,
+      "id": "pekka",
+      "materials": 2,
+      "name": "P.E.K.K.A",
+      "new": false,
+      "parts": 147,
+      "supplied_key": "pekka",
+      "text_overlays": 0,
+      "visible_parts": 146,
+      "geometry_sha256": "fa2c8ced21116af863eaa5c3332887dca05811fb1432cdc48640e426b64c810e"
+    },
+    {
+      "bounds": {
+        "max": [
+          1.67,
+          4.695,
+          0.586493464006
+        ],
+        "min": [
+          -1.71058426966,
+          0.04,
+          -0.769336181172
+        ],
+        "size": [
+          3.38058426966,
+          4.655,
+          1.35582964518
+        ]
+      },
+      "catalog_model": "megaKnight",
+      "changed": false,
+      "colors": 7,
+      "distinct_details": 115,
+      "id": "mega_knight",
+      "materials": 2,
+      "name": "Clash Royale Mega Knight",
+      "new": false,
+      "parts": 156,
+      "supplied_key": "mega_knight",
+      "text_overlays": 0,
+      "visible_parts": 155,
+      "geometry_sha256": "360d365331298c8762d100ecdd20f441f863ad79cd718d1d1c38331ee9cfdb5c"
+    },
+    {
+      "bounds": {
+        "max": [
+          1.56808453584,
+          2.343661048,
+          1.56808453584
+        ],
+        "min": [
+          -1.56808453584,
+          0.04,
+          -1.56808453584
+        ],
+        "size": [
+          3.13616907167,
+          2.303661048,
+          3.13616907167
+        ]
+      },
+      "catalog_model": "blackLotusCollectible",
+      "changed": false,
+      "colors": 22,
+      "distinct_details": 34,
+      "id": "black_lotus",
+      "materials": 2,
+      "name": "MTG Black Lotus",
+      "new": false,
+      "parts": 224,
+      "text_overlays": 0,
+      "visible_parts": 223,
+      "geometry_sha256": "a060cc5e45d753ba9b742b1db2137b587b5d6eb9a67ea14517731defaae4a114"
+    },
+    {
+      "bounds": {
+        "max": [
+          1.95,
+          5.79,
+          0.379
+        ],
+        "min": [
+          -2.045,
+          0.04,
+          -0.3935
+        ],
+        "size": [
+          3.995,
+          5.75,
+          0.7725
+        ]
+      },
+      "catalog_model": "deathNote",
+      "changed": false,
+      "colors": 11,
+      "distinct_details": 29,
+      "id": "death_note",
+      "materials": 2,
+      "name": "Death Note",
+      "new": false,
+      "parts": 94,
+      "text_overlays": 1,
+      "visible_parts": 93,
+      "geometry_sha256": "92988ef0c221517afc954279a5a72a16307c36a41c37cae46fea0dc2a6414e32"
+    },
+    {
+      "bounds": {
+        "max": [
+          1.14,
+          4.273,
+          1.14
+        ],
+        "min": [
+          -1.14,
+          0.04,
+          -1.155
+        ],
+        "size": [
+          2.28,
+          4.233,
+          2.295
+        ]
+      },
+      "catalog_model": "krabby_patty_formula",
+      "changed": false,
+      "colors": 16,
+      "distinct_details": 43,
+      "id": "krabby_patty_formula",
+      "materials": 4,
+      "name": "Krabby Patty Secret Formula",
+      "new": false,
+      "parts": 197,
+      "supplied_key": "krabby_patty_formula",
+      "text_overlays": 2,
+      "visible_parts": 196,
+      "geometry_sha256": "f478b0225979bc2725f755fdba1f8cf591f2ba9415af80a7dec246373651e0d3"
+    },
+    {
+      "bounds": {
+        "max": [
+          1.595,
+          3.23,
+          1.5875
+        ],
+        "min": [
+          -1.595,
+          0.04,
+          -1.5875
+        ],
+        "size": [
+          3.19,
+          3.19,
+          3.175
+        ]
+      },
+      "catalog_model": "transformers_allspark",
+      "changed": false,
+      "colors": 7,
+      "distinct_details": 74,
+      "id": "transformers_allspark",
+      "materials": 2,
+      "name": "Transformers AllSpark",
+      "new": false,
+      "parts": 238,
+      "supplied_key": "transformers_allspark",
+      "text_overlays": 0,
+      "visible_parts": 237,
+      "geometry_sha256": "1d414610ed8963166ee5cbc579ddfbbea3eb531bd18c6f13d4d9f3eeb350cbce"
+    },
+    {
+      "bounds": {
+        "max": [
+          2.61292333533,
+          2.67,
+          0.405
+        ],
+        "min": [
+          -2.61292333533,
+          0.04,
+          -0.892605703448
+        ],
+        "size": [
+          5.22584667065,
+          2.63,
+          1.29760570345
+        ]
+      },
+      "catalog_model": "transformers_matrix",
+      "changed": false,
+      "colors": 17,
+      "distinct_details": 47,
+      "id": "transformers_matrix",
+      "materials": 2,
+      "name": "Transformers Matrix of Leadership",
+      "new": false,
+      "parts": 209,
+      "supplied_key": "transformers_matrix",
+      "text_overlays": 0,
+      "visible_parts": 208,
+      "geometry_sha256": "8c6decb84ae6c2216719f009bdb67bfae10f84d91a0ae7954c08100a26b15695"
+    },
+    {
+      "bounds": {
+        "max": [
+          2.02398387643,
+          6.48669594593,
+          0.695
+        ],
+        "min": [
+          -1.425,
+          0.04,
+          -0.695
+        ],
+        "size": [
+          3.44898387643,
+          6.44669594593,
+          1.39
+        ]
+      },
+      "catalog_model": "optimus_energon_axe",
+      "changed": false,
+      "colors": 10,
+      "distinct_details": 48,
+      "id": "optimus_energon_axe",
+      "materials": 2,
+      "name": "Optimus Prime Energon Axe",
+      "new": false,
+      "parts": 187,
+      "supplied_key": "optimus_energon_axe",
+      "text_overlays": 0,
+      "visible_parts": 186,
+      "geometry_sha256": "f00b3cde9499761b4ce1746c2b697e44fa7dcca27ee93107f875f831fff3fd0e"
+    },
+    {
+      "bounds": {
+        "max": [
+          2.66761698847,
+          5.74580661847,
+          2.21995580256
+        ],
+        "min": [
+          -2.66761698847,
+          0.04,
+          -1.8885
+        ],
+        "size": [
+          5.33523397695,
+          5.70580661847,
+          4.10845580256
+        ]
+      },
+      "catalog_model": "stardust_dragon",
+      "changed": false,
+      "colors": 7,
+      "distinct_details": 180,
+      "id": "stardust_dragon",
+      "materials": 3,
+      "name": "Stardust Dragon",
+      "new": true,
+      "parts": 239,
+      "supplied_key": "stardust_dragon",
+      "text_overlays": 0,
+      "visible_parts": 238,
+      "geometry_sha256": "b96a276989ab55ec5b0867694cf6940c8f77eaab837b96508d34a03c4128f2f0"
+    },
+    {
+      "bounds": {
+        "max": [
+          2.66535033752,
+          5.418922429,
+          2.21995580256
+        ],
+        "min": [
+          -2.66535033752,
+          0.04,
+          -1.8885
+        ],
+        "size": [
+          5.33070067505,
+          5.378922429,
+          4.10845580256
+        ]
+      },
+      "catalog_model": "blue_eyes_white_dragon",
+      "changed": false,
+      "colors": 6,
+      "distinct_details": 170,
+      "id": "blue_eyes_white_dragon",
+      "materials": 3,
+      "name": "Blue-Eyes White Dragon",
+      "new": true,
+      "parts": 234,
+      "supplied_key": "blue_eyes_white_dragon",
+      "text_overlays": 0,
+      "visible_parts": 233,
+      "geometry_sha256": "4ab398cb5f8afe04e94d212689cc5a583c0aa00df1fd17288880466c6c418371"
+    },
+    {
+      "bounds": {
+        "max": [
+          0.955788744453,
+          4.4,
+          0.38
+        ],
+        "min": [
+          -1.745,
+          0.04,
+          -0.465
+        ],
+        "size": [
+          2.70078874445,
+          4.36,
+          0.845
+        ]
+      },
+      "catalog_model": "michael_jackson_glove",
+      "changed": false,
+      "colors": 3,
+      "distinct_details": 36,
+      "id": "michael_jackson_glove",
+      "materials": 3,
+      "name": "Michael Jackson's Glove",
+      "new": true,
+      "parts": 145,
+      "supplied_key": "michael_jackson_glove",
+      "text_overlays": 0,
+      "visible_parts": 144,
+      "geometry_sha256": "2fcc28835b9a55d436852a0086bba991767c1c1a688a24a18967a9e1fbef834f"
+    },
+    {
+      "bounds": {
+        "max": [
+          0.530205136942,
+          5.275,
+          0.536848683436
+        ],
+        "min": [
+          -0.530205136942,
+          0.04,
+          -0.536848683436
+        ],
+        "size": [
+          1.06041027388,
+          5.235,
+          1.07369736687
+        ]
+      },
+      "catalog_model": "tungs_bat",
+      "changed": false,
+      "colors": 8,
+      "distinct_details": 17,
+      "id": "tungs_bat",
+      "materials": 3,
+      "name": "Tungs Bat",
+      "new": true,
+      "parts": 131,
+      "supplied_key": "tungs_bat",
+      "text_overlays": 0,
+      "visible_parts": 130,
+      "geometry_sha256": "9bd7fd242a2c37a9c03df0f673e5a605f81a73051f9da8d5ce92ba84e0083303"
+    },
+    {
+      "bounds": {
+        "max": [
+          2.3,
+          2.92,
+          0.153
+        ],
+        "min": [
+          -2.3,
+          0.04,
+          -0.244304065799
+        ],
+        "size": [
+          4.6,
+          2.88,
+          0.397304065799
+        ]
+      },
+      "catalog_model": "moms_credit_card",
+      "changed": false,
+      "colors": 18,
+      "distinct_details": 39,
+      "id": "moms_credit_card",
+      "materials": 2,
+      "name": "Moms Credit Card",
+      "new": true,
+      "parts": 123,
+      "supplied_key": "moms_credit_card",
+      "text_overlays": 0,
+      "visible_parts": 122,
+      "geometry_sha256": "c7ba6a45adc372518c8fa2d0473fb9e2e84a9d38b5dd2dd5cb7196cefe04f1e6"
+    },
+    {
+      "bounds": {
+        "max": [
+          1.77405404025,
+          4.24405404025,
+          0.84
+        ],
+        "min": [
+          -1.77405404025,
+          0.04,
+          -0.6
+        ],
+        "size": [
+          3.5481080805,
+          4.20405404025,
+          1.44
+        ]
+      },
+      "catalog_model": "sonic_gold_ring",
+      "changed": false,
+      "colors": 5,
+      "distinct_details": 13,
+      "id": "sonic_gold_ring",
+      "materials": 2,
+      "name": "Sonic's Golden Ring",
+      "new": true,
+      "parts": 119,
+      "supplied_key": "sonic_gold_ring",
+      "text_overlays": 0,
+      "visible_parts": 118,
+      "geometry_sha256": "291d217f54d6a8e5453958b1a9ddaa4547fa74942301e34635e92c96385cd5f9"
+    },
+    {
+      "bounds": {
+        "max": [
+          2.325,
+          4.69,
+          0.845
+        ],
+        "min": [
+          -2.325,
+          0.04,
+          -0.7025
+        ],
+        "size": [
+          4.65,
+          4.65,
+          1.5475
+        ]
+      },
+      "catalog_model": "captain_america_shield",
+      "changed": false,
+      "colors": 12,
+      "distinct_details": 27,
+      "id": "captain_america_shield",
+      "materials": 2,
+      "name": "Captain America's Shield",
+      "new": true,
+      "parts": 126,
+      "supplied_key": "captain_america_shield",
+      "text_overlays": 0,
+      "visible_parts": 125,
+      "geometry_sha256": "ffaf65bf04a68a1f4279017f44e76202582d947c231b74e8db833595db09dc69"
+    }
+  ],
+  "puzzleUnchanged": true,
+  "source": "/workspace/opitem/roblox/v75-game",
+  "studioArtUtilityPassed": true,
+  "tiers": [
+    "Common",
+    "Uncommon",
+    "Rare",
+    "Epic",
+    "Legendary",
+    "Mythic",
+    "Ethereal"
+  ],
+  "warnings": {},
+  "weights": [
+    40,
+    25,
+    22.5,
+    12.5,
+    5,
+    1.7,
+    0.3
+  ],
+  "approvedGeometryChanges": [],
+  "previous_models_preserved_exactly": true,
+  "previous_surface_gui_properties_preserved_exactly": true,
+  "distinct_geometry": true,
+  "approvedNameChanges": [],
+  "limitations": [
+    "Offline geometry checks do not simulate Studio rendering, multiplayer, physics or performance."
+  ],
+  "sources_sha256": {
+    "AdminClient.lua": "7cb12ac0ab599dc8375e669ab8d4290bbd8796323008ae3de11babf9d5330976",
+    "AdminConfig.lua": "52fa6ca986e8a95caa9ad214064e6dbddc4db8710d1d856b5a97ec869548a729",
+    "AdminPolicy.lua": "9d41c47405ec9adc652124615e40c9b529363b0f1b17e355057d017d72b0ea9f",
+    "AdminService.lua": "af1bda4bbc6fbac1e307c623ecc2a8e3001c09f2d9761ac0e3e88fa0b4b06429",
+    "Aesthetics.lua": "a82cfb96e78b06ca10110c5e603636a0e39014376ddc8733b7c18e39ce311d51",
+    "ArenaBounds.lua": "25db681e6a4f81d97dddd57f3145d784de6296e50aca64848e9c55a2095fbb6a",
+    "ArtChecks.lua": "6082cd027675109ba973eeafddd3db2d958f491acc2484fe35148cf98cb72c8e",
+    "BackgroundArt.lua": "c943da2ea3571e6a347dcb807de78751bfd91d211ab68d80a2cd6228bff03a03",
+    "BaseEntrance.lua": "8f8da351513da002afa58e8827faeb44fce772409806f60bb87102336336af5f",
+    "Catalog.lua": "66a059fdf290d5771823431c91aec86dd5749bbe2715c0c701bb75ca0c62df32",
+    "Client.lua": "76ad01b37db4cfe86d7af76e9b275737426697f96e04cf7aecbaf5f87c947c30",
+    "Config.lua": "e3acd74f87b1117c2e5c1ff300b4aed0b17b1308661aba498ddfd8f706761de8",
+    "Core.lua": "e58ced560083d54f9f0fe191dbd315a6c9416daf7ebbfb1c5fc18393bda73734",
+    "DetailedArt/Architecture.lua": "bfa85fa3bf52d2a19e7a6edf00b6fd0f49b1b9943b9f0454b85fd8607dcafc72",
+    "DetailedArt/Artifacts.lua": "789f34b9ab3f10160b14ab045a578171d15376d3eb2b8eff036fe488f2ca8591",
+    "DetailedArt/BasePolish.lua": "0f0b65979cdce117aad281273c572bdcb78f2893d72592f54f4c7caadc8b9356",
+    "DetailedArt/EnhancedScene.lua": "0bb5fa7ffdde8f8529edbaa96103a1b1d15c1e6f149bd14d209e6519f8872856",
+    "DetailedArt/ExtraDecor.lua": "5b19a46be0aac15b6c3c75f12071ea791716121677c523ed4df0ab4742df8ffe",
+    "DetailedArt/ExtraItems.lua": "ece91fe8c9e33800c9205af54a41bff782167e3b2a84bc28e82d5deac8977035",
+    "DetailedArt/Figures.lua": "31505e98e5ff1a03dd8db68034d3877e65094a130614558ef22b0198d4f3ebfe",
+    "DetailedArt/ItemArt.lua": "b849a76d7fb88941805a279d5ba4c3d4f73dc9c63ac364e8b63492d9596daa5c",
+    "DetailedArt/LandmarkArt.lua": "60a5ce66f78a11c4b40b9f05839f1140dc603a236b6a1ec30389c72671f06e67",
+    "DetailedArt/MillenniumPuzzle.lua": "c91c24ae95e89481677b025f584bdd315720ffefc6e77df4d2eb1e679d1b8d76",
+    "DetailedArt/NewCollectibles.lua": "e1f994313ea7e077c873dd6d29151fdb3e8aad9d84c2d77dbdb438cd3ae4efa7",
+    "DetailedArt/PlazaPolish.lua": "cdb4ffc270a2c2b997d3279fc4ef61bcfc05b13910ad17adf5a8bdcef03a16d9",
+    "DetailedArt/Primitives.lua": "057157d34a7f67f2ddd0c85aca2072abbf4020e4c9b894f248b0358c87c12fd5",
+    "DetailedArt/SliferArt.lua": "6e7a147aa1c68fed4da9023b6c8a4a963802e9c9a49d6c18d59456c521f44cdb",
+    "DetailedArt/Technology.lua": "36e0c68d28638dfe44f80e0dfd54664450022d6571ea5026bcaf4c4b586b40ef",
+    "DetailedArt/UpperFloor.lua": "d7007d81401d771c36a9a4d8f39dc8904097af85288c59a576645a75583959b2",
+    "DetailedArt/Weapons.lua": "83b0d70b15916af97a26193f51f2958db127200479bad00fc9c6809eb3a8eb99",
+    "DetailedArt/WorldArt.lua": "7ac09548bb14d3e51db01d0cfcf0ad6e9b67accad1e3bea63d44b416a8ad2958",
+    "DeveloperArtifacts.lua": "aed980fbd098f745a3390721a1b91dad3f4d1861f68918dac6c431acfc360dbc",
+    "DeveloperEffects.lua": "c748fb11450f7ab2bfb71adfe105343d4b7256b28d2ef715d73bd3ff8c9037a0",
+    "DeveloperPowers.lua": "61c5e5ca2baf8999a2ffeb0e4bfa047c0ef1b2930c95dc3ab80453c09ee902f1",
+    "ExodiaPaintingData1.lua": "0b58e32e811a6e5b77864b6e26b5074228c04b39faf1164591eca6bb3941bec2",
+    "ExodiaPaintingData2.lua": "6fcb5f5f9787f328d8c0aa0617f5f49e624339072840603554da88067e5b95c5",
+    "ExodiaPaintingData3.lua": "57a53d9aab312210f92e96d73ffebc430c2154ac4c5e593b3ab3f7dfbd855f1e",
+    "ExodiaPaintingData4.lua": "54fc798b4c5a60fc6180c16250d2824f3551791e8298517dff22557842a8c7fc",
+    "ExodiaPaintingData5.lua": "c260cc11de5bd8272356efc44be745bb4fd18327e39109636f471bfa081900d9",
+    "ExodiaPaintingData6.lua": "37cd45c6ad0b2ab87459a368e2b9dc1ec2aa5bd7b2313182210c80cde8642331",
+    "ExodiaPaintingData7.lua": "3e763a94adf9917d8ae4db383ab519b54e4c53910488fe9c0b56d0ddf4f764d2",
+    "ExodiaPaintingData8.lua": "3174eb33f9979e84e4ebb503c9d768ea3e82d809cb2ac1756b90308f39606108",
+    "ExpandedCatalog.lua": "d7e40fefba014a420e67b0defb85f6a297e17f73888212ad68f6fb84d0fa08ff",
+    "ExpandedModels.lua": "8741f3d77d062e309591a4065db806c96382a2e26d3704a82343b7830cac9a6b",
+    "FreeModels/AllSpark.lua": "53a77ac38a9d2582a5d32f04de02ba98b68df0bced8e70147bc3ec1881d9e835",
+    "FreeModels/Assets.lua": "4a0e8492850e1c2e28e4cc2dc9d9e2526d84e302e6527291de901b0856335fa8",
+    "FreeModels/CardDecor.lua": "a30ff9cf06b4d5bf932e25dab147f6dfde14c2837cfb6d852febd95169801c9c",
+    "FreeModels/DragonCollectibles.lua": "3c47104e02c02ee0527cf1093e0b55bb2a6e7b3f03d63f6988633ddfe5a651f6",
+    "FreeModels/EnergonAxe.lua": "432c2e0127d75515efafd4fa085776169345ef2e945a5bd448bfd772afb23d9c",
+    "FreeModels/ExtraItems.lua": "a2a21bdfdbba62c4fe328a0408f5473ef799b552b40f13e39c7a9a598a42a602",
+    "FreeModels/FreeModels.lua": "e6b8f0829c92c5c4c6a170ad15db61cbc20968e9332055a0d535d0471b340330",
+    "FreeModels/HoOhModel.lua": "72f826687134a74718d998281b61c704f8c24a823065cc05cb0161adfcefa6df",
+    "FreeModels/Labels.lua": "a644929d23eb0f84950b3f3a2e85eee4e9d60ef8fea51a93f90a7cc1827ea09d",
+    "FreeModels/MatrixLeadership.lua": "a74a036e71977363ea1d82ed118c740ad3243452191e6588e963a075541dad65",
+    "FreeModels/NintendoItems.lua": "75fd4262be13b057e787e8ea13fff73dce4ab6379fc2523894229bb42afc3bdc",
+    "FreeModels/PopCultureItems.lua": "71d2572919a4fb6f32ecc12f57be5a6f3fa9539ad28f7d371eaaa2f8d0401f98",
+    "FreeModels/Primitives.lua": "48917ff0d7915b73ad4a815f14b46fc28841233dece03d8f527504a2796fc202",
+    "FreeModels/RelicItems.lua": "0e7dcabe2d8ca0002d258905543a764781a7b0d2cccac6ca64480601894e7388",
+    "FreeModels/SecretFormula.lua": "64b4256a305af2b6bd435c470434591af8481075545e2ac28d0b008fb434ef8d",
+    "FreeModels/WarriorModels.lua": "2b3741b147b4b7bc46a8b12d2b1933340192ffaad07d1c8c1547a30379cb7c54",
+    "FreeModels/WorkshopBuildings.lua": "b737287701ed3e9f5bbb0e599880d32072a197cdc3deeadce9d605ffd9443dd2",
+    "GodsPaintingData1.lua": "da93883bb8c1b66f21d12c608885ee421087da053709119fa7466f17ad1f0aed",
+    "GodsPaintingData2.lua": "98a158574e57186670f8f6065f3f2330a6ef76f558fd0827ba881974a057ff76",
+    "GodsPaintingData3.lua": "49b0d5b76f1755334741105beaea15b13eb3c0e424cd0835c435f72a5367976d",
+    "GodsPaintingData4.lua": "d81a781be2ddbfc720b464fccf9321b99694ce0a539156394544524546dc9c6b",
+    "GodsPaintingData5.lua": "30869b60ef6019c1d680e58bab0843d24c4bf7d531de1fa7a1167b3bbd3df615",
+    "GodsPaintingData6.lua": "9ad151028b8a0c481dc0f48730eec59c96b080da149d9e2d0776341210b7ea23",
+    "GodsPaintingData7.lua": "110708cd5916dc5a0277a234ccea5791de4af0990deff6bc8dbf8280e3139c86",
+    "GodsPaintingData8.lua": "d8cf57224d89f610e3c0261dfc1c41e99f032ee7cdeec3c7919342794a221117",
+    "ItemPresentation.lua": "f8ac94eb9f27818b539838946eadd5ecac49c0049dece3a9ba58c34863667266",
+    "MillenniumPuzzle.lua": "c91c24ae95e89481677b025f584bdd315720ffefc6e77df4d2eb1e679d1b8d76",
+    "ModelFactory.lua": "024041ccd2144756373de251d945f0a0c85301c1ba145fc95bd6c44cf1611703",
+    "PaintingData1.lua": "f20d6c020e11f68c6264ba47511a9d077efc1f1ccfd89a23881d8ee23e5a5e9d",
+    "PaintingData2.lua": "f4821a30ac6abdf567e53c8221a81b34dba379018ca4ee9e5f84ab229ad69932",
+    "PaintingData3.lua": "2d55dd1d69d76611a06f7d1851a28ab1fa029841b6210feaa8530ba17535aa15",
+    "PaintingData4.lua": "51dbeed956e8c5259ad1727f3be77eed21c41442ed3f7e6ac34c50def012ca2f",
+    "PaintingData5.lua": "2478ddaf34fd767ae3f183ec81195203e962ee7fb06b9575241d8cfb0062f857",
+    "PaintingData6.lua": "ea6e3fc8c5a41eead84ede421adf64f8503679800079818367f47e561d8ac0fc",
+    "PaintingData7.lua": "9cfac65e4c592fb752c11ba4ffeeceee8065ad6f00be168a195f9db9b6b1b5cf",
+    "PaintingData8.lua": "f079cd12057a5081706c5f0baa1d38402ef90b895a55330962a3007d5ceac98f",
+    "PaintingRenderer.lua": "ff594740100fc69cf2529e1662d62b2f9b1693d8a4f35950dc6163ceffea33e8",
+    "PhaseClient.lua": "90fa21df5bf62ba25bca3b4756b02ab57ee7cd21e2d358f9624d50ebdd91fb35",
+    "PhaseConfig.lua": "5d2e41c4ce429fb15b10710087e40be9b45f88c676071b1ea3a995c6af610ba1",
+    "PhaseDecor.lua": "ab5108771fa81b8334d7f6f9ad0a524964f0c2f82af6004e6a17d322584c112e",
+    "PhaseService.lua": "11f8ea7e13dc35698cb5bbdf1f89d26ffbec7709d3c93ebb96cac36d69c04ef3",
+    "PowerCatalog.lua": "be6c00a3768413f065ad8b464c28796b2c3f4c7641fd3786861ecb61d2efd5bd",
+    "PowerRules.lua": "5c52190d665b98327d2c4b16288022b20adbdc54b16bcba67f2bb6c449119a7b",
+    "RegressionTests.lua": "5471ffa503032ffe71d1f5341df583556da1d278bb0eeb37a8ba7104a316e04b",
+    "Server.lua": "6bd630f1e66314ce16943367b87d97b17baa7e906f3ab382a1651031bd92b0d3",
+    "StudioIntegrationTests.lua": "5aa379b4f82e3446e36093442df228b8308720d1ad92b95912ac9fb372e9e102",
+    "Tests.lua": "c61dcfd1837145b8d3ad5cb879453d121914ceef458cb76f0abdc07f8fcf73ed",
+    "TransactionCore.lua": "df614716a1782ad184da40550896c506ede6708518b14cb9df8eb0a51ffdd28b",
+    "World.lua": "7452f40b156f961a7ee5bd479363863e9296be7a717a140b9ccbdf544ed93a8b"
+  },
+  "baseline_sources_sha256": {
+    "AdminClient.lua": "6bec291bdce3785332c7d2e0085d0ca4b661a50a86914d2d8efcc71b77a94dc9",
+    "AdminConfig.lua": "ee7d092b39bc238f08c2f5cf7a224e6b1b77f6edcba424780be9c9f63c904ad8",
+    "AdminPolicy.lua": "9d41c47405ec9adc652124615e40c9b529363b0f1b17e355057d017d72b0ea9f",
+    "AdminService.lua": "743252c076e758594306bc0ff78bd36ee8970be4ce76c745d14d500d884c16a6",
+    "Aesthetics.lua": "a82cfb96e78b06ca10110c5e603636a0e39014376ddc8733b7c18e39ce311d51",
+    "ArenaBounds.lua": "25db681e6a4f81d97dddd57f3145d784de6296e50aca64848e9c55a2095fbb6a",
+    "ArtChecks.lua": "6082cd027675109ba973eeafddd3db2d958f491acc2484fe35148cf98cb72c8e",
+    "BackgroundArt.lua": "c943da2ea3571e6a347dcb807de78751bfd91d211ab68d80a2cd6228bff03a03",
+    "BaseEntrance.lua": "d8255cccc58f5bd57cc5470a332ae23227dddae782ad3c433ad0945b4d15c6c5",
+    "Catalog.lua": "66a059fdf290d5771823431c91aec86dd5749bbe2715c0c701bb75ca0c62df32",
+    "Client.lua": "abf0726e160cb3979723ec547bbe2093a913117f49929b7359807fb12d15d428",
+    "Config.lua": "e3acd74f87b1117c2e5c1ff300b4aed0b17b1308661aba498ddfd8f706761de8",
+    "Core.lua": "e58ced560083d54f9f0fe191dbd315a6c9416daf7ebbfb1c5fc18393bda73734",
+    "DetailedArt/Architecture.lua": "bfa85fa3bf52d2a19e7a6edf00b6fd0f49b1b9943b9f0454b85fd8607dcafc72",
+    "DetailedArt/Artifacts.lua": "789f34b9ab3f10160b14ab045a578171d15376d3eb2b8eff036fe488f2ca8591",
+    "DetailedArt/BasePolish.lua": "0f0b65979cdce117aad281273c572bdcb78f2893d72592f54f4c7caadc8b9356",
+    "DetailedArt/EnhancedScene.lua": "0bb5fa7ffdde8f8529edbaa96103a1b1d15c1e6f149bd14d209e6519f8872856",
+    "DetailedArt/ExtraDecor.lua": "5b19a46be0aac15b6c3c75f12071ea791716121677c523ed4df0ab4742df8ffe",
+    "DetailedArt/ExtraItems.lua": "ece91fe8c9e33800c9205af54a41bff782167e3b2a84bc28e82d5deac8977035",
+    "DetailedArt/Figures.lua": "31505e98e5ff1a03dd8db68034d3877e65094a130614558ef22b0198d4f3ebfe",
+    "DetailedArt/ItemArt.lua": "b849a76d7fb88941805a279d5ba4c3d4f73dc9c63ac364e8b63492d9596daa5c",
+    "DetailedArt/LandmarkArt.lua": "60a5ce66f78a11c4b40b9f05839f1140dc603a236b6a1ec30389c72671f06e67",
+    "DetailedArt/MillenniumPuzzle.lua": "c91c24ae95e89481677b025f584bdd315720ffefc6e77df4d2eb1e679d1b8d76",
+    "DetailedArt/NewCollectibles.lua": "e1f994313ea7e077c873dd6d29151fdb3e8aad9d84c2d77dbdb438cd3ae4efa7",
+    "DetailedArt/PlazaPolish.lua": "cdb4ffc270a2c2b997d3279fc4ef61bcfc05b13910ad17adf5a8bdcef03a16d9",
+    "DetailedArt/Primitives.lua": "057157d34a7f67f2ddd0c85aca2072abbf4020e4c9b894f248b0358c87c12fd5",
+    "DetailedArt/SliferArt.lua": "6e7a147aa1c68fed4da9023b6c8a4a963802e9c9a49d6c18d59456c521f44cdb",
+    "DetailedArt/Technology.lua": "36e0c68d28638dfe44f80e0dfd54664450022d6571ea5026bcaf4c4b586b40ef",
+    "DetailedArt/Weapons.lua": "83b0d70b15916af97a26193f51f2958db127200479bad00fc9c6809eb3a8eb99",
+    "DetailedArt/WorldArt.lua": "7ac09548bb14d3e51db01d0cfcf0ad6e9b67accad1e3bea63d44b416a8ad2958",
+    "ExodiaPaintingData1.lua": "0b58e32e811a6e5b77864b6e26b5074228c04b39faf1164591eca6bb3941bec2",
+    "ExodiaPaintingData2.lua": "6fcb5f5f9787f328d8c0aa0617f5f49e624339072840603554da88067e5b95c5",
+    "ExodiaPaintingData3.lua": "57a53d9aab312210f92e96d73ffebc430c2154ac4c5e593b3ab3f7dfbd855f1e",
+    "ExodiaPaintingData4.lua": "54fc798b4c5a60fc6180c16250d2824f3551791e8298517dff22557842a8c7fc",
+    "ExodiaPaintingData5.lua": "c260cc11de5bd8272356efc44be745bb4fd18327e39109636f471bfa081900d9",
+    "ExodiaPaintingData6.lua": "37cd45c6ad0b2ab87459a368e2b9dc1ec2aa5bd7b2313182210c80cde8642331",
+    "ExodiaPaintingData7.lua": "3e763a94adf9917d8ae4db383ab519b54e4c53910488fe9c0b56d0ddf4f764d2",
+    "ExodiaPaintingData8.lua": "3174eb33f9979e84e4ebb503c9d768ea3e82d809cb2ac1756b90308f39606108",
+    "ExpandedCatalog.lua": "73dbffba2c5e47f1ae906eb175d385b7231de95b4cd692407793f3362f77b663",
+    "ExpandedModels.lua": "8741f3d77d062e309591a4065db806c96382a2e26d3704a82343b7830cac9a6b",
+    "FreeModels/AllSpark.lua": "53a77ac38a9d2582a5d32f04de02ba98b68df0bced8e70147bc3ec1881d9e835",
+    "FreeModels/Assets.lua": "b84d48637f8fd07df3278816a832e5fb40ba4c15a64f24744992d7364969b874",
+    "FreeModels/CardDecor.lua": "a30ff9cf06b4d5bf932e25dab147f6dfde14c2837cfb6d852febd95169801c9c",
+    "FreeModels/EnergonAxe.lua": "432c2e0127d75515efafd4fa085776169345ef2e945a5bd448bfd772afb23d9c",
+    "FreeModels/ExtraItems.lua": "a2a21bdfdbba62c4fe328a0408f5473ef799b552b40f13e39c7a9a598a42a602",
+    "FreeModels/FreeModels.lua": "2ae3b8d4c21009261513c3c6ac724da3f54ab6a5346a7f8710ea3db79e4fdc98",
+    "FreeModels/HoOhModel.lua": "72f826687134a74718d998281b61c704f8c24a823065cc05cb0161adfcefa6df",
+    "FreeModels/Labels.lua": "a644929d23eb0f84950b3f3a2e85eee4e9d60ef8fea51a93f90a7cc1827ea09d",
+    "FreeModels/MatrixLeadership.lua": "a74a036e71977363ea1d82ed118c740ad3243452191e6588e963a075541dad65",
+    "FreeModels/NintendoItems.lua": "75fd4262be13b057e787e8ea13fff73dce4ab6379fc2523894229bb42afc3bdc",
+    "FreeModels/Primitives.lua": "48917ff0d7915b73ad4a815f14b46fc28841233dece03d8f527504a2796fc202",
+    "FreeModels/RelicItems.lua": "0e7dcabe2d8ca0002d258905543a764781a7b0d2cccac6ca64480601894e7388",
+    "FreeModels/SecretFormula.lua": "64b4256a305af2b6bd435c470434591af8481075545e2ac28d0b008fb434ef8d",
+    "FreeModels/WarriorModels.lua": "2b3741b147b4b7bc46a8b12d2b1933340192ffaad07d1c8c1547a30379cb7c54",
+    "FreeModels/WorkshopBuildings.lua": "b737287701ed3e9f5bbb0e599880d32072a197cdc3deeadce9d605ffd9443dd2",
+    "GodsPaintingData1.lua": "da93883bb8c1b66f21d12c608885ee421087da053709119fa7466f17ad1f0aed",
+    "GodsPaintingData2.lua": "98a158574e57186670f8f6065f3f2330a6ef76f558fd0827ba881974a057ff76",
+    "GodsPaintingData3.lua": "49b0d5b76f1755334741105beaea15b13eb3c0e424cd0835c435f72a5367976d",
+    "GodsPaintingData4.lua": "d81a781be2ddbfc720b464fccf9321b99694ce0a539156394544524546dc9c6b",
+    "GodsPaintingData5.lua": "30869b60ef6019c1d680e58bab0843d24c4bf7d531de1fa7a1167b3bbd3df615",
+    "GodsPaintingData6.lua": "9ad151028b8a0c481dc0f48730eec59c96b080da149d9e2d0776341210b7ea23",
+    "GodsPaintingData7.lua": "110708cd5916dc5a0277a234ccea5791de4af0990deff6bc8dbf8280e3139c86",
+    "GodsPaintingData8.lua": "d8cf57224d89f610e3c0261dfc1c41e99f032ee7cdeec3c7919342794a221117",
+    "ItemPresentation.lua": "f8ac94eb9f27818b539838946eadd5ecac49c0049dece3a9ba58c34863667266",
+    "MillenniumPuzzle.lua": "c91c24ae95e89481677b025f584bdd315720ffefc6e77df4d2eb1e679d1b8d76",
+    "ModelFactory.lua": "cdbaffbf621788a6eb7a0babe0397ffec51751d82be4369bade5b101544fcc44",
+    "PaintingData1.lua": "f20d6c020e11f68c6264ba47511a9d077efc1f1ccfd89a23881d8ee23e5a5e9d",
+    "PaintingData2.lua": "f4821a30ac6abdf567e53c8221a81b34dba379018ca4ee9e5f84ab229ad69932",
+    "PaintingData3.lua": "2d55dd1d69d76611a06f7d1851a28ab1fa029841b6210feaa8530ba17535aa15",
+    "PaintingData4.lua": "51dbeed956e8c5259ad1727f3be77eed21c41442ed3f7e6ac34c50def012ca2f",
+    "PaintingData5.lua": "2478ddaf34fd767ae3f183ec81195203e962ee7fb06b9575241d8cfb0062f857",
+    "PaintingData6.lua": "ea6e3fc8c5a41eead84ede421adf64f8503679800079818367f47e561d8ac0fc",
+    "PaintingData7.lua": "9cfac65e4c592fb752c11ba4ffeeceee8065ad6f00be168a195f9db9b6b1b5cf",
+    "PaintingData8.lua": "f079cd12057a5081706c5f0baa1d38402ef90b895a55330962a3007d5ceac98f",
+    "PaintingRenderer.lua": "ff594740100fc69cf2529e1662d62b2f9b1693d8a4f35950dc6163ceffea33e8",
+    "PhaseClient.lua": "eedee27cb088142a42bc7f24b3424664ecc76f489ac591af66420f942f8e977f",
+    "PhaseConfig.lua": "5d2e41c4ce429fb15b10710087e40be9b45f88c676071b1ea3a995c6af610ba1",
+    "PhaseDecor.lua": "ab5108771fa81b8334d7f6f9ad0a524964f0c2f82af6004e6a17d322584c112e",
+    "PhaseService.lua": "cea17cd9ad90fbddbaec37239319281b03538324f953a96793092df56429c00b",
+    "PowerCatalog.lua": "be6c00a3768413f065ad8b464c28796b2c3f4c7641fd3786861ecb61d2efd5bd",
+    "PowerRules.lua": "5c52190d665b98327d2c4b16288022b20adbdc54b16bcba67f2bb6c449119a7b",
+    "RegressionTests.lua": "5471ffa503032ffe71d1f5341df583556da1d278bb0eeb37a8ba7104a316e04b",
+    "Server.lua": "63e2ea4e4e5b327327bb5f0b42efddae64e08bf24d0ffe01a36468a1aa9c322b",
+    "StudioIntegrationTests.lua": "5aa379b4f82e3446e36093442df228b8308720d1ad92b95912ac9fb372e9e102",
+    "Tests.lua": "c61dcfd1837145b8d3ad5cb879453d121914ceef458cb76f0abdc07f8fcf73ed",
+    "TransactionCore.lua": "9a7ca0f0a61846c05cc81a310aef3184afc1f6ff478999cc71a4f0ef9c48e9a5",
+    "World.lua": "7452f40b156f961a7ee5bd479363863e9296be7a717a140b9ccbdf544ed93a8b"
+  }
+}

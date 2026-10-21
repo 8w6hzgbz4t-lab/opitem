@@ -1,0 +1,226 @@
+[
+  {
+    "bounds": {
+      "max": [
+        2.66761698847,
+        5.74580661847,
+        2.21995580256
+      ],
+      "min": [
+        -2.66761698847,
+        0.04,
+        -1.8885
+      ],
+      "size": [
+        5.33523397695,
+        5.70580661847,
+        4.10845580256
+      ]
+    },
+    "catalog_model": "stardust_dragon",
+    "changed": false,
+    "colors": 7,
+    "distinct_details": 180,
+    "id": "stardust_dragon",
+    "materials": 3,
+    "name": "Stardust Dragon",
+    "new": true,
+    "parts": 239,
+    "supplied_key": "stardust_dragon",
+    "text_overlays": 0,
+    "visible_parts": 238,
+    "geometry_sha256": "b96a276989ab55ec5b0867694cf6940c8f77eaab837b96508d34a03c4128f2f0"
+  },
+  {
+    "bounds": {
+      "max": [
+        2.66535033752,
+        5.418922429,
+        2.21995580256
+      ],
+      "min": [
+        -2.66535033752,
+        0.04,
+        -1.8885
+      ],
+      "size": [
+        5.33070067505,
+        5.378922429,
+        4.10845580256
+      ]
+    },
+    "catalog_model": "blue_eyes_white_dragon",
+    "changed": false,
+    "colors": 6,
+    "distinct_details": 170,
+    "id": "blue_eyes_white_dragon",
+    "materials": 3,
+    "name": "Blue-Eyes White Dragon",
+    "new": true,
+    "parts": 234,
+    "supplied_key": "blue_eyes_white_dragon",
+    "text_overlays": 0,
+    "visible_parts": 233,
+    "geometry_sha256": "4ab398cb5f8afe04e94d212689cc5a583c0aa00df1fd17288880466c6c418371"
+  },
+  {
+    "bounds": {
+      "max": [
+        0.955788744453,
+        4.4,
+        0.38
+      ],
+      "min": [
+        -1.745,
+        0.04,
+        -0.465
+      ],
+      "size": [
+        2.70078874445,
+        4.36,
+        0.845
+      ]
+    },
+    "catalog_model": "michael_jackson_glove",
+    "changed": false,
+    "colors": 3,
+    "distinct_details": 36,
+    "id": "michael_jackson_glove",
+    "materials": 3,
+    "name": "Michael Jackson's Glove",
+    "new": true,
+    "parts": 145,
+    "supplied_key": "michael_jackson_glove",
+    "text_overlays": 0,
+    "visible_parts": 144,
+    "geometry_sha256": "2fcc28835b9a55d436852a0086bba991767c1c1a688a24a18967a9e1fbef834f"
+  },
+  {
+    "bounds": {
+      "max": [
+        0.530205136942,
+        5.275,
+        0.536848683436
+      ],
+      "min": [
+        -0.530205136942,
+        0.04,
+        -0.536848683436
+      ],
+      "size": [
+        1.06041027388,
+        5.235,
+        1.07369736687
+      ]
+    },
+    "catalog_model": "tungs_bat",
+    "changed": false,
+    "colors": 8,
+    "distinct_details": 17,
+    "id": "tungs_bat",
+    "materials": 3,
+    "name": "Tungs Bat",
+    "new": true,
+    "parts": 131,
+    "supplied_key": "tungs_bat",
+    "text_overlays": 0,
+    "visible_parts": 130,
+    "geometry_sha256": "9bd7fd242a2c37a9c03df0f673e5a605f81a73051f9da8d5ce92ba84e0083303"
+  },
+  {
+    "bounds": {
+      "max": [
+        2.3,
+        2.92,
+        0.153
+      ],
+      "min": [
+        -2.3,
+        0.04,
+        -0.244304065799
+      ],
+      "size": [
+        4.6,
+        2.88,
+        0.397304065799
+      ]
+    },
+    "catalog_model": "moms_credit_card",
+    "changed": false,
+    "colors": 18,
+    "distinct_details": 39,
+    "id": "moms_credit_card",
+    "materials": 2,
+    "name": "Moms Credit Card",
+    "new": true,
+    "parts": 123,
+    "supplied_key": "moms_credit_card",
+    "text_overlays": 0,
+    "visible_parts": 122,
+    "geometry_sha256": "c7ba6a45adc372518c8fa2d0473fb9e2e84a9d38b5dd2dd5cb7196cefe04f1e6"
+  },
+  {
+    "bounds": {
+      "max": [
+        1.77405404025,
+        4.24405404025,
+        0.84
+      ],
+      "min": [
+        -1.77405404025,
+        0.04,
+        -0.6
+      ],
+      "size": [
+        3.5481080805,
+        4.20405404025,
+        1.44
+      ]
+    },
+    "catalog_model": "sonic_gold_ring",
+    "changed": false,
+    "colors": 5,
+    "distinct_details": 13,
+    "id": "sonic_gold_ring",
+    "materials": 2,
+    "name": "Sonic's Golden Ring",
+    "new": true,
+    "parts": 119,
+    "supplied_key": "sonic_gold_ring",
+    "text_overlays": 0,
+    "visible_parts": 118,
+    "geometry_sha256": "291d217f54d6a8e5453958b1a9ddaa4547fa74942301e34635e92c96385cd5f9"
+  },
+  {
+    "bounds": {
+      "max": [
+        2.325,
+        4.69,
+        0.845
+      ],
+      "min": [
+        -2.325,
+        0.04,
+        -0.7025
+      ],
+      "size": [
+        4.65,
+        4.65,
+        1.5475
+      ]
+    },
+    "catalog_model": "captain_america_shield",
+    "changed": false,
+    "colors": 12,
+    "distinct_details": 27,
+    "id": "captain_america_shield",
+    "materials": 2,
+    "name": "Captain America's Shield",
+    "new": true,
+    "parts": 126,
+    "supplied_key": "captain_america_shield",
+    "text_overlays": 0,
+    "visible_parts": 125,
+    "geometry_sha256": "ffaf65bf04a68a1f4279017f44e76202582d947c231b74e8db833595db09dc69"
+  }
+]
