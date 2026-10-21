@@ -1,0 +1,50 @@
+NEXT PRODUCT: VAULT STACK
+
+Name: Vault Stack
+Description: Add 20,000 game cash to your saved balance.
+Robux price: 100
+Image: stack.png
+Managed Pricing: OFF
+
+Creator Dashboard -> Creations -> your game -> Monetization ->
+Developer Products -> Create Developer Product.
+
+Enter the fields above, upload stack.png and save.
+Open the product menu -> Copy Asset ID.
+Send: Vault Stack = YOUR_NUMERIC_PRODUCT_ID
+Or record the ID in the stack row of ProductSetup.csv.
+
+PROGRESS: 1 of 15 product IDs recorded.
+Pocket Cash is already recorded as 3720840251. Do not create it again.
+Its Roblox ownership/price still need verification.
+
+REMAINING CHECKLIST (14)
+
+CASH
+[ ] 1. Vault Stack                 100 Robux   stack.png
+[ ] 2. Treasure Chest              250 Robux   chest.png
+[ ] 3. Grand Fortune               500 Robux   fortune.png
+
+BASE LEVELS
+[ ] 4. One Base Level               25 Robux   level_one.png
+[ ] 5. Five Base Levels            100 Robux   level_five.png
+
+NORMAL POWERS
+[ ] 6. Dash Unlock                   2 Robux   unlock_dash.png
+[ ] 7. Pull Unlock                   6 Robux   unlock_gravity.png
+[ ] 8. Slow Field Unlock             8 Robux   unlock_slow.png
+[ ] 9. Ground Slam Unlock           25 Robux   unlock_slam.png
+[ ] 10. Knockback Pulse Unlock      70 Robux   unlock_repulse.png
+[ ] 11. Force Field Shield Unlock   90 Robux   unlock_shield.png
+[ ] 12. Lightning Strike Unlock    325 Robux   unlock_lightning.png
+[ ] 13. Ki Blast Unlock            325 Robux   unlock_kiblast.png
+[ ] 14. Spinjitzu Unlock             80 Robux   unlock_spinjitzu.png
+
+Use CREATE_PRODUCTS.md for each product's customer description.
+Keep Managed Pricing OFF for this fixed-price setup.
+Use products from the same experience as Pocket Cash.
+Send names + copied Developer Product IDs; no login details are needed.
+
+CHECKOUT STAYS OFF: Enabled=false, PreviewOnly=true.
+All 15 distinct nonzero IDs and controlled save/receipt tests are required
+before checkout can be enabled. Filling the worksheet alone does not wire IDs.

@@ -1,0 +1,15 @@
+name,description,robux,icon_file,developer_product_id,offer_id
+Vault Stack,"Add 20,000 game cash to your saved balance.",100,stack.png,0,stack
+Treasure Chest,"Add 50,000 game cash to your saved balance.",250,chest.png,0,chest
+Grand Fortune,"Add 100,000 game cash to your saved balance.",500,fortune.png,0,fortune
+One Base Level,Add 1 base level and another 5% of base item income to your income bonus.,25,level_one.png,0,level_one
+Five Base Levels,Add 5 base levels and another 25% of base item income to your income bonus.,100,level_five.png,0,level_five
+Dash Unlock,Unlock Dash for a quick movement burst that respects solid walls.,2,unlock_dash.png,0,unlock_dash
+Pull Unlock,Unlock Pull to draw nearby opponents inward and interrupt their grabs.,6,unlock_gravity.png,0,unlock_gravity
+Slow Field Unlock,Unlock Slow Field to aim a slowing zone that can knock carried loot loose.,8,unlock_slow.png,0,unlock_slow
+Ground Slam Unlock,Unlock Ground Slam to erupt the ground and knock nearby opponents' carried loot loose.,25,unlock_slam.png,0,unlock_slam
+Knockback Pulse Unlock,Unlock Knockback Pulse to blast nearby opponents outward and knock carried loot loose.,70,unlock_repulse.png,0,unlock_repulse
+Force Field Shield Unlock,Unlock a shield that lasts up to 3 seconds and blocks one incoming hit.,90,unlock_shield.png,0,unlock_shield
+Lightning Strike Unlock,"Unlock Lightning Strike to lock onto a nearby visible opponent, briefly stun them and drop their carried loot.",325,unlock_lightning.png,0,unlock_lightning
+Ki Blast Unlock,Unlock Ki Blast to fire an aimed energy projectile with an explosion that can knock carried loot loose.,325,unlock_kiblast.png,0,unlock_kiblast
+Spinjitzu Unlock,Unlock Spinjitzu to surround yourself with a short tornado that knocks nearby opponents back and drops carried loot.,80,unlock_spinjitzu.png,0,unlock_spinjitzu

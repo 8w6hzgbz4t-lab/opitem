@@ -1,0 +1,45 @@
+{
+  "group": "top-powers",
+  "icons": [
+    {
+      "offer_id": "unlock_lightning",
+      "name": "Lightning Strike",
+      "rank": 5,
+      "file": "unlock_lightning.png",
+      "width": 512,
+      "height": 512,
+      "bytes": 666064,
+      "sha256": "fede222e9a73b5c766caf964efab541b0f6c997f49305e938a92d5efcd555f1c",
+      "original": "Originals/unlock_lightning.png",
+      "original_sha256": "cc1217d773eb92e989d798de049beca770f9175c73501c64c8b2bf8df0287dfa",
+      "visual_reviewed": true
+    },
+    {
+      "offer_id": "unlock_kiblast",
+      "name": "Ki Blast",
+      "rank": 5,
+      "file": "unlock_kiblast.png",
+      "width": 512,
+      "height": 512,
+      "bytes": 651008,
+      "sha256": "2f33e11545ff7b5f8b822a69461004b20a97117d58cb57de6c232bf0d37b3059",
+      "original": "Originals/unlock_kiblast.png",
+      "original_sha256": "b44d5536f2a33228ddb89822002a5423e8937ccef65214b602eb7955f55522bd",
+      "visual_reviewed": true
+    },
+    {
+      "offer_id": "unlock_spinjitzu",
+      "name": "Spinjitzu",
+      "rank": 4,
+      "file": "unlock_spinjitzu.png",
+      "width": 512,
+      "height": 512,
+      "bytes": 704337,
+      "sha256": "e290c6cce327ca250fa7331040e17343abb3695e20e752e7b5b2f98e3527e7b2",
+      "original": "Originals/unlock_spinjitzu.png",
+      "original_sha256": "0dc53f96e5412da214c49540420bb48dcf833a7a4a2f7fe7ad8e8a0d853bca8f",
+      "visual_reviewed": true
+    }
+  ],
+  "uploaded_to_roblox": false
+}

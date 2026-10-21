@@ -1,0 +1,179 @@
+{
+  "upload_icons": 15,
+  "new_icons": 14,
+  "configured_product_ids": 1,
+  "product_offers": 15,
+  "recorded_pocket_cash_id": 3720840251,
+  "roblox_ids_verified": false,
+  "checkout_enabled": false,
+  "original_art_preserved": true,
+  "icons": [
+    {
+      "offer_id": "pocket",
+      "name": "Pocket Cash",
+      "file": "pocket.png",
+      "proposed_robux": 25,
+      "reward": "5000 game cash",
+      "width": 512,
+      "height": 512,
+      "sha256": "c91f17459b3256de75899d576ebf55eb9b1ed7b659ded3144f42a00c720f5460",
+      "original_sha256": "7a5647b152db04deadac4840c715d187f2c8472c7401219c7199000b90e3124d"
+    },
+    {
+      "offer_id": "stack",
+      "name": "Vault Stack",
+      "file": "stack.png",
+      "proposed_robux": 100,
+      "reward": "20000 game cash",
+      "width": 512,
+      "height": 512,
+      "sha256": "fd191da78da74f6010025be29a953207bf5b90274ca536a3d767fd115dbd00a3",
+      "original_sha256": "284cb178a0a319456905d09919924f237c83f35e8a8f7cb253f3a1e07f45196d"
+    },
+    {
+      "offer_id": "chest",
+      "name": "Treasure Chest",
+      "file": "chest.png",
+      "proposed_robux": 250,
+      "reward": "50000 game cash",
+      "width": 512,
+      "height": 512,
+      "sha256": "0a4141e7afb61f20b6499361581919d2d2900cb0f4ffb8795937704887429720",
+      "original_sha256": "e893b6ab712d314b6912246c9a6d4b9cb878a85203868268afaac56c11e8bad4"
+    },
+    {
+      "offer_id": "fortune",
+      "name": "Grand Fortune",
+      "file": "fortune.png",
+      "proposed_robux": 500,
+      "reward": "100000 game cash",
+      "width": 512,
+      "height": 512,
+      "sha256": "db8b3985b10b2e712e2d92f45ae0cb5d9db336fa13fbeb40000ba11a4eb55864",
+      "original_sha256": "3fe8f8db5b8603e9bd9ba3288d33bcadbc8b70a4dca662cb92743cf6ed2dde14"
+    },
+    {
+      "offer_id": "level_one",
+      "name": "One Base Level",
+      "file": "level_one.png",
+      "proposed_robux": 25,
+      "reward": "1 base levels",
+      "width": 512,
+      "height": 512,
+      "sha256": "20706b42c0190bb8152349655b346724aa4a1df21879fc52b23c477d59d50581",
+      "original_sha256": "65d8e4a5f914da6cc1cd650eeb5e0c33d795c70bef099805d12e5deefe17029a"
+    },
+    {
+      "offer_id": "level_five",
+      "name": "Five Base Levels",
+      "file": "level_five.png",
+      "proposed_robux": 100,
+      "reward": "5 base levels",
+      "width": 512,
+      "height": 512,
+      "sha256": "1bc36f2b478fc658c0505c7b4fb4ce0d1fa46fa4ebdb802b70a0fe3086f0f6b4",
+      "original_sha256": "30043992bacc3968e6603e1866ef09cf2e559cd1ed619a3dfbfcf345365a5295"
+    },
+    {
+      "offer_id": "unlock_dash",
+      "name": "Dash Unlock",
+      "file": "unlock_dash.png",
+      "proposed_robux": 2,
+      "reward": "dash power",
+      "width": 512,
+      "height": 512,
+      "sha256": "3667c93703750867ea18cd35663f674a95c6b0fb287be4d7c6055a4c386e9d02",
+      "original_sha256": "8c0ca0a0f599fc323ed452d8176e0c482780e641e28ca01df680603fadba4c2f"
+    },
+    {
+      "offer_id": "unlock_gravity",
+      "name": "Pull Unlock",
+      "file": "unlock_gravity.png",
+      "proposed_robux": 6,
+      "reward": "gravity power",
+      "width": 512,
+      "height": 512,
+      "sha256": "666e628609c60e1ace50a3007e8375a16e7b430e52831d4dfc9f40f94477e98b",
+      "original_sha256": "1cd90529ab4722394ae627bfa835160587f0bfe2bea48f0cc7883c9963837e01"
+    },
+    {
+      "offer_id": "unlock_slow",
+      "name": "Slow Field Unlock",
+      "file": "unlock_slow.png",
+      "proposed_robux": 8,
+      "reward": "slow power",
+      "width": 512,
+      "height": 512,
+      "sha256": "ef3c5d08310156fd7b6b4226b4d39d1cb0e3742b94a99e3208db479b361c19d0",
+      "original_sha256": "20d945a38a1eecd1014d259c3a71c327a1198a553720613b68c37d40d0e543d2"
+    },
+    {
+      "offer_id": "unlock_slam",
+      "name": "Ground Slam Unlock",
+      "file": "unlock_slam.png",
+      "proposed_robux": 25,
+      "reward": "slam power",
+      "width": 512,
+      "height": 512,
+      "sha256": "3e2f0e7ebbcb6a9be99168b0c0c96fbf55bb77e8b123417c298ad1363ca260dd",
+      "original_sha256": "1c3e9d76d959c92ad2d736e4141b9d9a46a8eab06efa6f093cd3f55e5530d43e"
+    },
+    {
+      "offer_id": "unlock_repulse",
+      "name": "Knockback Pulse Unlock",
+      "file": "unlock_repulse.png",
+      "proposed_robux": 70,
+      "reward": "repulse power",
+      "width": 512,
+      "height": 512,
+      "sha256": "2bca4191d838a21d2375ce22a861ccd601dc0fa2d6608beca1f77d9b860b7199",
+      "original_sha256": "661b7d6a260f2e2f7b5fc360d2630b543274475f34224edd8a9d8e517a03af5a"
+    },
+    {
+      "offer_id": "unlock_shield",
+      "name": "Force Field Shield Unlock",
+      "file": "unlock_shield.png",
+      "proposed_robux": 90,
+      "reward": "shield power",
+      "width": 512,
+      "height": 512,
+      "sha256": "f283cb0b17d64767a17b847c58000dc793787c5855ab53e01abf40893a3603ec",
+      "original_sha256": "c80c773b5e3a40ec63074a1dca63e19e2a2c73be595c636992bf12bd97e5bbef"
+    },
+    {
+      "offer_id": "unlock_lightning",
+      "name": "Lightning Strike Unlock",
+      "file": "unlock_lightning.png",
+      "proposed_robux": 325,
+      "reward": "lightning power",
+      "width": 512,
+      "height": 512,
+      "sha256": "fede222e9a73b5c766caf964efab541b0f6c997f49305e938a92d5efcd555f1c",
+      "original_sha256": "cc1217d773eb92e989d798de049beca770f9175c73501c64c8b2bf8df0287dfa"
+    },
+    {
+      "offer_id": "unlock_kiblast",
+      "name": "Ki Blast Unlock",
+      "file": "unlock_kiblast.png",
+      "proposed_robux": 325,
+      "reward": "kiblast power",
+      "width": 512,
+      "height": 512,
+      "sha256": "2f33e11545ff7b5f8b822a69461004b20a97117d58cb57de6c232bf0d37b3059",
+      "original_sha256": "b44d5536f2a33228ddb89822002a5423e8937ccef65214b602eb7955f55522bd"
+    },
+    {
+      "offer_id": "unlock_spinjitzu",
+      "name": "Spinjitzu Unlock",
+      "file": "unlock_spinjitzu.png",
+      "proposed_robux": 80,
+      "reward": "spinjitzu power",
+      "width": 512,
+      "height": 512,
+      "sha256": "e290c6cce327ca250fa7331040e17343abb3695e20e752e7b5b2f98e3527e7b2",
+      "original_sha256": "0dc53f96e5412da214c49540420bb48dcf833a7a4a2f7fe7ad8e8a0d853bca8f"
+    }
+  ],
+  "preview_sha256": "daea8a65afda262bfbb7569ba3a2b347def916c4a5a390fb525aea0ba3f74be1",
+  "published_to_roblox": false
+}

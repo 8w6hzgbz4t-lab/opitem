@@ -1,0 +1,42 @@
+{
+  "group": "combat",
+  "files": [
+    {
+      "offer_id": "unlock_slam",
+      "name": "Ground Slam",
+      "rank": 3,
+      "file": "unlock_slam.png",
+      "width": 512,
+      "height": 512,
+      "bytes": 713262,
+      "sha256": "3e2f0e7ebbcb6a9be99168b0c0c96fbf55bb77e8b123417c298ad1363ca260dd",
+      "original": "Originals/unlock_slam.png",
+      "original_sha256": "1c3e9d76d959c92ad2d736e4141b9d9a46a8eab06efa6f093cd3f55e5530d43e"
+    },
+    {
+      "offer_id": "unlock_repulse",
+      "name": "Knockback Pulse",
+      "rank": 4,
+      "file": "unlock_repulse.png",
+      "width": 512,
+      "height": 512,
+      "bytes": 690375,
+      "sha256": "2bca4191d838a21d2375ce22a861ccd601dc0fa2d6608beca1f77d9b860b7199",
+      "original": "Originals/unlock_repulse.png",
+      "original_sha256": "661b7d6a260f2e2f7b5fc360d2630b543274475f34224edd8a9d8e517a03af5a"
+    },
+    {
+      "offer_id": "unlock_shield",
+      "name": "Force Field Shield",
+      "rank": 4,
+      "file": "unlock_shield.png",
+      "width": 512,
+      "height": 512,
+      "bytes": 722885,
+      "sha256": "f283cb0b17d64767a17b847c58000dc793787c5855ab53e01abf40893a3603ec",
+      "original": "Originals/unlock_shield.png",
+      "original_sha256": "c80c773b5e3a40ec63074a1dca63e19e2a2c73be595c636992bf12bd97e5bbef"
+    }
+  ],
+  "roblox_uploaded": false
+}

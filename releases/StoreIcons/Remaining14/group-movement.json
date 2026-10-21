@@ -1,0 +1,43 @@
+{
+  "group": "movement",
+  "files": [
+    {
+      "offer_id": "unlock_dash",
+      "name": "Dash",
+      "rank": 1,
+      "file": "unlock_dash.png",
+      "width": 512,
+      "height": 512,
+      "bytes": 670382,
+      "sha256": "3667c93703750867ea18cd35663f674a95c6b0fb287be4d7c6055a4c386e9d02",
+      "original": "Originals/unlock_dash.png",
+      "original_sha256": "8c0ca0a0f599fc323ed452d8176e0c482780e641e28ca01df680603fadba4c2f"
+    },
+    {
+      "offer_id": "unlock_gravity",
+      "name": "Pull",
+      "rank": 2,
+      "file": "unlock_gravity.png",
+      "width": 512,
+      "height": 512,
+      "bytes": 673208,
+      "sha256": "666e628609c60e1ace50a3007e8375a16e7b430e52831d4dfc9f40f94477e98b",
+      "original": "Originals/unlock_gravity.png",
+      "original_sha256": "1cd90529ab4722394ae627bfa835160587f0bfe2bea48f0cc7883c9963837e01"
+    },
+    {
+      "offer_id": "unlock_slow",
+      "name": "Slow Field",
+      "rank": 2,
+      "file": "unlock_slow.png",
+      "width": 512,
+      "height": 512,
+      "bytes": 660726,
+      "sha256": "ef3c5d08310156fd7b6b4226b4d39d1cb0e3742b94a99e3208db479b361c19d0",
+      "original": "Originals/unlock_slow.png",
+      "original_sha256": "20d945a38a1eecd1014d259c3a71c327a1198a553720613b68c37d40d0e543d2"
+    }
+  ],
+  "generated_with_image_tool": true,
+  "roblox_uploaded": false
+}

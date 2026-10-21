@@ -1,0 +1,23 @@
+[
+  {
+    "offer_id": "stack",
+    "file": "stack.png",
+    "width": 512,
+    "height": 512,
+    "sha256": "fd191da78da74f6010025be29a953207bf5b90274ca536a3d767fd115dbd00a3"
+  },
+  {
+    "offer_id": "chest",
+    "file": "chest.png",
+    "width": 512,
+    "height": 512,
+    "sha256": "0a4141e7afb61f20b6499361581919d2d2900cb0f4ffb8795937704887429720"
+  },
+  {
+    "offer_id": "fortune",
+    "file": "fortune.png",
+    "width": 512,
+    "height": 512,
+    "sha256": "db8b3985b10b2e712e2d92f45ae0cb5d9db336fa13fbeb40000ba11a4eb55864"
+  }
+]

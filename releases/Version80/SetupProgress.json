@@ -1,0 +1,34 @@
+{
+  "status": "draft",
+  "baseline_version": 79,
+  "configured_product_ids": 1,
+  "total_product_offers": 15,
+  "checkout_enabled": false,
+  "music_audio_id": 0,
+  "products": {
+    "pocket": {
+      "name": "Pocket Cash",
+      "productId": 3720840251,
+      "robux": 25,
+      "cash": 5000,
+      "source": "User provided",
+      "verified_with_Roblox": false
+    }
+  },
+  "pending_offer_ids": [
+    "stack",
+    "chest",
+    "fortune",
+    "level_one",
+    "level_five",
+    "unlock_dash",
+    "unlock_gravity",
+    "unlock_slow",
+    "unlock_slam",
+    "unlock_repulse",
+    "unlock_shield",
+    "unlock_lightning",
+    "unlock_kiblast",
+    "unlock_spinjitzu"
+  ]
+}

@@ -6,6 +6,7 @@ Latest cloud build: **Version 79**, based on the preserved Version 78 place.
 - Editable source, game, tests and reports: `releases/Version79_SourceAndGame.zip`.
 - New icon, thumbnail and quick description: `releases/Version79_ArtAndDescription.zip`.
 - Revised Dragon Ball icon/collectible thumbnail, uploadable audio and beginner store/music guide: `releases/Version79_DragonBallArtworkAndSetup.zip` and `releases/Version79_ArtworkUpdate/STORE_AND_AUDIO_SETUP.md`. Gameplay stays V79; checkout remains off.
+- All 15 shop icons and copy-ready instructions for the remaining 14 Developer Products: `releases/StoreProducts_All15_IconsAndSetup.zip`. Pocket Cash ID `3720840251` is recorded in the incomplete `roblox/v80-game` configuration draft; checkout remains off and no V80 Studio release is built yet.
 - Changes and test results: `releases/Version79/README.md` and `validation-report.json`.
 - Before Play: `releases/Version78/LAUNCH_CHECKLIST.md`. Use a private test experience with DataStore access; Studio uses separate TEST stores. Failed loads never create a writable blank fallback.
 - Products/audio: `releases/Version78/PRODUCT_SETUP.md`, `ProductSetup.csv` and `releases/Version76/Audio/README.md`.

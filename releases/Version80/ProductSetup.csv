@@ -1,0 +1,16 @@
+offer_id,name,category,cash,levels,power,proposed_robux,developer_product_id
+pocket,Pocket Cash,cash,5000,,,25,3720840251
+stack,Vault Stack,cash,20000,,,100,0
+chest,Treasure Chest,cash,50000,,,250,0
+fortune,Grand Fortune,cash,100000,,,500,0
+level_one,One Base Level,levels,,1,,25,0
+level_five,Five Base Levels,levels,,5,,100,0
+unlock_dash,Dash Unlock,powers,,,dash,2,0
+unlock_gravity,Pull Unlock,powers,,,gravity,6,0
+unlock_slow,Slow Field Unlock,powers,,,slow,8,0
+unlock_slam,Ground Slam Unlock,powers,,,slam,25,0
+unlock_repulse,Knockback Pulse Unlock,powers,,,repulse,70,0
+unlock_shield,Force Field Shield Unlock,powers,,,shield,90,0
+unlock_lightning,Lightning Strike Unlock,powers,,,lightning,325,0
+unlock_kiblast,Ki Blast Unlock,powers,,,kiblast,325,0
+unlock_spinjitzu,Spinjitzu Unlock,powers,,,spinjitzu,80,0

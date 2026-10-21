@@ -1,0 +1,34 @@
+{
+  "group": "levels",
+  "created_with": "image_gen",
+  "icons": [
+    {
+      "offer_id": "level_one",
+      "name": "One Base Level",
+      "reward": "+1 base level",
+      "proposed_robux": 25,
+      "file": "level_one.png",
+      "width": 512,
+      "height": 512,
+      "bytes": 681105,
+      "sha256": "20706b42c0190bb8152349655b346724aa4a1df21879fc52b23c477d59d50581",
+      "original": "Originals/level_one.png",
+      "original_sha256": "65d8e4a5f914da6cc1cd650eeb5e0c33d795c70bef099805d12e5deefe17029a"
+    },
+    {
+      "offer_id": "level_five",
+      "name": "Five Base Levels",
+      "reward": "+5 base levels",
+      "proposed_robux": 100,
+      "file": "level_five.png",
+      "width": 512,
+      "height": 512,
+      "bytes": 678712,
+      "sha256": "1bc36f2b478fc658c0505c7b4fb4ce0d1fa46fa4ebdb802b70a0fe3086f0f6b4",
+      "original": "Originals/level_five.png",
+      "original_sha256": "30043992bacc3968e6603e1866ef09cf2e559cd1ed619a3dfbfcf345365a5295"
+    }
+  ],
+  "roblox_uploaded": false,
+  "checkout_changed": false
+}
