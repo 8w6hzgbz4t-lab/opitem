@@ -1,0 +1,17 @@
+{
+  "actual_module": "PowerEffects.lua",
+  "assertions": 3656,
+  "cleanup_verified": true,
+  "finite_noninteractive_geometry": true,
+  "global_part_budget": 120,
+  "normal_tornado_parts": 12,
+  "normal_warning_parts": 16,
+  "passed": true,
+  "reduced_effects_verified": true,
+  "studio_rendering_tested": false,
+  "source_hashes": {
+    "PowerEffects.lua": "3de1b83a24eb62b008101cf3b960c4f0f912fec84d0ed44e1d0c8974ef5f0a88"
+  },
+  "test_sha256": "bf4a5d9bcead7012af73c838e76c44abc27d830fe9b7bd7bdf0ebb683a924bd3",
+  "runner_sha256": "b0339ec7edc21f158d792876c6df4617a17feded92f80f567af0df53a1514513"
+}

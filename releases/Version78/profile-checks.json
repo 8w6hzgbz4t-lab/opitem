@@ -1,0 +1,29 @@
+{
+  "passed": true,
+  "assertions": 147,
+  "groups": [
+    "Confirmed-absent creation, opaque fields, defensive clones, exclusive locks, renew and final release",
+    "Load failures, invalid schemas and data never create a writable replacement; bounded retries",
+    "Budget gating, expired lease recovery and fencing against stale writers",
+    "Cash and receipt share one atomic profile write; acknowledged-late retry is idempotent",
+    "Ambiguous single-profile writes freeze writes until authoritative recovery",
+    "A lost creation acknowledgement never recreates an existing starter/profile",
+    "Two-profile ownership changes commit once, without duplicate items or extra participants",
+    "All twelve before/after cross-write crash boundaries recover complete ownership exactly once",
+    "Known preparation failures abort cleanly and preserve both original profiles",
+    "A committed journal cannot roll back after an ambiguous commit response",
+    "Committed transfers stay committed when finalization fails; only unresolved profiles block writes",
+    "Decision lease expiry prevents a stale coordinator from committing prepared profiles",
+    "Missing or mismatched recovery journals fail closed without replacing data",
+    "Repeated UpdateAsync callbacks and release retries preserve absolute snapshots and write IDs"
+  ],
+  "cross_profile_crash_boundaries_checked": 12,
+  "runtime": "Official Luau CLI executing production ProfileStore verbatim",
+  "source_hashes": {
+    "ProfileStore.lua": "1a50f9a0fdb9749305473a9654621ca0fa7b02991386809332b6ee559892e103",
+    "PersistenceConfig.lua": "3abed5ab7577e8ddfc2c65ec0b0395eef488df1b16f860351893753e4fd08545"
+  },
+  "test_sha256": "38cd032378803a0b538e787e72d1bc2d90882ec11b4cc1fb7f61e23200ebdfcf",
+  "runner_sha256": "31274ae6cc508dbcaede0c4f5dbf2b5d8d2f4c15ba02d48bf9bd61a72a404743",
+  "limitations": "Injected atomic DataStore API doubles; live DataStore availability, request budgets and Roblox shutdown timing require Studio/live verification."
+}

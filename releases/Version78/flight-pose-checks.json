@@ -1,0 +1,16 @@
+{
+  "actual_module": "FlightPose.lua",
+  "assertions": 138,
+  "passed": true,
+  "rigs": [
+    "R6",
+    "R15"
+  ],
+  "studio_physics_tested": false,
+  "source_hashes": {
+    "FlightPose.lua": "e69e070c235f3240a6ce8ce3187f33b426cd6403abb42680953bedc61234e08b",
+    "FlightPoseClient.lua": "90f095850ee403aa5a20866e3fcacadca8942746d3c934c6c22a5ac69eaab0cf",
+    "AdminService.lua": "79f3ed141d5a9011ddadb0089668e2f0bc0d10e17f17b32a2c8cc63adfe46e6e"
+  },
+  "test_sha256": "0b937095675fb38f34bfa16dd5755dabfda9495dcbc8713500f6ce9ae5af14f3"
+}

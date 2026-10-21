@@ -1,0 +1,29 @@
+{
+  "passed": true,
+  "assertions": 498,
+  "viewports": [
+    [
+      1280,
+      720
+    ],
+    [
+      375,
+      667
+    ],
+    [
+      812,
+      375
+    ],
+    [
+      320,
+      480
+    ]
+  ],
+  "runtime": "Official Luau CLI; actual Client HUD prefix and complete PhaseClient with GUI/event doubles",
+  "limitations": "Studio rendering, native touch controls, physics, live networking and decorative animation execution are not simulated.",
+  "sourceHashes": {
+    "Client.lua": "5564dda5f28108ad8325134d17dec13f7a515c8611acf171f606743dbe3cacb9",
+    "PhaseClient.lua": "9304bc2454ac4bac525460b6c74f2a6734263a26af2955a6717ef828071b65e8"
+  },
+  "testHash": "31e18e2f1f4f80cad49ae96a053be5f6de2fef55f4630fe8ca88879963f7a685"
+}

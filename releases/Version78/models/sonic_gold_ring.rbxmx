@@ -1,0 +1,4296 @@
+<?xml version='1.0' encoding='utf-8'?>
+<roblox version="4">
+  <External>null</External>
+  <External>nil</External>
+  <Item class="Model" referent="RBXPuzzleModel">
+    <Properties>
+      <string name="Name">Sonic's Golden Ring</string>
+      <Ref name="PrimaryPart">RBXPuzzlePart0</Ref>
+      <BinaryString name="AttributesSerialize">CwAAABEAAABBbmltYXRlZENoYXJhY3RlcgMACQAAAEFydFNvdXJjZQIRAAAATmF0aXZlUm9ibG94UGFydHMKAAAAQXJ0VmVyc2lvbgYAAAAAAMBSQAkAAABGcmFuY2hpc2UCEgAAAFNvbmljIHRoZSBIZWRnZWhvZwwAAABGcmVlTW9kZWxLZXkCDwAAAHNvbmljX2dvbGRfcmluZwQAAABLaW5kAg8AAABzb25pY19nb2xkX3JpbmcJAAAAUGFydENvdW50BgAAAAAAwF1AEwAAAFJlY29nbml6YWJsZUZlYXR1cmUCQQAAAE9wZW4gZ29sZGVuIHJpbmcgd2l0aCBwb2xpc2hlZCByb3VuZGVkIHR1YmUgYW5kIFNvbmljIGJsdWUgY3JhZGxlEQAAAFJlZmVyZW5jZVJlcXVpcmVkAwATAAAAUm91bmRlZFJpbmdTZWdtZW50cwYAAAAAAAA4QAwAAABUcnVlT3BlblJpbmcDAQ==</BinaryString>
+    </Properties>
+    <Item class="Part" referent="RBXPuzzlePart0">
+      <Properties>
+        <string name="Name">Root</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">false</bool>
+        <bool name="CanQuery">false</bool>
+        <bool name="CanTouch">false</bool>
+        <bool name="CastShadow">true</bool>
+        <token name="Material">272</token>
+        <token name="shape">1</token>
+        <token name="TopSurface">0</token>
+        <token name="BottomSurface">0</token>
+        <float name="Transparency">1</float>
+        <float name="Reflectance">0</float>
+        <Color3uint8 name="Color3uint8">4294967295</Color3uint8>
+        <Vector3 name="size">
+          <X>0.1</X>
+          <Y>0.1</Y>
+          <Z>0.1</Z>
+        </Vector3>
+        <CoordinateFrame name="CFrame">
+          <X>0</X>
+          <Y>0</Y>
+          <Z>0</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBXPuzzlePart1">
+      <Properties>
+        <string name="Name">RoundedGoldenRingSegment0</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">false</bool>
+        <bool name="CanQuery">false</bool>
+        <bool name="CanTouch">false</bool>
+        <bool name="CastShadow">true</bool>
+        <token name="Material">1088</token>
+        <token name="shape">2</token>
+        <token name="TopSurface">0</token>
+        <token name="BottomSurface">0</token>
+        <float name="Transparency">0</float>
+        <float name="Reflectance">0.12</float>
+        <Color3uint8 name="Color3uint8">4294959478</Color3uint8>
+        <Vector3 name="size">
+          <X>0.419631195882</X>
+          <Y>0.45</Y>
+          <Z>0.45</Z>
+        </Vector3>
+        <CoordinateFrame name="CFrame">
+          <X>1.52359251537</X>
+          <Y>2.67058475995</Y>
+          <Z>0</Z>
+          <R00>-0.13052619222</R00>
+          <R01>0.991444861374</R01>
+          <R02>0</R02>
+          <R10>0.991444861374</R10>
+          <R11>0.13052619222</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>-1</R22>
+        </CoordinateFrame>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBXPuzzlePart2">
+      <Properties>
+        <string name="Name">RoundedRingJoint0</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">false</bool>
+        <bool name="CanQuery">false</bool>
+        <bool name="CanTouch">false</bool>
+        <bool name="CastShadow">true</bool>
+        <token name="Material">1088</token>
+        <token name="shape">0</token>
+        <token name="TopSurface">0</token>
+        <token name="BottomSurface">0</token>
+        <float name="Transparency">0</float>
+        <float name="Reflectance">0</float>
+        <Color3uint8 name="Color3uint8">4293241381</Color3uint8>
+        <Vector3 name="size">
+          <X>0.44</X>
+          <Y>0.44</Y>
+          <Z>0.44</Z>
+        </Vector3>
+        <CoordinateFrame name="CFrame">
+          <X>1.55</X>
+          <Y>2.47</Y>
+          <Z>0</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBXPuzzlePart3">
+      <Properties>
+        <string name="Name">RoundedGoldenRingSegment1</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">false</bool>
+        <bool name="CanQuery">false</bool>
+        <bool name="CanTouch">false</bool>
+        <bool name="CastShadow">true</bool>
+        <token name="Material">1088</token>
+        <token name="shape">2</token>
+        <token name="TopSurface">0</token>
+        <token name="BottomSurface">0</token>
+        <float name="Transparency">0</float>
+        <float name="Reflectance">0.12</float>
+        <Color3uint8 name="Color3uint8">4293241381</Color3uint8>
+        <Vector3 name="size">
+          <X>0.419631195882</X>
+          <Y>0.45</Y>
+          <Z>0.45</Z>
+        </Vector3>
+        <CoordinateFrame name="CFrame">
+          <X>1.41976220331</X>
+          <Y>3.05808475995</Y>
+          <Z>0</Z>
+          <R00>-0.382683432365</R00>
+          <R01>0.923879532511</R01>
+          <R02>0</R02>
+          <R10>0.923879532511</R10>
+          <R11>0.382683432365</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>-1</R22>
+        </CoordinateFrame>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBXPuzzlePart4">
+      <Properties>
+        <string name="Name">RoundedRingJoint1</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">false</bool>
+        <bool name="CanQuery">false</bool>
+        <bool name="CanTouch">false</bool>
+        <bool name="CastShadow">true</bool>
+        <token name="Material">1088</token>
+        <token name="shape">0</token>
+        <token name="TopSurface">0</token>
+        <token name="BottomSurface">0</token>
+        <float name="Transparency">0</float>
+        <float name="Reflectance">0</float>
+        <Color3uint8 name="Color3uint8">4293241381</Color3uint8>
+        <Vector3 name="size">
+          <X>0.44</X>
+          <Y>0.44</Y>
+          <Z>0.44</Z>
+        </Vector3>
+        <CoordinateFrame name="CFrame">
+          <X>1.49718503075</X>
+          <Y>2.87116951991</Y>
+          <Z>0</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBXPuzzlePart5">
+      <Properties>
+        <string name="Name">RoundedGoldenRingSegment2</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">false</bool>
+        <bool name="CanQuery">false</bool>
+        <bool name="CanTouch">false</bool>
+        <bool name="CastShadow">true</bool>
+        <token name="Material">1088</token>
+        <token name="shape">2</token>
+        <token name="TopSurface">0</token>
+        <token name="BottomSurface">0</token>
+        <float name="Transparency">0</float>
+        <float name="Reflectance">0.12</float>
+        <Color3uint8 name="Color3uint8">4293241381</Color3uint8>
+        <Vector3 name="size">
+          <X>0.419631195882</X>
+          <Y>0.45</Y>
+          <Z>0.45</Z>
+        </Vector3>
+        <CoordinateFrame name="CFrame">
+          <X>1.21917744335</X>
+          <Y>3.40550775542</Y>
+          <Z>0</Z>
+          <R00>-0.608761429009</R00>
+          <R01>0.793353340291</R01>
+          <R02>0</R02>
+          <R10>0.793353340291</R10>
+          <R11>0.608761429009</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>-1</R22>
+        </CoordinateFrame>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBXPuzzlePart6">
+      <Properties>
+        <string name="Name">RoundedRingJoint2</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">false</bool>
+        <bool name="CanQuery">false</bool>
+        <bool name="CanTouch">false</bool>
+        <bool name="CastShadow">true</bool>
+        <token name="Material">1088</token>
+        <token name="shape">0</token>
+        <token name="TopSurface">0</token>
+        <token name="BottomSurface">0</token>
+        <float name="Transparency">0</float>
+        <float name="Reflectance">0</float>
+        <Color3uint8 name="Color3uint8">4293241381</Color3uint8>
+        <Vector3 name="size">
+          <X>0.44</X>
+          <Y>0.44</Y>
+          <Z>0.44</Z>
+        </Vector3>
+        <CoordinateFrame name="CFrame">
+          <X>1.34233937587</X>
+          <Y>3.245</Y>
+          <Z>0</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBXPuzzlePart7">
+      <Properties>
+        <string name="Name">RoundedGoldenRingSegment3</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">false</bool>
+        <bool name="CanQuery">false</bool>
+        <bool name="CanTouch">false</bool>
+        <bool name="CastShadow">true</bool>
+        <token name="Material">1088</token>
+        <token name="shape">2</token>
+        <token name="TopSurface">0</token>
+        <token name="BottomSurface">0</token>
+        <float name="Transparency">0</float>
+        <float name="Reflectance">0.12</float>
+        <Color3uint8 name="Color3uint8">4293241381</Color3uint8>
+        <Vector3 name="size">
+          <X>0.419631195882</X>
+          <Y>0.45</Y>
+          <Z>0.45</Z>
+        </Vector3>
+        <CoordinateFrame name="CFrame">
+          <X>0.93550775542</X>
+          <Y>3.68917744335</Y>
+          <Z>0</Z>
+          <R00>-0.793353340291</R00>
+          <R01>0.608761429009</R01>
+          <R02>0</R02>
+          <R10>0.608761429009</R10>
+          <R11>0.793353340291</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>-1</R22>
+        </CoordinateFrame>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBXPuzzlePart8">
+      <Properties>
+        <string name="Name">RoundedRingJoint3</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">false</bool>
+        <bool name="CanQuery">false</bool>
+        <bool name="CanTouch">false</bool>
+        <bool name="CastShadow">true</bool>
+        <token name="Material">1088</token>
+        <token name="shape">0</token>
+        <token name="TopSurface">0</token>
+        <token name="BottomSurface">0</token>
+        <float name="Transparency">0</float>
+        <float name="Reflectance">0</float>
+        <Color3uint8 name="Color3uint8">4293241381</Color3uint8>
+        <Vector3 name="size">
+          <X>0.44</X>
+          <Y>0.44</Y>
+          <Z>0.44</Z>
+        </Vector3>
+        <CoordinateFrame name="CFrame">
+          <X>1.09601551084</X>
+          <Y>3.56601551084</Y>
+          <Z>0</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBXPuzzlePart9">
+      <Properties>
+        <string name="Name">RoundedGoldenRingSegment4</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">false</bool>
+        <bool name="CanQuery">false</bool>
+        <bool name="CanTouch">false</bool>
+        <bool name="CastShadow">true</bool>
+        <token name="Material">1088</token>
+        <token name="shape">2</token>
+        <token name="TopSurface">0</token>
+        <token name="BottomSurface">0</token>
+        <float name="Transparency">0</float>
+        <float name="Reflectance">0.12</float>
+        <Color3uint8 name="Color3uint8">4294959478</Color3uint8>
+        <Vector3 name="size">
+          <X>0.419631195882</X>
+          <Y>0.45</Y>
+          <Z>0.45</Z>
+        </Vector3>
+        <CoordinateFrame name="CFrame">
+          <X>0.588084759954</X>
+          <Y>3.88976220331</Y>
+          <Z>0</Z>
+          <R00>-0.923879532511</R00>
+          <R01>0.382683432365</R01>
+          <R02>0</R02>
+          <R10>0.382683432365</R10>
+          <R11>0.923879532511</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>-1</R22>
+        </CoordinateFrame>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBXPuzzlePart10">
+      <Properties>
+        <string name="Name">RoundedRingJoint4</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">false</bool>
+        <bool name="CanQuery">false</bool>
+        <bool name="CanTouch">false</bool>
+        <bool name="CastShadow">true</bool>
+        <token name="Material">1088</token>
+        <token name="shape">0</token>
+        <token name="TopSurface">0</token>
+        <token name="BottomSurface">0</token>
+        <float name="Transparency">0</float>
+        <float name="Reflectance">0</float>
+        <Color3uint8 name="Color3uint8">4293241381</Color3uint8>
+        <Vector3 name="size">
+          <X>0.44</X>
+          <Y>0.44</Y>
+          <Z>0.44</Z>
+        </Vector3>
+        <CoordinateFrame name="CFrame">
+          <X>0.775</X>
+          <Y>3.81233937587</Y>
+          <Z>0</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBXPuzzlePart11">
+      <Properties>
+        <string name="Name">RoundedGoldenRingSegment5</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">false</bool>
+        <bool name="CanQuery">false</bool>
+        <bool name="CanTouch">false</bool>
+        <bool name="CastShadow">true</bool>
+        <token name="Material">1088</token>
+        <token name="shape">2</token>
+        <token name="TopSurface">0</token>
+        <token name="BottomSurface">0</token>
+        <float name="Transparency">0</float>
+        <float name="Reflectance">0.12</float>
+        <Color3uint8 name="Color3uint8">4293241381</Color3uint8>
+        <Vector3 name="size">
+          <X>0.419631195882</X>
+          <Y>0.45</Y>
+          <Z>0.45</Z>
+        </Vector3>
+        <CoordinateFrame name="CFrame">
+          <X>0.200584759954</X>
+          <Y>3.99359251537</Y>
+          <Z>0</Z>
+          <R00>-0.991444861374</R00>
+          <R01>0.13052619222</R01>
+          <R02>0</R02>
+          <R10>0.13052619222</R10>
+          <R11>0.991444861374</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>-1</R22>
+        </CoordinateFrame>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBXPuzzlePart12">
+      <Properties>
+        <string name="Name">RoundedRingJoint5</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">false</bool>
+        <bool name="CanQuery">false</bool>
+        <bool name="CanTouch">false</bool>
+        <bool name="CastShadow">true</bool>
+        <token name="Material">1088</token>
+        <token name="shape">0</token>
+        <token name="TopSurface">0</token>
+        <token name="BottomSurface">0</token>
+        <float name="Transparency">0</float>
+        <float name="Reflectance">0</float>
+        <Color3uint8 name="Color3uint8">4293241381</Color3uint8>
+        <Vector3 name="size">
+          <X>0.44</X>
+          <Y>0.44</Y>
+          <Z>0.44</Z>
+        </Vector3>
+        <CoordinateFrame name="CFrame">
+          <X>0.401169519909</X>
+          <Y>3.96718503075</Y>
+          <Z>0</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBXPuzzlePart13">
+      <Properties>
+        <string name="Name">RoundedGoldenRingSegment6</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">false</bool>
+        <bool name="CanQuery">false</bool>
+        <bool name="CanTouch">false</bool>
+        <bool name="CastShadow">true</bool>
+        <token name="Material">1088</token>
+        <token name="shape">2</token>
+        <token name="TopSurface">0</token>
+        <token name="BottomSurface">0</token>
+        <float name="Transparency">0</float>
+        <float name="Reflectance">0.12</float>
+        <Color3uint8 name="Color3uint8">4293241381</Color3uint8>
+        <Vector3 name="size">
+          <X>0.419631195882</X>
+          <Y>0.45</Y>
+          <Z>0.45</Z>
+        </Vector3>
+        <CoordinateFrame name="CFrame">
+          <X>-0.200584759954</X>
+          <Y>3.99359251537</Y>
+          <Z>0</Z>
+          <R00>-0.991444861374</R00>
+          <R01>-0.13052619222</R01>
+          <R02>0</R02>
+          <R10>-0.13052619222</R10>
+          <R11>0.991444861374</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>-1</R22>
+        </CoordinateFrame>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBXPuzzlePart14">
+      <Properties>
+        <string name="Name">RoundedRingJoint6</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">false</bool>
+        <bool name="CanQuery">false</bool>
+        <bool name="CanTouch">false</bool>
+        <bool name="CastShadow">true</bool>
+        <token name="Material">1088</token>
+        <token name="shape">0</token>
+        <token name="TopSurface">0</token>
+        <token name="BottomSurface">0</token>
+        <float name="Transparency">0</float>
+        <float name="Reflectance">0</float>
+        <Color3uint8 name="Color3uint8">4293241381</Color3uint8>
+        <Vector3 name="size">
+          <X>0.44</X>
+          <Y>0.44</Y>
+          <Z>0.44</Z>
+        </Vector3>
+        <CoordinateFrame name="CFrame">
+          <X>9.49101269339e-17</X>
+          <Y>4.02</Y>
+          <Z>0</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBXPuzzlePart15">
+      <Properties>
+        <string name="Name">RoundedGoldenRingSegment7</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">false</bool>
+        <bool name="CanQuery">false</bool>
+        <bool name="CanTouch">false</bool>
+        <bool name="CastShadow">true</bool>
+        <token name="Material">1088</token>
+        <token name="shape">2</token>
+        <token name="TopSurface">0</token>
+        <token name="BottomSurface">0</token>
+        <float name="Transparency">0</float>
+        <float name="Reflectance">0.12</float>
+        <Color3uint8 name="Color3uint8">4293241381</Color3uint8>
+        <Vector3 name="size">
+          <X>0.419631195882</X>
+          <Y>0.45</Y>
+          <Z>0.45</Z>
+        </Vector3>
+        <CoordinateFrame name="CFrame">
+          <X>-0.588084759954</X>
+          <Y>3.88976220331</Y>
+          <Z>0</Z>
+          <R00>-0.923879532511</R00>
+          <R01>-0.382683432365</R01>
+          <R02>0</R02>
+          <R10>-0.382683432365</R10>
+          <R11>0.923879532511</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>-1</R22>
+        </CoordinateFrame>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBXPuzzlePart16">
+      <Properties>
+        <string name="Name">RoundedRingJoint7</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">false</bool>
+        <bool name="CanQuery">false</bool>
+        <bool name="CanTouch">false</bool>
+        <bool name="CastShadow">true</bool>
+        <token name="Material">1088</token>
+        <token name="shape">0</token>
+        <token name="TopSurface">0</token>
+        <token name="BottomSurface">0</token>
+        <float name="Transparency">0</float>
+        <float name="Reflectance">0</float>
+        <Color3uint8 name="Color3uint8">4293241381</Color3uint8>
+        <Vector3 name="size">
+          <X>0.44</X>
+          <Y>0.44</Y>
+          <Z>0.44</Z>
+        </Vector3>
+        <CoordinateFrame name="CFrame">
+          <X>-0.401169519909</X>
+          <Y>3.96718503075</Y>
+          <Z>0</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBXPuzzlePart17">
+      <Properties>
+        <string name="Name">RoundedGoldenRingSegment8</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">false</bool>
+        <bool name="CanQuery">false</bool>
+        <bool name="CanTouch">false</bool>
+        <bool name="CastShadow">true</bool>
+        <token name="Material">1088</token>
+        <token name="shape">2</token>
+        <token name="TopSurface">0</token>
+        <token name="BottomSurface">0</token>
+        <float name="Transparency">0</float>
+        <float name="Reflectance">0.12</float>
+        <Color3uint8 name="Color3uint8">4294959478</Color3uint8>
+        <Vector3 name="size">
+          <X>0.419631195882</X>
+          <Y>0.45</Y>
+          <Z>0.45</Z>
+        </Vector3>
+        <CoordinateFrame name="CFrame">
+          <X>-0.93550775542</X>
+          <Y>3.68917744335</Y>
+          <Z>0</Z>
+          <R00>-0.793353340291</R00>
+          <R01>-0.608761429009</R01>
+          <R02>0</R02>
+          <R10>-0.608761429009</R10>
+          <R11>0.793353340291</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>-1</R22>
+        </CoordinateFrame>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBXPuzzlePart18">
+      <Properties>
+        <string name="Name">RoundedRingJoint8</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">false</bool>
+        <bool name="CanQuery">false</bool>
+        <bool name="CanTouch">false</bool>
+        <bool name="CastShadow">true</bool>
+        <token name="Material">1088</token>
+        <token name="shape">0</token>
+        <token name="TopSurface">0</token>
+        <token name="BottomSurface">0</token>
+        <float name="Transparency">0</float>
+        <float name="Reflectance">0</float>
+        <Color3uint8 name="Color3uint8">4293241381</Color3uint8>
+        <Vector3 name="size">
+          <X>0.44</X>
+          <Y>0.44</Y>
+          <Z>0.44</Z>
+        </Vector3>
+        <CoordinateFrame name="CFrame">
+          <X>-0.775</X>
+          <Y>3.81233937587</Y>
+          <Z>0</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBXPuzzlePart19">
+      <Properties>
+        <string name="Name">RoundedGoldenRingSegment9</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">false</bool>
+        <bool name="CanQuery">false</bool>
+        <bool name="CanTouch">false</bool>
+        <bool name="CastShadow">true</bool>
+        <token name="Material">1088</token>
+        <token name="shape">2</token>
+        <token name="TopSurface">0</token>
+        <token name="BottomSurface">0</token>
+        <float name="Transparency">0</float>
+        <float name="Reflectance">0.12</float>
+        <Color3uint8 name="Color3uint8">4293241381</Color3uint8>
+        <Vector3 name="size">
+          <X>0.419631195882</X>
+          <Y>0.45</Y>
+          <Z>0.45</Z>
+        </Vector3>
+        <CoordinateFrame name="CFrame">
+          <X>-1.21917744335</X>
+          <Y>3.40550775542</Y>
+          <Z>0</Z>
+          <R00>-0.608761429009</R00>
+          <R01>-0.793353340291</R01>
+          <R02>0</R02>
+          <R10>-0.793353340291</R10>
+          <R11>0.608761429009</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>-1</R22>
+        </CoordinateFrame>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBXPuzzlePart20">
+      <Properties>
+        <string name="Name">RoundedRingJoint9</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">false</bool>
+        <bool name="CanQuery">false</bool>
+        <bool name="CanTouch">false</bool>
+        <bool name="CastShadow">true</bool>
+        <token name="Material">1088</token>
+        <token name="shape">0</token>
+        <token name="TopSurface">0</token>
+        <token name="BottomSurface">0</token>
+        <float name="Transparency">0</float>
+        <float name="Reflectance">0</float>
+        <Color3uint8 name="Color3uint8">4293241381</Color3uint8>
+        <Vector3 name="size">
+          <X>0.44</X>
+          <Y>0.44</Y>
+          <Z>0.44</Z>
+        </Vector3>
+        <CoordinateFrame name="CFrame">
+          <X>-1.09601551084</X>
+          <Y>3.56601551084</Y>
+          <Z>0</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBXPuzzlePart21">
+      <Properties>
+        <string name="Name">RoundedGoldenRingSegment10</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">false</bool>
+        <bool name="CanQuery">false</bool>
+        <bool name="CanTouch">false</bool>
+        <bool name="CastShadow">true</bool>
+        <token name="Material">1088</token>
+        <token name="shape">2</token>
+        <token name="TopSurface">0</token>
+        <token name="BottomSurface">0</token>
+        <float name="Transparency">0</float>
+        <float name="Reflectance">0.12</float>
+        <Color3uint8 name="Color3uint8">4293241381</Color3uint8>
+        <Vector3 name="size">
+          <X>0.419631195882</X>
+          <Y>0.45</Y>
+          <Z>0.45</Z>
+        </Vector3>
+        <CoordinateFrame name="CFrame">
+          <X>-1.41976220331</X>
+          <Y>3.05808475995</Y>
+          <Z>0</Z>
+          <R00>-0.382683432365</R00>
+          <R01>-0.923879532511</R01>
+          <R02>0</R02>
+          <R10>-0.923879532511</R10>
+          <R11>0.382683432365</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>-1</R22>
+        </CoordinateFrame>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBXPuzzlePart22">
+      <Properties>
+        <string name="Name">RoundedRingJoint10</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">false</bool>
+        <bool name="CanQuery">false</bool>
+        <bool name="CanTouch">false</bool>
+        <bool name="CastShadow">true</bool>
+        <token name="Material">1088</token>
+        <token name="shape">0</token>
+        <token name="TopSurface">0</token>
+        <token name="BottomSurface">0</token>
+        <float name="Transparency">0</float>
+        <float name="Reflectance">0</float>
+        <Color3uint8 name="Color3uint8">4293241381</Color3uint8>
+        <Vector3 name="size">
+          <X>0.44</X>
+          <Y>0.44</Y>
+          <Z>0.44</Z>
+        </Vector3>
+        <CoordinateFrame name="CFrame">
+          <X>-1.34233937587</X>
+          <Y>3.245</Y>
+          <Z>0</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBXPuzzlePart23">
+      <Properties>
+        <string name="Name">RoundedGoldenRingSegment11</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">false</bool>
+        <bool name="CanQuery">false</bool>
+        <bool name="CanTouch">false</bool>
+        <bool name="CastShadow">true</bool>
+        <token name="Material">1088</token>
+        <token name="shape">2</token>
+        <token name="TopSurface">0</token>
+        <token name="BottomSurface">0</token>
+        <float name="Transparency">0</float>
+        <float name="Reflectance">0.12</float>
+        <Color3uint8 name="Color3uint8">4293241381</Color3uint8>
+        <Vector3 name="size">
+          <X>0.419631195882</X>
+          <Y>0.45</Y>
+          <Z>0.45</Z>
+        </Vector3>
+        <CoordinateFrame name="CFrame">
+          <X>-1.52359251537</X>
+          <Y>2.67058475995</Y>
+          <Z>0</Z>
+          <R00>-0.13052619222</R00>
+          <R01>-0.991444861374</R01>
+          <R02>0</R02>
+          <R10>-0.991444861374</R10>
+          <R11>0.13052619222</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>-1</R22>
+        </CoordinateFrame>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBXPuzzlePart24">
+      <Properties>
+        <string name="Name">RoundedRingJoint11</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">false</bool>
+        <bool name="CanQuery">false</bool>
+        <bool name="CanTouch">false</bool>
+        <bool name="CastShadow">true</bool>
+        <token name="Material">1088</token>
+        <token name="shape">0</token>
+        <token name="TopSurface">0</token>
+        <token name="BottomSurface">0</token>
+        <float name="Transparency">0</float>
+        <float name="Reflectance">0</float>
+        <Color3uint8 name="Color3uint8">4293241381</Color3uint8>
+        <Vector3 name="size">
+          <X>0.44</X>
+          <Y>0.44</Y>
+          <Z>0.44</Z>
+        </Vector3>
+        <CoordinateFrame name="CFrame">
+          <X>-1.49718503075</X>
+          <Y>2.87116951991</Y>
+          <Z>0</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBXPuzzlePart25">
+      <Properties>
+        <string name="Name">RoundedGoldenRingSegment12</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">false</bool>
+        <bool name="CanQuery">false</bool>
+        <bool name="CanTouch">false</bool>
+        <bool name="CastShadow">true</bool>
+        <token name="Material">1088</token>
+        <token name="shape">2</token>
+        <token name="TopSurface">0</token>
+        <token name="BottomSurface">0</token>
+        <float name="Transparency">0</float>
+        <float name="Reflectance">0.12</float>
+        <Color3uint8 name="Color3uint8">4294959478</Color3uint8>
+        <Vector3 name="size">
+          <X>0.419631195882</X>
+          <Y>0.45</Y>
+          <Z>0.45</Z>
+        </Vector3>
+        <CoordinateFrame name="CFrame">
+          <X>-1.52359251537</X>
+          <Y>2.26941524005</Y>
+          <Z>0</Z>
+          <R00>0.13052619222</R00>
+          <R01>-0.991444861374</R01>
+          <R02>0</R02>
+          <R10>-0.991444861374</R10>
+          <R11>-0.13052619222</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>-1</R22>
+        </CoordinateFrame>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBXPuzzlePart26">
+      <Properties>
+        <string name="Name">RoundedRingJoint12</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">false</bool>
+        <bool name="CanQuery">false</bool>
+        <bool name="CanTouch">false</bool>
+        <bool name="CastShadow">true</bool>
+        <token name="Material">1088</token>
+        <token name="shape">0</token>
+        <token name="TopSurface">0</token>
+        <token name="BottomSurface">0</token>
+        <float name="Transparency">0</float>
+        <float name="Reflectance">0</float>
+        <Color3uint8 name="Color3uint8">4293241381</Color3uint8>
+        <Vector3 name="size">
+          <X>0.44</X>
+          <Y>0.44</Y>
+          <Z>0.44</Z>
+        </Vector3>
+        <CoordinateFrame name="CFrame">
+          <X>-1.55</X>
+          <Y>2.47</Y>
+          <Z>0</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBXPuzzlePart27">
+      <Properties>
+        <string name="Name">RoundedGoldenRingSegment13</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">false</bool>
+        <bool name="CanQuery">false</bool>
+        <bool name="CanTouch">false</bool>
+        <bool name="CastShadow">true</bool>
+        <token name="Material">1088</token>
+        <token name="shape">2</token>
+        <token name="TopSurface">0</token>
+        <token name="BottomSurface">0</token>
+        <float name="Transparency">0</float>
+        <float name="Reflectance">0.12</float>
+        <Color3uint8 name="Color3uint8">4293241381</Color3uint8>
+        <Vector3 name="size">
+          <X>0.419631195882</X>
+          <Y>0.45</Y>
+          <Z>0.45</Z>
+        </Vector3>
+        <CoordinateFrame name="CFrame">
+          <X>-1.41976220331</X>
+          <Y>1.88191524005</Y>
+          <Z>0</Z>
+          <R00>0.382683432365</R00>
+          <R01>-0.923879532511</R01>
+          <R02>0</R02>
+          <R10>-0.923879532511</R10>
+          <R11>-0.382683432365</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>-1</R22>
+        </CoordinateFrame>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBXPuzzlePart28">
+      <Properties>
+        <string name="Name">RoundedRingJoint13</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">false</bool>
+        <bool name="CanQuery">false</bool>
+        <bool name="CanTouch">false</bool>
+        <bool name="CastShadow">true</bool>
+        <token name="Material">1088</token>
+        <token name="shape">0</token>
+        <token name="TopSurface">0</token>
+        <token name="BottomSurface">0</token>
+        <float name="Transparency">0</float>
+        <float name="Reflectance">0</float>
+        <Color3uint8 name="Color3uint8">4293241381</Color3uint8>
+        <Vector3 name="size">
+          <X>0.44</X>
+          <Y>0.44</Y>
+          <Z>0.44</Z>
+        </Vector3>
+        <CoordinateFrame name="CFrame">
+          <X>-1.49718503075</X>
+          <Y>2.06883048009</Y>
+          <Z>0</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBXPuzzlePart29">
+      <Properties>
+        <string name="Name">RoundedGoldenRingSegment14</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">false</bool>
+        <bool name="CanQuery">false</bool>
+        <bool name="CanTouch">false</bool>
+        <bool name="CastShadow">true</bool>
+        <token name="Material">1088</token>
+        <token name="shape">2</token>
+        <token name="TopSurface">0</token>
+        <token name="BottomSurface">0</token>
+        <float name="Transparency">0</float>
+        <float name="Reflectance">0.12</float>
+        <Color3uint8 name="Color3uint8">4293241381</Color3uint8>
+        <Vector3 name="size">
+          <X>0.419631195882</X>
+          <Y>0.45</Y>
+          <Z>0.45</Z>
+        </Vector3>
+        <CoordinateFrame name="CFrame">
+          <X>-1.21917744335</X>
+          <Y>1.53449224458</Y>
+          <Z>0</Z>
+          <R00>0.608761429009</R00>
+          <R01>-0.793353340291</R01>
+          <R02>0</R02>
+          <R10>-0.793353340291</R10>
+          <R11>-0.608761429009</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>-1</R22>
+        </CoordinateFrame>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBXPuzzlePart30">
+      <Properties>
+        <string name="Name">RoundedRingJoint14</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">false</bool>
+        <bool name="CanQuery">false</bool>
+        <bool name="CanTouch">false</bool>
+        <bool name="CastShadow">true</bool>
+        <token name="Material">1088</token>
+        <token name="shape">0</token>
+        <token name="TopSurface">0</token>
+        <token name="BottomSurface">0</token>
+        <float name="Transparency">0</float>
+        <float name="Reflectance">0</float>
+        <Color3uint8 name="Color3uint8">4293241381</Color3uint8>
+        <Vector3 name="size">
+          <X>0.44</X>
+          <Y>0.44</Y>
+          <Z>0.44</Z>
+        </Vector3>
+        <CoordinateFrame name="CFrame">
+          <X>-1.34233937587</X>
+          <Y>1.695</Y>
+          <Z>0</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBXPuzzlePart31">
+      <Properties>
+        <string name="Name">RoundedGoldenRingSegment15</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">false</bool>
+        <bool name="CanQuery">false</bool>
+        <bool name="CanTouch">false</bool>
+        <bool name="CastShadow">true</bool>
+        <token name="Material">1088</token>
+        <token name="shape">2</token>
+        <token name="TopSurface">0</token>
+        <token name="BottomSurface">0</token>
+        <float name="Transparency">0</float>
+        <float name="Reflectance">0.12</float>
+        <Color3uint8 name="Color3uint8">4293241381</Color3uint8>
+        <Vector3 name="size">
+          <X>0.419631195882</X>
+          <Y>0.45</Y>
+          <Z>0.45</Z>
+        </Vector3>
+        <CoordinateFrame name="CFrame">
+          <X>-0.93550775542</X>
+          <Y>1.25082255665</Y>
+          <Z>0</Z>
+          <R00>0.793353340291</R00>
+          <R01>-0.608761429009</R01>
+          <R02>0</R02>
+          <R10>-0.608761429009</R10>
+          <R11>-0.793353340291</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>-1</R22>
+        </CoordinateFrame>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBXPuzzlePart32">
+      <Properties>
+        <string name="Name">RoundedRingJoint15</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">false</bool>
+        <bool name="CanQuery">false</bool>
+        <bool name="CanTouch">false</bool>
+        <bool name="CastShadow">true</bool>
+        <token name="Material">1088</token>
+        <token name="shape">0</token>
+        <token name="TopSurface">0</token>
+        <token name="BottomSurface">0</token>
+        <float name="Transparency">0</float>
+        <float name="Reflectance">0</float>
+        <Color3uint8 name="Color3uint8">4293241381</Color3uint8>
+        <Vector3 name="size">
+          <X>0.44</X>
+          <Y>0.44</Y>
+          <Z>0.44</Z>
+        </Vector3>
+        <CoordinateFrame name="CFrame">
+          <X>-1.09601551084</X>
+          <Y>1.37398448916</Y>
+          <Z>0</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBXPuzzlePart33">
+      <Properties>
+        <string name="Name">RoundedGoldenRingSegment16</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">false</bool>
+        <bool name="CanQuery">false</bool>
+        <bool name="CanTouch">false</bool>
+        <bool name="CastShadow">true</bool>
+        <token name="Material">1088</token>
+        <token name="shape">2</token>
+        <token name="TopSurface">0</token>
+        <token name="BottomSurface">0</token>
+        <float name="Transparency">0</float>
+        <float name="Reflectance">0.12</float>
+        <Color3uint8 name="Color3uint8">4294959478</Color3uint8>
+        <Vector3 name="size">
+          <X>0.419631195882</X>
+          <Y>0.45</Y>
+          <Z>0.45</Z>
+        </Vector3>
+        <CoordinateFrame name="CFrame">
+          <X>-0.588084759954</X>
+          <Y>1.05023779669</Y>
+          <Z>0</Z>
+          <R00>0.923879532511</R00>
+          <R01>-0.382683432365</R01>
+          <R02>0</R02>
+          <R10>-0.382683432365</R10>
+          <R11>-0.923879532511</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>-1</R22>
+        </CoordinateFrame>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBXPuzzlePart34">
+      <Properties>
+        <string name="Name">RoundedRingJoint16</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">false</bool>
+        <bool name="CanQuery">false</bool>
+        <bool name="CanTouch">false</bool>
+        <bool name="CastShadow">true</bool>
+        <token name="Material">1088</token>
+        <token name="shape">0</token>
+        <token name="TopSurface">0</token>
+        <token name="BottomSurface">0</token>
+        <float name="Transparency">0</float>
+        <float name="Reflectance">0</float>
+        <Color3uint8 name="Color3uint8">4293241381</Color3uint8>
+        <Vector3 name="size">
+          <X>0.44</X>
+          <Y>0.44</Y>
+          <Z>0.44</Z>
+        </Vector3>
+        <CoordinateFrame name="CFrame">
+          <X>-0.775</X>
+          <Y>1.12766062413</Y>
+          <Z>0</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBXPuzzlePart35">
+      <Properties>
+        <string name="Name">RoundedGoldenRingSegment17</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">false</bool>
+        <bool name="CanQuery">false</bool>
+        <bool name="CanTouch">false</bool>
+        <bool name="CastShadow">true</bool>
+        <token name="Material">1088</token>
+        <token name="shape">2</token>
+        <token name="TopSurface">0</token>
+        <token name="BottomSurface">0</token>
+        <float name="Transparency">0</float>
+        <float name="Reflectance">0.12</float>
+        <Color3uint8 name="Color3uint8">4293241381</Color3uint8>
+        <Vector3 name="size">
+          <X>0.419631195882</X>
+          <Y>0.45</Y>
+          <Z>0.45</Z>
+        </Vector3>
+        <CoordinateFrame name="CFrame">
+          <X>-0.200584759954</X>
+          <Y>0.946407484626</Y>
+          <Z>0</Z>
+          <R00>0.991444861374</R00>
+          <R01>-0.13052619222</R01>
+          <R02>0</R02>
+          <R10>-0.13052619222</R10>
+          <R11>-0.991444861374</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>-1</R22>
+        </CoordinateFrame>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBXPuzzlePart36">
+      <Properties>
+        <string name="Name">RoundedRingJoint17</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">false</bool>
+        <bool name="CanQuery">false</bool>
+        <bool name="CanTouch">false</bool>
+        <bool name="CastShadow">true</bool>
+        <token name="Material">1088</token>
+        <token name="shape">0</token>
+        <token name="TopSurface">0</token>
+        <token name="BottomSurface">0</token>
+        <float name="Transparency">0</float>
+        <float name="Reflectance">0</float>
+        <Color3uint8 name="Color3uint8">4293241381</Color3uint8>
+        <Vector3 name="size">
+          <X>0.44</X>
+          <Y>0.44</Y>
+          <Z>0.44</Z>
+        </Vector3>
+        <CoordinateFrame name="CFrame">
+          <X>-0.401169519909</X>
+          <Y>0.972814969252</Y>
+          <Z>0</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBXPuzzlePart37">
+      <Properties>
+        <string name="Name">RoundedGoldenRingSegment18</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">false</bool>
+        <bool name="CanQuery">false</bool>
+        <bool name="CanTouch">false</bool>
+        <bool name="CastShadow">true</bool>
+        <token name="Material">1088</token>
+        <token name="shape">2</token>
+        <token name="TopSurface">0</token>
+        <token name="BottomSurface">0</token>
+        <float name="Transparency">0</float>
+        <float name="Reflectance">0.12</float>
+        <Color3uint8 name="Color3uint8">4293241381</Color3uint8>
+        <Vector3 name="size">
+          <X>0.419631195882</X>
+          <Y>0.45</Y>
+          <Z>0.45</Z>
+        </Vector3>
+        <CoordinateFrame name="CFrame">
+          <X>0.200584759954</X>
+          <Y>0.946407484626</Y>
+          <Z>0</Z>
+          <R00>0.991444861374</R00>
+          <R01>0.13052619222</R01>
+          <R02>0</R02>
+          <R10>0.13052619222</R10>
+          <R11>-0.991444861374</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>-1</R22>
+        </CoordinateFrame>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBXPuzzlePart38">
+      <Properties>
+        <string name="Name">RoundedRingJoint18</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">false</bool>
+        <bool name="CanQuery">false</bool>
+        <bool name="CanTouch">false</bool>
+        <bool name="CastShadow">true</bool>
+        <token name="Material">1088</token>
+        <token name="shape">0</token>
+        <token name="TopSurface">0</token>
+        <token name="BottomSurface">0</token>
+        <float name="Transparency">0</float>
+        <float name="Reflectance">0</float>
+        <Color3uint8 name="Color3uint8">4293241381</Color3uint8>
+        <Vector3 name="size">
+          <X>0.44</X>
+          <Y>0.44</Y>
+          <Z>0.44</Z>
+        </Vector3>
+        <CoordinateFrame name="CFrame">
+          <X>-2.84730380802e-16</X>
+          <Y>0.92</Y>
+          <Z>0</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBXPuzzlePart39">
+      <Properties>
+        <string name="Name">RoundedGoldenRingSegment19</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">false</bool>
+        <bool name="CanQuery">false</bool>
+        <bool name="CanTouch">false</bool>
+        <bool name="CastShadow">true</bool>
+        <token name="Material">1088</token>
+        <token name="shape">2</token>
+        <token name="TopSurface">0</token>
+        <token name="BottomSurface">0</token>
+        <float name="Transparency">0</float>
+        <float name="Reflectance">0.12</float>
+        <Color3uint8 name="Color3uint8">4293241381</Color3uint8>
+        <Vector3 name="size">
+          <X>0.419631195882</X>
+          <Y>0.45</Y>
+          <Z>0.45</Z>
+        </Vector3>
+        <CoordinateFrame name="CFrame">
+          <X>0.588084759954</X>
+          <Y>1.05023779669</Y>
+          <Z>0</Z>
+          <R00>0.923879532511</R00>
+          <R01>0.382683432365</R01>
+          <R02>0</R02>
+          <R10>0.382683432365</R10>
+          <R11>-0.923879532511</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>-1</R22>
+        </CoordinateFrame>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBXPuzzlePart40">
+      <Properties>
+        <string name="Name">RoundedRingJoint19</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">false</bool>
+        <bool name="CanQuery">false</bool>
+        <bool name="CanTouch">false</bool>
+        <bool name="CastShadow">true</bool>
+        <token name="Material">1088</token>
+        <token name="shape">0</token>
+        <token name="TopSurface">0</token>
+        <token name="BottomSurface">0</token>
+        <float name="Transparency">0</float>
+        <float name="Reflectance">0</float>
+        <Color3uint8 name="Color3uint8">4293241381</Color3uint8>
+        <Vector3 name="size">
+          <X>0.44</X>
+          <Y>0.44</Y>
+          <Z>0.44</Z>
+        </Vector3>
+        <CoordinateFrame name="CFrame">
+          <X>0.401169519909</X>
+          <Y>0.972814969252</Y>
+          <Z>0</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBXPuzzlePart41">
+      <Properties>
+        <string name="Name">RoundedGoldenRingSegment20</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">false</bool>
+        <bool name="CanQuery">false</bool>
+        <bool name="CanTouch">false</bool>
+        <bool name="CastShadow">true</bool>
+        <token name="Material">1088</token>
+        <token name="shape">2</token>
+        <token name="TopSurface">0</token>
+        <token name="BottomSurface">0</token>
+        <float name="Transparency">0</float>
+        <float name="Reflectance">0.12</float>
+        <Color3uint8 name="Color3uint8">4294959478</Color3uint8>
+        <Vector3 name="size">
+          <X>0.419631195882</X>
+          <Y>0.45</Y>
+          <Z>0.45</Z>
+        </Vector3>
+        <CoordinateFrame name="CFrame">
+          <X>0.93550775542</X>
+          <Y>1.25082255665</Y>
+          <Z>0</Z>
+          <R00>0.793353340291</R00>
+          <R01>0.608761429009</R01>
+          <R02>0</R02>
+          <R10>0.608761429009</R10>
+          <R11>-0.793353340291</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>-1</R22>
+        </CoordinateFrame>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBXPuzzlePart42">
+      <Properties>
+        <string name="Name">RoundedRingJoint20</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">false</bool>
+        <bool name="CanQuery">false</bool>
+        <bool name="CanTouch">false</bool>
+        <bool name="CastShadow">true</bool>
+        <token name="Material">1088</token>
+        <token name="shape">0</token>
+        <token name="TopSurface">0</token>
+        <token name="BottomSurface">0</token>
+        <float name="Transparency">0</float>
+        <float name="Reflectance">0</float>
+        <Color3uint8 name="Color3uint8">4293241381</Color3uint8>
+        <Vector3 name="size">
+          <X>0.44</X>
+          <Y>0.44</Y>
+          <Z>0.44</Z>
+        </Vector3>
+        <CoordinateFrame name="CFrame">
+          <X>0.775</X>
+          <Y>1.12766062413</Y>
+          <Z>0</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBXPuzzlePart43">
+      <Properties>
+        <string name="Name">RoundedGoldenRingSegment21</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">false</bool>
+        <bool name="CanQuery">false</bool>
+        <bool name="CanTouch">false</bool>
+        <bool name="CastShadow">true</bool>
+        <token name="Material">1088</token>
+        <token name="shape">2</token>
+        <token name="TopSurface">0</token>
+        <token name="BottomSurface">0</token>
+        <float name="Transparency">0</float>
+        <float name="Reflectance">0.12</float>
+        <Color3uint8 name="Color3uint8">4293241381</Color3uint8>
+        <Vector3 name="size">
+          <X>0.419631195882</X>
+          <Y>0.45</Y>
+          <Z>0.45</Z>
+        </Vector3>
+        <CoordinateFrame name="CFrame">
+          <X>1.21917744335</X>
+          <Y>1.53449224458</Y>
+          <Z>0</Z>
+          <R00>0.608761429009</R00>
+          <R01>0.793353340291</R01>
+          <R02>0</R02>
+          <R10>0.793353340291</R10>
+          <R11>-0.608761429009</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>-1</R22>
+        </CoordinateFrame>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBXPuzzlePart44">
+      <Properties>
+        <string name="Name">RoundedRingJoint21</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">false</bool>
+        <bool name="CanQuery">false</bool>
+        <bool name="CanTouch">false</bool>
+        <bool name="CastShadow">true</bool>
+        <token name="Material">1088</token>
+        <token name="shape">0</token>
+        <token name="TopSurface">0</token>
+        <token name="BottomSurface">0</token>
+        <float name="Transparency">0</float>
+        <float name="Reflectance">0</float>
+        <Color3uint8 name="Color3uint8">4293241381</Color3uint8>
+        <Vector3 name="size">
+          <X>0.44</X>
+          <Y>0.44</Y>
+          <Z>0.44</Z>
+        </Vector3>
+        <CoordinateFrame name="CFrame">
+          <X>1.09601551084</X>
+          <Y>1.37398448916</Y>
+          <Z>0</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBXPuzzlePart45">
+      <Properties>
+        <string name="Name">RoundedGoldenRingSegment22</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">false</bool>
+        <bool name="CanQuery">false</bool>
+        <bool name="CanTouch">false</bool>
+        <bool name="CastShadow">true</bool>
+        <token name="Material">1088</token>
+        <token name="shape">2</token>
+        <token name="TopSurface">0</token>
+        <token name="BottomSurface">0</token>
+        <float name="Transparency">0</float>
+        <float name="Reflectance">0.12</float>
+        <Color3uint8 name="Color3uint8">4293241381</Color3uint8>
+        <Vector3 name="size">
+          <X>0.419631195882</X>
+          <Y>0.45</Y>
+          <Z>0.45</Z>
+        </Vector3>
+        <CoordinateFrame name="CFrame">
+          <X>1.41976220331</X>
+          <Y>1.88191524005</Y>
+          <Z>0</Z>
+          <R00>0.382683432365</R00>
+          <R01>0.923879532511</R01>
+          <R02>0</R02>
+          <R10>0.923879532511</R10>
+          <R11>-0.382683432365</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>-1</R22>
+        </CoordinateFrame>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBXPuzzlePart46">
+      <Properties>
+        <string name="Name">RoundedRingJoint22</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">false</bool>
+        <bool name="CanQuery">false</bool>
+        <bool name="CanTouch">false</bool>
+        <bool name="CastShadow">true</bool>
+        <token name="Material">1088</token>
+        <token name="shape">0</token>
+        <token name="TopSurface">0</token>
+        <token name="BottomSurface">0</token>
+        <float name="Transparency">0</float>
+        <float name="Reflectance">0</float>
+        <Color3uint8 name="Color3uint8">4293241381</Color3uint8>
+        <Vector3 name="size">
+          <X>0.44</X>
+          <Y>0.44</Y>
+          <Z>0.44</Z>
+        </Vector3>
+        <CoordinateFrame name="CFrame">
+          <X>1.34233937587</X>
+          <Y>1.695</Y>
+          <Z>0</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBXPuzzlePart47">
+      <Properties>
+        <string name="Name">RoundedGoldenRingSegment23</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">false</bool>
+        <bool name="CanQuery">false</bool>
+        <bool name="CanTouch">false</bool>
+        <bool name="CastShadow">true</bool>
+        <token name="Material">1088</token>
+        <token name="shape">2</token>
+        <token name="TopSurface">0</token>
+        <token name="BottomSurface">0</token>
+        <float name="Transparency">0</float>
+        <float name="Reflectance">0.12</float>
+        <Color3uint8 name="Color3uint8">4293241381</Color3uint8>
+        <Vector3 name="size">
+          <X>0.419631195882</X>
+          <Y>0.45</Y>
+          <Z>0.45</Z>
+        </Vector3>
+        <CoordinateFrame name="CFrame">
+          <X>1.52359251537</X>
+          <Y>2.26941524005</Y>
+          <Z>0</Z>
+          <R00>0.13052619222</R00>
+          <R01>0.991444861374</R01>
+          <R02>0</R02>
+          <R10>0.991444861374</R10>
+          <R11>-0.13052619222</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>-1</R22>
+        </CoordinateFrame>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBXPuzzlePart48">
+      <Properties>
+        <string name="Name">RoundedRingJoint23</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">false</bool>
+        <bool name="CanQuery">false</bool>
+        <bool name="CanTouch">false</bool>
+        <bool name="CastShadow">true</bool>
+        <token name="Material">1088</token>
+        <token name="shape">0</token>
+        <token name="TopSurface">0</token>
+        <token name="BottomSurface">0</token>
+        <float name="Transparency">0</float>
+        <float name="Reflectance">0</float>
+        <Color3uint8 name="Color3uint8">4293241381</Color3uint8>
+        <Vector3 name="size">
+          <X>0.44</X>
+          <Y>0.44</Y>
+          <Z>0.44</Z>
+        </Vector3>
+        <CoordinateFrame name="CFrame">
+          <X>1.49718503075</X>
+          <Y>2.06883048009</Y>
+          <Z>0</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBXPuzzlePart49">
+      <Properties>
+        <string name="Name">PolishedRingBevel-1_0</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">false</bool>
+        <bool name="CanQuery">false</bool>
+        <bool name="CanTouch">false</bool>
+        <bool name="CastShadow">true</bool>
+        <token name="Material">1088</token>
+        <token name="shape">1</token>
+        <token name="TopSurface">0</token>
+        <token name="BottomSurface">0</token>
+        <float name="Transparency">0</float>
+        <float name="Reflectance">0</float>
+        <Color3uint8 name="Color3uint8">4294959478</Color3uint8>
+        <Vector3 name="size">
+          <X>0.067</X>
+          <Y>0.404631195882</Y>
+          <Z>0.067</Z>
+        </Vector3>
+        <CoordinateFrame name="CFrame">
+          <X>1.52359251537</X>
+          <Y>2.67058475995</Y>
+          <Z>-0.177</Z>
+          <R00>0.991444861374</R00>
+          <R01>-0.13052619222</R01>
+          <R02>0</R02>
+          <R10>0.13052619222</R10>
+          <R11>0.991444861374</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBXPuzzlePart50">
+      <Properties>
+        <string name="Name">PolishedRingBevel-1_1</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">false</bool>
+        <bool name="CanQuery">false</bool>
+        <bool name="CanTouch">false</bool>
+        <bool name="CastShadow">true</bool>
+        <token name="Material">1088</token>
+        <token name="shape">1</token>
+        <token name="TopSurface">0</token>
+        <token name="BottomSurface">0</token>
+        <float name="Transparency">0</float>
+        <float name="Reflectance">0</float>
+        <Color3uint8 name="Color3uint8">4294959478</Color3uint8>
+        <Vector3 name="size">
+          <X>0.067</X>
+          <Y>0.404631195882</Y>
+          <Z>0.067</Z>
+        </Vector3>
+        <CoordinateFrame name="CFrame">
+          <X>1.41976220331</X>
+          <Y>3.05808475995</Y>
+          <Z>-0.177</Z>
+          <R00>0.923879532511</R00>
+          <R01>-0.382683432365</R01>
+          <R02>0</R02>
+          <R10>0.382683432365</R10>
+          <R11>0.923879532511</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBXPuzzlePart51">
+      <Properties>
+        <string name="Name">PolishedRingBevel-1_2</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">false</bool>
+        <bool name="CanQuery">false</bool>
+        <bool name="CanTouch">false</bool>
+        <bool name="CastShadow">true</bool>
+        <token name="Material">1088</token>
+        <token name="shape">1</token>
+        <token name="TopSurface">0</token>
+        <token name="BottomSurface">0</token>
+        <float name="Transparency">0</float>
+        <float name="Reflectance">0</float>
+        <Color3uint8 name="Color3uint8">4294959478</Color3uint8>
+        <Vector3 name="size">
+          <X>0.067</X>
+          <Y>0.404631195882</Y>
+          <Z>0.067</Z>
+        </Vector3>
+        <CoordinateFrame name="CFrame">
+          <X>1.21917744335</X>
+          <Y>3.40550775542</Y>
+          <Z>-0.177</Z>
+          <R00>0.793353340291</R00>
+          <R01>-0.608761429009</R01>
+          <R02>0</R02>
+          <R10>0.608761429009</R10>
+          <R11>0.793353340291</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBXPuzzlePart52">
+      <Properties>
+        <string name="Name">PolishedRingBevel-1_3</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">false</bool>
+        <bool name="CanQuery">false</bool>
+        <bool name="CanTouch">false</bool>
+        <bool name="CastShadow">true</bool>
+        <token name="Material">1088</token>
+        <token name="shape">1</token>
+        <token name="TopSurface">0</token>
+        <token name="BottomSurface">0</token>
+        <float name="Transparency">0</float>
+        <float name="Reflectance">0</float>
+        <Color3uint8 name="Color3uint8">4294959478</Color3uint8>
+        <Vector3 name="size">
+          <X>0.067</X>
+          <Y>0.404631195882</Y>
+          <Z>0.067</Z>
+        </Vector3>
+        <CoordinateFrame name="CFrame">
+          <X>0.93550775542</X>
+          <Y>3.68917744335</Y>
+          <Z>-0.177</Z>
+          <R00>0.608761429009</R00>
+          <R01>-0.793353340291</R01>
+          <R02>0</R02>
+          <R10>0.793353340291</R10>
+          <R11>0.608761429009</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBXPuzzlePart53">
+      <Properties>
+        <string name="Name">PolishedRingBevel-1_4</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">false</bool>
+        <bool name="CanQuery">false</bool>
+        <bool name="CanTouch">false</bool>
+        <bool name="CastShadow">true</bool>
+        <token name="Material">1088</token>
+        <token name="shape">1</token>
+        <token name="TopSurface">0</token>
+        <token name="BottomSurface">0</token>
+        <float name="Transparency">0</float>
+        <float name="Reflectance">0</float>
+        <Color3uint8 name="Color3uint8">4294959478</Color3uint8>
+        <Vector3 name="size">
+          <X>0.067</X>
+          <Y>0.404631195882</Y>
+          <Z>0.067</Z>
+        </Vector3>
+        <CoordinateFrame name="CFrame">
+          <X>0.588084759954</X>
+          <Y>3.88976220331</Y>
+          <Z>-0.177</Z>
+          <R00>0.382683432365</R00>
+          <R01>-0.923879532511</R01>
+          <R02>0</R02>
+          <R10>0.923879532511</R10>
+          <R11>0.382683432365</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBXPuzzlePart54">
+      <Properties>
+        <string name="Name">PolishedRingBevel-1_5</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">false</bool>
+        <bool name="CanQuery">false</bool>
+        <bool name="CanTouch">false</bool>
+        <bool name="CastShadow">true</bool>
+        <token name="Material">1088</token>
+        <token name="shape">1</token>
+        <token name="TopSurface">0</token>
+        <token name="BottomSurface">0</token>
+        <float name="Transparency">0</float>
+        <float name="Reflectance">0</float>
+        <Color3uint8 name="Color3uint8">4294959478</Color3uint8>
+        <Vector3 name="size">
+          <X>0.067</X>
+          <Y>0.404631195882</Y>
+          <Z>0.067</Z>
+        </Vector3>
+        <CoordinateFrame name="CFrame">
+          <X>0.200584759954</X>
+          <Y>3.99359251537</Y>
+          <Z>-0.177</Z>
+          <R00>0.13052619222</R00>
+          <R01>-0.991444861374</R01>
+          <R02>0</R02>
+          <R10>0.991444861374</R10>
+          <R11>0.13052619222</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBXPuzzlePart55">
+      <Properties>
+        <string name="Name">PolishedRingBevel-1_6</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">false</bool>
+        <bool name="CanQuery">false</bool>
+        <bool name="CanTouch">false</bool>
+        <bool name="CastShadow">true</bool>
+        <token name="Material">1088</token>
+        <token name="shape">1</token>
+        <token name="TopSurface">0</token>
+        <token name="BottomSurface">0</token>
+        <float name="Transparency">0</float>
+        <float name="Reflectance">0</float>
+        <Color3uint8 name="Color3uint8">4294959478</Color3uint8>
+        <Vector3 name="size">
+          <X>0.067</X>
+          <Y>0.404631195882</Y>
+          <Z>0.067</Z>
+        </Vector3>
+        <CoordinateFrame name="CFrame">
+          <X>-0.200584759954</X>
+          <Y>3.99359251537</Y>
+          <Z>-0.177</Z>
+          <R00>-0.13052619222</R00>
+          <R01>-0.991444861374</R01>
+          <R02>0</R02>
+          <R10>0.991444861374</R10>
+          <R11>-0.13052619222</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBXPuzzlePart56">
+      <Properties>
+        <string name="Name">PolishedRingBevel-1_7</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">false</bool>
+        <bool name="CanQuery">false</bool>
+        <bool name="CanTouch">false</bool>
+        <bool name="CastShadow">true</bool>
+        <token name="Material">1088</token>
+        <token name="shape">1</token>
+        <token name="TopSurface">0</token>
+        <token name="BottomSurface">0</token>
+        <float name="Transparency">0</float>
+        <float name="Reflectance">0</float>
+        <Color3uint8 name="Color3uint8">4294959478</Color3uint8>
+        <Vector3 name="size">
+          <X>0.067</X>
+          <Y>0.404631195882</Y>
+          <Z>0.067</Z>
+        </Vector3>
+        <CoordinateFrame name="CFrame">
+          <X>-0.588084759954</X>
+          <Y>3.88976220331</Y>
+          <Z>-0.177</Z>
+          <R00>-0.382683432365</R00>
+          <R01>-0.923879532511</R01>
+          <R02>0</R02>
+          <R10>0.923879532511</R10>
+          <R11>-0.382683432365</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBXPuzzlePart57">
+      <Properties>
+        <string name="Name">PolishedRingBevel-1_8</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">false</bool>
+        <bool name="CanQuery">false</bool>
+        <bool name="CanTouch">false</bool>
+        <bool name="CastShadow">true</bool>
+        <token name="Material">1088</token>
+        <token name="shape">1</token>
+        <token name="TopSurface">0</token>
+        <token name="BottomSurface">0</token>
+        <float name="Transparency">0</float>
+        <float name="Reflectance">0</float>
+        <Color3uint8 name="Color3uint8">4294959478</Color3uint8>
+        <Vector3 name="size">
+          <X>0.067</X>
+          <Y>0.404631195882</Y>
+          <Z>0.067</Z>
+        </Vector3>
+        <CoordinateFrame name="CFrame">
+          <X>-0.93550775542</X>
+          <Y>3.68917744335</Y>
+          <Z>-0.177</Z>
+          <R00>-0.608761429009</R00>
+          <R01>-0.793353340291</R01>
+          <R02>0</R02>
+          <R10>0.793353340291</R10>
+          <R11>-0.608761429009</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBXPuzzlePart58">
+      <Properties>
+        <string name="Name">PolishedRingBevel-1_9</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">false</bool>
+        <bool name="CanQuery">false</bool>
+        <bool name="CanTouch">false</bool>
+        <bool name="CastShadow">true</bool>
+        <token name="Material">1088</token>
+        <token name="shape">1</token>
+        <token name="TopSurface">0</token>
+        <token name="BottomSurface">0</token>
+        <float name="Transparency">0</float>
+        <float name="Reflectance">0</float>
+        <Color3uint8 name="Color3uint8">4294959478</Color3uint8>
+        <Vector3 name="size">
+          <X>0.067</X>
+          <Y>0.404631195882</Y>
+          <Z>0.067</Z>
+        </Vector3>
+        <CoordinateFrame name="CFrame">
+          <X>-1.21917744335</X>
+          <Y>3.40550775542</Y>
+          <Z>-0.177</Z>
+          <R00>-0.793353340291</R00>
+          <R01>-0.608761429009</R01>
+          <R02>0</R02>
+          <R10>0.608761429009</R10>
+          <R11>-0.793353340291</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBXPuzzlePart59">
+      <Properties>
+        <string name="Name">PolishedRingBevel-1_10</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">false</bool>
+        <bool name="CanQuery">false</bool>
+        <bool name="CanTouch">false</bool>
+        <bool name="CastShadow">true</bool>
+        <token name="Material">1088</token>
+        <token name="shape">1</token>
+        <token name="TopSurface">0</token>
+        <token name="BottomSurface">0</token>
+        <float name="Transparency">0</float>
+        <float name="Reflectance">0</float>
+        <Color3uint8 name="Color3uint8">4294959478</Color3uint8>
+        <Vector3 name="size">
+          <X>0.067</X>
+          <Y>0.404631195882</Y>
+          <Z>0.067</Z>
+        </Vector3>
+        <CoordinateFrame name="CFrame">
+          <X>-1.41976220331</X>
+          <Y>3.05808475995</Y>
+          <Z>-0.177</Z>
+          <R00>-0.923879532511</R00>
+          <R01>-0.382683432365</R01>
+          <R02>0</R02>
+          <R10>0.382683432365</R10>
+          <R11>-0.923879532511</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBXPuzzlePart60">
+      <Properties>
+        <string name="Name">PolishedRingBevel-1_11</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">false</bool>
+        <bool name="CanQuery">false</bool>
+        <bool name="CanTouch">false</bool>
+        <bool name="CastShadow">true</bool>
+        <token name="Material">1088</token>
+        <token name="shape">1</token>
+        <token name="TopSurface">0</token>
+        <token name="BottomSurface">0</token>
+        <float name="Transparency">0</float>
+        <float name="Reflectance">0</float>
+        <Color3uint8 name="Color3uint8">4294959478</Color3uint8>
+        <Vector3 name="size">
+          <X>0.067</X>
+          <Y>0.404631195882</Y>
+          <Z>0.067</Z>
+        </Vector3>
+        <CoordinateFrame name="CFrame">
+          <X>-1.52359251537</X>
+          <Y>2.67058475995</Y>
+          <Z>-0.177</Z>
+          <R00>-0.991444861374</R00>
+          <R01>-0.13052619222</R01>
+          <R02>0</R02>
+          <R10>0.13052619222</R10>
+          <R11>-0.991444861374</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBXPuzzlePart61">
+      <Properties>
+        <string name="Name">PolishedRingBevel-1_12</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">false</bool>
+        <bool name="CanQuery">false</bool>
+        <bool name="CanTouch">false</bool>
+        <bool name="CastShadow">true</bool>
+        <token name="Material">1088</token>
+        <token name="shape">1</token>
+        <token name="TopSurface">0</token>
+        <token name="BottomSurface">0</token>
+        <float name="Transparency">0</float>
+        <float name="Reflectance">0</float>
+        <Color3uint8 name="Color3uint8">4294959478</Color3uint8>
+        <Vector3 name="size">
+          <X>0.067</X>
+          <Y>0.404631195882</Y>
+          <Z>0.067</Z>
+        </Vector3>
+        <CoordinateFrame name="CFrame">
+          <X>-1.52359251537</X>
+          <Y>2.26941524005</Y>
+          <Z>-0.177</Z>
+          <R00>-0.991444861374</R00>
+          <R01>0.13052619222</R01>
+          <R02>0</R02>
+          <R10>-0.13052619222</R10>
+          <R11>-0.991444861374</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBXPuzzlePart62">
+      <Properties>
+        <string name="Name">PolishedRingBevel-1_13</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">false</bool>
+        <bool name="CanQuery">false</bool>
+        <bool name="CanTouch">false</bool>
+        <bool name="CastShadow">true</bool>
+        <token name="Material">1088</token>
+        <token name="shape">1</token>
+        <token name="TopSurface">0</token>
+        <token name="BottomSurface">0</token>
+        <float name="Transparency">0</float>
+        <float name="Reflectance">0</float>
+        <Color3uint8 name="Color3uint8">4294959478</Color3uint8>
+        <Vector3 name="size">
+          <X>0.067</X>
+          <Y>0.404631195882</Y>
+          <Z>0.067</Z>
+        </Vector3>
+        <CoordinateFrame name="CFrame">
+          <X>-1.41976220331</X>
+          <Y>1.88191524005</Y>
+          <Z>-0.177</Z>
+          <R00>-0.923879532511</R00>
+          <R01>0.382683432365</R01>
+          <R02>0</R02>
+          <R10>-0.382683432365</R10>
+          <R11>-0.923879532511</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBXPuzzlePart63">
+      <Properties>
+        <string name="Name">PolishedRingBevel-1_14</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">false</bool>
+        <bool name="CanQuery">false</bool>
+        <bool name="CanTouch">false</bool>
+        <bool name="CastShadow">true</bool>
+        <token name="Material">1088</token>
+        <token name="shape">1</token>
+        <token name="TopSurface">0</token>
+        <token name="BottomSurface">0</token>
+        <float name="Transparency">0</float>
+        <float name="Reflectance">0</float>
+        <Color3uint8 name="Color3uint8">4294959478</Color3uint8>
+        <Vector3 name="size">
+          <X>0.067</X>
+          <Y>0.404631195882</Y>
+          <Z>0.067</Z>
+        </Vector3>
+        <CoordinateFrame name="CFrame">
+          <X>-1.21917744335</X>
+          <Y>1.53449224458</Y>
+          <Z>-0.177</Z>
+          <R00>-0.793353340291</R00>
+          <R01>0.608761429009</R01>
+          <R02>0</R02>
+          <R10>-0.608761429009</R10>
+          <R11>-0.793353340291</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBXPuzzlePart64">
+      <Properties>
+        <string name="Name">PolishedRingBevel-1_15</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">false</bool>
+        <bool name="CanQuery">false</bool>
+        <bool name="CanTouch">false</bool>
+        <bool name="CastShadow">true</bool>
+        <token name="Material">1088</token>
+        <token name="shape">1</token>
+        <token name="TopSurface">0</token>
+        <token name="BottomSurface">0</token>
+        <float name="Transparency">0</float>
+        <float name="Reflectance">0</float>
+        <Color3uint8 name="Color3uint8">4294959478</Color3uint8>
+        <Vector3 name="size">
+          <X>0.067</X>
+          <Y>0.404631195882</Y>
+          <Z>0.067</Z>
+        </Vector3>
+        <CoordinateFrame name="CFrame">
+          <X>-0.93550775542</X>
+          <Y>1.25082255665</Y>
+          <Z>-0.177</Z>
+          <R00>-0.608761429009</R00>
+          <R01>0.793353340291</R01>
+          <R02>0</R02>
+          <R10>-0.793353340291</R10>
+          <R11>-0.608761429009</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBXPuzzlePart65">
+      <Properties>
+        <string name="Name">PolishedRingBevel-1_16</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">false</bool>
+        <bool name="CanQuery">false</bool>
+        <bool name="CanTouch">false</bool>
+        <bool name="CastShadow">true</bool>
+        <token name="Material">1088</token>
+        <token name="shape">1</token>
+        <token name="TopSurface">0</token>
+        <token name="BottomSurface">0</token>
+        <float name="Transparency">0</float>
+        <float name="Reflectance">0</float>
+        <Color3uint8 name="Color3uint8">4294959478</Color3uint8>
+        <Vector3 name="size">
+          <X>0.067</X>
+          <Y>0.404631195882</Y>
+          <Z>0.067</Z>
+        </Vector3>
+        <CoordinateFrame name="CFrame">
+          <X>-0.588084759954</X>
+          <Y>1.05023779669</Y>
+          <Z>-0.177</Z>
+          <R00>-0.382683432365</R00>
+          <R01>0.923879532511</R01>
+          <R02>0</R02>
+          <R10>-0.923879532511</R10>
+          <R11>-0.382683432365</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBXPuzzlePart66">
+      <Properties>
+        <string name="Name">PolishedRingBevel-1_17</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">false</bool>
+        <bool name="CanQuery">false</bool>
+        <bool name="CanTouch">false</bool>
+        <bool name="CastShadow">true</bool>
+        <token name="Material">1088</token>
+        <token name="shape">1</token>
+        <token name="TopSurface">0</token>
+        <token name="BottomSurface">0</token>
+        <float name="Transparency">0</float>
+        <float name="Reflectance">0</float>
+        <Color3uint8 name="Color3uint8">4294959478</Color3uint8>
+        <Vector3 name="size">
+          <X>0.067</X>
+          <Y>0.404631195882</Y>
+          <Z>0.067</Z>
+        </Vector3>
+        <CoordinateFrame name="CFrame">
+          <X>-0.200584759954</X>
+          <Y>0.946407484626</Y>
+          <Z>-0.177</Z>
+          <R00>-0.13052619222</R00>
+          <R01>0.991444861374</R01>
+          <R02>0</R02>
+          <R10>-0.991444861374</R10>
+          <R11>-0.13052619222</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBXPuzzlePart67">
+      <Properties>
+        <string name="Name">PolishedRingBevel-1_18</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">false</bool>
+        <bool name="CanQuery">false</bool>
+        <bool name="CanTouch">false</bool>
+        <bool name="CastShadow">true</bool>
+        <token name="Material">1088</token>
+        <token name="shape">1</token>
+        <token name="TopSurface">0</token>
+        <token name="BottomSurface">0</token>
+        <float name="Transparency">0</float>
+        <float name="Reflectance">0</float>
+        <Color3uint8 name="Color3uint8">4294959478</Color3uint8>
+        <Vector3 name="size">
+          <X>0.067</X>
+          <Y>0.404631195882</Y>
+          <Z>0.067</Z>
+        </Vector3>
+        <CoordinateFrame name="CFrame">
+          <X>0.200584759954</X>
+          <Y>0.946407484626</Y>
+          <Z>-0.177</Z>
+          <R00>0.13052619222</R00>
+          <R01>0.991444861374</R01>
+          <R02>0</R02>
+          <R10>-0.991444861374</R10>
+          <R11>0.13052619222</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBXPuzzlePart68">
+      <Properties>
+        <string name="Name">PolishedRingBevel-1_19</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">false</bool>
+        <bool name="CanQuery">false</bool>
+        <bool name="CanTouch">false</bool>
+        <bool name="CastShadow">true</bool>
+        <token name="Material">1088</token>
+        <token name="shape">1</token>
+        <token name="TopSurface">0</token>
+        <token name="BottomSurface">0</token>
+        <float name="Transparency">0</float>
+        <float name="Reflectance">0</float>
+        <Color3uint8 name="Color3uint8">4294959478</Color3uint8>
+        <Vector3 name="size">
+          <X>0.067</X>
+          <Y>0.404631195882</Y>
+          <Z>0.067</Z>
+        </Vector3>
+        <CoordinateFrame name="CFrame">
+          <X>0.588084759954</X>
+          <Y>1.05023779669</Y>
+          <Z>-0.177</Z>
+          <R00>0.382683432365</R00>
+          <R01>0.923879532511</R01>
+          <R02>0</R02>
+          <R10>-0.923879532511</R10>
+          <R11>0.382683432365</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBXPuzzlePart69">
+      <Properties>
+        <string name="Name">PolishedRingBevel-1_20</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">false</bool>
+        <bool name="CanQuery">false</bool>
+        <bool name="CanTouch">false</bool>
+        <bool name="CastShadow">true</bool>
+        <token name="Material">1088</token>
+        <token name="shape">1</token>
+        <token name="TopSurface">0</token>
+        <token name="BottomSurface">0</token>
+        <float name="Transparency">0</float>
+        <float name="Reflectance">0</float>
+        <Color3uint8 name="Color3uint8">4294959478</Color3uint8>
+        <Vector3 name="size">
+          <X>0.067</X>
+          <Y>0.404631195882</Y>
+          <Z>0.067</Z>
+        </Vector3>
+        <CoordinateFrame name="CFrame">
+          <X>0.93550775542</X>
+          <Y>1.25082255665</Y>
+          <Z>-0.177</Z>
+          <R00>0.608761429009</R00>
+          <R01>0.793353340291</R01>
+          <R02>0</R02>
+          <R10>-0.793353340291</R10>
+          <R11>0.608761429009</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBXPuzzlePart70">
+      <Properties>
+        <string name="Name">PolishedRingBevel-1_21</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">false</bool>
+        <bool name="CanQuery">false</bool>
+        <bool name="CanTouch">false</bool>
+        <bool name="CastShadow">true</bool>
+        <token name="Material">1088</token>
+        <token name="shape">1</token>
+        <token name="TopSurface">0</token>
+        <token name="BottomSurface">0</token>
+        <float name="Transparency">0</float>
+        <float name="Reflectance">0</float>
+        <Color3uint8 name="Color3uint8">4294959478</Color3uint8>
+        <Vector3 name="size">
+          <X>0.067</X>
+          <Y>0.404631195882</Y>
+          <Z>0.067</Z>
+        </Vector3>
+        <CoordinateFrame name="CFrame">
+          <X>1.21917744335</X>
+          <Y>1.53449224458</Y>
+          <Z>-0.177</Z>
+          <R00>0.793353340291</R00>
+          <R01>0.608761429009</R01>
+          <R02>0</R02>
+          <R10>-0.608761429009</R10>
+          <R11>0.793353340291</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBXPuzzlePart71">
+      <Properties>
+        <string name="Name">PolishedRingBevel-1_22</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">false</bool>
+        <bool name="CanQuery">false</bool>
+        <bool name="CanTouch">false</bool>
+        <bool name="CastShadow">true</bool>
+        <token name="Material">1088</token>
+        <token name="shape">1</token>
+        <token name="TopSurface">0</token>
+        <token name="BottomSurface">0</token>
+        <float name="Transparency">0</float>
+        <float name="Reflectance">0</float>
+        <Color3uint8 name="Color3uint8">4294959478</Color3uint8>
+        <Vector3 name="size">
+          <X>0.067</X>
+          <Y>0.404631195882</Y>
+          <Z>0.067</Z>
+        </Vector3>
+        <CoordinateFrame name="CFrame">
+          <X>1.41976220331</X>
+          <Y>1.88191524005</Y>
+          <Z>-0.177</Z>
+          <R00>0.923879532511</R00>
+          <R01>0.382683432365</R01>
+          <R02>0</R02>
+          <R10>-0.382683432365</R10>
+          <R11>0.923879532511</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBXPuzzlePart72">
+      <Properties>
+        <string name="Name">PolishedRingBevel-1_23</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">false</bool>
+        <bool name="CanQuery">false</bool>
+        <bool name="CanTouch">false</bool>
+        <bool name="CastShadow">true</bool>
+        <token name="Material">1088</token>
+        <token name="shape">1</token>
+        <token name="TopSurface">0</token>
+        <token name="BottomSurface">0</token>
+        <float name="Transparency">0</float>
+        <float name="Reflectance">0</float>
+        <Color3uint8 name="Color3uint8">4294959478</Color3uint8>
+        <Vector3 name="size">
+          <X>0.067</X>
+          <Y>0.404631195882</Y>
+          <Z>0.067</Z>
+        </Vector3>
+        <CoordinateFrame name="CFrame">
+          <X>1.52359251537</X>
+          <Y>2.26941524005</Y>
+          <Z>-0.177</Z>
+          <R00>0.991444861374</R00>
+          <R01>0.13052619222</R01>
+          <R02>0</R02>
+          <R10>-0.13052619222</R10>
+          <R11>0.991444861374</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBXPuzzlePart73">
+      <Properties>
+        <string name="Name">PolishedRingBevel1_0</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">false</bool>
+        <bool name="CanQuery">false</bool>
+        <bool name="CanTouch">false</bool>
+        <bool name="CastShadow">true</bool>
+        <token name="Material">1088</token>
+        <token name="shape">1</token>
+        <token name="TopSurface">0</token>
+        <token name="BottomSurface">0</token>
+        <float name="Transparency">0</float>
+        <float name="Reflectance">0</float>
+        <Color3uint8 name="Color3uint8">4294959478</Color3uint8>
+        <Vector3 name="size">
+          <X>0.067</X>
+          <Y>0.404631195882</Y>
+          <Z>0.067</Z>
+        </Vector3>
+        <CoordinateFrame name="CFrame">
+          <X>1.52359251537</X>
+          <Y>2.67058475995</Y>
+          <Z>0.177</Z>
+          <R00>0.991444861374</R00>
+          <R01>-0.13052619222</R01>
+          <R02>0</R02>
+          <R10>0.13052619222</R10>
+          <R11>0.991444861374</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBXPuzzlePart74">
+      <Properties>
+        <string name="Name">PolishedRingBevel1_1</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">false</bool>
+        <bool name="CanQuery">false</bool>
+        <bool name="CanTouch">false</bool>
+        <bool name="CastShadow">true</bool>
+        <token name="Material">1088</token>
+        <token name="shape">1</token>
+        <token name="TopSurface">0</token>
+        <token name="BottomSurface">0</token>
+        <float name="Transparency">0</float>
+        <float name="Reflectance">0</float>
+        <Color3uint8 name="Color3uint8">4294959478</Color3uint8>
+        <Vector3 name="size">
+          <X>0.067</X>
+          <Y>0.404631195882</Y>
+          <Z>0.067</Z>
+        </Vector3>
+        <CoordinateFrame name="CFrame">
+          <X>1.41976220331</X>
+          <Y>3.05808475995</Y>
+          <Z>0.177</Z>
+          <R00>0.923879532511</R00>
+          <R01>-0.382683432365</R01>
+          <R02>0</R02>
+          <R10>0.382683432365</R10>
+          <R11>0.923879532511</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBXPuzzlePart75">
+      <Properties>
+        <string name="Name">PolishedRingBevel1_2</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">false</bool>
+        <bool name="CanQuery">false</bool>
+        <bool name="CanTouch">false</bool>
+        <bool name="CastShadow">true</bool>
+        <token name="Material">1088</token>
+        <token name="shape">1</token>
+        <token name="TopSurface">0</token>
+        <token name="BottomSurface">0</token>
+        <float name="Transparency">0</float>
+        <float name="Reflectance">0</float>
+        <Color3uint8 name="Color3uint8">4294959478</Color3uint8>
+        <Vector3 name="size">
+          <X>0.067</X>
+          <Y>0.404631195882</Y>
+          <Z>0.067</Z>
+        </Vector3>
+        <CoordinateFrame name="CFrame">
+          <X>1.21917744335</X>
+          <Y>3.40550775542</Y>
+          <Z>0.177</Z>
+          <R00>0.793353340291</R00>
+          <R01>-0.608761429009</R01>
+          <R02>0</R02>
+          <R10>0.608761429009</R10>
+          <R11>0.793353340291</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBXPuzzlePart76">
+      <Properties>
+        <string name="Name">PolishedRingBevel1_3</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">false</bool>
+        <bool name="CanQuery">false</bool>
+        <bool name="CanTouch">false</bool>
+        <bool name="CastShadow">true</bool>
+        <token name="Material">1088</token>
+        <token name="shape">1</token>
+        <token name="TopSurface">0</token>
+        <token name="BottomSurface">0</token>
+        <float name="Transparency">0</float>
+        <float name="Reflectance">0</float>
+        <Color3uint8 name="Color3uint8">4294959478</Color3uint8>
+        <Vector3 name="size">
+          <X>0.067</X>
+          <Y>0.404631195882</Y>
+          <Z>0.067</Z>
+        </Vector3>
+        <CoordinateFrame name="CFrame">
+          <X>0.93550775542</X>
+          <Y>3.68917744335</Y>
+          <Z>0.177</Z>
+          <R00>0.608761429009</R00>
+          <R01>-0.793353340291</R01>
+          <R02>0</R02>
+          <R10>0.793353340291</R10>
+          <R11>0.608761429009</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBXPuzzlePart77">
+      <Properties>
+        <string name="Name">PolishedRingBevel1_4</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">false</bool>
+        <bool name="CanQuery">false</bool>
+        <bool name="CanTouch">false</bool>
+        <bool name="CastShadow">true</bool>
+        <token name="Material">1088</token>
+        <token name="shape">1</token>
+        <token name="TopSurface">0</token>
+        <token name="BottomSurface">0</token>
+        <float name="Transparency">0</float>
+        <float name="Reflectance">0</float>
+        <Color3uint8 name="Color3uint8">4294959478</Color3uint8>
+        <Vector3 name="size">
+          <X>0.067</X>
+          <Y>0.404631195882</Y>
+          <Z>0.067</Z>
+        </Vector3>
+        <CoordinateFrame name="CFrame">
+          <X>0.588084759954</X>
+          <Y>3.88976220331</Y>
+          <Z>0.177</Z>
+          <R00>0.382683432365</R00>
+          <R01>-0.923879532511</R01>
+          <R02>0</R02>
+          <R10>0.923879532511</R10>
+          <R11>0.382683432365</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBXPuzzlePart78">
+      <Properties>
+        <string name="Name">PolishedRingBevel1_5</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">false</bool>
+        <bool name="CanQuery">false</bool>
+        <bool name="CanTouch">false</bool>
+        <bool name="CastShadow">true</bool>
+        <token name="Material">1088</token>
+        <token name="shape">1</token>
+        <token name="TopSurface">0</token>
+        <token name="BottomSurface">0</token>
+        <float name="Transparency">0</float>
+        <float name="Reflectance">0</float>
+        <Color3uint8 name="Color3uint8">4294959478</Color3uint8>
+        <Vector3 name="size">
+          <X>0.067</X>
+          <Y>0.404631195882</Y>
+          <Z>0.067</Z>
+        </Vector3>
+        <CoordinateFrame name="CFrame">
+          <X>0.200584759954</X>
+          <Y>3.99359251537</Y>
+          <Z>0.177</Z>
+          <R00>0.13052619222</R00>
+          <R01>-0.991444861374</R01>
+          <R02>0</R02>
+          <R10>0.991444861374</R10>
+          <R11>0.13052619222</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBXPuzzlePart79">
+      <Properties>
+        <string name="Name">PolishedRingBevel1_6</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">false</bool>
+        <bool name="CanQuery">false</bool>
+        <bool name="CanTouch">false</bool>
+        <bool name="CastShadow">true</bool>
+        <token name="Material">1088</token>
+        <token name="shape">1</token>
+        <token name="TopSurface">0</token>
+        <token name="BottomSurface">0</token>
+        <float name="Transparency">0</float>
+        <float name="Reflectance">0</float>
+        <Color3uint8 name="Color3uint8">4294959478</Color3uint8>
+        <Vector3 name="size">
+          <X>0.067</X>
+          <Y>0.404631195882</Y>
+          <Z>0.067</Z>
+        </Vector3>
+        <CoordinateFrame name="CFrame">
+          <X>-0.200584759954</X>
+          <Y>3.99359251537</Y>
+          <Z>0.177</Z>
+          <R00>-0.13052619222</R00>
+          <R01>-0.991444861374</R01>
+          <R02>0</R02>
+          <R10>0.991444861374</R10>
+          <R11>-0.13052619222</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBXPuzzlePart80">
+      <Properties>
+        <string name="Name">PolishedRingBevel1_7</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">false</bool>
+        <bool name="CanQuery">false</bool>
+        <bool name="CanTouch">false</bool>
+        <bool name="CastShadow">true</bool>
+        <token name="Material">1088</token>
+        <token name="shape">1</token>
+        <token name="TopSurface">0</token>
+        <token name="BottomSurface">0</token>
+        <float name="Transparency">0</float>
+        <float name="Reflectance">0</float>
+        <Color3uint8 name="Color3uint8">4294959478</Color3uint8>
+        <Vector3 name="size">
+          <X>0.067</X>
+          <Y>0.404631195882</Y>
+          <Z>0.067</Z>
+        </Vector3>
+        <CoordinateFrame name="CFrame">
+          <X>-0.588084759954</X>
+          <Y>3.88976220331</Y>
+          <Z>0.177</Z>
+          <R00>-0.382683432365</R00>
+          <R01>-0.923879532511</R01>
+          <R02>0</R02>
+          <R10>0.923879532511</R10>
+          <R11>-0.382683432365</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBXPuzzlePart81">
+      <Properties>
+        <string name="Name">PolishedRingBevel1_8</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">false</bool>
+        <bool name="CanQuery">false</bool>
+        <bool name="CanTouch">false</bool>
+        <bool name="CastShadow">true</bool>
+        <token name="Material">1088</token>
+        <token name="shape">1</token>
+        <token name="TopSurface">0</token>
+        <token name="BottomSurface">0</token>
+        <float name="Transparency">0</float>
+        <float name="Reflectance">0</float>
+        <Color3uint8 name="Color3uint8">4294959478</Color3uint8>
+        <Vector3 name="size">
+          <X>0.067</X>
+          <Y>0.404631195882</Y>
+          <Z>0.067</Z>
+        </Vector3>
+        <CoordinateFrame name="CFrame">
+          <X>-0.93550775542</X>
+          <Y>3.68917744335</Y>
+          <Z>0.177</Z>
+          <R00>-0.608761429009</R00>
+          <R01>-0.793353340291</R01>
+          <R02>0</R02>
+          <R10>0.793353340291</R10>
+          <R11>-0.608761429009</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBXPuzzlePart82">
+      <Properties>
+        <string name="Name">PolishedRingBevel1_9</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">false</bool>
+        <bool name="CanQuery">false</bool>
+        <bool name="CanTouch">false</bool>
+        <bool name="CastShadow">true</bool>
+        <token name="Material">1088</token>
+        <token name="shape">1</token>
+        <token name="TopSurface">0</token>
+        <token name="BottomSurface">0</token>
+        <float name="Transparency">0</float>
+        <float name="Reflectance">0</float>
+        <Color3uint8 name="Color3uint8">4294959478</Color3uint8>
+        <Vector3 name="size">
+          <X>0.067</X>
+          <Y>0.404631195882</Y>
+          <Z>0.067</Z>
+        </Vector3>
+        <CoordinateFrame name="CFrame">
+          <X>-1.21917744335</X>
+          <Y>3.40550775542</Y>
+          <Z>0.177</Z>
+          <R00>-0.793353340291</R00>
+          <R01>-0.608761429009</R01>
+          <R02>0</R02>
+          <R10>0.608761429009</R10>
+          <R11>-0.793353340291</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBXPuzzlePart83">
+      <Properties>
+        <string name="Name">PolishedRingBevel1_10</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">false</bool>
+        <bool name="CanQuery">false</bool>
+        <bool name="CanTouch">false</bool>
+        <bool name="CastShadow">true</bool>
+        <token name="Material">1088</token>
+        <token name="shape">1</token>
+        <token name="TopSurface">0</token>
+        <token name="BottomSurface">0</token>
+        <float name="Transparency">0</float>
+        <float name="Reflectance">0</float>
+        <Color3uint8 name="Color3uint8">4294959478</Color3uint8>
+        <Vector3 name="size">
+          <X>0.067</X>
+          <Y>0.404631195882</Y>
+          <Z>0.067</Z>
+        </Vector3>
+        <CoordinateFrame name="CFrame">
+          <X>-1.41976220331</X>
+          <Y>3.05808475995</Y>
+          <Z>0.177</Z>
+          <R00>-0.923879532511</R00>
+          <R01>-0.382683432365</R01>
+          <R02>0</R02>
+          <R10>0.382683432365</R10>
+          <R11>-0.923879532511</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBXPuzzlePart84">
+      <Properties>
+        <string name="Name">PolishedRingBevel1_11</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">false</bool>
+        <bool name="CanQuery">false</bool>
+        <bool name="CanTouch">false</bool>
+        <bool name="CastShadow">true</bool>
+        <token name="Material">1088</token>
+        <token name="shape">1</token>
+        <token name="TopSurface">0</token>
+        <token name="BottomSurface">0</token>
+        <float name="Transparency">0</float>
+        <float name="Reflectance">0</float>
+        <Color3uint8 name="Color3uint8">4294959478</Color3uint8>
+        <Vector3 name="size">
+          <X>0.067</X>
+          <Y>0.404631195882</Y>
+          <Z>0.067</Z>
+        </Vector3>
+        <CoordinateFrame name="CFrame">
+          <X>-1.52359251537</X>
+          <Y>2.67058475995</Y>
+          <Z>0.177</Z>
+          <R00>-0.991444861374</R00>
+          <R01>-0.13052619222</R01>
+          <R02>0</R02>
+          <R10>0.13052619222</R10>
+          <R11>-0.991444861374</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBXPuzzlePart85">
+      <Properties>
+        <string name="Name">PolishedRingBevel1_12</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">false</bool>
+        <bool name="CanQuery">false</bool>
+        <bool name="CanTouch">false</bool>
+        <bool name="CastShadow">true</bool>
+        <token name="Material">1088</token>
+        <token name="shape">1</token>
+        <token name="TopSurface">0</token>
+        <token name="BottomSurface">0</token>
+        <float name="Transparency">0</float>
+        <float name="Reflectance">0</float>
+        <Color3uint8 name="Color3uint8">4294959478</Color3uint8>
+        <Vector3 name="size">
+          <X>0.067</X>
+          <Y>0.404631195882</Y>
+          <Z>0.067</Z>
+        </Vector3>
+        <CoordinateFrame name="CFrame">
+          <X>-1.52359251537</X>
+          <Y>2.26941524005</Y>
+          <Z>0.177</Z>
+          <R00>-0.991444861374</R00>
+          <R01>0.13052619222</R01>
+          <R02>0</R02>
+          <R10>-0.13052619222</R10>
+          <R11>-0.991444861374</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBXPuzzlePart86">
+      <Properties>
+        <string name="Name">PolishedRingBevel1_13</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">false</bool>
+        <bool name="CanQuery">false</bool>
+        <bool name="CanTouch">false</bool>
+        <bool name="CastShadow">true</bool>
+        <token name="Material">1088</token>
+        <token name="shape">1</token>
+        <token name="TopSurface">0</token>
+        <token name="BottomSurface">0</token>
+        <float name="Transparency">0</float>
+        <float name="Reflectance">0</float>
+        <Color3uint8 name="Color3uint8">4294959478</Color3uint8>
+        <Vector3 name="size">
+          <X>0.067</X>
+          <Y>0.404631195882</Y>
+          <Z>0.067</Z>
+        </Vector3>
+        <CoordinateFrame name="CFrame">
+          <X>-1.41976220331</X>
+          <Y>1.88191524005</Y>
+          <Z>0.177</Z>
+          <R00>-0.923879532511</R00>
+          <R01>0.382683432365</R01>
+          <R02>0</R02>
+          <R10>-0.382683432365</R10>
+          <R11>-0.923879532511</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBXPuzzlePart87">
+      <Properties>
+        <string name="Name">PolishedRingBevel1_14</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">false</bool>
+        <bool name="CanQuery">false</bool>
+        <bool name="CanTouch">false</bool>
+        <bool name="CastShadow">true</bool>
+        <token name="Material">1088</token>
+        <token name="shape">1</token>
+        <token name="TopSurface">0</token>
+        <token name="BottomSurface">0</token>
+        <float name="Transparency">0</float>
+        <float name="Reflectance">0</float>
+        <Color3uint8 name="Color3uint8">4294959478</Color3uint8>
+        <Vector3 name="size">
+          <X>0.067</X>
+          <Y>0.404631195882</Y>
+          <Z>0.067</Z>
+        </Vector3>
+        <CoordinateFrame name="CFrame">
+          <X>-1.21917744335</X>
+          <Y>1.53449224458</Y>
+          <Z>0.177</Z>
+          <R00>-0.793353340291</R00>
+          <R01>0.608761429009</R01>
+          <R02>0</R02>
+          <R10>-0.608761429009</R10>
+          <R11>-0.793353340291</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBXPuzzlePart88">
+      <Properties>
+        <string name="Name">PolishedRingBevel1_15</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">false</bool>
+        <bool name="CanQuery">false</bool>
+        <bool name="CanTouch">false</bool>
+        <bool name="CastShadow">true</bool>
+        <token name="Material">1088</token>
+        <token name="shape">1</token>
+        <token name="TopSurface">0</token>
+        <token name="BottomSurface">0</token>
+        <float name="Transparency">0</float>
+        <float name="Reflectance">0</float>
+        <Color3uint8 name="Color3uint8">4294959478</Color3uint8>
+        <Vector3 name="size">
+          <X>0.067</X>
+          <Y>0.404631195882</Y>
+          <Z>0.067</Z>
+        </Vector3>
+        <CoordinateFrame name="CFrame">
+          <X>-0.93550775542</X>
+          <Y>1.25082255665</Y>
+          <Z>0.177</Z>
+          <R00>-0.608761429009</R00>
+          <R01>0.793353340291</R01>
+          <R02>0</R02>
+          <R10>-0.793353340291</R10>
+          <R11>-0.608761429009</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBXPuzzlePart89">
+      <Properties>
+        <string name="Name">PolishedRingBevel1_16</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">false</bool>
+        <bool name="CanQuery">false</bool>
+        <bool name="CanTouch">false</bool>
+        <bool name="CastShadow">true</bool>
+        <token name="Material">1088</token>
+        <token name="shape">1</token>
+        <token name="TopSurface">0</token>
+        <token name="BottomSurface">0</token>
+        <float name="Transparency">0</float>
+        <float name="Reflectance">0</float>
+        <Color3uint8 name="Color3uint8">4294959478</Color3uint8>
+        <Vector3 name="size">
+          <X>0.067</X>
+          <Y>0.404631195882</Y>
+          <Z>0.067</Z>
+        </Vector3>
+        <CoordinateFrame name="CFrame">
+          <X>-0.588084759954</X>
+          <Y>1.05023779669</Y>
+          <Z>0.177</Z>
+          <R00>-0.382683432365</R00>
+          <R01>0.923879532511</R01>
+          <R02>0</R02>
+          <R10>-0.923879532511</R10>
+          <R11>-0.382683432365</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBXPuzzlePart90">
+      <Properties>
+        <string name="Name">PolishedRingBevel1_17</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">false</bool>
+        <bool name="CanQuery">false</bool>
+        <bool name="CanTouch">false</bool>
+        <bool name="CastShadow">true</bool>
+        <token name="Material">1088</token>
+        <token name="shape">1</token>
+        <token name="TopSurface">0</token>
+        <token name="BottomSurface">0</token>
+        <float name="Transparency">0</float>
+        <float name="Reflectance">0</float>
+        <Color3uint8 name="Color3uint8">4294959478</Color3uint8>
+        <Vector3 name="size">
+          <X>0.067</X>
+          <Y>0.404631195882</Y>
+          <Z>0.067</Z>
+        </Vector3>
+        <CoordinateFrame name="CFrame">
+          <X>-0.200584759954</X>
+          <Y>0.946407484626</Y>
+          <Z>0.177</Z>
+          <R00>-0.13052619222</R00>
+          <R01>0.991444861374</R01>
+          <R02>0</R02>
+          <R10>-0.991444861374</R10>
+          <R11>-0.13052619222</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBXPuzzlePart91">
+      <Properties>
+        <string name="Name">PolishedRingBevel1_18</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">false</bool>
+        <bool name="CanQuery">false</bool>
+        <bool name="CanTouch">false</bool>
+        <bool name="CastShadow">true</bool>
+        <token name="Material">1088</token>
+        <token name="shape">1</token>
+        <token name="TopSurface">0</token>
+        <token name="BottomSurface">0</token>
+        <float name="Transparency">0</float>
+        <float name="Reflectance">0</float>
+        <Color3uint8 name="Color3uint8">4294959478</Color3uint8>
+        <Vector3 name="size">
+          <X>0.067</X>
+          <Y>0.404631195882</Y>
+          <Z>0.067</Z>
+        </Vector3>
+        <CoordinateFrame name="CFrame">
+          <X>0.200584759954</X>
+          <Y>0.946407484626</Y>
+          <Z>0.177</Z>
+          <R00>0.13052619222</R00>
+          <R01>0.991444861374</R01>
+          <R02>0</R02>
+          <R10>-0.991444861374</R10>
+          <R11>0.13052619222</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBXPuzzlePart92">
+      <Properties>
+        <string name="Name">PolishedRingBevel1_19</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">false</bool>
+        <bool name="CanQuery">false</bool>
+        <bool name="CanTouch">false</bool>
+        <bool name="CastShadow">true</bool>
+        <token name="Material">1088</token>
+        <token name="shape">1</token>
+        <token name="TopSurface">0</token>
+        <token name="BottomSurface">0</token>
+        <float name="Transparency">0</float>
+        <float name="Reflectance">0</float>
+        <Color3uint8 name="Color3uint8">4294959478</Color3uint8>
+        <Vector3 name="size">
+          <X>0.067</X>
+          <Y>0.404631195882</Y>
+          <Z>0.067</Z>
+        </Vector3>
+        <CoordinateFrame name="CFrame">
+          <X>0.588084759954</X>
+          <Y>1.05023779669</Y>
+          <Z>0.177</Z>
+          <R00>0.382683432365</R00>
+          <R01>0.923879532511</R01>
+          <R02>0</R02>
+          <R10>-0.923879532511</R10>
+          <R11>0.382683432365</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBXPuzzlePart93">
+      <Properties>
+        <string name="Name">PolishedRingBevel1_20</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">false</bool>
+        <bool name="CanQuery">false</bool>
+        <bool name="CanTouch">false</bool>
+        <bool name="CastShadow">true</bool>
+        <token name="Material">1088</token>
+        <token name="shape">1</token>
+        <token name="TopSurface">0</token>
+        <token name="BottomSurface">0</token>
+        <float name="Transparency">0</float>
+        <float name="Reflectance">0</float>
+        <Color3uint8 name="Color3uint8">4294959478</Color3uint8>
+        <Vector3 name="size">
+          <X>0.067</X>
+          <Y>0.404631195882</Y>
+          <Z>0.067</Z>
+        </Vector3>
+        <CoordinateFrame name="CFrame">
+          <X>0.93550775542</X>
+          <Y>1.25082255665</Y>
+          <Z>0.177</Z>
+          <R00>0.608761429009</R00>
+          <R01>0.793353340291</R01>
+          <R02>0</R02>
+          <R10>-0.793353340291</R10>
+          <R11>0.608761429009</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBXPuzzlePart94">
+      <Properties>
+        <string name="Name">PolishedRingBevel1_21</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">false</bool>
+        <bool name="CanQuery">false</bool>
+        <bool name="CanTouch">false</bool>
+        <bool name="CastShadow">true</bool>
+        <token name="Material">1088</token>
+        <token name="shape">1</token>
+        <token name="TopSurface">0</token>
+        <token name="BottomSurface">0</token>
+        <float name="Transparency">0</float>
+        <float name="Reflectance">0</float>
+        <Color3uint8 name="Color3uint8">4294959478</Color3uint8>
+        <Vector3 name="size">
+          <X>0.067</X>
+          <Y>0.404631195882</Y>
+          <Z>0.067</Z>
+        </Vector3>
+        <CoordinateFrame name="CFrame">
+          <X>1.21917744335</X>
+          <Y>1.53449224458</Y>
+          <Z>0.177</Z>
+          <R00>0.793353340291</R00>
+          <R01>0.608761429009</R01>
+          <R02>0</R02>
+          <R10>-0.608761429009</R10>
+          <R11>0.793353340291</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBXPuzzlePart95">
+      <Properties>
+        <string name="Name">PolishedRingBevel1_22</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">false</bool>
+        <bool name="CanQuery">false</bool>
+        <bool name="CanTouch">false</bool>
+        <bool name="CastShadow">true</bool>
+        <token name="Material">1088</token>
+        <token name="shape">1</token>
+        <token name="TopSurface">0</token>
+        <token name="BottomSurface">0</token>
+        <float name="Transparency">0</float>
+        <float name="Reflectance">0</float>
+        <Color3uint8 name="Color3uint8">4294959478</Color3uint8>
+        <Vector3 name="size">
+          <X>0.067</X>
+          <Y>0.404631195882</Y>
+          <Z>0.067</Z>
+        </Vector3>
+        <CoordinateFrame name="CFrame">
+          <X>1.41976220331</X>
+          <Y>1.88191524005</Y>
+          <Z>0.177</Z>
+          <R00>0.923879532511</R00>
+          <R01>0.382683432365</R01>
+          <R02>0</R02>
+          <R10>-0.382683432365</R10>
+          <R11>0.923879532511</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBXPuzzlePart96">
+      <Properties>
+        <string name="Name">PolishedRingBevel1_23</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">false</bool>
+        <bool name="CanQuery">false</bool>
+        <bool name="CanTouch">false</bool>
+        <bool name="CastShadow">true</bool>
+        <token name="Material">1088</token>
+        <token name="shape">1</token>
+        <token name="TopSurface">0</token>
+        <token name="BottomSurface">0</token>
+        <float name="Transparency">0</float>
+        <float name="Reflectance">0</float>
+        <Color3uint8 name="Color3uint8">4294959478</Color3uint8>
+        <Vector3 name="size">
+          <X>0.067</X>
+          <Y>0.404631195882</Y>
+          <Z>0.067</Z>
+        </Vector3>
+        <CoordinateFrame name="CFrame">
+          <X>1.52359251537</X>
+          <Y>2.26941524005</Y>
+          <Z>0.177</Z>
+          <R00>0.991444861374</R00>
+          <R01>0.13052619222</R01>
+          <R02>0</R02>
+          <R10>-0.13052619222</R10>
+          <R11>0.991444861374</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBXPuzzlePart97">
+      <Properties>
+        <string name="Name">BlueSpeedPlinth</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">false</bool>
+        <bool name="CanQuery">false</bool>
+        <bool name="CanTouch">false</bool>
+        <bool name="CastShadow">true</bool>
+        <token name="Material">1088</token>
+        <token name="shape">1</token>
+        <token name="TopSurface">0</token>
+        <token name="BottomSurface">0</token>
+        <float name="Transparency">0</float>
+        <float name="Reflectance">0</float>
+        <Color3uint8 name="Color3uint8">4279653044</Color3uint8>
+        <Vector3 name="size">
+          <X>2.38</X>
+          <Y>0.2</Y>
+          <Z>1.44</Z>
+        </Vector3>
+        <CoordinateFrame name="CFrame">
+          <X>0</X>
+          <Y>0.14</Y>
+          <Z>0.12</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBXPuzzlePart98">
+      <Properties>
+        <string name="Name">GoldPlinthInset</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">false</bool>
+        <bool name="CanQuery">false</bool>
+        <bool name="CanTouch">false</bool>
+        <bool name="CastShadow">true</bool>
+        <token name="Material">1088</token>
+        <token name="shape">1</token>
+        <token name="TopSurface">0</token>
+        <token name="BottomSurface">0</token>
+        <float name="Transparency">0</float>
+        <float name="Reflectance">0</float>
+        <Color3uint8 name="Color3uint8">4293241381</Color3uint8>
+        <Vector3 name="size">
+          <X>2.13</X>
+          <Y>0.045</Y>
+          <Z>1.2</Z>
+        </Vector3>
+        <CoordinateFrame name="CFrame">
+          <X>0</X>
+          <Y>0.262</Y>
+          <Z>0.12</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBXPuzzlePart99">
+      <Properties>
+        <string name="Name">LowSonicBlueSupport</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">false</bool>
+        <bool name="CanQuery">false</bool>
+        <bool name="CanTouch">false</bool>
+        <bool name="CastShadow">true</bool>
+        <token name="Material">1088</token>
+        <token name="shape">1</token>
+        <token name="TopSurface">0</token>
+        <token name="BottomSurface">0</token>
+        <float name="Transparency">0</float>
+        <float name="Reflectance">0</float>
+        <Color3uint8 name="Color3uint8">4279653044</Color3uint8>
+        <Vector3 name="size">
+          <X>0.31</X>
+          <Y>0.53</Y>
+          <Z>0.3</Z>
+        </Vector3>
+        <CoordinateFrame name="CFrame">
+          <X>0</X>
+          <Y>0.52</Y>
+          <Z>0.1</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBXPuzzlePart100">
+      <Properties>
+        <string name="Name">RingCradle</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">false</bool>
+        <bool name="CanQuery">false</bool>
+        <bool name="CanTouch">false</bool>
+        <bool name="CastShadow">true</bool>
+        <token name="Material">1088</token>
+        <token name="shape">0</token>
+        <token name="TopSurface">0</token>
+        <token name="BottomSurface">0</token>
+        <float name="Transparency">0</float>
+        <float name="Reflectance">0</float>
+        <Color3uint8 name="Color3uint8">4294959478</Color3uint8>
+        <Vector3 name="size">
+          <X>0.62</X>
+          <Y>0.28</Y>
+          <Z>0.44</Z>
+        </Vector3>
+        <CoordinateFrame name="CFrame">
+          <X>0</X>
+          <Y>0.79</Y>
+          <Z>0.04</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBXPuzzlePart101">
+      <Properties>
+        <string name="Name">BlueSpeedTrail-1_0</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">false</bool>
+        <bool name="CanQuery">false</bool>
+        <bool name="CanTouch">false</bool>
+        <bool name="CastShadow">true</bool>
+        <token name="Material">288</token>
+        <token name="shape">1</token>
+        <token name="TopSurface">0</token>
+        <token name="BottomSurface">0</token>
+        <float name="Transparency">0</float>
+        <float name="Reflectance">0</float>
+        <Color3uint8 name="Color3uint8">4283555576</Color3uint8>
+        <Vector3 name="size">
+          <X>0.065</X>
+          <Y>0.570438427878</Y>
+          <Z>0.07</Z>
+        </Vector3>
+        <CoordinateFrame name="CFrame">
+          <X>-1</X>
+          <Y>0.595</Y>
+          <Z>0.425</Z>
+          <R00>0.417905608232</R00>
+          <R01>-0.876518788995</R01>
+          <R02>0.238892685419</R02>
+          <R10>0.908490452679</R10>
+          <R11>0.403198642938</R11>
+          <R12>-0.109890635293</R12>
+          <R20>0</R20>
+          <R21>0.262955636699</R21>
+          <R22>0.964807925511</R22>
+        </CoordinateFrame>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBXPuzzlePart102">
+      <Properties>
+        <string name="Name">BlueSpeedTrail-1_1</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">false</bool>
+        <bool name="CanQuery">false</bool>
+        <bool name="CanTouch">false</bool>
+        <bool name="CastShadow">true</bool>
+        <token name="Material">288</token>
+        <token name="shape">1</token>
+        <token name="TopSurface">0</token>
+        <token name="BottomSurface">0</token>
+        <float name="Transparency">0</float>
+        <float name="Reflectance">0</float>
+        <Color3uint8 name="Color3uint8">4283555576</Color3uint8>
+        <Vector3 name="size">
+          <X>0.065</X>
+          <Y>0.789303490427</Y>
+          <Z>0.07</Z>
+        </Vector3>
+        <CoordinateFrame name="CFrame">
+          <X>-1.12</X>
+          <Y>0.755</Y>
+          <Z>0.425</Z>
+          <R00>0.296805080179</R00>
+          <R01>-0.937535446093</R01>
+          <R02>0.18147735864</R02>
+          <R10>0.954938084056</R10>
+          <R11>0.291396152164</R11>
+          <R12>-0.0564051249828</R12>
+          <R20>0</R20>
+          <R21>0.190040968803</R21>
+          <R22>0.981776160933</R22>
+        </CoordinateFrame>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBXPuzzlePart103">
+      <Properties>
+        <string name="Name">BlueSpeedTrail-1_2</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">false</bool>
+        <bool name="CanQuery">false</bool>
+        <bool name="CanTouch">false</bool>
+        <bool name="CastShadow">true</bool>
+        <token name="Material">288</token>
+        <token name="shape">1</token>
+        <token name="TopSurface">0</token>
+        <token name="BottomSurface">0</token>
+        <float name="Transparency">0</float>
+        <float name="Reflectance">0</float>
+        <Color3uint8 name="Color3uint8">4283555576</Color3uint8>
+        <Vector3 name="size">
+          <X>0.065</X>
+          <Y>1.01774260007</Y>
+          <Z>0.07</Z>
+        </Vector3>
+        <CoordinateFrame name="CFrame">
+          <X>-1.24</X>
+          <Y>0.915</Y>
+          <Z>0.425</Z>
+          <R00>0.228485589611</R00>
+          <R01>-0.962915377554</R01>
+          <R02>0.143486274643</R02>
+          <R10>0.973547294866</R10>
+          <R11>0.225990343712</R11>
+          <R12>-0.0336753501713</R12>
+          <R20>0</R20>
+          <R21>0.147385006768</R21>
+          <R22>0.989079197931</R22>
+        </CoordinateFrame>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBXPuzzlePart104">
+      <Properties>
+        <string name="Name">BlueSpeedTrail1_0</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">false</bool>
+        <bool name="CanQuery">false</bool>
+        <bool name="CanTouch">false</bool>
+        <bool name="CastShadow">true</bool>
+        <token name="Material">288</token>
+        <token name="shape">1</token>
+        <token name="TopSurface">0</token>
+        <token name="BottomSurface">0</token>
+        <float name="Transparency">0</float>
+        <float name="Reflectance">0</float>
+        <Color3uint8 name="Color3uint8">4283555576</Color3uint8>
+        <Vector3 name="size">
+          <X>0.065</X>
+          <Y>0.570438427878</Y>
+          <Z>0.07</Z>
+        </Vector3>
+        <CoordinateFrame name="CFrame">
+          <X>1</X>
+          <Y>0.595</Y>
+          <Z>0.425</Z>
+          <R00>0.417905608232</R00>
+          <R01>0.876518788995</R01>
+          <R02>-0.238892685419</R02>
+          <R10>-0.908490452679</R10>
+          <R11>0.403198642938</R11>
+          <R12>-0.109890635293</R12>
+          <R20>0</R20>
+          <R21>0.262955636699</R21>
+          <R22>0.964807925511</R22>
+        </CoordinateFrame>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBXPuzzlePart105">
+      <Properties>
+        <string name="Name">BlueSpeedTrail1_1</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">false</bool>
+        <bool name="CanQuery">false</bool>
+        <bool name="CanTouch">false</bool>
+        <bool name="CastShadow">true</bool>
+        <token name="Material">288</token>
+        <token name="shape">1</token>
+        <token name="TopSurface">0</token>
+        <token name="BottomSurface">0</token>
+        <float name="Transparency">0</float>
+        <float name="Reflectance">0</float>
+        <Color3uint8 name="Color3uint8">4283555576</Color3uint8>
+        <Vector3 name="size">
+          <X>0.065</X>
+          <Y>0.789303490427</Y>
+          <Z>0.07</Z>
+        </Vector3>
+        <CoordinateFrame name="CFrame">
+          <X>1.12</X>
+          <Y>0.755</Y>
+          <Z>0.425</Z>
+          <R00>0.296805080179</R00>
+          <R01>0.937535446093</R01>
+          <R02>-0.18147735864</R02>
+          <R10>-0.954938084056</R10>
+          <R11>0.291396152164</R11>
+          <R12>-0.0564051249828</R12>
+          <R20>0</R20>
+          <R21>0.190040968803</R21>
+          <R22>0.981776160933</R22>
+        </CoordinateFrame>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBXPuzzlePart106">
+      <Properties>
+        <string name="Name">BlueSpeedTrail1_2</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">false</bool>
+        <bool name="CanQuery">false</bool>
+        <bool name="CanTouch">false</bool>
+        <bool name="CastShadow">true</bool>
+        <token name="Material">288</token>
+        <token name="shape">1</token>
+        <token name="TopSurface">0</token>
+        <token name="BottomSurface">0</token>
+        <float name="Transparency">0</float>
+        <float name="Reflectance">0</float>
+        <Color3uint8 name="Color3uint8">4283555576</Color3uint8>
+        <Vector3 name="size">
+          <X>0.065</X>
+          <Y>1.01774260007</Y>
+          <Z>0.07</Z>
+        </Vector3>
+        <CoordinateFrame name="CFrame">
+          <X>1.24</X>
+          <Y>0.915</Y>
+          <Z>0.425</Z>
+          <R00>0.228485589611</R00>
+          <R01>0.962915377554</R01>
+          <R02>-0.143486274643</R02>
+          <R10>-0.973547294866</R10>
+          <R11>0.225990343712</R11>
+          <R12>-0.0336753501713</R12>
+          <R20>0</R20>
+          <R21>0.147385006768</R21>
+          <R22>0.989079197931</R22>
+        </CoordinateFrame>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBXPuzzlePart107">
+      <Properties>
+        <string name="Name">RingInsetHighlight0</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">false</bool>
+        <bool name="CanQuery">false</bool>
+        <bool name="CanTouch">false</bool>
+        <bool name="CastShadow">true</bool>
+        <token name="Material">1088</token>
+        <token name="shape">1</token>
+        <token name="TopSurface">0</token>
+        <token name="BottomSurface">0</token>
+        <float name="Transparency">0</float>
+        <float name="Reflectance">0</float>
+        <Color3uint8 name="Color3uint8">4294375668</Color3uint8>
+        <Vector3 name="size">
+          <X>0.13</X>
+          <Y>0.038</Y>
+          <Z>0.025</Z>
+        </Vector3>
+        <CoordinateFrame name="CFrame">
+          <X>1.56</X>
+          <Y>2.47</Y>
+          <Z>-0.245</Z>
+          <R00>6.12323399574e-17</R00>
+          <R01>-1</R01>
+          <R02>0</R02>
+          <R10>1</R10>
+          <R11>6.12323399574e-17</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBXPuzzlePart108">
+      <Properties>
+        <string name="Name">RingInsetHighlight1</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">false</bool>
+        <bool name="CanQuery">false</bool>
+        <bool name="CanTouch">false</bool>
+        <bool name="CastShadow">true</bool>
+        <token name="Material">1088</token>
+        <token name="shape">1</token>
+        <token name="TopSurface">0</token>
+        <token name="BottomSurface">0</token>
+        <float name="Transparency">0</float>
+        <float name="Reflectance">0</float>
+        <Color3uint8 name="Color3uint8">4294375668</Color3uint8>
+        <Vector3 name="size">
+          <X>0.13</X>
+          <Y>0.038</Y>
+          <Z>0.025</Z>
+        </Vector3>
+        <CoordinateFrame name="CFrame">
+          <X>1.10308657865</X>
+          <Y>3.57308657865</Y>
+          <Z>-0.245</Z>
+          <R00>-0.707106781187</R00>
+          <R01>-0.707106781187</R01>
+          <R02>0</R02>
+          <R10>0.707106781187</R10>
+          <R11>-0.707106781187</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBXPuzzlePart109">
+      <Properties>
+        <string name="Name">RingInsetHighlight2</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">false</bool>
+        <bool name="CanQuery">false</bool>
+        <bool name="CanTouch">false</bool>
+        <bool name="CastShadow">true</bool>
+        <token name="Material">1088</token>
+        <token name="shape">1</token>
+        <token name="TopSurface">0</token>
+        <token name="BottomSurface">0</token>
+        <float name="Transparency">0</float>
+        <float name="Reflectance">0</float>
+        <Color3uint8 name="Color3uint8">4294375668</Color3uint8>
+        <Vector3 name="size">
+          <X>0.13</X>
+          <Y>0.038</Y>
+          <Z>0.025</Z>
+        </Vector3>
+        <CoordinateFrame name="CFrame">
+          <X>9.55224503335e-17</X>
+          <Y>4.03</Y>
+          <Z>-0.245</Z>
+          <R00>-1</R00>
+          <R01>-1.22464679915e-16</R01>
+          <R02>0</R02>
+          <R10>1.22464679915e-16</R10>
+          <R11>-1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBXPuzzlePart110">
+      <Properties>
+        <string name="Name">RingInsetHighlight3</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">false</bool>
+        <bool name="CanQuery">false</bool>
+        <bool name="CanTouch">false</bool>
+        <bool name="CastShadow">true</bool>
+        <token name="Material">1088</token>
+        <token name="shape">1</token>
+        <token name="TopSurface">0</token>
+        <token name="BottomSurface">0</token>
+        <float name="Transparency">0</float>
+        <float name="Reflectance">0</float>
+        <Color3uint8 name="Color3uint8">4294375668</Color3uint8>
+        <Vector3 name="size">
+          <X>0.13</X>
+          <Y>0.038</Y>
+          <Z>0.025</Z>
+        </Vector3>
+        <CoordinateFrame name="CFrame">
+          <X>-1.10308657865</X>
+          <Y>3.57308657865</Y>
+          <Z>-0.245</Z>
+          <R00>-0.707106781187</R00>
+          <R01>0.707106781187</R01>
+          <R02>0</R02>
+          <R10>-0.707106781187</R10>
+          <R11>-0.707106781187</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBXPuzzlePart111">
+      <Properties>
+        <string name="Name">RingInsetHighlight4</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">false</bool>
+        <bool name="CanQuery">false</bool>
+        <bool name="CanTouch">false</bool>
+        <bool name="CastShadow">true</bool>
+        <token name="Material">1088</token>
+        <token name="shape">1</token>
+        <token name="TopSurface">0</token>
+        <token name="BottomSurface">0</token>
+        <float name="Transparency">0</float>
+        <float name="Reflectance">0</float>
+        <Color3uint8 name="Color3uint8">4294375668</Color3uint8>
+        <Vector3 name="size">
+          <X>0.13</X>
+          <Y>0.038</Y>
+          <Z>0.025</Z>
+        </Vector3>
+        <CoordinateFrame name="CFrame">
+          <X>-1.56</X>
+          <Y>2.47</Y>
+          <Z>-0.245</Z>
+          <R00>-1.83697019872e-16</R00>
+          <R01>1</R01>
+          <R02>0</R02>
+          <R10>-1</R10>
+          <R11>-1.83697019872e-16</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBXPuzzlePart112">
+      <Properties>
+        <string name="Name">RingInsetHighlight5</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">false</bool>
+        <bool name="CanQuery">false</bool>
+        <bool name="CanTouch">false</bool>
+        <bool name="CastShadow">true</bool>
+        <token name="Material">1088</token>
+        <token name="shape">1</token>
+        <token name="TopSurface">0</token>
+        <token name="BottomSurface">0</token>
+        <float name="Transparency">0</float>
+        <float name="Reflectance">0</float>
+        <Color3uint8 name="Color3uint8">4294375668</Color3uint8>
+        <Vector3 name="size">
+          <X>0.13</X>
+          <Y>0.038</Y>
+          <Z>0.025</Z>
+        </Vector3>
+        <CoordinateFrame name="CFrame">
+          <X>-1.10308657865</X>
+          <Y>1.36691342135</Y>
+          <Z>-0.245</Z>
+          <R00>0.707106781187</R00>
+          <R01>0.707106781187</R01>
+          <R02>0</R02>
+          <R10>-0.707106781187</R10>
+          <R11>0.707106781187</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBXPuzzlePart113">
+      <Properties>
+        <string name="Name">RingInsetHighlight6</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">false</bool>
+        <bool name="CanQuery">false</bool>
+        <bool name="CanTouch">false</bool>
+        <bool name="CastShadow">true</bool>
+        <token name="Material">1088</token>
+        <token name="shape">1</token>
+        <token name="TopSurface">0</token>
+        <token name="BottomSurface">0</token>
+        <float name="Transparency">0</float>
+        <float name="Reflectance">0</float>
+        <Color3uint8 name="Color3uint8">4294375668</Color3uint8>
+        <Vector3 name="size">
+          <X>0.13</X>
+          <Y>0.038</Y>
+          <Z>0.025</Z>
+        </Vector3>
+        <CoordinateFrame name="CFrame">
+          <X>-2.86567351e-16</X>
+          <Y>0.91</Y>
+          <Z>-0.245</Z>
+          <R00>1</R00>
+          <R01>2.44929359829e-16</R01>
+          <R02>0</R02>
+          <R10>-2.44929359829e-16</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBXPuzzlePart114">
+      <Properties>
+        <string name="Name">RingInsetHighlight7</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">false</bool>
+        <bool name="CanQuery">false</bool>
+        <bool name="CanTouch">false</bool>
+        <bool name="CastShadow">true</bool>
+        <token name="Material">1088</token>
+        <token name="shape">1</token>
+        <token name="TopSurface">0</token>
+        <token name="BottomSurface">0</token>
+        <float name="Transparency">0</float>
+        <float name="Reflectance">0</float>
+        <Color3uint8 name="Color3uint8">4294375668</Color3uint8>
+        <Vector3 name="size">
+          <X>0.13</X>
+          <Y>0.038</Y>
+          <Z>0.025</Z>
+        </Vector3>
+        <CoordinateFrame name="CFrame">
+          <X>1.10308657865</X>
+          <Y>1.36691342135</Y>
+          <Z>-0.245</Z>
+          <R00>0.707106781187</R00>
+          <R01>-0.707106781187</R01>
+          <R02>0</R02>
+          <R10>0.707106781187</R10>
+          <R11>0.707106781187</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBXPuzzlePart115">
+      <Properties>
+        <string name="Name">RingSparkleLong1</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">false</bool>
+        <bool name="CanQuery">false</bool>
+        <bool name="CanTouch">false</bool>
+        <bool name="CastShadow">true</bool>
+        <token name="Material">288</token>
+        <token name="shape">1</token>
+        <token name="TopSurface">0</token>
+        <token name="BottomSurface">0</token>
+        <float name="Transparency">0</float>
+        <float name="Reflectance">0</float>
+        <Color3uint8 name="Color3uint8">4294959478</Color3uint8>
+        <Vector3 name="size">
+          <X>0.032</X>
+          <Y>0.32</Y>
+          <Z>0.02</Z>
+        </Vector3>
+        <CoordinateFrame name="CFrame">
+          <X>-1.12</X>
+          <Y>3.56</Y>
+          <Z>-0.3</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBXPuzzlePart116">
+      <Properties>
+        <string name="Name">RingSparkleShort1</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">false</bool>
+        <bool name="CanQuery">false</bool>
+        <bool name="CanTouch">false</bool>
+        <bool name="CastShadow">true</bool>
+        <token name="Material">288</token>
+        <token name="shape">1</token>
+        <token name="TopSurface">0</token>
+        <token name="BottomSurface">0</token>
+        <float name="Transparency">0</float>
+        <float name="Reflectance">0</float>
+        <Color3uint8 name="Color3uint8">4294959478</Color3uint8>
+        <Vector3 name="size">
+          <X>0.032</X>
+          <Y>0.24</Y>
+          <Z>0.02</Z>
+        </Vector3>
+        <CoordinateFrame name="CFrame">
+          <X>-1.12</X>
+          <Y>3.56</Y>
+          <Z>-0.3</Z>
+          <R00>0</R00>
+          <R01>1</R01>
+          <R02>0</R02>
+          <R10>-1</R10>
+          <R11>0</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBXPuzzlePart117">
+      <Properties>
+        <string name="Name">RingSparkleLong2</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">false</bool>
+        <bool name="CanQuery">false</bool>
+        <bool name="CanTouch">false</bool>
+        <bool name="CastShadow">true</bool>
+        <token name="Material">288</token>
+        <token name="shape">1</token>
+        <token name="TopSurface">0</token>
+        <token name="BottomSurface">0</token>
+        <float name="Transparency">0</float>
+        <float name="Reflectance">0</float>
+        <Color3uint8 name="Color3uint8">4294959478</Color3uint8>
+        <Vector3 name="size">
+          <X>0.032</X>
+          <Y>0.32</Y>
+          <Z>0.02</Z>
+        </Vector3>
+        <CoordinateFrame name="CFrame">
+          <X>1.4</X>
+          <Y>1.9</Y>
+          <Z>-0.3</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBXPuzzlePart118">
+      <Properties>
+        <string name="Name">RingSparkleShort2</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">false</bool>
+        <bool name="CanQuery">false</bool>
+        <bool name="CanTouch">false</bool>
+        <bool name="CastShadow">true</bool>
+        <token name="Material">288</token>
+        <token name="shape">1</token>
+        <token name="TopSurface">0</token>
+        <token name="BottomSurface">0</token>
+        <float name="Transparency">0</float>
+        <float name="Reflectance">0</float>
+        <Color3uint8 name="Color3uint8">4294959478</Color3uint8>
+        <Vector3 name="size">
+          <X>0.032</X>
+          <Y>0.24</Y>
+          <Z>0.02</Z>
+        </Vector3>
+        <CoordinateFrame name="CFrame">
+          <X>1.4</X>
+          <Y>1.9</Y>
+          <Z>-0.3</Z>
+          <R00>0</R00>
+          <R01>1</R01>
+          <R02>0</R02>
+          <R10>-1</R10>
+          <R11>0</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+      </Properties>
+    </Item>
+  </Item>
+</roblox>
