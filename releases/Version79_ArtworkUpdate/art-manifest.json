@@ -1,0 +1,21 @@
+{
+  "source": "Image-generation edits of the preserved V79 icon and thumbnail",
+  "original_V79_art_preserved": true,
+  "files": [
+    {
+      "file": "StealAnOPItem_Icon_DragonBall.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "c6da15b188afe575b5f0c146748c8f60fe690cd71f2395e4ab8974b995720ab0",
+      "bytes": 2283753
+    },
+    {
+      "file": "StealAnOPItem_Thumbnail_Collectibles.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "994b1211e51fb2309891b8c16413848ed8877562f7381f106ee2e8449f962e7f",
+      "bytes": 2808607
+    }
+  ],
+  "uploaded_to_roblox": false
+}
