@@ -1,0 +1,17 @@
+{
+  "product": "Pocket Cash",
+  "reward": "5,000 in-game cash",
+  "proposed_robux": 25,
+  "image": "PocketCash_5000.png",
+  "width": 512,
+  "height": 512,
+  "sha256": "c91f17459b3256de75899d576ebf55eb9b1ed7b659ded3144f42a00c720f5460",
+  "original": "PocketCash_5000_original.png",
+  "original_sha256": "7a5647b152db04deadac4840c715d187f2c8472c7401219c7199000b90e3124d",
+  "archive": "PocketCash_5000_Icon.zip",
+  "archive_sha256": "8ad65607ed061b52fb5b2a84145eb3a907edf757ae489cdae75a5aa0894e569e",
+  "archive_bytes": 690448,
+  "usage": "Extract ZIP, scroll above product name, upload PocketCash_5000.png to the Developer Product image field.",
+  "roblox_uploaded": false,
+  "checkout_changed": false
+}
