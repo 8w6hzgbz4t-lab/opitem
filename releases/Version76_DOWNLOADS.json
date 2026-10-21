@@ -1,0 +1,20 @@
+[
+  {
+    "file": "Version76_Game.zip",
+    "bytes": 780030,
+    "sha256": "8b75f77906d662226b547f72eb7022b2be795914eca2c3b4cf415f1753d3eed6",
+    "files": 1
+  },
+  {
+    "file": "Version76_ArtAndAudio.zip",
+    "bytes": 7640916,
+    "sha256": "bf8db77c06dc3f4977ef6691883f630790b7f70f892d663e19aa50a7d2a4d0b1",
+    "files": 18
+  },
+  {
+    "file": "Version76_SourceAndGame.zip",
+    "bytes": 11136518,
+    "sha256": "c7e91c4bb4f81e38cce96c381637c737d4a76e2fb921a7e521723f9bd2fd60a6",
+    "files": 433
+  }
+]

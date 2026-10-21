@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "assertions": 22,
+  "benchAssertions": 157,
+  "benchParts": 50,
+  "sourceSha256": "054d71c6b52dbab36c97ccd35198fc84bc66ccda987bdfc723fa5cf9f54fc791",
+  "testSha256": "8333f1839fe50f281ad44a4bf2aa9a4894515501255951b69c1fe0c2e6926f45",
+  "benchSourceSha256": "e18b1918f01d89d571bf234bf6daaf4f108581a903b47af6e97ee4bc2b291343",
+  "benchTestSha256": "bc6802efeef92d15c9dd46c1092859ce43edb95529c0876d72ffe331917661f2",
+  "limitations": "Offline GUI/event adapter and recorded real bench geometry. Live Roblox rendering and network not exercised."
+}

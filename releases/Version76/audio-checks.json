@@ -1,0 +1,104 @@
+{
+  "actual_module": "AudioClient.lua",
+  "assertions": 114,
+  "builtin_sfx_verified": true,
+  "cleanup_verified": true,
+  "custom_id_routing_verified": true,
+  "mute_controls_verified": true,
+  "passed": true,
+  "roblox_asset_permissions_tested": false,
+  "spam_limits_verified": true,
+  "studio_playback_tested": false,
+  "unconfigured_music_disabled": true,
+  "source_hashes": {
+    "AudioClient.lua": "b32730cf87a5e5a28c039e8fc128cb00c07e5c8c4b38b33d8bd369bf0ddfc3b7",
+    "AudioConfig.lua": "864032022933417060a2bd5ce701dd49c9a036cef88e1d6ac04b26dc276509fa"
+  },
+  "test_sha256": "f3805eafca9e03ea5e65bc530e334c85f9ed123e8a4529bf4eb7d492ff6a2b68",
+  "assets": {
+    "original_composition": true,
+    "sampled_audio": false,
+    "tempo_bpm": 148,
+    "bars": 32,
+    "sample_rate": 44100,
+    "music_seconds": 51.8918820861678,
+    "music_peak": 0.88,
+    "music_rms": 0.18697766571947416,
+    "music_loop_boundary_jump": 0.0,
+    "decoded_ogg": {
+      "samples": 2288432,
+      "seconds": 51.8918820861678,
+      "peak": 0.8955191969871521,
+      "rms": 0.18769395351409912,
+      "loop_boundary_jump": 0.007225241512060165,
+      "all_finite": true
+    },
+    "effects": {
+      "power-cast": {
+        "seconds": 0.44,
+        "peak": 0.88,
+        "rms": 0.3089268036984737
+      },
+      "power-hit": {
+        "seconds": 0.36,
+        "peak": 0.88,
+        "rms": 0.2841087981808167
+      },
+      "shield": {
+        "seconds": 0.59,
+        "peak": 0.88,
+        "rms": 0.24647373306220152
+      },
+      "purchase": {
+        "seconds": 0.52,
+        "peak": 0.8799999999999999,
+        "rms": 0.44656014846984865
+      },
+      "item-lost": {
+        "seconds": 0.62,
+        "peak": 0.88,
+        "rms": 0.31153342938882894
+      },
+      "delivered": {
+        "seconds": 0.64,
+        "peak": 0.88,
+        "rms": 0.3368533930874355
+      },
+      "base-lock": {
+        "seconds": 0.5,
+        "peak": 0.88,
+        "rms": 0.29395274677849337
+      },
+      "base-unlock": {
+        "seconds": 0.56,
+        "peak": 0.8799999999999999,
+        "rms": 0.422478728035133
+      },
+      "level-up": {
+        "seconds": 0.96,
+        "peak": 0.88,
+        "rms": 0.3230343834775782
+      },
+      "ui-tick": {
+        "seconds": 0.17498866213151928,
+        "peak": 0.88,
+        "rms": 0.3087254015833918
+      }
+    },
+    "asset_ids_configured": false,
+    "generator_sha256": "3b194333e336c7b5b99de2f0e0475b964823ff90c139112279ded49098845f14",
+    "files": {
+      "base-lock.wav": "04fd843f6f140d66d9f33575b0df6051b0ed428f1e56e7650b44a6aaf43f5237",
+      "base-unlock.wav": "b735c940db09112d8bc4fa7f98aeb27def08222079dd428946d6398ce129b193",
+      "delivered.wav": "8784e0e2440838417f62dbc8824f63709ab593659348d1ab6c9ac571ab5aaf4d",
+      "item-lost.wav": "30341a205498892cb9c3d0dcbacb8b028940b91bf9cf01dcb037221832cbad2a",
+      "level-up.wav": "c3be892f54053ae997330a345c3a7d96d4c8e71be61113899f3c5788225dfb26",
+      "power-cast.wav": "a2db15b4cc43085fe18b0cebd30bfb25f904e4cb5f1f8525536619f2bc301730",
+      "power-hit.wav": "0a36e7f3a23b465911b874a6a2262eb3c60f6db39b3985f2611c3ba61d28a73b",
+      "purchase.wav": "5421065286950d3eb50012c4207be47a3fac79d0ae2e514931b67d85a74cacf6",
+      "relic-rivalry-loop.ogg": "9485d88ff15c2b38681b066f97b7f8da7d7ab5b456c34ee937c41938bd3fbbfd",
+      "shield.wav": "d70f6bbc5f2bf1ac32095b02f45ac2543c9cf1362cb651f70288f115e5b21198",
+      "ui-tick.wav": "ad86dc8fb9af3ef6cfb8489677b58c1ee93194cd837c4c25444f21e7e226d4ae"
+    }
+  }
+}
