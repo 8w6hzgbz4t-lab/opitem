@@ -1,0 +1,20 @@
+[
+  {
+    "file": "Version79_Game.zip",
+    "bytes": 808571,
+    "sha256": "129a3b81b283e077b60b275c5af2cdeee2d77f5e5f7f0a7f7ae0c3ec63c97a43",
+    "files": 1
+  },
+  {
+    "file": "Version79_ArtAndDescription.zip",
+    "bytes": 5143823,
+    "sha256": "3b4dc0fb0c47ee3a50d5c0b1bbaccff6eb01a670c5c5bf7ae25d96d44b4e186b",
+    "files": 5
+  },
+  {
+    "file": "Version79_SourceAndGame.zip",
+    "bytes": 23557530,
+    "sha256": "c12a654f04b9823a997f28afd3932f0fcead95949352c1d8f997b3eeee05aeae",
+    "files": 937
+  }
+]

@@ -1,0 +1,22 @@
+{
+  "source": "New image-generation artwork for Version 79, original files preserved",
+  "files": [
+    {
+      "file": "StealAnOPItem_Icon.png",
+      "usage": "Square experience icon",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 2334875,
+      "sha256": "47aeae01fedfbe52d33d26faaca4a2c1a5b68b10360d1561af0f374a5559b2bc"
+    },
+    {
+      "file": "StealAnOPItem_Thumbnail.png",
+      "usage": "Widescreen experience thumbnail",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2850457,
+      "sha256": "869952777d738d7d0878988189b6cfaf4ed6af4e34624a94ca60dd81e162c74a"
+    }
+  ],
+  "uploaded_to_roblox": false
+}
