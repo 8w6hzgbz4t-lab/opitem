@@ -1,9 +1,10 @@
 # Steal An OP Item
 
-Latest cloud build: **Version 82**, based on the preserved Version 81 place.
+Latest cloud build: **Version 83**, based on the preserved Version 82 place.
 
-- Game: `releases/Version82_Game.zip`. Extract `StealAnOPItem_82_MusicConnected.rbxlx` and open it in Studio.
-- Editable source, game and audio verification evidence: `releases/Version82_SourceAndGame.zip`.
+- Game: `releases/Version83_Game.zip`. Extract `StealAnOPItem_83_SellAndWorkbenches.rbxlx` and open it in Studio.
+- Editable source, game and verification evidence: `releases/Version83_SourceAndGame.zip`.
+- Owner Sell/visitor Steal, base workbenches, Favorite, plain power labels and eight-player/vault details: `releases/Version83/README.md`.
 - Music ID, permission/playback steps and one-line edit for your current file: `releases/Version82/README.md` and `AudioIDs.csv`.
 - Previous full art/product-icon/media bundle: `releases/Version81_SourceAndGame.zip`.
 - Move/Sell controls and update instructions: `releases/Version81/README.md`.
@@ -11,10 +12,12 @@ Latest cloud build: **Version 82**, based on the preserved Version 81 place.
 - Current configuration and private test steps: `releases/Version80/README.md`, `PRODUCT_IDS.md`, `ProductSetup.csv` and `PRIVATE_TEST_STEPS.md`.
 - Revised Dragon Ball icon/collectible thumbnail, uploadable audio and beginner store/music guide: `releases/Version79_DragonBallArtworkAndSetup.zip` and `releases/Version79_ArtworkUpdate/STORE_AND_AUDIO_SETUP.md`. Gameplay stays V79; checkout remains off.
 - All 15 shop icons: `releases/StoreProducts_All15_IconsAndSetup.zip`. Its original worksheet is historical; use the V80 worksheet for all 15 configured product IDs, including Dash `3720848352`.
-- Changes and test results: `releases/Version82/TEST_RESULTS.md` and `validation-report.json`.
+- Changes and test results: `releases/Version83/TEST_RESULTS.md` and `validation-report.json`.
 - Before Play: `releases/Version78/LAUNCH_CHECKLIST.md`. Use a private test experience with DataStore access; Studio uses separate TEST stores. Failed loads never create a writable blank fallback.
 - Products/audio: `releases/Version78/PRODUCT_SETUP.md`, `ProductSetup.csv` and `releases/Version76/Audio/README.md`.
-- Terminal handoff: `releases/VERSION_82_HANDOFF.md`.
+- Terminal handoff: `releases/VERSION_83_HANDOFF.md`.
+
+V83 shows Sell with a 50% confirmation on your own stored items and Steal to other players. It replaces the plain base manager block with a detailed second workbench, preserves its inventory/Move/Sell/level functions and the existing Power Lab, and labels the collectible star selector Favorite. All power labels use smaller plain text with selection outlines on button borders. Eight players get eight unique vaults/spawns; the place's saved player limit changes from 12 to 8. Verify Dashboard Maximum Players is also 8 when explicitly updating the existing published place.
 
 V82 configures the owner-supplied music asset ID `111355988554529`. This is the only change from V81; all other source, gameplay, designs, product IDs and checkout-off flags are preserved. Audio approval, ownership, experience permission and actual playback still need Roblox verification. Saved Music mute/volume preferences remain intact.
 
@@ -28,4 +31,4 @@ V78 saving, recoverable theft transfers, receipt handling, ten powers, aimed Slo
 
 Music ID `111355988554529` is now configured. Confirm approval and grant the intended experience access under the audio asset's Permissions → Experiences, then start a fresh Play session with Music on and its volume above zero. Custom SFX uploads are optional for now; existing built-in fallback cues remain configured. Actual Roblox Studio multiplayer, native input, live storage latency/budgets, audio permissions/playback and receipts still need owner testing. Public launch readiness is unverified. Nothing has been published to Roblox by this cloud build.
 
-Main/checkout HEAD remain unchanged. Downloads are handed off on `codex/version-63-handoff`; earlier releases and the original uploaded game remain preserved. Active editable sources: `roblox/v82-game/`.
+Main/checkout HEAD remain unchanged. Downloads are handed off on `codex/version-63-handoff`; earlier releases and the original uploaded game remain preserved. Active editable sources: `roblox/v83-game/`.

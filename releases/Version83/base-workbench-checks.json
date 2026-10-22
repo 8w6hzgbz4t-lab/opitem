@@ -1,0 +1,157 @@
+{
+  "allocated_footprint": {
+    "x": [
+      -19,
+      -13
+    ],
+    "z": [
+      -19,
+      -15
+    ]
+  },
+  "anchor_cframe_parent_and_prompt_preserved": true,
+  "assertions": 18338,
+  "bases": 8,
+  "bounds": [
+    {
+      "base": 1,
+      "max": [
+        -13.56,
+        4.68632180201,
+        -15.56
+      ],
+      "min": [
+        -18.44,
+        1.03,
+        -18.44
+      ],
+      "parts": 64,
+      "rotation": "math.pi"
+    },
+    {
+      "base": 2,
+      "max": [
+        -13.56,
+        4.68632180201,
+        -15.56
+      ],
+      "min": [
+        -18.44,
+        1.03,
+        -18.44
+      ],
+      "parts": 64,
+      "rotation": "math.pi"
+    },
+    {
+      "base": 3,
+      "max": [
+        -13.56,
+        4.68632180201,
+        -15.56
+      ],
+      "min": [
+        -18.44,
+        1.03,
+        -18.44
+      ],
+      "parts": 64,
+      "rotation": "math.pi"
+    },
+    {
+      "base": 4,
+      "max": [
+        -13.56,
+        4.68632180201,
+        -15.56
+      ],
+      "min": [
+        -18.44,
+        1.03,
+        -18.44
+      ],
+      "parts": 64,
+      "rotation": "math.pi"
+    },
+    {
+      "base": 5,
+      "max": [
+        -13.56,
+        4.68632180201,
+        -15.56
+      ],
+      "min": [
+        -18.44,
+        1.03,
+        -18.44
+      ],
+      "parts": 64,
+      "rotation": "0"
+    },
+    {
+      "base": 6,
+      "max": [
+        -13.56,
+        4.68632180201,
+        -15.56
+      ],
+      "min": [
+        -18.44,
+        1.03,
+        -18.44
+      ],
+      "parts": 64,
+      "rotation": "0"
+    },
+    {
+      "base": 7,
+      "max": [
+        -13.56,
+        4.68632180201,
+        -15.56
+      ],
+      "min": [
+        -18.44,
+        1.03,
+        -18.44
+      ],
+      "parts": 64,
+      "rotation": "0"
+    },
+    {
+      "base": 8,
+      "max": [
+        -13.56,
+        4.68632180201,
+        -15.56
+      ],
+      "min": [
+        -18.44,
+        1.03,
+        -18.44
+      ],
+      "parts": 64,
+      "rotation": "0"
+    }
+  ],
+  "collision_parts_per_base": 9,
+  "entrance_collection_and_display_clearance": true,
+  "forward_prompt_attachment_approach_clear": true,
+  "forward_prompt_attachment_offset": [
+    0,
+    1.2,
+    -1.65
+  ],
+  "idempotent": true,
+  "limitations": "No Studio rendering, real raycasts, native player collision or multiplayer input was tested.",
+  "native_geometry_recorded": true,
+  "parts_per_base": 64,
+  "passed": true,
+  "runtime": "Actual BaseWorkbench module through texlua Roblox geometry recorder",
+  "total_parts": 512,
+  "source_hashes": {
+    "BaseWorkbench.lua": "6efa3aeb5727967d1cc88ec02f4a1b1e1b83bdfcf63eb2c40e6c9256f5ef9930"
+  },
+  "test_sha256": "2686f854074763df6f19c3f669155369b5885e6b6df16740b873ebbf3da027c2",
+  "runner_sha256": "cc8b381ab2f97348315d5090179e689974bac0b305afe0ee7c2f666ff8013014"
+}
