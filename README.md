@@ -2,6 +2,8 @@
 
 Latest cloud build: **Version 84**, based on the preserved Version 83 place.
 
+New listing name: **Relic Rivalry**. The matching square icon and wide thumbnail are in `releases/RelicRivalry_Artwork.zip`; individual PNGs and upload instructions are in `releases/RelicRivalry_Artwork/`. Existing game filenames and product IDs remain unchanged.
+
 - Game: `releases/Version84_Game.zip`. Extract `StealAnOPItem_84_CleanEarnings.rbxlx` and open it in Studio.
 - Editable source, game and verification evidence: `releases/Version84_SourceAndGame.zip`.
 - Clean collection earnings and the exact one-line fix for your current Studio file: `releases/Version84/README.md`.

@@ -1,0 +1,24 @@
+{
+  "title": "Relic Rivalry",
+  "source": "New AI-generated promotional illustrations",
+  "files": [
+    {
+      "file": "RelicRivalry_Icon.png",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 2490187,
+      "sha256": "886cad420f153294c3deea2b1206ee42ecd30c0cb2c563ca95acb3226b3ebb4c"
+    },
+    {
+      "file": "RelicRivalry_Thumbnail.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2907601,
+      "sha256": "08661b9c0fcd8e4a58ceafdb027427ce0f3b25ac4862c7b212161089577da053"
+    }
+  ],
+  "previous_artwork_preserved": true,
+  "original_generated_images_preserved": true,
+  "gameplay_modified": false,
+  "uploaded_to_roblox": false
+}
