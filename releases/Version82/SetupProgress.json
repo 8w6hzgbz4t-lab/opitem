@@ -1,0 +1,17 @@
+{
+  "baseline_version": 81,
+  "music_audio_id": 111355988554529,
+  "music_id_source": "User supplied after music upload instructions",
+  "original_file": "relic-rivalry-loop.ogg",
+  "original_file_sha256": "9485d88ff15c2b38681b066f97b7f8da7d7ab5b456c34ee937c41938bd3fbbfd",
+  "music_id_configured": true,
+  "Roblox_moderation_verified": false,
+  "Roblox_asset_type_ownership_and_experience_permissions_verified": false,
+  "Studio_playback_tested": false,
+  "custom_SFX_ids_configured": 0,
+  "custom_SFX_total": 10,
+  "built_in_SFX_fallbacks_preserved": true,
+  "checkout_enabled": false,
+  "developer_product_ids_unchanged": true,
+  "published_to_Roblox": false
+}
