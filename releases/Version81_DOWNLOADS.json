@@ -1,0 +1,20 @@
+[
+  {
+    "file": "Version81_Game.zip",
+    "bytes": 812238,
+    "sha256": "8f48e7b3d2923a6f0e1c0fce29ca34a3a5d9b4483c64b28790a659dc09025045",
+    "files": 1
+  },
+  {
+    "file": "Version81_AudioUpload.zip",
+    "bytes": 1681012,
+    "sha256": "5923b808e992a0ef04d4a4c106cd2652dcbc2786f3b0ca455326193a3666e46f",
+    "files": 15
+  },
+  {
+    "file": "Version81_SourceAndGame.zip",
+    "bytes": 49641784,
+    "sha256": "4bcd50e5841aa39816f0ed3f2e6c62edc012a4f1445457dcc847ea4bc3d5092f",
+    "files": 1239
+  }
+]
