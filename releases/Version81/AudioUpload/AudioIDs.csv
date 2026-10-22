@@ -1,0 +1,12 @@
+file,configuration_field,suggested_asset_name,cue,audio_asset_id
+relic-rivalry-loop.ogg,Music.AssetId,Relic Rivalry - Original Battle Loop,Music,
+power-cast.wav,Cues.powerCast.AssetId,Steal An OP Item - Power Cast,powerCast,
+power-hit.wav,Cues.powerHit.AssetId,Steal An OP Item - Power Hit,powerHit,
+shield.wav,Cues.shield.AssetId,Steal An OP Item - Shield,shield,
+purchase.wav,Cues.purchase.AssetId,Steal An OP Item - Purchase,purchase,
+item-lost.wav,Cues.lost.AssetId,Steal An OP Item - Item Lost,lost,
+delivered.wav,Cues.deliver.AssetId,Steal An OP Item - Delivered,deliver,
+base-lock.wav,Cues.lock.AssetId,Steal An OP Item - Base Lock,lock,
+base-unlock.wav,Cues.unlock.AssetId,Steal An OP Item - Base Unlock,unlock,
+level-up.wav,Cues.levelup.AssetId,Steal An OP Item - Level Up,levelup,
+ui-tick.wav,Cues.ui.AssetId,Steal An OP Item - UI Tick,ui,

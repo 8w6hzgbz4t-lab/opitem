@@ -1,34 +1,132 @@
 {
-  "status": "draft",
+  "status": "configured_checkout_disabled",
   "baseline_version": 79,
-  "configured_product_ids": 1,
+  "configured_product_ids": 15,
   "total_product_offers": 15,
   "checkout_enabled": false,
   "music_audio_id": 0,
+  "pending_offer_ids": [],
+  "verified_with_Roblox": false,
   "products": {
     "pocket": {
       "name": "Pocket Cash",
       "productId": 3720840251,
       "robux": 25,
-      "cash": 5000,
+      "reward": "5000 game cash",
+      "source": "User provided",
+      "verified_with_Roblox": false
+    },
+    "stack": {
+      "name": "Vault Stack",
+      "productId": 3720846297,
+      "robux": 100,
+      "reward": "20000 game cash",
+      "source": "User provided",
+      "verified_with_Roblox": false
+    },
+    "chest": {
+      "name": "Treasure Chest",
+      "productId": 3720846778,
+      "robux": 250,
+      "reward": "50000 game cash",
+      "source": "User provided",
+      "verified_with_Roblox": false
+    },
+    "fortune": {
+      "name": "Grand Fortune",
+      "productId": 3720847183,
+      "robux": 500,
+      "reward": "100000 game cash",
+      "source": "User provided",
+      "verified_with_Roblox": false
+    },
+    "level_one": {
+      "name": "One Base Level",
+      "productId": 3720847536,
+      "robux": 25,
+      "reward": "1 levels",
+      "source": "User provided",
+      "verified_with_Roblox": false
+    },
+    "level_five": {
+      "name": "Five Base Levels",
+      "productId": 3720847942,
+      "robux": 100,
+      "reward": "5 levels",
+      "source": "User provided",
+      "verified_with_Roblox": false
+    },
+    "unlock_dash": {
+      "name": "Dash Unlock",
+      "productId": 3720848352,
+      "robux": 2,
+      "reward": "dash",
+      "source": "User provided",
+      "verified_with_Roblox": false
+    },
+    "unlock_gravity": {
+      "name": "Pull Unlock",
+      "productId": 3720848733,
+      "robux": 6,
+      "reward": "gravity",
+      "source": "User provided",
+      "verified_with_Roblox": false
+    },
+    "unlock_slow": {
+      "name": "Slow Field Unlock",
+      "productId": 3720849165,
+      "robux": 8,
+      "reward": "slow",
+      "source": "User provided",
+      "verified_with_Roblox": false
+    },
+    "unlock_slam": {
+      "name": "Ground Slam Unlock",
+      "productId": 3720849458,
+      "robux": 25,
+      "reward": "slam",
+      "source": "User provided",
+      "verified_with_Roblox": false
+    },
+    "unlock_repulse": {
+      "name": "Knockback Pulse Unlock",
+      "productId": 3720851934,
+      "robux": 70,
+      "reward": "repulse",
+      "source": "User provided",
+      "verified_with_Roblox": false
+    },
+    "unlock_shield": {
+      "name": "Force Field Shield Unlock",
+      "productId": 3720852231,
+      "robux": 90,
+      "reward": "shield",
+      "source": "User provided",
+      "verified_with_Roblox": false
+    },
+    "unlock_lightning": {
+      "name": "Lightning Strike Unlock",
+      "productId": 3720852595,
+      "robux": 325,
+      "reward": "lightning",
+      "source": "User provided",
+      "verified_with_Roblox": false
+    },
+    "unlock_kiblast": {
+      "name": "Ki Blast Unlock",
+      "productId": 3720852857,
+      "robux": 325,
+      "reward": "kiblast",
+      "source": "User provided",
+      "verified_with_Roblox": false
+    },
+    "unlock_spinjitzu": {
+      "name": "Spinjitzu Unlock",
+      "productId": 3720853158,
+      "robux": 80,
+      "reward": "spinjitzu",
       "source": "User provided",
       "verified_with_Roblox": false
     }
-  },
-  "pending_offer_ids": [
-    "stack",
-    "chest",
-    "fortune",
-    "level_one",
-    "level_five",
-    "unlock_dash",
-    "unlock_gravity",
-    "unlock_slow",
-    "unlock_slam",
-    "unlock_repulse",
-    "unlock_shield",
-    "unlock_lightning",
-    "unlock_kiblast",
-    "unlock_spinjitzu"
-  ]
+  }
 }

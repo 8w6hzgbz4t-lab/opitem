@@ -1,0 +1,134 @@
+{
+  "files": [
+    {
+      "file": "relic-rivalry-loop.ogg",
+      "sha256": "9485d88ff15c2b38681b066f97b7f8da7d7ab5b456c34ee937c41938bd3fbbfd",
+      "bytes": 1116439,
+      "configuration_field": "Music.AssetId",
+      "cue": "Music",
+      "asset_id": 0,
+      "codec": "vorbis",
+      "sample_rate": 44100,
+      "channels": 2,
+      "seconds": 51.891882
+    },
+    {
+      "file": "power-cast.wav",
+      "sha256": "a2db15b4cc43085fe18b0cebd30bfb25f904e4cb5f1f8525536619f2bc301730",
+      "bytes": 77660,
+      "configuration_field": "Cues.powerCast.AssetId",
+      "cue": "powerCast",
+      "asset_id": 0,
+      "sample_rate": 44100,
+      "channels": 2,
+      "seconds": 0.44
+    },
+    {
+      "file": "power-hit.wav",
+      "sha256": "0a36e7f3a23b465911b874a6a2262eb3c60f6db39b3985f2611c3ba61d28a73b",
+      "bytes": 63548,
+      "configuration_field": "Cues.powerHit.AssetId",
+      "cue": "powerHit",
+      "asset_id": 0,
+      "sample_rate": 44100,
+      "channels": 2,
+      "seconds": 0.36
+    },
+    {
+      "file": "shield.wav",
+      "sha256": "d70f6bbc5f2bf1ac32095b02f45ac2543c9cf1362cb651f70288f115e5b21198",
+      "bytes": 104120,
+      "configuration_field": "Cues.shield.AssetId",
+      "cue": "shield",
+      "asset_id": 0,
+      "sample_rate": 44100,
+      "channels": 2,
+      "seconds": 0.59
+    },
+    {
+      "file": "purchase.wav",
+      "sha256": "5421065286950d3eb50012c4207be47a3fac79d0ae2e514931b67d85a74cacf6",
+      "bytes": 91772,
+      "configuration_field": "Cues.purchase.AssetId",
+      "cue": "purchase",
+      "asset_id": 0,
+      "sample_rate": 44100,
+      "channels": 2,
+      "seconds": 0.52
+    },
+    {
+      "file": "item-lost.wav",
+      "sha256": "30341a205498892cb9c3d0dcbacb8b028940b91bf9cf01dcb037221832cbad2a",
+      "bytes": 109412,
+      "configuration_field": "Cues.lost.AssetId",
+      "cue": "lost",
+      "asset_id": 0,
+      "sample_rate": 44100,
+      "channels": 2,
+      "seconds": 0.62
+    },
+    {
+      "file": "delivered.wav",
+      "sha256": "8784e0e2440838417f62dbc8824f63709ab593659348d1ab6c9ac571ab5aaf4d",
+      "bytes": 112940,
+      "configuration_field": "Cues.deliver.AssetId",
+      "cue": "deliver",
+      "asset_id": 0,
+      "sample_rate": 44100,
+      "channels": 2,
+      "seconds": 0.64
+    },
+    {
+      "file": "base-lock.wav",
+      "sha256": "04fd843f6f140d66d9f33575b0df6051b0ed428f1e56e7650b44a6aaf43f5237",
+      "bytes": 88244,
+      "configuration_field": "Cues.lock.AssetId",
+      "cue": "lock",
+      "asset_id": 0,
+      "sample_rate": 44100,
+      "channels": 2,
+      "seconds": 0.5
+    },
+    {
+      "file": "base-unlock.wav",
+      "sha256": "b735c940db09112d8bc4fa7f98aeb27def08222079dd428946d6398ce129b193",
+      "bytes": 98828,
+      "configuration_field": "Cues.unlock.AssetId",
+      "cue": "unlock",
+      "asset_id": 0,
+      "sample_rate": 44100,
+      "channels": 2,
+      "seconds": 0.56
+    },
+    {
+      "file": "level-up.wav",
+      "sha256": "c3be892f54053ae997330a345c3a7d96d4c8e71be61113899f3c5788225dfb26",
+      "bytes": 169388,
+      "configuration_field": "Cues.levelup.AssetId",
+      "cue": "levelup",
+      "asset_id": 0,
+      "sample_rate": 44100,
+      "channels": 2,
+      "seconds": 0.96
+    },
+    {
+      "file": "ui-tick.wav",
+      "sha256": "ad86dc8fb9af3ef6cfb8489677b58c1ee93194cd837c4c25444f21e7e226d4ae",
+      "bytes": 30912,
+      "configuration_field": "Cues.ui.AssetId",
+      "cue": "ui",
+      "asset_id": 0,
+      "sample_rate": 44100,
+      "channels": 2,
+      "seconds": 0.17498866213151928
+    }
+  ],
+  "original_assets_preserved": true,
+  "source": "releases/Version76/Audio",
+  "files_verified_against_original_manifest": true,
+  "wav_headers_verified": true,
+  "music_format_verified_with_ffprobe": true,
+  "uploaded_to_roblox": false,
+  "audio_ids_configured": false,
+  "studio_playback_verified": false
+}
