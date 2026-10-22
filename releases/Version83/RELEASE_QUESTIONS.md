@@ -14,6 +14,7 @@ The core loop exists: buy/bid, carry, interrupt, steal, deliver, earn, protect a
 ## Reliability questions that must be proved
 
 - Does saved cash, bank, inventory/slots, levels, powers, settings and rewards return exactly once after changing servers? What happens during a failed load, a shutdown and a theft transfer? There are production-code recovery tests, but actual Roblox storage tests remain unfinished.
+- Which accounts will run the multiplayer test? Use real accounts in a private published experience for durable progress/receipt tests. Studio local clients with negative/synthetic UserIds are rejected by the current strict profile identity validator; separate TEST stores do not add synthetic-account support. That is a known local-test limitation, not a reason to disable saving or relax live identity checks.
 - Does every real paid receipt grant and save exactly once, including delayed delivery, disconnects and capped/already-owned rewards? Product IDs exist, but ownership/current prices and live fulfillment still need verification. **Checkout remains off.**
 - Is each joining player assigned one unique vault and spawned there? Offline concurrent-join/failed-load tests pass. The local place limit is now8; verify the published Dashboard Maximum Players8 and actual full-server matching separately.
 - Does music asset111355988554529 play after approval and experience permission, loop, and obey saved mute/volume settings? Its configured routing passes offline; audible Roblox playback remains unverified.
